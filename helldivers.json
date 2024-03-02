@@ -1,5 +1,6516 @@
 {
-  "errors": {
-    "detail": "Not Found"
-  }
+  "active_election_policy_effects": [],
+  "campaigns": [
+    {
+      "count": 1,
+      "id": 49958,
+      "planet": {
+        "disabled": false,
+        "hash": 1886266372,
+        "index": 78,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Crimsica",
+        "position": {
+          "x": 0.6113544,
+          "y": 0.22880854
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          169,
+          170
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 1,
+      "id": 49937,
+      "planet": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 0.4243272,
+          "y": 0.34833485
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "type": 0
+    },
+    {
+      "count": 1,
+      "id": 49959,
+      "planet": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 0.5803697,
+          "y": 0.29137206
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          170
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 3,
+      "id": 49971,
+      "planet": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -0.840825,
+          "y": 0.06103413
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "type": 0
+    },
+    {
+      "count": 8,
+      "id": 49986,
+      "planet": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -0.745425,
+          "y": -0.1314594
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "type": 0
+    },
+    {
+      "count": 3,
+      "id": 49987,
+      "planet": {
+        "disabled": false,
+        "hash": 3244992775,
+        "index": 196,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Malevelon Creek",
+        "position": {
+          "x": -0.8473348,
+          "y": -0.096041
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          152,
+          153
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 7,
+      "id": 49988,
+      "planet": {
+        "disabled": false,
+        "hash": 2655630774,
+        "index": 155,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.73154825,
+          "y": 0.05294286
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          197
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 2,
+      "id": 49992,
+      "planet": {
+        "disabled": false,
+        "hash": 2706883571,
+        "index": 126,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5348745,
+          "y": 0.11823793
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          127
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 2,
+      "id": 49994,
+      "planet": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 0.5111386,
+          "y": 0.3511805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      },
+      "type": 0
+    }
+  ],
+  "community_targets": [],
+  "global_events": [
+    {
+      "assignment_id_32": 0,
+      "effect_ids": [],
+      "flag": 3,
+      "id": 1499078,
+      "id_32": 0,
+      "message": "Despite the valorous efforts of the Helldivers, Automaton marauders have invaded Super Earth territory. Patriotic citizens mourn as their sufficiently-sized homes burn to the ground.\n\nSuper Earth citizens demand justice, and they will receive it.",
+      "message_id_32": 2490064171,
+      "planets": [],
+      "portrait_id_32": 0,
+      "race": "Humans",
+      "title": "FAILED",
+      "title_32": 506754096
+    },
+    {
+      "assignment_id_32": 0,
+      "effect_ids": [
+        1161
+      ],
+      "flag": 0,
+      "id": 1499080,
+      "id_32": 0,
+      "message": "",
+      "message_id_32": 0,
+      "planets": [],
+      "portrait_id_32": 0,
+      "race": "Unknown",
+      "title": "WEAPONS EXPERIMENTATION",
+      "title_32": 1335028754
+    },
+    {
+      "assignment_id_32": 0,
+      "effect_ids": [],
+      "flag": 2,
+      "id": 1499081,
+      "id_32": 0,
+      "message": "Well done, Helldivers. SEAF Containment Teams will take over cleanup and inoculation operations from here. Colonists have been advised that there is absolutely zero threat of further Terminid violence, and to settle their families with total peace of mind.\n\nAdditionally, the pilots allocated to spore clearance on Veld have now been redirected to Helldiver support operations. \n<i=1>Extraction will be faster on all operations.</i> ",
+      "message_id_32": 3767473056,
+      "planets": [],
+      "portrait_id_32": 0,
+      "race": "Humans",
+      "title": "SUCCESS",
+      "title_32": 2998873950
+    },
+    {
+      "assignment_id_32": 525659126,
+      "effect_ids": [],
+      "flag": 1,
+      "id": 1499082,
+      "id_32": 0,
+      "message": "Terminid spores have engulfed Heeth and Angel's Venture, spawning hordes of Terminids that overwhelmed our colonial militias. Clearly, the bug hive instinct oriented their mindless expansion towards dishonoring the memory of those who fought to free these planets.\n\nYour fellow Helldivers paid for these lands with their lives. We cannot lose them now. Hold the planets until SEAF reinforcements arrive.",
+      "message_id_32": 2841401849,
+      "planets": [],
+      "portrait_id_32": 0,
+      "race": "Humans",
+      "title": "BRIEFING",
+      "title_32": 2908633975
+    }
+  ],
+  "impact_multiplier": 0.00068030285,
+  "joint_operations": [],
+  "planet_active_effects": [],
+  "planet_attacks": [
+    {
+      "source": {
+        "disabled": false,
+        "hash": 260933067,
+        "index": 242,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ustotu",
+        "position": {
+          "x": -0.806865,
+          "y": 0.20750636
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          243
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -0.840825,
+          "y": 0.06103413
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 260933067,
+        "index": 242,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ustotu",
+        "position": {
+          "x": -0.806865,
+          "y": 0.20750636
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          243
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -0.840825,
+          "y": 0.06103413
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1391690878,
+        "index": 79,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Heeth",
+        "position": {
+          "x": 0.39437926,
+          "y": 0.27310377
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          77,
+          125,
+          168
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 0.4243272,
+          "y": 0.34833485
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1391690878,
+        "index": 79,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Heeth",
+        "position": {
+          "x": 0.39437926,
+          "y": 0.27310377
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          77,
+          125,
+          168
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 0.4243272,
+          "y": 0.34833485
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5134972,
+          "y": 0.20684212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1886266372,
+        "index": 78,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Crimsica",
+        "position": {
+          "x": 0.6113544,
+          "y": 0.22880854
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          169,
+          170
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5134972,
+          "y": 0.20684212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1886266372,
+        "index": 78,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Crimsica",
+        "position": {
+          "x": 0.6113544,
+          "y": 0.22880854
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          169,
+          170
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5134972,
+          "y": 0.20684212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 0.5803697,
+          "y": 0.29137206
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          170
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5134972,
+          "y": 0.20684212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 0.5803697,
+          "y": 0.29137206
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          170
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1806559160,
+        "index": 197,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mantes",
+        "position": {
+          "x": -0.74603856,
+          "y": -0.03198197
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          107,
+          153,
+          196
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -0.745425,
+          "y": -0.1314594
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1806559160,
+        "index": 197,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mantes",
+        "position": {
+          "x": -0.74603856,
+          "y": -0.03198197
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          107,
+          153,
+          196
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3244992775,
+        "index": 196,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Malevelon Creek",
+        "position": {
+          "x": -0.8473348,
+          "y": -0.096041
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          152,
+          153
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 457558822,
+        "index": 154,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mort",
+        "position": {
+          "x": -0.6788745,
+          "y": 0.117238
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          107,
+          155
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2655630774,
+        "index": 155,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.73154825,
+          "y": 0.05294286
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          197
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1806559160,
+        "index": 197,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mantes",
+        "position": {
+          "x": -0.74603856,
+          "y": -0.03198197
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          107,
+          153,
+          196
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2655630774,
+        "index": 155,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.73154825,
+          "y": 0.05294286
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          197
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5134972,
+          "y": 0.20684212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2706883571,
+        "index": 126,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5348745,
+          "y": 0.11823793
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          127
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 0.4448446,
+          "y": 0.1618837
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          85
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2706883571,
+        "index": 126,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5348745,
+          "y": 0.11823793
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          127
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2875368439,
+        "index": 125,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.46994886,
+          "y": 0.27418607
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          64,
+          168
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 0.5111386,
+          "y": 0.3511805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2875368439,
+        "index": 125,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.46994886,
+          "y": 0.27418607
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          64,
+          168
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 0.4243272,
+          "y": 0.34833485
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 696145979,
+        "index": 107,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Pöpli IX",
+        "position": {
+          "x": -0.6355565,
+          "y": 0.0490733
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          155
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2655630774,
+        "index": 155,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.73154825,
+          "y": 0.05294286
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          197
+        ]
+      }
+    }
+  ],
+  "planet_events": [],
+  "planet_status": [
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 897386910,
+        "index": 0,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Super Earth",
+        "position": {
+          "x": 0,
+          "y": 0
+        },
+        "sector": "Sol",
+        "waypoints": [
+          1
+        ]
+      },
+      "players": 2104,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3621417917,
+        "index": 1,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Klen Dahth II",
+        "position": {
+          "x": 0.05373042,
+          "y": 0.10565466
+        },
+        "sector": "Altus",
+        "waypoints": [
+          2
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2543303604,
+        "index": 2,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Pathfinder V",
+        "position": {
+          "x": 0.04664221,
+          "y": 0.16758725
+        },
+        "sector": "Altus",
+        "waypoints": [
+          3
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2768073863,
+        "index": 3,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Widow's Harbor",
+        "position": {
+          "x": 0.12536779,
+          "y": 0.11821219
+        },
+        "sector": "Altus",
+        "waypoints": [
+          4
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 158585041,
+        "index": 4,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "New Haven",
+        "position": {
+          "x": 0.10280278,
+          "y": 0.05765711
+        },
+        "sector": "Altus",
+        "waypoints": [
+          5
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1008084099,
+        "index": 5,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Pilen V",
+        "position": {
+          "x": 0.15988354,
+          "y": 0.043583166
+        },
+        "sector": "Altus",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 167872110,
+        "index": 6,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Hydrofall Prime",
+        "position": {
+          "x": 0.13535836,
+          "y": -0.03378948
+        },
+        "sector": "Barnard",
+        "waypoints": [
+          8
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1138804949,
+        "index": 7,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Marrie IV or Veil?",
+        "position": {
+          "x": 0.36159223,
+          "y": -0.52270126
+        },
+        "sector": "Barnard",
+        "waypoints": [
+          178,
+          180
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3550298780,
+        "index": 8,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Darrowsport",
+        "position": {
+          "x": 0.09485684,
+          "y": -0.08101245
+        },
+        "sector": "Barnard",
+        "waypoints": [
+          0,
+          9
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1025193891,
+        "index": 9,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Fornskogur II",
+        "position": {
+          "x": 0.15801243,
+          "y": -0.09685686
+        },
+        "sector": "Barnard",
+        "waypoints": [
+          6,
+          10,
+          30,
+          31
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2767954873,
+        "index": 10,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Midasburg",
+        "position": {
+          "x": 0.06770126,
+          "y": -0.1448935
+        },
+        "sector": "Barnard",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 688773671,
+        "index": 11,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Cerberus IIIc",
+        "position": {
+          "x": 0.001789452,
+          "y": -0.18935835
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          12,
+          33
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 160818366,
+        "index": 12,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Prosperity Falls",
+        "position": {
+          "x": -0.001789474,
+          "y": -0.12535837
+        },
+        "sector": "Cancri",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2877873656,
+        "index": 13,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Okul VI",
+        "position": {
+          "x": -0.06158319,
+          "y": -0.16488354
+        },
+        "sector": "Gothmar",
+        "waypoints": [
+          37
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1529228469,
+        "index": 14,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Martyr's Bay",
+        "position": {
+          "x": -0.099012464,
+          "y": -0.11185683
+        },
+        "sector": "Cantolus",
+        "waypoints": [
+          0,
+          15
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3749877391,
+        "index": 15,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Freedom Peak",
+        "position": {
+          "x": -0.17010404,
+          "y": -0.08865711
+        },
+        "sector": "Cantolus",
+        "waypoints": [
+          38
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4254371037,
+        "index": 16,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Fort Union",
+        "position": {
+          "x": 0.27240774,
+          "y": 0.20429876
+        },
+        "sector": "Cantolus",
+        "waypoints": [
+          51,
+          77,
+          85
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2273175182,
+        "index": 17,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Kelvinor",
+        "position": {
+          "x": -0.14765465,
+          "y": -0.030730395
+        },
+        "sector": "Cantolus",
+        "waypoints": [
+          15
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3088889549,
+        "index": 18,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Wraith",
+        "position": {
+          "x": -0.15065464,
+          "y": 0.015730456
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          40
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 768352347,
+        "index": 19,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Igla",
+        "position": {
+          "x": -0.1728935,
+          "y": 0.06970126
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          20,
+          42
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1299274778,
+        "index": 20,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "New Kiruna",
+        "position": {
+          "x": -0.12621213,
+          "y": 0.11136782
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          21
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3992185257,
+        "index": 21,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Fort Justice",
+        "position": {
+          "x": -0.07801243,
+          "y": 0.10585686
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          0,
+          22
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 160106209,
+        "index": 22,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Zegema",
+        "position": {
+          "x": -0.039789412,
+          "y": 0.14535835
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1257502272,
+        "index": 23,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Providence",
+        "position": {
+          "x": 0.030315775,
+          "y": 0.2269306
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          24
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2862366365,
+        "index": 24,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Primordia",
+        "position": {
+          "x": 0.09383544,
+          "y": 0.25608748
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          48
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1812451556,
+        "index": 25,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Sulfura",
+        "position": {
+          "x": 0.17009519,
+          "y": 0.1877717
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          26
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4068066596,
+        "index": 26,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Nublaria I",
+        "position": {
+          "x": 0.2117717,
+          "y": 0.12409518
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          27
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2585302931,
+        "index": 27,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Krakatwo",
+        "position": {
+          "x": 0.2540875,
+          "y": 0.05583542
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3650236983,
+        "index": 28,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Voltera",
+        "position": {
+          "x": 0.2939306,
+          "y": -0.033684243
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          29,
+          53
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 410562438,
+        "index": 29,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Crucible",
+        "position": {
+          "x": 0.22952318,
+          "y": -0.029197697
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3538905431,
+        "index": 30,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Veil",
+        "position": {
+          "x": 0.23037383,
+          "y": -0.0976583
+        },
+        "sector": "Barnard",
+        "waypoints": [
+          31
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 529527934,
+        "index": 31,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Marre IV",
+        "position": {
+          "x": 0.2007717,
+          "y": -0.1490952
+        },
+        "sector": "Barnard",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3945891756,
+        "index": 32,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Fort Sanctuary",
+        "position": {
+          "x": 0.15409517,
+          "y": -0.210073
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          33
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3266374354,
+        "index": 33,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Seyshel Beach",
+        "position": {
+          "x": 0.0977173,
+          "y": -0.22407754
+        },
+        "sector": "Cancri",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 0.5111386,
+          "y": 0.3511805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      },
+      "players": 14396,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2640422831,
+        "index": 35,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Effluvia",
+        "position": {
+          "x": -0.023138678,
+          "y": -0.24981944
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          11
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3407890530,
+        "index": 36,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Solghast",
+        "position": {
+          "x": -0.09065833,
+          "y": -0.2413738
+        },
+        "sector": "Gothmar",
+        "waypoints": [
+          37
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 760056919,
+        "index": 37,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Diluvia",
+        "position": {
+          "x": -0.1440952,
+          "y": -0.2027717
+        },
+        "sector": "Gothmar",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1831450049,
+        "index": 38,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Viridia Prime",
+        "position": {
+          "x": -0.19187985,
+          "y": -0.14480585
+        },
+        "sector": "Cantolus",
+        "waypoints": [
+          39
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 298165685,
+        "index": 39,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Obari",
+        "position": {
+          "x": -0.24438877,
+          "y": -0.10283538
+        },
+        "sector": "Cantolus",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2146401321,
+        "index": 40,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Myradesh",
+        "position": {
+          "x": -0.2415232,
+          "y": -0.033197638
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          41
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3508924100,
+        "index": 41,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Atrama",
+        "position": {
+          "x": -0.25681943,
+          "y": 0.030138722
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          63
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2243203717,
+        "index": 42,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Emeria",
+        "position": {
+          "x": -0.2473738,
+          "y": 0.09965837
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1678797801,
+        "index": 43,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Barabos",
+        "position": {
+          "x": -0.1857717,
+          "y": 0.13809519
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          44
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3404343820,
+        "index": 44,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Fenmire",
+        "position": {
+          "x": -0.16809516,
+          "y": 0.19577172
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          66
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2969736642,
+        "index": 45,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mastia",
+        "position": {
+          "x": -0.13065825,
+          "y": 0.30637383
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          67
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1438199726,
+        "index": 46,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Shallus",
+        "position": {
+          "x": -0.061315693,
+          "y": 0.2489306
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          68
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2013504640,
+        "index": 47,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Krakabos",
+        "position": {
+          "x": 0.037842084,
+          "y": 0.32250285
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          48
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2525961073,
+        "index": 48,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Iridica",
+        "position": {
+          "x": 0.1129696,
+          "y": 0.3345827
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          73
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2151164116,
+        "index": 49,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Azterra",
+        "position": {
+          "x": 0.2219546,
+          "y": 0.2772582
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          76
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3265310936,
+        "index": 50,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.87390286,
+          "y": 0.35359928
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          213
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4148701638,
+        "index": 51,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ivis",
+        "position": {
+          "x": 0.287884,
+          "y": 0.1099696
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          52,
+          85
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1756822119,
+        "index": 52,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Slif",
+        "position": {
+          "x": 0.338688,
+          "y": 0.05460588
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          80
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 438925458,
+        "index": 53,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Caramdor",
+        "position": {
+          "x": 0.32650283,
+          "y": -0.12384212
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4190033207,
+        "index": 54,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Kharst",
+        "position": {
+          "x": 0.26874065,
+          "y": -0.21253327
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3951456049,
+        "index": 55,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Eukoria",
+        "position": {
+          "x": 0.19353323,
+          "y": -0.28004193
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          56
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 207323189,
+        "index": 56,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Myrium",
+        "position": {
+          "x": 0.12696959,
+          "y": -0.30758274
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3674393208,
+        "index": 57,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Kerth Secundus",
+        "position": {
+          "x": 0.04284205,
+          "y": -0.33550286
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          58,
+          92
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 430094434,
+        "index": 58,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Parsh",
+        "position": {
+          "x": -0.038842108,
+          "y": -0.32750285
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1018677806,
+        "index": 59,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Reaf",
+        "position": {
+          "x": -0.11379249,
+          "y": -0.3215678
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          60,
+          96
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2414771368,
+        "index": 60,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Irulta",
+        "position": {
+          "x": -0.19953328,
+          "y": -0.2830419
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 635122119,
+        "index": 61,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Emorath",
+        "position": {
+          "x": -0.26690286,
+          "y": -0.23559926
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          62
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3508592390,
+        "index": 62,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ilduna Prime",
+        "position": {
+          "x": -0.28988406,
+          "y": -0.16096954
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4056948497,
+        "index": 63,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Maw",
+        "position": {
+          "x": -0.33550286,
+          "y": -0.05084203
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5134972,
+          "y": 0.20684212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "players": 26,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3293929397,
+        "index": 65,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Borea",
+        "position": {
+          "x": -0.31756774,
+          "y": 0.13179255
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          108
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1750606702,
+        "index": 66,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Curia",
+        "position": {
+          "x": -0.24490279,
+          "y": 0.21259932
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          67
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3882819373,
+        "index": 67,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Tarsh",
+        "position": {
+          "x": -0.20995454,
+          "y": 0.28325823
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1223630977,
+        "index": 68,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Shelt",
+        "position": {
+          "x": -0.05373336,
+          "y": 0.3648641
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          69,
+          116
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2115544264,
+        "index": 69,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Imber",
+        "position": {
+          "x": -0.060664836,
+          "y": 0.44539174
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          116
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4206815834,
+        "index": 70,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.1716316,
+          "y": 0.8050751
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2898292715,
+        "index": 71,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ratch",
+        "position": {
+          "x": 0.0441322,
+          "y": 0.42626023
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          73
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 922433838,
+        "index": 72,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Julheim",
+        "position": {
+          "x": -0.52319145,
+          "y": 0.14335436
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          109,
+          110
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3238002446,
+        "index": 73,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Valgaard",
+        "position": {
+          "x": 0.1661038,
+          "y": 0.40307793
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 670993741,
+        "index": 74,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Arkturus",
+        "position": {
+          "x": 0.2559713,
+          "y": 0.5260108
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          120,
+          121
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2729833133,
+        "index": 75,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Esker",
+        "position": {
+          "x": 0.372748,
+          "y": 0.5082812
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          122,
+          123
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 910588397,
+        "index": 76,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Terrek",
+        "position": {
+          "x": 0.26528117,
+          "y": 0.347748
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2112907641,
+        "index": 77,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Cirrus",
+        "position": {
+          "x": 0.32492584,
+          "y": 0.25839266
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 1886266372,
+        "index": 78,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Crimsica",
+        "position": {
+          "x": 0.6113544,
+          "y": 0.22880854
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          169,
+          170
+        ]
+      },
+      "players": 29640,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1391690878,
+        "index": 79,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Heeth",
+        "position": {
+          "x": 0.39437926,
+          "y": 0.27310377
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          77,
+          125,
+          168
+        ]
+      },
+      "players": 4,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3659340575,
+        "index": 80,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Veld",
+        "position": {
+          "x": 0.43926024,
+          "y": 0.0731322
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          85,
+          127
+        ]
+      },
+      "players": 12512,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 572365311,
+        "index": 81,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Alta V",
+        "position": {
+          "x": 0.3660751,
+          "y": -0.04763163
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          28,
+          83
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4009717368,
+        "index": 82,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ursica XI",
+        "position": {
+          "x": 0.5340751,
+          "y": -0.090368435
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          131
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2623879324,
+        "index": 83,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Inari",
+        "position": {
+          "x": 0.44555652,
+          "y": -0.06207318
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1076755284,
+        "index": 84,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Skaash",
+        "position": {
+          "x": 0.41835436,
+          "y": -0.17080852
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          132
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 912379297,
+        "index": 85,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Rasp",
+        "position": {
+          "x": 0.33707795,
+          "y": 0.1548962
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          77
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2598991571,
+        "index": 86,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.39501083,
+          "y": -0.26197135
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          87
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 49391513,
+        "index": 87,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Bashyr",
+        "position": {
+          "x": 0.32492584,
+          "y": -0.26339266
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          54
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2299441253,
+        "index": 88,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Regnus",
+        "position": {
+          "x": 0.24639264,
+          "y": -0.3159259
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          55,
+          89
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2695815635,
+        "index": 89,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mog",
+        "position": {
+          "x": 0.29074797,
+          "y": -0.35328123
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1922612740,
+        "index": 90,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Valmox",
+        "position": {
+          "x": 0.18610376,
+          "y": -0.381078
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          91
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3172148623,
+        "index": 91,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Iro",
+        "position": {
+          "x": 0.15380847,
+          "y": -0.4373544
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          92
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3602852408,
+        "index": 92,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Grafmere",
+        "position": {
+          "x": 0.06113215,
+          "y": -0.40526026
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          94
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3515684391,
+        "index": 93,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.1470731,
+          "y": -0.5095566
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          137
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 997855239,
+        "index": 94,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Oasis",
+        "position": {
+          "x": 0.00063157,
+          "y": -0.4440751
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          95
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 910436923,
+        "index": 95,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Genesis Prime",
+        "position": {
+          "x": -0.07607324,
+          "y": -0.44355652
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2306843160,
+        "index": 96,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Outpost 32",
+        "position": {
+          "x": -0.13786763,
+          "y": -0.40105802
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          97
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4011448258,
+        "index": 97,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Calypso",
+        "position": {
+          "x": -0.21110377,
+          "y": -0.42437923
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3533355425,
+        "index": 98,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Elysian Meadows",
+        "position": {
+          "x": -0.25539273,
+          "y": -0.3439258
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          99
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1616302990,
+        "index": 99,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Alderidge Cove",
+        "position": {
+          "x": -0.31297135,
+          "y": -0.39101082
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3515299681,
+        "index": 100,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.9189892,
+          "y": -0.1249713
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          216
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3115954791,
+        "index": 101,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "East Iridium Trading Bay",
+        "position": {
+          "x": -0.3422812,
+          "y": -0.302748
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          147
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1017957570,
+        "index": 102,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Liberty Prime",
+        "position": {
+          "x": -0.4123793,
+          "y": -0.17510368
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          103
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1398996417,
+        "index": 103,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Baldrick Prime",
+        "position": {
+          "x": -0.353078,
+          "y": -0.13310368
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          62
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 701410047,
+        "index": 104,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "The Weir",
+        "position": {
+          "x": -0.42307508,
+          "y": -0.029368328
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          105
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2344219187,
+        "index": 105,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Kuper",
+        "position": {
+          "x": -0.46455657,
+          "y": -0.09407307
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          150
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1496025116,
+        "index": 106,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Oslo Station",
+        "position": {
+          "x": -0.4232602,
+          "y": 0.05013234
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          108
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 696145979,
+        "index": 107,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Pöpli IX",
+        "position": {
+          "x": -0.6355565,
+          "y": 0.0490733
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          155
+        ]
+      },
+      "players": 11296,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 435094671,
+        "index": 108,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Gunvald",
+        "position": {
+          "x": -0.349058,
+          "y": 0.0568677
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2131959183,
+        "index": 109,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Dolph",
+        "position": {
+          "x": -0.531078,
+          "y": 0.05410378
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 412801448,
+        "index": 110,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Bekvam III",
+        "position": {
+          "x": -0.48401085,
+          "y": 0.21397132
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          111
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 255676170,
+        "index": 111,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Duma Tyr",
+        "position": {
+          "x": -0.40970957,
+          "y": 0.15897132
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2442155408,
+        "index": 112,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vernen Wells",
+        "position": {
+          "x": -0.26997122,
+          "y": 0.3760109
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          113,
+          194
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3407029244,
+        "index": 113,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Aesir Pass",
+        "position": {
+          "x": -0.34874794,
+          "y": 0.28628126
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 975759959,
+        "index": 114,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.44310373,
+          "y": 0.599078
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          159
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 101741274,
+        "index": 115,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Penta",
+        "position": {
+          "x": -0.27880847,
+          "y": 0.58735436
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          160,
+          194,
+          204
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2654907023,
+        "index": 116,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Gaellivare",
+        "position": {
+          "x": -0.16213205,
+          "y": 0.4142603
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2580049274,
+        "index": 117,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vog-Sojoth",
+        "position": {
+          "x": -0.122073,
+          "y": 0.5435566
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          162
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 612402065,
+        "index": 118,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Kirrik",
+        "position": {
+          "x": 0.12954043,
+          "y": 0.52342516
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          119,
+          120
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 248400433,
+        "index": 119,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mortax Prime",
+        "position": {
+          "x": 0.033894707,
+          "y": 0.5456473
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1423930789,
+        "index": 120,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Wilford Station",
+        "position": {
+          "x": 0.1969427,
+          "y": 0.5865483
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          121
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 429955586,
+        "index": 121,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Pioneer II",
+        "position": {
+          "x": 0.28023794,
+          "y": 0.6415732
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          165
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 137703244,
+        "index": 122,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Nivel 43",
+        "position": {
+          "x": 0.46854144,
+          "y": 0.5513042
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          123
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1156965013,
+        "index": 123,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Esker",
+        "position": {
+          "x": 0.3994094,
+          "y": 0.6009798
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2435651414,
+        "index": 124,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Bore Rock",
+        "position": {
+          "x": 0.3259798,
+          "y": 0.4174094
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          75
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2875368439,
+        "index": 125,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.46994886,
+          "y": 0.27418607
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          64,
+          168
+        ]
+      },
+      "players": 43301,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 541476,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 2706883571,
+        "index": 126,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5348745,
+          "y": 0.11823793
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          127
+        ]
+      },
+      "players": 231446,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 0.4448446,
+          "y": 0.1618837
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          85
+        ]
+      },
+      "players": 3694,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2658926073,
+        "index": 128,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6416474,
+          "y": -0.034105327
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1231076923,
+        "index": 129,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6244252,
+          "y": 0.10954041
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          171
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 984145086,
+        "index": 130,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6394251,
+          "y": -0.11354046
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          131
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3921453955,
+        "index": 131,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5706473,
+          "y": -0.035894755
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          128
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3215655918,
+        "index": 132,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.4985732,
+          "y": -0.21423799
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          133,
+          174
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 997215371,
+        "index": 133,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5715483,
+          "y": -0.19894274
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2282459618,
+        "index": 134,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.39494884,
+          "y": -0.34418607
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          86,
+          87
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1937725917,
+        "index": 135,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.3655414,
+          "y": -0.40630427
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          134,
+          136
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3715077297,
+        "index": 136,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.30818605,
+          "y": -0.4349489
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4017257734,
+        "index": 137,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.21723792,
+          "y": -0.49157324
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1534729714,
+        "index": 138,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.11354035,
+          "y": -0.5914251
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          139
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3213455987,
+        "index": 139,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.06359941,
+          "y": -0.5271288
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          93
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2830340410,
+        "index": 140,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.03489475,
+          "y": -0.54864734
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          141
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1297056046,
+        "index": 141,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.12159955,
+          "y": -0.5161287
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          142
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1526977116,
+        "index": 142,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.20094277,
+          "y": -0.4955483
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          143
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 770159872,
+        "index": 143,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.23688374,
+          "y": -0.5768446
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 232742202,
+        "index": 144,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.30640945,
+          "y": -0.4626785
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          99,
+          145
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 784275392,
+        "index": 145,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.3871862,
+          "y": -0.43394879
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1986037000,
+        "index": 146,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.47797978,
+          "y": -0.3174094
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          147
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2935376141,
+        "index": 147,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.4116785,
+          "y": -0.3474094
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          149
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3228999359,
+        "index": 148,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.5268447,
+          "y": -0.18688355
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          149
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3482441182,
+        "index": 149,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.47057328,
+          "y": -0.23023784
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3480296110,
+        "index": 150,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.5226474,
+          "y": -0.035894625
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          151,
+          192
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1043181,
+        "index": 151,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.56242514,
+          "y": -0.11354032
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 572242261,
+        "index": 152,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.9146473,
+          "y": -0.17310524
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 2,
+      "regen_per_second": 8.333333
+    },
+    {
+      "health": 703918,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -0.745425,
+          "y": -0.1314594
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 24994,
+      "regen_per_second": 0
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 457558822,
+        "index": 154,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mort",
+        "position": {
+          "x": -0.6788745,
+          "y": 0.117238
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          107,
+          155
+        ]
+      },
+      "players": 297,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 439413,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 2655630774,
+        "index": 155,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.73154825,
+          "y": 0.05294286
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          197
+        ]
+      },
+      "players": 67388,
+      "regen_per_second": 0
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3531149629,
+        "index": 156,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6009798,
+          "y": 0.2024094
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2007360508,
+        "index": 157,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.575186,
+          "y": 0.26594892
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          156,
+          199
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2564387350,
+        "index": 158,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.7044093,
+          "y": 0.25667855
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          242,
+          244
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1159313659,
+        "index": 159,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.3992379,
+          "y": 0.5128745
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          160,
+          203
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2695598028,
+        "index": 160,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.3412379,
+          "y": 0.5515733
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          204
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1109752394,
+        "index": 161,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Claorell",
+        "position": {
+          "x": -0.04959929,
+          "y": 0.5291288
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          162
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4171074231,
+        "index": 162,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Clasa",
+        "position": {
+          "x": -0.07354023,
+          "y": 0.6374251
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          163,
+          250
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1270268663,
+        "index": 163,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.061421014,
+          "y": 0.6512196
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          251
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 575825411,
+        "index": 164,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.09195879,
+          "y": 0.7373349
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          165
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3031668844,
+        "index": 165,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Electra Bay",
+        "position": {
+          "x": 0.2163721,
+          "y": 0.7093697
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3692735566,
+        "index": 166,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.47584745,
+          "y": 0.6789487
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          167,
+          256
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3517952761,
+        "index": 167,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5693348,
+          "y": 0.6043272
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          257
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 0.4243272,
+          "y": 0.34833485
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 100603,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 0.5803697,
+          "y": 0.29137206
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          170
+        ]
+      },
+      "players": 24367,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3087050848,
+        "index": 170,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6880386,
+          "y": 0.30101782
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          212
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2036924050,
+        "index": 171,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7302936,
+          "y": 0.14800768
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          214
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2254239637,
+        "index": 172,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7312195,
+          "y": -0.12242107
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          173
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1039531899,
+        "index": 173,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.8252936,
+          "y": -0.13200772
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          217
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1730968584,
+        "index": 174,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5600685,
+          "y": -0.27437216
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3461540330,
+        "index": 175,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6873349,
+          "y": -0.2439588
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          219
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3671746797,
+        "index": 176,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.51897186,
+          "y": -0.3859795
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1969390828,
+        "index": 177,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5813272,
+          "y": -0.45833483
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          179
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3856827013,
+        "index": 178,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.45897943,
+          "y": -0.45897192
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          176
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 386932878,
+        "index": 179,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.4808474,
+          "y": -0.5826475
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          222,
+          223
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2517847560,
+        "index": 180,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.27001774,
+          "y": -0.5880387
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1581052380,
+        "index": 181,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.3589587,
+          "y": -0.73933494
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          183,
+          224
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4182360890,
+        "index": 182,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.04742095,
+          "y": -0.64221954
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          138
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2078192573,
+        "index": 183,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.2510076,
+          "y": -0.69129366
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          226
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1722929190,
+        "index": 184,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.04842106,
+          "y": -0.70721954
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          185
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 101839064,
+        "index": 185,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.1330078,
+          "y": -0.6602936
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          229
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2563880739,
+        "index": 186,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.2649589,
+          "y": -0.6723349
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          143
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1697634205,
+        "index": 187,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.37284753,
+          "y": -0.5306474
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          145
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1366049074,
+        "index": 188,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.5559487,
+          "y": -0.31584743
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          189,
+          190
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4234355218,
+        "index": 189,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.4953272,
+          "y": -0.4213348
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2097290850,
+        "index": 190,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6140685,
+          "y": -0.20337197
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3764590020,
+        "index": 191,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.03396134,
+          "y": 0.9259823
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          254
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3052439858,
+        "index": 192,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.62221956,
+          "y": -0.042420916
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2845725342,
+        "index": 193,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6862936,
+          "y": -0.25600755
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          236
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3837447591,
+        "index": 194,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Lesath",
+        "position": {
+          "x": -0.22899726,
+          "y": 0.49906695
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          160
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 1126502547,
+        "index": 195,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.9272936,
+          "y": -0.04299212
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          196
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 8.333333
+    },
+    {
+      "health": 847140,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 3244992775,
+        "index": 196,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Malevelon Creek",
+        "position": {
+          "x": -0.8473348,
+          "y": -0.096041
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          152,
+          153
+        ]
+      },
+      "players": 44693,
+      "regen_per_second": 0
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1806559160,
+        "index": 197,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mantes",
+        "position": {
+          "x": -0.74603856,
+          "y": -0.03198197
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          107,
+          153,
+          196
+        ]
+      },
+      "players": 605,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2831860380,
+        "index": 198,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.43697178,
+          "y": 0.3259796
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          199,
+          200
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2016899055,
+        "index": 199,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.5379487,
+          "y": 0.3338475
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2071495162,
+        "index": 200,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.4909794,
+          "y": 0.4139719
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 996779072,
+        "index": 201,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.5683347,
+          "y": 0.4903273
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          245
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1982461871,
+        "index": 202,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.53437203,
+          "y": 0.6510685
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          248
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3161413384,
+        "index": 203,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Menkent",
+        "position": {
+          "x": -0.31501773,
+          "y": 0.4560387
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          112,
+          194
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 964201429,
+        "index": 204,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.35206652,
+          "y": 0.64499736
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 319528443,
+        "index": 205,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.32600746,
+          "y": 0.7472937
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          248
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1805868079,
+        "index": 206,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.084947325,
+          "y": 0.8337918
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          207
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2174989502,
+        "index": 207,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.06005267,
+          "y": 0.84179187
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          70
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1125831687,
+        "index": 208,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.3105063,
+          "y": 0.77156365
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          255
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 2595930801,
+        "index": 209,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7657729,
+          "y": 0.5369948
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          210
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 1644011282,
+        "index": 210,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.77812827,
+          "y": 0.3443502
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 301092871,
+        "index": 211,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.4889177,
+          "y": 0.43328553
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 1344035939,
+        "index": 212,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.633865,
+          "y": 0.3955063
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 2798506372,
+        "index": 213,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.9115288,
+          "y": 0.18509296
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2529588949,
+        "index": 214,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7147919,
+          "y": 0.06394728
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          217
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 2633633039,
+        "index": 215,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.8417918,
+          "y": 0.10094728
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          213
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3575106066,
+        "index": 216,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.93316215,
+          "y": 0.004525
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          215
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1050117740,
+        "index": 217,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7587918,
+          "y": -0.019947395
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1272337220,
+        "index": 218,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.8658252,
+          "y": -0.30003393
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          219
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1029706994,
+        "index": 219,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7575288,
+          "y": -0.351093
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          220
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4039961663,
+        "index": 220,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.7659177,
+          "y": -0.48228556
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          221
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3290149632,
+        "index": 221,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.66399485,
+          "y": -0.5727729
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3795087598,
+        "index": 222,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.58777285,
+          "y": -0.676995
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          223
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 4053031948,
+        "index": 223,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.49028546,
+          "y": -0.71661645
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3659425534,
+        "index": 224,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.29350623,
+          "y": -0.8715637
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          225
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 433678065,
+        "index": 225,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.14809287,
+          "y": -0.91152894
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1377257553,
+        "index": 226,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.09694725,
+          "y": -0.7277918
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 264536752,
+        "index": 227,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.104947254,
+          "y": -0.82979184
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          228
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3709894755,
+        "index": 228,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.037947383,
+          "y": -0.8437918
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          229
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 449319042,
+        "index": 229,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.16047508,
+          "y": -0.85416216
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1531805760,
+        "index": 230,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.31250626,
+          "y": -0.83086497
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          231
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3472221087,
+        "index": 231,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.44250628,
+          "y": -0.76256365
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          232
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 31903659,
+        "index": 232,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.5732856,
+          "y": -0.6689176
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          233
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 728004013,
+        "index": 233,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.48777303,
+          "y": -0.5639948
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 33972203,
+        "index": 234,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6169949,
+          "y": -0.5607729
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          235
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3339959103,
+        "index": 235,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.75561637,
+          "y": -0.5062855
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          236
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3478070727,
+        "index": 236,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6258253,
+          "y": -0.40203378
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          234
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1923795699,
+        "index": 237,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.8608651,
+          "y": -0.36050615
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          235
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 2658611086,
+        "index": 238,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.7807918,
+          "y": -0.3289472
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          241
+        ]
+      },
+      "players": 5,
+      "regen_per_second": 8.333333
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2659689769,
+        "index": 239,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6268659,
+          "y": -0.12653387
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          151
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 1049999007,
+        "index": 240,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Troost",
+        "position": {
+          "x": -0.9021621,
+          "y": 0.15547518
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          243
+        ]
+      },
+      "players": 33,
+      "regen_per_second": 8.333333
+    },
+    {
+      "health": 1000000,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 2216912817,
+        "index": 241,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Ubanea",
+        "position": {
+          "x": -0.8157918,
+          "y": -0.2170526
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          152,
+          153
+        ]
+      },
+      "players": 48,
+      "regen_per_second": 8.333333
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 260933067,
+        "index": 242,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ustotu",
+        "position": {
+          "x": -0.806865,
+          "y": 0.20750636
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          243
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 976977,
+      "owner": "Automaton",
+      "planet": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -0.840825,
+          "y": 0.06103413
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 10476,
+      "regen_per_second": 0
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 17046409,
+        "index": 244,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.74635,
+          "y": 0.3441284
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          242
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3825459240,
+        "index": 245,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6519177,
+          "y": 0.45428553
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          249
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 229350423,
+        "index": 246,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.7952854,
+          "y": 0.4969178
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          247,
+          249
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1554138344,
+        "index": 247,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.8741281,
+          "y": 0.3473503
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1826401325,
+        "index": 248,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.56103384,
+          "y": 0.77082515
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2165203458,
+        "index": 249,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.6895062,
+          "y": 0.5908651
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 714233297,
+        "index": 250,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.13953374,
+          "y": 0.7098659
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          251
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 252504470,
+        "index": 251,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.048947096,
+          "y": 0.72179186
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 2360232252,
+        "index": 252,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.35552636,
+          "y": 0.8833641
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          253
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 1524642040,
+        "index": 253,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": -0.19952635,
+          "y": 0.9263641
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          70
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3789806846,
+        "index": 254,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.14810903,
+          "y": 0.9233154
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          255
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3809134104,
+        "index": 255,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.3191681,
+          "y": 0.8730191
+        },
+        "sector": "Unknown",
+        "waypoints": []
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 4020204519,
+        "index": 256,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.5267236,
+          "y": 0.7475853
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          257
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 1588671273,
+        "index": 257,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6665664,
+          "y": 0.6070179
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          209
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 843081973,
+        "index": 258,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.55758536,
+          "y": 0.4887236
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          211
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Terminids",
+      "planet": {
+        "disabled": false,
+        "hash": 3966660905,
+        "index": 259,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "",
+        "position": {
+          "x": 0.6838866,
+          "y": 0.48672357
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          212,
+          258
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 13.888888
+    },
+    {
+      "health": 1000000,
+      "owner": "Humans",
+      "planet": {
+        "disabled": false,
+        "hash": 3923589145,
+        "index": 260,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Cyberstan",
+        "position": {
+          "x": -0.438396,
+          "y": 0.6977152
+        },
+        "sector": "Unknown",
+        "waypoints": [
+          202
+        ]
+      },
+      "players": 0,
+      "regen_per_second": 138.88889
+    }
+  ],
+  "snapshot_at": "1970-01-24T14:58:30Z",
+  "war_id": 801
 }
