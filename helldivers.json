@@ -181,12 +181,12 @@
       "flag": 1,
       "id": 1499082,
       "id_32": 0,
-      "message": "Les spores terminides se répandent sur Hïs et le Périple de l'ange, des hordes d'insectes submergent les milices coloniales. De toute évidence, l'esprit de la ruche a décidé de cracher au visage des valeureux héros qui ont libéré ces planètes.\n\nVos compagnons d'armes ont sacrifié leur vie pour prendre le contrôle de ces territoires. Nous ne pouvons pas les abandonner. Gardez le contrôle de ces planètes jusqu'à l'arrivée des renforts de la Super-Terre.",
+      "message": "Terminid spores have engulfed Heeth and Angel's Venture, spawning hordes of Terminids that overwhelmed our colonial militias. Clearly, the bug hive instinct oriented their mindless expansion towards dishonoring the memory of those who fought to free these planets.\n\nYour fellow Helldivers paid for these lands with their lives. We cannot lose them now. Hold the planets until SEAF reinforcements arrive.",
       "message_id_32": 2841401849,
       "planets": [],
       "portrait_id_32": 0,
       "race": "Humans",
-      "title": "hologram_major_order_sub_header_introduction",
+      "title": "BRIEFING",
       "title_32": 2908633975
     },
     {
@@ -195,12 +195,12 @@
       "flag": 2,
       "id": 1499081,
       "id_32": 0,
-      "message": "Bien joué, Helldivers. L'équipe de confinement des forces armées la Super-Terre va prendre en charge les opérations de nettoyage et de vaccination. Nous avons informé les colons qu'il n'y avait aucun risque de résurgence des terminides, mais aussi qu'ils pouvaient se réinstaller en toute quiétude.\n\nPar ailleurs, les pilotes chargés de dissiper les spores sur Veld vont être redéployés en soutien des Helldivers. \n<i=1>Les délais d'extraction seront plus courts pour toutes les opérations.</i> ",
+      "message": "Well done, Helldivers. SEAF Containment Teams will take over cleanup and inoculation operations from here. Colonists have been advised that there is absolutely zero threat of further Terminid violence, and to settle their families with total peace of mind.\n\nAdditionally, the pilots allocated to spore clearance on Veld have now been redirected to Helldiver support operations. \n<i=1>Extraction will be faster on all operations.</i> ",
       "message_id_32": 3767473056,
       "planets": [],
       "portrait_id_32": 0,
       "race": "Humans",
-      "title": "hologram_major_order_sub_header_outcome_success",
+      "title": "SUCCESS",
       "title_32": 2998873950
     },
     {
@@ -209,16 +209,16 @@
       "flag": 3,
       "id": 1499078,
       "id_32": 0,
-      "message": "Malgré les vaillants efforts des Helldivers, les maraudeurs automatons ont envahi le territoire de la Super-Terre. D'innombrables patriotes pleurent la perte de leur foyer de taille suffisante.\n\nLes Super-Terriens réclament justice ! Et ils l'obtiendront.",
+      "message": "Despite the valorous efforts of the Helldivers, Automaton marauders have invaded Super Earth territory. Patriotic citizens mourn as their sufficiently-sized homes burn to the ground.\n\nSuper Earth citizens demand justice, and they will receive it.",
       "message_id_32": 2490064171,
       "planets": [],
       "portrait_id_32": 0,
       "race": "Humans",
-      "title": "ORDRE ÉCHOUÉ",
+      "title": "FAILED",
       "title_32": 506754096
     }
   ],
-  "impact_multiplier": 0.00091035105,
+  "impact_multiplier": 0.0008923835,
   "joint_operations": [
     {
       "hq_node_index": 0,
@@ -622,7 +622,7 @@
       },
       "event_type": 1,
       "expire_time": "1970-01-26T08:12:30Z",
-      "health": 559444,
+      "health": 557316,
       "id": 4301,
       "joint_operations": [
         {
@@ -691,7 +691,7 @@
           1
         ]
       },
-      "players": 1249,
+      "players": 1311,
       "regen_per_second": 1388.8889
     },
     {
@@ -1438,7 +1438,7 @@
           211
         ]
       },
-      "players": 14765,
+      "players": 16441,
       "regen_per_second": 13.888888
     },
     {
@@ -2063,7 +2063,7 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 235768,
+      "health": 239856,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -2084,7 +2084,7 @@
           169
         ]
       },
-      "players": 48807,
+      "players": 62671,
       "regen_per_second": 13.888888
     },
     {
@@ -2364,7 +2364,7 @@
         "sector": "Unknown",
         "waypoints": []
       },
-      "players": 533,
+      "players": 535,
       "regen_per_second": 1388.8889
     },
     {
@@ -2387,7 +2387,7 @@
           170
         ]
       },
-      "players": 595,
+      "players": 617,
       "regen_per_second": 13.888888
     },
     {
@@ -2411,11 +2411,11 @@
           168
         ]
       },
-      "players": 868,
+      "players": 886,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 611104,
+      "health": 1000000,
       "owner": "Humans",
       "planet": {
         "disabled": false,
@@ -2434,7 +2434,7 @@
           127
         ]
       },
-      "players": 191068,
+      "players": 160122,
       "regen_per_second": 1388.8889
     },
     {
@@ -3020,7 +3020,7 @@
           155
         ]
       },
-      "players": 327,
+      "players": 375,
       "regen_per_second": 1388.8889
     },
     {
@@ -3407,11 +3407,11 @@
           168
         ]
       },
-      "players": 3069,
+      "players": 3272,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 380025,
+      "health": 383685,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3429,7 +3429,7 @@
           127
         ]
       },
-      "players": 51351,
+      "players": 62052,
       "regen_per_second": 13.888888
     },
     {
@@ -3451,7 +3451,7 @@
           85
         ]
       },
-      "players": 663,
+      "players": 736,
       "regen_per_second": 1388.8889
     },
     {
@@ -3988,11 +3988,11 @@
         "sector": "Unknown",
         "waypoints": []
       },
-      "players": 2,
+      "players": 3,
       "regen_per_second": 5.555556
     },
     {
-      "health": 394314,
+      "health": 392508,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4008,7 +4008,7 @@
         "sector": "Unknown",
         "waypoints": []
       },
-      "players": 22842,
+      "players": 24157,
       "regen_per_second": 0
     },
     {
@@ -4031,7 +4031,7 @@
           155
         ]
       },
-      "players": 82,
+      "players": 95,
       "regen_per_second": 1388.8889
     },
     {
@@ -4053,7 +4053,7 @@
           197
         ]
       },
-      "players": 1363,
+      "players": 1327,
       "regen_per_second": 1388.8889
     },
     {
@@ -4338,7 +4338,7 @@
         "sector": "Unknown",
         "waypoints": []
       },
-      "players": 34377,
+      "players": 39385,
       "regen_per_second": 13.888888
     },
     {
@@ -4360,7 +4360,7 @@
           170
         ]
       },
-      "players": 465,
+      "players": 484,
       "regen_per_second": 13.888888
     },
     {
@@ -4927,7 +4927,7 @@
       "regen_per_second": 5.555556
     },
     {
-      "health": 437815,
+      "health": 435920,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4946,7 +4946,7 @@
           153
         ]
       },
-      "players": 23795,
+      "players": 25228,
       "regen_per_second": 0
     },
     {
@@ -4970,7 +4970,7 @@
           196
         ]
       },
-      "players": 35155,
+      "players": 37531,
       "regen_per_second": 1388.8889
     },
     {
@@ -5846,7 +5846,7 @@
           241
         ]
       },
-      "players": 3,
+      "players": 6,
       "regen_per_second": 5.555556
     },
     {
@@ -5890,7 +5890,7 @@
           243
         ]
       },
-      "players": 11,
+      "players": 10,
       "regen_per_second": 5.555556
     },
     {
@@ -5913,7 +5913,7 @@
           153
         ]
       },
-      "players": 23,
+      "players": 19,
       "regen_per_second": 5.555556
     },
     {
@@ -5939,7 +5939,7 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 879570,
+      "health": 879027,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5955,7 +5955,7 @@
         "sector": "Unknown",
         "waypoints": []
       },
-      "players": 7063,
+      "players": 7341,
       "regen_per_second": 0
     },
     {
@@ -6325,6 +6325,6 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "1970-01-26T02:50:50Z",
+  "snapshot_at": "1970-01-26T03:00:50Z",
   "war_id": 801
 }
