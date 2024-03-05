@@ -48,9 +48,16 @@ toc: false
   text-align:justify;
 }
 
+#map-container {
+  position:relative;
+}
+
 #map {
-  background: url('/_file/data/sector_map.svg') no-repeat center center;
-  background-size: cover;
+  position: absolute;
+  width: 100%;
+  top: -16px;
+  z-index: -1;
+  pointer-events: none;
 }
 
 </style>
@@ -103,10 +110,10 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
     });
     let arrowMarks = [
       Plot.arrow(['Attack'],{ 
-      x1:80, 
-      x2:85,
-      y1:90,
-      y2:90,
+      x1:78, 
+      x2:82,
+      y1:88,
+      y2:88,
       bend: true,
     }), Plot.text(['Attack'],{
       frameAnchor,
@@ -132,13 +139,14 @@ ${
 }
 </div>
 
-<div class="grid grid-cols-1">
-  <div id="map" class="card">${
+<div id="map-container" class="grid grid-cols-1">
+  <img id="map" src="./data/sector_map.svg">
+  <div class="card" style='background: url("./data/sector_map.svg") no-repeat center center;
+  background-size: cover;'>${
     resize((width) => Plot.plot({
       width: width,
       title: "The Galactic War",
       aspectRatio: 1,
-      inset: 10,
       height: width,
       projection: {type: "reflect-y", domain: {type: "MultiPoint", coordinates: [[100,-100],[100,100],[-100,100],[-100,-100]]}},
       marks: [
