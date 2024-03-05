@@ -47,7 +47,7 @@ jobs:
     - name: Generate aggregate stats
       run: |-
         ln -s helldivers.json docs/data/helldivers.json
-        ./build_stats
+        ./build_stats.py
 
     - name: Build
       run: npm run build
