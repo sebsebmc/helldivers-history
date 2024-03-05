@@ -46,7 +46,7 @@ jobs:
 
     - name: Generate aggregate stats
       run: |-
-        ln -s helldivers.json docs/data/helldivers.json
+        cp helldivers.json docs/data/helldivers.json
         python3 build_stats.py
 
     - name: Build
