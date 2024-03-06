@@ -51,11 +51,6 @@ jobs:
         cp helldivers.json docs/data/helldivers.json
         python3 build_stats.py
 
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-      with:
-        limit-access-to-actor: true
-
     - name: Build
       run: npm run build
 
