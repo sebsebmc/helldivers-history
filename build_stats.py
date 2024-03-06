@@ -39,7 +39,21 @@ class PlanetStatus:
     planet: PlanetRecord
     players: int
     regen_per_second: float
-    liberation: Optional[float] = dataclasses.field(default=100.0)
+    _liberation: float=None
+    @property
+    def liberation(self) -> float:
+        if self._liberation:
+            return self._liberation
+        if self.planet.initial_owner == "Humans":
+            self._liberation = self.health/self.planet.max_health
+        else:
+            self._liberation = 100.0-(self.health/self.planet.max_health)
+        return self._liberation
+    
+    @liberation.setter
+    def liberation(self, val:float) -> None:
+        self._liberation = val
+
 
 @dataclass
 class Campaign:
@@ -119,17 +133,24 @@ def create_agg_stats():
     players = [0]*len(records)
     timestamps = []
     impact = []
+    active = [planet.target.index for planet in records[0].planet_attacks]
+    active_planet_hist = []
 
     for (step, status) in enumerate(records):
-        for planet in records[step].planet_status:
-            players[step] += planet.players
+        active_step = {}
+        for status in records[step].planet_status:
+            players[step] += status.players
+            if status.planet.index in active:
+                active_step[status.planet.index] = {'players': status.players, 'liberation': status.liberation}
+        active_planet_hist.append(active_step)
+
 
     for step in records:
         timestamps.append(step.snapshot_at)
         impact.append(step.impact_multiplier)
 
     with open('./docs/data/aggregates.json', 'w') as fh:
-        json.dump([{'timestamp':v1, 'players': v2, 'impact': v3} for v1, v2, v3 in zip(timestamps, players, impact)], fh)
+        json.dump([{'timestamp':v1, 'players': v2, 'impact': v3, 'attacks': v4} for v1, v2, v3, v4 in zip(timestamps, players, impact, active_planet_hist)], fh)
 
 create_agg_stats()
 

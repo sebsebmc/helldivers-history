@@ -54,10 +54,11 @@ toc: false
 
 #map {
   position: absolute;
-  width: 100%;
-  top: -16px;
-  z-index: -1;
+  min-width:100%;
+  max-width:100%;
+  bottom: 0;
   pointer-events: none;
+  object-fit:cover;
 }
 
 </style>
@@ -72,7 +73,7 @@ const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {val
   <h2>Welcome Helldiver!</h2>
 </div>
 
-This page does not auto-update, but the data should update about every 10 minutes.
+This page does not auto-update and the underlying data is collected every 10 minutes.
 
 ```js
 const status = FileAttachment('./data/helldivers.json').json();
@@ -147,8 +148,7 @@ ${
 
 <div id="map-container" class="grid grid-cols-1">
   <img id="map" src="./data/sector_map.svg">
-  <div class="card" style='background: url("./data/sector_map.svg") no-repeat center center;
-  background-size: cover;'>${
+  <div class="card">${
     resize((width) => Plot.plot({
       width: width,
       title: "The Galactic War",
@@ -202,8 +202,6 @@ ${
   }</div>
 </div>
 
----
-
 ## History
 
 ```js
@@ -211,7 +209,16 @@ const v1 = x => x.players;
 const v2 = x => x.impact;
 const y2 = d3.scaleLinear(d3.extent(agg, v2), [0, d3.max(agg, v1)]);
 ```
+### Attacks
 
+<div id="attacks" class="grid grid-cols-4">
+<div class="card"></div>
+<div class="card"></div>
+<div class="card"></div>
+<div class="card"></div>
+</div>
+
+### Player History
 
 <div class="grid grid-cols-1">
   <div class="card">${
