@@ -124,22 +124,46 @@
       "type": 0
     },
     {
-      "count": 5,
-      "id": 50012,
+      "count": 3,
+      "id": 50013,
       "planet": {
         "disabled": false,
-        "hash": 2003553249,
-        "index": 127,
+        "hash": 215016124,
+        "index": 64,
         "initial_owner": "Terminids",
         "max_health": 1000000,
-        "name": "Angel's Venture",
+        "name": "Meridia",
         "position": {
-          "x": 44.48446,
-          "y": 16.18837
+          "x": 51.34972,
+          "y": 20.684212
+        },
+        "sector": "17",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 3,
+      "id": 50014,
+      "planet": {
+        "disabled": false,
+        "hash": 2706883571,
+        "index": 126,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Turing",
+        "position": {
+          "x": 53.48745,
+          "y": 11.823793
         },
         "sector": "21",
         "waypoints": [
-          85
+          127
         ]
       },
       "type": 0
@@ -192,7 +216,7 @@
       "title_32": 2998873950
     }
   ],
-  "impact_multiplier": 0.001655835,
+  "impact_multiplier": 0.0016124492,
   "joint_operations": [
     {
       "hq_node_index": 2,
@@ -497,23 +521,6 @@
     {
       "source": {
         "disabled": false,
-        "hash": 3659340575,
-        "index": 80,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Veld",
-        "position": {
-          "x": 43.926024,
-          "y": 7.31322
-        },
-        "sector": "22",
-        "waypoints": [
-          85,
-          127
-        ]
-      },
-      "target": {
-        "disabled": false,
         "hash": 2003553249,
         "index": 127,
         "initial_owner": "Terminids",
@@ -526,28 +533,31 @@
         "sector": "21",
         "waypoints": [
           85
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 215016124,
+        "index": 64,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Meridia",
+        "position": {
+          "x": 51.34972,
+          "y": 20.684212
+        },
+        "sector": "17",
+        "waypoints": [
+          78,
+          126,
+          127,
+          169
         ]
       }
     },
     {
       "source": {
         "disabled": false,
-        "hash": 912379297,
-        "index": 85,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Moradesh",
-        "position": {
-          "x": 33.707795,
-          "y": 15.48962
-        },
-        "sector": "24",
-        "waypoints": [
-          77
-        ]
-      },
-      "target": {
-        "disabled": false,
         "hash": 2003553249,
         "index": 127,
         "initial_owner": "Terminids",
@@ -560,6 +570,22 @@
         "sector": "21",
         "waypoints": [
           85
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2706883571,
+        "index": 126,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Turing",
+        "position": {
+          "x": 53.48745,
+          "y": 11.823793
+        },
+        "sector": "21",
+        "waypoints": [
+          127
         ]
       }
     }
@@ -589,7 +615,7 @@
       },
       "event_type": 1,
       "expire_time": "1970-01-29T06:20:00Z",
-      "health": 1155476,
+      "health": 1155309,
       "id": 4308,
       "joint_operations": [
         {
@@ -655,7 +681,7 @@
           1
         ]
       },
-      "players": 1426,
+      "players": 1591,
       "regen_per_second": 1388.8889
     },
     {
@@ -1436,7 +1462,7 @@
           211
         ]
       },
-      "players": 98,
+      "players": 116,
       "regen_per_second": 11.111112
     },
     {
@@ -2112,7 +2138,7 @@
           169
         ]
       },
-      "players": 2380,
+      "players": 5580,
       "regen_per_second": 11.111112
     },
     {
@@ -2405,7 +2431,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 35,
+      "players": 50,
       "regen_per_second": 1388.8889
     },
     {
@@ -2429,7 +2455,7 @@
           170
         ]
       },
-      "players": 94,
+      "players": 105,
       "regen_per_second": 11.111112
     },
     {
@@ -2478,7 +2504,7 @@
           127
         ]
       },
-      "players": 1894,
+      "players": 2096,
       "regen_per_second": 1388.8889
     },
     {
@@ -3091,7 +3117,7 @@
           155
         ]
       },
-      "players": 51,
+      "players": 62,
       "regen_per_second": 1388.8889
     },
     {
@@ -3476,8 +3502,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 565484,
-      "liberation": 43.4516,
+      "health": 569281,
+      "liberation": 43.0719,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3496,7 +3522,7 @@
           168
         ]
       },
-      "players": 38582,
+      "players": 47907,
       "regen_per_second": 11.111112
     },
     {
@@ -3519,13 +3545,13 @@
           127
         ]
       },
-      "players": 2422,
+      "players": 5887,
       "regen_per_second": 11.111112
     },
     {
-      "health": 2564,
-      "liberation": 99.7436,
-      "owner": "Terminids",
+      "health": 1000000,
+      "liberation": 100,
+      "owner": "Humans",
       "planet": {
         "disabled": false,
         "hash": 2003553249,
@@ -3542,8 +3568,8 @@
           85
         ]
       },
-      "players": 193601,
-      "regen_per_second": 11.111112
+      "players": 179779,
+      "regen_per_second": 1388.8889
     },
     {
       "health": 1000000,
@@ -4104,12 +4130,12 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 1,
+      "players": 2,
       "regen_per_second": 3.472222
     },
     {
-      "health": 498788,
-      "liberation": 50.1212,
+      "health": 499758,
+      "liberation": 50.0242,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4125,7 +4151,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 14267,
+      "players": 15712,
       "regen_per_second": 3.472222
     },
     {
@@ -4149,7 +4175,7 @@
           155
         ]
       },
-      "players": 18,
+      "players": 29,
       "regen_per_second": 1388.8889
     },
     {
@@ -4172,7 +4198,7 @@
           197
         ]
       },
-      "players": 120,
+      "players": 130,
       "regen_per_second": 1388.8889
     },
     {
@@ -4470,7 +4496,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 13511,
+      "players": 15084,
       "regen_per_second": 11.111112
     },
     {
@@ -4493,7 +4519,7 @@
           170
         ]
       },
-      "players": 73,
+      "players": 76,
       "regen_per_second": 11.111112
     },
     {
@@ -5086,8 +5112,8 @@
       "regen_per_second": 3.472222
     },
     {
-      "health": 646024,
-      "liberation": 35.3976,
+      "health": 647603,
+      "liberation": 35.2397,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5106,7 +5132,7 @@
           153
         ]
       },
-      "players": 7223,
+      "players": 7938,
       "regen_per_second": 3.472222
     },
     {
@@ -5131,7 +5157,7 @@
           196
         ]
       },
-      "players": 486,
+      "players": 519,
       "regen_per_second": 1388.8889
     },
     {
@@ -6094,7 +6120,7 @@
           243
         ]
       },
-      "players": 4,
+      "players": 2,
       "regen_per_second": 3.472222
     },
     {
@@ -6118,7 +6144,7 @@
           153
         ]
       },
-      "players": 5,
+      "players": 6,
       "regen_per_second": 3.472222
     },
     {
@@ -6141,12 +6167,12 @@
           243
         ]
       },
-      "players": 3585,
+      "players": 3958,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 929221,
-      "liberation": 7.0779,
+      "health": 931115,
+      "liberation": 6.888499999999993,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -6162,7 +6188,7 @@
         "sector": "48",
         "waypoints": []
       },
-      "players": 2483,
+      "players": 2670,
       "regen_per_second": 3.472222
     },
     {
@@ -6549,6 +6575,6 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "1970-01-29T03:31:10Z",
+  "snapshot_at": "1970-01-29T03:41:10Z",
   "war_id": 801
 }
