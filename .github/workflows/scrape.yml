@@ -10,11 +10,6 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-      with:
-        limit-access-to-actor: true
-
     - name: Check out this repo
       uses: actions/checkout@v4
 
@@ -26,7 +21,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.9"
+        python-version: "3.10"
     - name: Install node dependencies
       run: npm ci
 
@@ -53,6 +48,11 @@ jobs:
       run: |-
         cp helldivers.json docs/data/helldivers.json
         python3 build_stats.py
+
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
+      with:
+        limit-access-to-actor: true
 
     - name: Build
       run: npm run build
