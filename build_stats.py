@@ -147,3 +147,4 @@ create_agg_stats()
 #      use the planet status to graph players and planet health/liberation
 
 # Attacks would be good for plotting on the map as arrows
+# Campaigns seems to list currently active planets players can choose from

@@ -128,6 +128,11 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
 }
 ```
 
+```js
+const active = status.campaigns.map(p => p.planet.index)
+active.push(0);
+```
+
 <div class="card">
 ${
   Inputs.table(status.global_events, {
@@ -157,8 +162,9 @@ ${
           r: width/150, 
           stroke: p => getColor(p.planet.initial_owner),
           fill: p => getColor(p.owner), 
-          strokeWidth: width/220}
-        ),
+          strokeWidth: width/220,
+          opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.6),
+        }),
         Plot.arrow(status.planet_attacks, {
           x1: p => p.source.position.x,
           y1: p => p.source.position.y,
