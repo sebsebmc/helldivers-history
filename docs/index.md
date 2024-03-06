@@ -72,6 +72,7 @@ const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {val
   <h2>Welcome Helldiver!</h2>
 </div>
 
+This page does not auto-update, but the data should update about every 10 minutes.
 
 ```js
 const status = FileAttachment('./data/helldivers.json').json();
@@ -166,6 +167,22 @@ ${
           bend: true,
           inset: width/220,
           strokeWidth: width/440,
+        }),
+        Plot.rect(status.planet_attacks, {
+          x1: p => p.target.position.x-(width/440),
+          y1: p => p.target.position.y-(width/220),
+          x2: p => p.target.position.x+(width/440),
+          y2: p => p.target.position.y-(width/220)+1,
+          stroke: "black",
+          fill: p => getColor(status.planet_status[p.target.index].owner)
+        }),
+        Plot.rect(status.planet_attacks, {
+          x1: p => p.target.position.x-(width/440),
+          y1: p => p.target.position.y-(width/220),
+          x2: p => (p.target.position.x-(width/440))+((width/220)*(status.planet_status[p.target.index].liberation/100)),
+          y2: p => p.target.position.y-(width/220)+1,
+          stroke: "black",
+          fill: p => getColor(status.planet_status[p.source.index].owner)
         }),
         Plot.tip(status.planet_status, Plot.pointer({
           x: p => p.planet.position.x, 
