@@ -10,6 +10,11 @@ jobs:
   scheduled:
     runs-on: ubuntu-latest
     steps:
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
+      with:
+        limit-access-to-actor: true
+
     - name: Check out this repo
       uses: actions/checkout@v4
 
