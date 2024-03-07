@@ -228,6 +228,8 @@ ${
 const v1 = x => x.players;
 const v2 = x => x.impact;
 const y2 = d3.scaleLinear(d3.extent(agg, v2), [0, d3.max(agg, v1)]);
+const weekAgo = new Date(Date.now() - (60_000*60*24*7));
+const filterLastWeek = x => (new Date(x.timestamp) > weekAgo);
 ```
 
 ### Player History
@@ -236,16 +238,15 @@ const y2 = d3.scaleLinear(d3.extent(agg, v2), [0, d3.max(agg, v1)]);
   <div class="card">${
     resize((width) => Plot.plot({
       width:width,
-      x: {domain:[new Date(Date.now() - (60_000*60*24*7)), Date.now()]},
+      x: {domain:[weekAgo, Date.now()]},
       y: {axis: "left", label: "Players"},
       marks: [
         Plot.axisY(y2.ticks(), {color:"steelblue", anchor:"right", label: "Impact Multiplier", y: y2, tickFormat: y2.tickFormat()}),
         Plot.ruleY([0]),
-        Plot.lineY(agg, {x: "timestamp", y: "players", tip:"x", stroke: "red", strokeWidth: 4}),
-        Plot.lineY(agg, Plot.mapY(D => D.map(y2), {x: "timestamp", y: "impact", stroke: "steelblue"}))
+        Plot.lineY(agg, {filter: filterLastWeek, x: "timestamp", y: "players", tip:"x", stroke: "red", strokeWidth: 4}),
+        Plot.lineY(agg, Plot.mapY(D => D.map(y2), {filter: filterLastWeek, x: "timestamp", y: "impact", stroke: "steelblue"}))
       ]
     }))
   }</div>
 </div>
-
 
