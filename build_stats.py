@@ -39,15 +39,15 @@ class PlanetStatus:
     planet: PlanetRecord
     players: int
     regen_per_second: float
-    _liberation: float=None
+    _liberation: Optional[float] = None
     @property
     def liberation(self) -> float:
-        if self._liberation:
+        if self._liberation is not None and self._liberation >= 0:
             return self._liberation
-        if self.planet.initial_owner == "Humans":
-            self._liberation = self.health/self.planet.max_health
+        if self.owner == "Humans":
+            self._liberation = (self.health/self.planet.max_health)*100
         else:
-            self._liberation = 100.0-(self.health/self.planet.max_health)
+            self._liberation = (1.0-(self.health/self.planet.max_health))*100
         return self._liberation
     
     @liberation.setter
@@ -128,22 +128,31 @@ def fetch_all_records():
     out.sort(key=lambda row: row.snapshot_at)
     return out
 
+TWO_DAYS = 6 * 24 * 2
+
 def create_agg_stats():
     records = fetch_all_records()
     players = [0]*len(records)
     timestamps = []
     impact = []
     active = [planet.target.index for planet in records[0].planet_attacks]
+    active_sum = {p:0 for p in active}
     active_planet_hist = []
 
-    for (step, status) in enumerate(records):
+    print(records[0].snapshot_at)
+
+    recent_start = len(records) - (TWO_DAYS + 24) # fudge it a bit to make sure we have 2 days worth of data
+    for (step, record) in enumerate(records):
         active_step = {}
-        for status in records[step].planet_status:
+        for status in record.planet_status:
             players[step] += status.players
             if status.planet.index in active:
                 active_step[status.planet.index] = {'players': status.players, 'liberation': status.liberation}
+                if step > recent_start:
+                    active_sum[status.planet.index] += status.players
         active_planet_hist.append(active_step)
 
+    most_active = sorted(active_sum.items(), key=lambda x: x[1], reverse=True)[:4]
 
     for step in records:
         timestamps.append(step.snapshot_at)
@@ -151,6 +160,9 @@ def create_agg_stats():
 
     with open('./docs/data/aggregates.json', 'w') as fh:
         json.dump([{'timestamp':v1, 'players': v2, 'impact': v3, 'attacks': v4} for v1, v2, v3, v4 in zip(timestamps, players, impact, active_planet_hist)], fh)
+    with open('./docs/data/recent_attacks.json', 'w') as fh:
+        json.dump(most_active, fh)
+
 
 create_agg_stats()
 

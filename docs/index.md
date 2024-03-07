@@ -1,7 +1,11 @@
 ---
-theme: stark
+theme: dashboard
 toc: false
 ---
+
+```js
+import {twoDayPlanetAttack} from "./components/planet_history.js";
+```
 
 <style>
 
@@ -54,11 +58,10 @@ toc: false
 
 #map {
   position: absolute;
-  min-width:100%;
-  max-width:100%;
-  bottom: 0;
+  top: 1rem;
   pointer-events: none;
   object-fit:cover;
+  width: calc(100% - 2rem)
 }
 
 </style>
@@ -73,11 +76,14 @@ const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {val
   <h2>Welcome Helldiver!</h2>
 </div>
 
-This page does not auto-update and the underlying data is collected every 10 minutes.
+<div class="warning">
+This page does not auto-update and the underlying data is collected every 10 minutes. You need to manually refresh for the latest version.
+</div>
 
 ```js
 const status = FileAttachment('./data/helldivers.json').json();
 const agg = FileAttachment('./data/aggregates.json').json();
+const focus = FileAttachment('./data/recent_attacks.json').json();
 function getColor(owner) {
   switch(owner){
     case 'Terminids':
@@ -112,8 +118,8 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
     });
     let arrowMarks = [
       Plot.arrow(['Attack'],{ 
-      x1:78, 
-      x2:82,
+      x1:73, 
+      x2:78,
       y1:88,
       y2:88,
       bend: true,
@@ -146,60 +152,67 @@ ${
 }
 </div>
 
-<div id="map-container" class="grid grid-cols-1">
-  <img id="map" src="./data/sector_map.svg">
-  <div class="card">${
-    resize((width) => Plot.plot({
-      width: width,
-      title: "The Galactic War",
-      aspectRatio: 1,
-      height: width,
-      projection: {type: "reflect-y", domain: {type: "MultiPoint", coordinates: [[100,-100],[100,100],[-100,100],[-100,-100]]}},
-      marks: [
-        Plot.dot(status.planet_status, {
-          x: p => p.planet.position.x,
-          y: p => p.planet.position.y, 
-          r: width/150, 
-          stroke: p => getColor(p.planet.initial_owner),
-          fill: p => getColor(p.owner), 
-          strokeWidth: width/220,
-          opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.6),
-        }),
-        Plot.arrow(status.planet_attacks, {
-          x1: p => p.source.position.x,
-          y1: p => p.source.position.y,
-          x2: p => p.target.position.x,
-          y2: p => p.target.position.y,
-          bend: true,
-          inset: width/220,
-          strokeWidth: width/440,
-        }),
-        Plot.rect(status.planet_attacks, {
-          x1: p => p.target.position.x-(width/440),
-          y1: p => p.target.position.y-(width/220),
-          x2: p => p.target.position.x+(width/440),
-          y2: p => p.target.position.y-(width/220)+1,
-          stroke: "black",
-          fill: p => getColor(status.planet_status[p.target.index].owner)
-        }),
-        Plot.rect(status.planet_attacks, {
-          x1: p => p.target.position.x-(width/440),
-          y1: p => p.target.position.y-(width/220),
-          x2: p => (p.target.position.x-(width/440))+((width/220)*(status.planet_status[p.target.index].liberation/100)),
-          y2: p => p.target.position.y-(width/220)+1,
-          stroke: "black",
-          fill: p => getColor(status.planet_status[p.source.index].owner)
-        }),
-        Plot.tip(status.planet_status, Plot.pointer({
-          x: p => p.planet.position.x, 
-          y: p => p.planet.position.y,
-          title: p => [`${p.planet.name}\n`, `Liberation: ${p.liberation.toFixed(2)}%`, `Players: ${p.players}`].join("\n"), fontSize: 20})
-        ),
-        factionLegend(['Humans', 'Terminids', 'Automaton'], {r:width/150, strokeWidth:width/220, width}),
-      ],
-      tip: true,
-    }))
+<div class="grid grid-cols-4">
+  <div id="map-container" class="card grid-colspan-2 grid-rowspan-2">
+    <img id="map" src="./data/sector_map.svg">
+    <div>${resize((width) => Plot.plot({
+        width: width,
+        title: "The Galactic War",
+        aspectRatio: 1,
+        height: width,
+        projection: {type: "reflect-y", domain: {type: "MultiPoint", coordinates: [[100,-100],[100,100],[-100,100],[-100,-100]]}},
+        marks: [
+          Plot.dot(status.planet_status, {
+            x: p => p.planet.position.x,
+            y: p => p.planet.position.y, 
+            r: width/150, 
+            stroke: p => getColor(p.planet.initial_owner),
+            fill: p => getColor(p.owner), 
+            strokeWidth: width/220,
+            opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.6),
+          }),
+          Plot.arrow(status.planet_attacks, {
+            x1: p => p.source.position.x,
+            y1: p => p.source.position.y,
+            x2: p => p.target.position.x,
+            y2: p => p.target.position.y,
+            bend: true,
+            inset: width/220,
+            strokeWidth: width/440,
+          }),
+          Plot.rect(status.planet_attacks, {
+            x1: p => p.target.position.x-(width/440),
+            y1: p => p.target.position.y-(width/220),
+            x2: p => p.target.position.x+(width/440),
+            y2: p => p.target.position.y-(width/220)+1,
+            stroke: "black",
+            fill: p => getColor(status.planet_status[p.target.index].owner)
+          }),
+          Plot.rect(status.planet_attacks, {
+            x1: p => p.target.position.x-(width/440),
+            y1: p => p.target.position.y-(width/220),
+            x2: p => (p.target.position.x-(width/440))+((width/220)*(status.planet_status[p.target.index].liberation/100)),
+            y2: p => p.target.position.y-(width/220)+1,
+            stroke: "black",
+            fill: p => getColor(status.planet_status[p.source.index].owner)
+          }),
+          Plot.tip(status.planet_status, Plot.pointer({
+            x: p => p.planet.position.x, 
+            y: p => p.planet.position.y,
+            title: p => [`${p.planet.name}\n`, `Liberation: ${p.liberation.toFixed(2)}%`, `Players: ${p.players}`].join("\n"), fontSize: 20})
+          ),
+          factionLegend(['Humans', 'Terminids', 'Automaton'], {r:width/150, strokeWidth:width/220, width}),
+        ],
+        tip: true,
+      }))
+    }</div>
+  </div>
+  <div class="card grid-colspan-2" style="padding:1rem;">${resize((width) => 
+    twoDayPlanetAttack(width, agg, focus[0][0], status.planet_status[focus[0][0]].planet.name))
   }</div>
+<div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planet_status[focus[1][0]].planet.name))}</div>
+<div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planet_status[focus[2][0]].planet.name))}</div>
+<div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planet_status[focus[3][0]].planet.name))}</div>
 </div>
 
 ## History
@@ -209,14 +222,6 @@ const v1 = x => x.players;
 const v2 = x => x.impact;
 const y2 = d3.scaleLinear(d3.extent(agg, v2), [0, d3.max(agg, v1)]);
 ```
-### Attacks
-
-<div id="attacks" class="grid grid-cols-4">
-<div class="card"></div>
-<div class="card"></div>
-<div class="card"></div>
-<div class="card"></div>
-</div>
 
 ### Player History
 
@@ -227,7 +232,7 @@ const y2 = d3.scaleLinear(d3.extent(agg, v2), [0, d3.max(agg, v1)]);
       x: {domain:[new Date(Date.now() - (60_000*60*24*7)), Date.now()]},
       y: {axis: "left", label: "Players"},
       marks: [
-        Plot.axisY(y2.ticks(), {color:"steelblue", anchor:"right", label: "Impact\nMultiplier", y: y2, tickFormat: y2.tickFormat()}),
+        Plot.axisY(y2.ticks(), {color:"steelblue", anchor:"right", label: "Impact Multiplier", y: y2, tickFormat: y2.tickFormat()}),
         Plot.ruleY([0]),
         Plot.lineY(agg, {x: "timestamp", y: "players", tip:"x", stroke: "red", strokeWidth: 4}),
         Plot.lineY(agg, Plot.mapY(D => D.map(y2), {x: "timestamp", y: "impact", stroke: "steelblue"}))
