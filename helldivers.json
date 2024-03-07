@@ -171,6 +171,27 @@
         ]
       },
       "type": 0
+    },
+    {
+      "count": 6,
+      "id": 50017,
+      "planet": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 44.48446,
+          "y": 16.18837
+        },
+        "sector": "21",
+        "waypoints": [
+          85
+        ]
+      },
+      "type": 0
     }
   ],
   "community_targets": [],
@@ -220,8 +241,29 @@
       "title_32": 2998873950
     }
   ],
-  "impact_multiplier": 0.0012136915,
-  "joint_operations": [],
+  "impact_multiplier": 0.0011834799,
+  "joint_operations": [
+    {
+      "hq_node_index": 1,
+      "id": 4311,
+      "planet": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 44.48446,
+          "y": 16.18837
+        },
+        "sector": "21",
+        "waypoints": [
+          85
+        ]
+      }
+    }
+  ],
   "planet_active_effects": [],
   "planet_attacks": [
     {
@@ -612,7 +654,76 @@
       }
     }
   ],
-  "planet_events": [],
+  "planet_events": [
+    {
+      "campaign": {
+        "count": 6,
+        "id": 50017,
+        "planet": {
+          "disabled": false,
+          "hash": 2003553249,
+          "index": 127,
+          "initial_owner": "Terminids",
+          "max_health": 1000000,
+          "name": "Angel's Venture",
+          "position": {
+            "x": 44.48446,
+            "y": 16.18837
+          },
+          "sector": "21",
+          "waypoints": [
+            85
+          ]
+        },
+        "type": 0
+      },
+      "event_type": 1,
+      "expire_time": "1970-01-31T05:30:30Z",
+      "health": 899997,
+      "id": 4311,
+      "joint_operations": [
+        {
+          "hq_node_index": 1,
+          "id": 4311,
+          "planet": {
+            "disabled": false,
+            "hash": 2003553249,
+            "index": 127,
+            "initial_owner": "Terminids",
+            "max_health": 1000000,
+            "name": "Angel's Venture",
+            "position": {
+              "x": 44.48446,
+              "y": 16.18837
+            },
+            "sector": "21",
+            "waypoints": [
+              85
+            ]
+          }
+        }
+      ],
+      "max_health": 900000,
+      "planet": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 44.48446,
+          "y": 16.18837
+        },
+        "sector": "21",
+        "waypoints": [
+          85
+        ]
+      },
+      "race": "Terminids",
+      "start_time": "1970-01-30T05:30:30Z"
+    }
+  ],
   "planet_status": [
     {
       "health": 1000000,
@@ -634,7 +745,7 @@
           1
         ]
       },
-      "players": 1820,
+      "players": 1888,
       "regen_per_second": 1388.8889
     },
     {
@@ -1415,7 +1526,7 @@
           211
         ]
       },
-      "players": 83,
+      "players": 82,
       "regen_per_second": 13.888888
     },
     {
@@ -2091,7 +2202,7 @@
           169
         ]
       },
-      "players": 26845,
+      "players": 25933,
       "regen_per_second": 13.888888
     },
     {
@@ -2384,7 +2495,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 28,
+      "players": 49,
       "regen_per_second": 1388.8889
     },
     {
@@ -2408,7 +2519,7 @@
           170
         ]
       },
-      "players": 85,
+      "players": 81,
       "regen_per_second": 13.888888
     },
     {
@@ -2433,7 +2544,7 @@
           168
         ]
       },
-      "players": 49,
+      "players": 51,
       "regen_per_second": 1388.8889
     },
     {
@@ -2457,7 +2568,7 @@
           127
         ]
       },
-      "players": 876,
+      "players": 929,
       "regen_per_second": 1388.8889
     },
     {
@@ -3070,7 +3181,7 @@
           155
         ]
       },
-      "players": 52,
+      "players": 60,
       "regen_per_second": 1388.8889
     },
     {
@@ -3455,8 +3566,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 339171,
-      "liberation": 66.0829,
+      "health": 341757,
+      "liberation": 65.8243,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3475,7 +3586,7 @@
           168
         ]
       },
-      "players": 75633,
+      "players": 73162,
       "regen_per_second": 13.888888
     },
     {
@@ -3498,7 +3609,7 @@
           127
         ]
       },
-      "players": 30512,
+      "players": 29604,
       "regen_per_second": 13.888888
     },
     {
@@ -3521,7 +3632,7 @@
           85
         ]
       },
-      "players": 899,
+      "players": 10662,
       "regen_per_second": 1388.8889
     },
     {
@@ -4083,12 +4194,12 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 3,
+      "players": 4,
       "regen_per_second": 20.833334
     },
     {
-      "health": 679292,
-      "liberation": 32.070800000000006,
+      "health": 691276,
+      "liberation": 30.8724,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4106,7 +4217,7 @@
           239
         ]
       },
-      "players": 6239,
+      "players": 6135,
       "regen_per_second": 20.833334
     },
     {
@@ -4130,7 +4241,7 @@
           155
         ]
       },
-      "players": 35,
+      "players": 28,
       "regen_per_second": 1388.8889
     },
     {
@@ -4153,7 +4264,7 @@
           197
         ]
       },
-      "players": 121,
+      "players": 111,
       "regen_per_second": 1388.8889
     },
     {
@@ -4451,7 +4562,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 21728,
+      "players": 21019,
       "regen_per_second": 13.888888
     },
     {
@@ -4474,7 +4585,7 @@
           170
         ]
       },
-      "players": 74,
+      "players": 73,
       "regen_per_second": 13.888888
     },
     {
@@ -5087,7 +5198,7 @@
           153
         ]
       },
-      "players": 3725,
+      "players": 3737,
       "regen_per_second": 20.833334
     },
     {
@@ -5112,7 +5223,7 @@
           196
         ]
       },
-      "players": 364,
+      "players": 391,
       "regen_per_second": 1388.8889
     },
     {
@@ -6029,12 +6140,12 @@
           241
         ]
       },
-      "players": 3,
+      "players": 1,
       "regen_per_second": 20.833334
     },
     {
-      "health": 428472,
-      "liberation": 57.1528,
+      "health": 434426,
+      "liberation": 56.5574,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -6052,7 +6163,7 @@
           151
         ]
       },
-      "players": 205548,
+      "players": 209402,
       "regen_per_second": 20.833334
     },
     {
@@ -6099,12 +6210,12 @@
           153
         ]
       },
-      "players": 6,
+      "players": 7,
       "regen_per_second": 20.833334
     },
     {
-      "health": 927435,
-      "liberation": 7.256500000000003,
+      "health": 939843,
+      "liberation": 6.015699999999995,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -6122,7 +6233,7 @@
           243
         ]
       },
-      "players": 1249,
+      "players": 1309,
       "regen_per_second": 20.833334
     },
     {
@@ -6143,7 +6254,7 @@
         "sector": "48",
         "waypoints": []
       },
-      "players": 253,
+      "players": 238,
       "regen_per_second": 20.833334
     },
     {
@@ -6530,6 +6641,6 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "1970-01-30T05:28:00Z",
+  "snapshot_at": "1970-01-30T05:38:00Z",
   "war_id": 801
 }
