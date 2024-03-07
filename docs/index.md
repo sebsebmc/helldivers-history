@@ -58,10 +58,13 @@ import {twoDayPlanetAttack} from "./components/planet_history.js";
 
 #map {
   position: absolute;
-  top: 1rem;
   pointer-events: none;
   object-fit:cover;
   width: calc(100% - 2rem)
+}
+
+#map img {
+  margin-top:1rem;
 }
 
 </style>
@@ -76,8 +79,9 @@ const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {val
   <h2>Welcome Helldiver!</h2>
 </div>
 
-<div class="warning">
+<div class="warning" label="Watch out, Helldiver">
 This page does not auto-update and the underlying data is collected every 10 minutes. You need to manually refresh for the latest version.
+Thanks for understanding as we try and minimize server impact.
 </div>
 
 ```js
@@ -154,7 +158,10 @@ ${
 
 <div class="grid grid-cols-4">
   <div id="map-container" class="card grid-colspan-2 grid-rowspan-2">
-    <img id="map" src="./data/sector_map.svg">
+    <div id="map">
+    <h2>&nbsp;</h2>
+    <img src="./data/sector_map.svg">
+    </div>
     <div>${resize((width) => Plot.plot({
         width: width,
         title: "The Galactic War",

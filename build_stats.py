@@ -128,20 +128,19 @@ def fetch_all_records():
     out.sort(key=lambda row: row.snapshot_at)
     return out
 
-TWO_DAYS = 6 * 24 * 2
+RECENCY = 6 * 24 
 
 def create_agg_stats():
     records = fetch_all_records()
     players = [0]*len(records)
     timestamps = []
     impact = []
-    active = [planet.target.index for planet in records[0].planet_attacks]
+    active = [planet.target.index for planet in records[len(records)-1].planet_attacks]
     active_sum = {p:0 for p in active}
     active_planet_hist = []
 
-    print(records[0].snapshot_at)
 
-    recent_start = len(records) - (TWO_DAYS + 24) # fudge it a bit to make sure we have 2 days worth of data
+    recent_start = len(records) - (RECENCY)
     for (step, record) in enumerate(records):
         active_step = {}
         for status in record.planet_status:
@@ -152,7 +151,7 @@ def create_agg_stats():
                     active_sum[status.planet.index] += status.players
         active_planet_hist.append(active_step)
 
-    most_active = sorted(active_sum.items(), key=lambda x: x[1], reverse=True)[:4]
+    most_active = sorted(active_sum.items(), key=lambda x: x[1], reverse=True)
 
     for step in records:
         timestamps.append(step.snapshot_at)
