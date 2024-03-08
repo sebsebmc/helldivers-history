@@ -152,27 +152,6 @@
       "type": 0
     },
     {
-      "count": 1,
-      "id": 50016,
-      "planet": {
-        "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
-        ]
-      },
-      "type": 0
-    },
-    {
       "count": 6,
       "id": 50017,
       "planet": {
@@ -197,26 +176,50 @@
   "community_targets": [],
   "global_events": [
     {
-      "assignment_id_32": 1945019145,
-      "effects": [],
-      "flag": 1,
-      "id": 1499084,
+      "assignment_id_32": 0,
+      "effects": [
+        "Unknown"
+      ],
+      "flag": 0,
+      "id": 1499086,
       "id_32": 0,
       "message": {
-        "es": "Los autómatas han tomado Tien Kwan, hogar del único arsenal Morgunson que produce exotrajes: nuevas y potentes armas cuyo despliegue en todas las flotas era inminente. Parece que los autómatas aún no han descubierto el arsenal, pero solo es cuestión de tiempo.\n\nDebemos recuperar Tien Kwan cuanto antes. Si fracasamos, los autómatas se harán con la tecnología de los exotrajes, y el despliegue de estas potentes armas se retrasará de manera significativa.",
-        "fr": "Les automatons ont pris le contrôle de Tien Kwan, planète sur laquelle se trouve la seule usine de production d'exosquelettes Morgunson, une nouvelle arme puissante destinée à un déploiement imminent au sein de notre flotte. Les automatons ne semblent pas avoir découvert l'arsenal pour l'instant, mais ce n'est qu'une question de temps.\n\nNous devons reprendre le contrôle de Tien Kwan dans les plus brefs délais. En cas d'échec, les automatons risquent de voler notre technologie, et le déploiement de cette arme puissante sera considérablement retardé.",
-        "de": "Die Roboter haben Tien Kwan eingenommen, die Heimat des einzigen Morgunson-Arsenals, das Exoanzüge herstellt – neue, mächtige Waffen, die für den unmittelbaren flottenweiten Einsatz vorgesehen waren. Die Roboter scheinen das Arsenal noch nicht entdeckt zu haben, aber dies ist nur eine Frage der Zeit.\n\nWir müssen Tien Kwan sofort zurückerobern. Wenn wir scheitern, werden die Roboter die Exoanzug-Technologie stehlen, was den Einsatz dieser mächtigen Waffen stark verzögern wird.",
-        "en": "The Automatons captured Tien Kwan, which was home to the sole Morgunson Arsenal producing Exosuits—new, powerful weaponry that was slated for imminent fleetwide deployment. The Automatons do not appear to have discovered the Arsenal yet, but it is only a matter of time.\n\nWe must retake Tien Kwan immediately. If we fail, the Automatons will steal the Exosuit technology for themselves, and deployment of this powerful weaponry will be severely delayed.",
-        "it": "Gli Automaton hanno catturato Tien Kwan, che ospitava l'unico impianto Morgunson per la produzione di esoscheletri, nuove e potenti armi destinate all'imminente impiego in tutta la flotta. Gli Automaton non sembrano aver ancora scoperto l'impianto, ma è solo questione di tempo.\n\nDobbiamo riprendere Tien Kwan immediatamente. Se falliamo, gli Automaton ruberanno la tecnologia degli esoscheletri e il dispiegamento di questo potente armamento sarà gravemente ritardato.",
-        "pl": "Automaty zdobyły Tien Kwan, na którym znajdowała się jedyna fabryka Morgunsona produkująca egzokombinezony – nową, potężną broń, która miała zostać wdrożona w całej flocie. Automaty najwyraźniej nie odkryły jeszcze arsenału, ale to tylko kwestia czasu.\n\nMusimy natychmiast odbić Tien Kwan. Jeśli nam się to nie uda, automaty przejmą technologię egzokombinezonów, a wdrożenie tej potężnej broni zostanie znacznie opóźnione.",
-        "ru": "Автоматоны захватили Тьен-Кван, где находился единственный арсенал «Пушкарева», производящий экзокостюмы — новое мощное вооружение, которое вот-вот должно было поступить во флот. Автоматоны еще не обнаружили арсенал, но это лишь вопрос времени.\n\nМы должны немедленно освободить Тьен-Кван. Если мы этого не сделаем, автоматоны украдут технологию производства экзокостюмов, тогда это мощное оружие попадет к бойцам куда позднее запланированного."
+        "es": "",
+        "fr": "",
+        "de": "",
+        "en": "",
+        "it": "",
+        "pl": "",
+        "ru": ""
       },
-      "message_id_32": 188518490,
+      "message_id_32": 0,
+      "planets": [],
+      "portrait_id_32": 0,
+      "race": "Unknown",
+      "title": "NEW MAJOR ORDER\nTien Kwan is home to the sole arsenal of new Exosuit technology. It is only a matter of time before the Automatons discover the arsenal and steal it for themselves. Liberate Tien Kwan, before its too late.",
+      "title_32": 1597678314
+    },
+    {
+      "assignment_id_32": 0,
+      "effects": [],
+      "flag": 2,
+      "id": 1499085,
+      "id_32": 0,
+      "message": {
+        "es": "Bien hecho, Helldivers. Tien Kwan vuelve a estar al cuidado de la democracia gestionada. El Arsenal Morgunson, junto con las reservas de exotrajes recién fabricados, se encontraban intactos.\n\nYa se puede solicitar el EXOTRAJE DE PATRIOTA EXO-45.",
+        "fr": "Bien joué, Helldivers. Tien Kwan bénéficie à nouveau de la démocratie contrôlée. L'arsenal Morgunson et sa réserve d'exosquelettes fraîchement sortie de l'usine sont intacts.\n\nL'exosquelette EXO-45 PATRIOTE peut désormais être réquisitionné.",
+        "de": "Gut gemacht, Helldivers. Tien Kwan ist wieder in der Obhut der gelenkten Demokratie. Das Morgunson-Arsenal und sein Vorrat an frisch produzierten Exoanzügen wurden unversehrt geborgen.\n\nDer EXO-45-PATRIOT-EXOANZUG kann jetzt angefordert werden.",
+        "en": "Well done, Helldivers. Tien Kwan has been returned to the care of Managed Democracy. The Morgunson Arsenal, and its stockpile of freshly-produced Exosuits, were recovered intact.\n\nThe EXO-45 PATRIOT EXOSUIT is now available for requisition.",
+        "it": "Bel lavoro, Helldiver. Tien Kwan è stato restituito alle cure della democrazia controllata. L'impianto Morgunson e la sua scorta di esoscheletri freschi di fabbrica sono stati recuperati.\n\nL'EXO-45 PATRIOTA è ora disponibile per la requisizione.",
+        "pl": "Dobra robota, helldiversi. Tien Kwan wrócił pod skrzydła zarządzanej demokracji. Fabryka Morgunsona i magazyn świeżo wyprodukowanych egzkombinezonów pozostają nienaruszone.\n\nEGZOKOMBINEZON PATRIOTA EXO-45 jest już dostępny w zapotrzebowaniu.",
+        "ru": "Отличная работа, Адские Десантники. Тьен-Кван вернулся под крыло управляемой демократии. Арсенал «Пушкарева» и запасы произведенных экзокостюмов спасены.\n\nЭКЗОКОСТЮМ EXO-45 «ПАТРИОТ» стал доступен для реквизиции."
+      },
+      "message_id_32": 3830035534,
       "planets": [],
       "portrait_id_32": 0,
       "race": "Humans",
-      "title": "BRIEFING",
-      "title_32": 2908633975
+      "title": "SUCCESS",
+      "title_32": 2998873950
     },
     {
       "assignment_id_32": 0,
@@ -241,7 +244,7 @@
       "title_32": 2998873950
     }
   ],
-  "impact_multiplier": 0.0013045778,
+  "impact_multiplier": 0.0012795933,
   "joint_operations": [
     {
       "hq_node_index": 1,
@@ -269,70 +272,6 @@
     {
       "source": {
         "disabled": false,
-        "hash": 1043181,
-        "index": 151,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Castor",
-        "position": {
-          "x": -56.242514,
-          "y": -11.354032
-        },
-        "sector": "16",
-        "waypoints": []
-      },
-      "target": {
-        "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 1043181,
-        "index": 151,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Castor",
-        "position": {
-          "x": -56.242514,
-          "y": -11.354032
-        },
-        "sector": "16",
-        "waypoints": []
-      },
-      "target": {
-        "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
         "hash": 2564387350,
         "index": 158,
         "initial_owner": "Humans",
@@ -895,6 +834,40 @@
           126,
           127,
           169
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2659689769,
+        "index": 239,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Tien Kwan",
+        "position": {
+          "x": -62.68659,
+          "y": -12.653387
+        },
+        "sector": "46",
+        "waypoints": [
+          151
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -74.5425,
+          "y": -13.14594
+        },
+        "sector": "31",
+        "waypoints": [
+          239
         ]
       }
     }
@@ -924,7 +897,7 @@
       },
       "event_type": 1,
       "expire_time": "1970-01-31T05:30:30Z",
-      "health": 317993,
+      "health": 312947,
       "id": 4311,
       "joint_operations": [
         {
@@ -990,7 +963,7 @@
           1
         ]
       },
-      "players": 1227,
+      "players": 1232,
       "regen_per_second": 1388.8889
     },
     {
@@ -2447,7 +2420,7 @@
           169
         ]
       },
-      "players": 8832,
+      "players": 8851,
       "regen_per_second": 4.1666665
     },
     {
@@ -2740,7 +2713,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 22,
+      "players": 34,
       "regen_per_second": 1388.8889
     },
     {
@@ -2764,7 +2737,7 @@
           170
         ]
       },
-      "players": 76,
+      "players": 75,
       "regen_per_second": 4.1666665
     },
     {
@@ -2789,7 +2762,7 @@
           168
         ]
       },
-      "players": 18,
+      "players": 11,
       "regen_per_second": 1388.8889
     },
     {
@@ -2813,7 +2786,7 @@
           127
         ]
       },
-      "players": 268,
+      "players": 269,
       "regen_per_second": 1388.8889
     },
     {
@@ -3426,7 +3399,7 @@
           155
         ]
       },
-      "players": 26,
+      "players": 25,
       "regen_per_second": 1388.8889
     },
     {
@@ -3811,8 +3784,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 836983,
-      "liberation": 16.301699999999997,
+      "health": 837813,
+      "liberation": 16.2187,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3831,7 +3804,7 @@
           168
         ]
       },
-      "players": 18878,
+      "players": 18681,
       "regen_per_second": 4.1666665
     },
     {
@@ -3854,7 +3827,7 @@
           127
         ]
       },
-      "players": 11118,
+      "players": 11042,
       "regen_per_second": 4.1666665
     },
     {
@@ -3877,7 +3850,7 @@
           85
         ]
       },
-      "players": 69157,
+      "players": 70022,
       "regen_per_second": 1388.8889
     },
     {
@@ -4439,7 +4412,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 4,
+      "players": 5,
       "regen_per_second": 18.055555
     },
     {
@@ -4462,7 +4435,7 @@
           239
         ]
       },
-      "players": 2607,
+      "players": 3467,
       "regen_per_second": 18.055555
     },
     {
@@ -4486,7 +4459,7 @@
           155
         ]
       },
-      "players": 9,
+      "players": 14,
       "regen_per_second": 1388.8889
     },
     {
@@ -4509,7 +4482,7 @@
           197
         ]
       },
-      "players": 62,
+      "players": 69,
       "regen_per_second": 1388.8889
     },
     {
@@ -4807,7 +4780,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 7960,
+      "players": 7996,
       "regen_per_second": 4.1666665
     },
     {
@@ -4830,7 +4803,7 @@
           170
         ]
       },
-      "players": 52,
+      "players": 44,
       "regen_per_second": 4.1666665
     },
     {
@@ -5443,7 +5416,7 @@
           153
         ]
       },
-      "players": 1739,
+      "players": 1914,
       "regen_per_second": 18.055555
     },
     {
@@ -5468,7 +5441,7 @@
           196
         ]
       },
-      "players": 148,
+      "players": 162,
       "regen_per_second": 1388.8889
     },
     {
@@ -6385,13 +6358,13 @@
           241
         ]
       },
-      "players": 3,
+      "players": 0,
       "regen_per_second": 18.055555
     },
     {
-      "health": 4015,
-      "liberation": 99.5985,
-      "owner": "Automaton",
+      "health": 777760,
+      "liberation": 77.776,
+      "owner": "Humans",
       "planet": {
         "disabled": false,
         "hash": 2659689769,
@@ -6408,8 +6381,8 @@
           151
         ]
       },
-      "players": 179951,
-      "regen_per_second": 18.055555
+      "players": 177052,
+      "regen_per_second": 1388.8889
     },
     {
       "health": 1000000,
@@ -6431,7 +6404,7 @@
           243
         ]
       },
-      "players": 3,
+      "players": 4,
       "regen_per_second": 18.055555
     },
     {
@@ -6455,7 +6428,7 @@
           153
         ]
       },
-      "players": 2,
+      "players": 6,
       "regen_per_second": 18.055555
     },
     {
@@ -6478,7 +6451,7 @@
           243
         ]
       },
-      "players": 634,
+      "players": 719,
       "regen_per_second": 18.055555
     },
     {
@@ -6499,7 +6472,7 @@
         "sector": "48",
         "waypoints": []
       },
-      "players": 77,
+      "players": 83,
       "regen_per_second": 18.055555
     },
     {
@@ -6886,6 +6859,6 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "1970-01-31T01:35:40Z",
+  "snapshot_at": "1970-01-31T01:45:20Z",
   "war_id": 801
 }
