@@ -222,13 +222,81 @@
       "title_32": 2998873950
     }
   ],
-  "impact_multiplier": 0.0021522664,
+  "impact_multiplier": 0.001995175,
   "joint_operations": [],
   "planet_active_effects": [],
   "planet_attacks": [
     {
       "source": {
         "disabled": false,
+        "hash": 912379297,
+        "index": 85,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Moradesh",
+        "position": {
+          "x": 33.707795,
+          "y": 15.48962
+        },
+        "sector": "24",
+        "waypoints": [
+          77
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 44.48446,
+          "y": 16.18837
+        },
+        "sector": "21",
+        "waypoints": [
+          85
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 912379297,
+        "index": 85,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Moradesh",
+        "position": {
+          "x": 33.707795,
+          "y": 15.48962
+        },
+        "sector": "24",
+        "waypoints": [
+          77
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2003553249,
+        "index": 127,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Angel's Venture",
+        "position": {
+          "x": 44.48446,
+          "y": 16.18837
+        },
+        "sector": "21",
+        "waypoints": [
+          85
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
         "hash": 2564387350,
         "index": 158,
         "initial_owner": "Humans",
@@ -633,40 +701,6 @@
           107,
           153,
           196
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Draupnir",
-        "position": {
-          "x": -74.5425,
-          "y": -13.14594
-        },
-        "sector": "31",
-        "waypoints": [
-          239
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
         ]
       },
       "target": {
@@ -724,18 +758,19 @@
     {
       "source": {
         "disabled": false,
-        "hash": 912379297,
-        "index": 85,
+        "hash": 3659340575,
+        "index": 80,
         "initial_owner": "Humans",
         "max_health": 1000000,
-        "name": "Moradesh",
+        "name": "Veld",
         "position": {
-          "x": 33.707795,
-          "y": 15.48962
+          "x": 43.926024,
+          "y": 7.31322
         },
-        "sector": "24",
+        "sector": "22",
         "waypoints": [
-          77
+          85,
+          127
         ]
       },
       "target": {
@@ -752,6 +787,74 @@
         "sector": "21",
         "waypoints": [
           85
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2659689769,
+        "index": 239,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Tien Kwan",
+        "position": {
+          "x": -62.68659,
+          "y": -12.653387
+        },
+        "sector": "46",
+        "waypoints": [
+          151
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -74.5425,
+          "y": -13.14594
+        },
+        "sector": "31",
+        "waypoints": [
+          239
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2659689769,
+        "index": 239,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Tien Kwan",
+        "position": {
+          "x": -62.68659,
+          "y": -12.653387
+        },
+        "sector": "46",
+        "waypoints": [
+          151
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -74.5425,
+          "y": -13.14594
+        },
+        "sector": "31",
+        "waypoints": [
+          239
         ]
       }
     }
@@ -778,7 +881,7 @@
           1
         ]
       },
-      "players": 2249,
+      "players": 1327,
       "regen_per_second": 1388.8889
     },
     {
@@ -1559,7 +1662,7 @@
           211
         ]
       },
-      "players": 89,
+      "players": 46,
       "regen_per_second": 4.1666665
     },
     {
@@ -2235,7 +2338,7 @@
           169
         ]
       },
-      "players": 16162,
+      "players": 10599,
       "regen_per_second": 4.1666665
     },
     {
@@ -2528,7 +2631,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 37,
+      "players": 21,
       "regen_per_second": 1388.8889
     },
     {
@@ -2552,7 +2655,7 @@
           170
         ]
       },
-      "players": 74,
+      "players": 27,
       "regen_per_second": 4.1666665
     },
     {
@@ -2577,7 +2680,7 @@
           168
         ]
       },
-      "players": 46,
+      "players": 30,
       "regen_per_second": 1388.8889
     },
     {
@@ -2601,7 +2704,7 @@
           127
         ]
       },
-      "players": 469,
+      "players": 250,
       "regen_per_second": 1388.8889
     },
     {
@@ -3214,7 +3317,7 @@
           155
         ]
       },
-      "players": 47,
+      "players": 24,
       "regen_per_second": 1388.8889
     },
     {
@@ -3599,8 +3702,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 888173,
-      "liberation": 11.182699999999997,
+      "health": 889977,
+      "liberation": 11.002299999999991,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3619,7 +3722,7 @@
           168
         ]
       },
-      "players": 32191,
+      "players": 20424,
       "regen_per_second": 4.1666665
     },
     {
@@ -3642,12 +3745,12 @@
           127
         ]
       },
-      "players": 18232,
+      "players": 11787,
       "regen_per_second": 4.1666665
     },
     {
-      "health": 502746,
-      "liberation": 49.7254,
+      "health": 504550,
+      "liberation": 49.544999999999995,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3665,7 +3768,7 @@
           85
         ]
       },
-      "players": 212581,
+      "players": 138440,
       "regen_per_second": 4.1666665
     },
     {
@@ -4227,7 +4330,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 5,
+      "players": 0,
       "regen_per_second": 4.1666665
     },
     {
@@ -4250,7 +4353,7 @@
           239
         ]
       },
-      "players": 42605,
+      "players": 28793,
       "regen_per_second": 4.1666665
     },
     {
@@ -4274,7 +4377,7 @@
           155
         ]
       },
-      "players": 19,
+      "players": 8,
       "regen_per_second": 1388.8889
     },
     {
@@ -4297,7 +4400,7 @@
           197
         ]
       },
-      "players": 98,
+      "players": 56,
       "regen_per_second": 1388.8889
     },
     {
@@ -4595,7 +4698,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 13402,
+      "players": 8888,
       "regen_per_second": 4.1666665
     },
     {
@@ -4618,7 +4721,7 @@
           170
         ]
       },
-      "players": 69,
+      "players": 47,
       "regen_per_second": 4.1666665
     },
     {
@@ -5231,7 +5334,7 @@
           153
         ]
       },
-      "players": 13399,
+      "players": 8996,
       "regen_per_second": 4.1666665
     },
     {
@@ -5256,7 +5359,7 @@
           196
         ]
       },
-      "players": 286,
+      "players": 138,
       "regen_per_second": 1388.8889
     },
     {
@@ -6196,7 +6299,7 @@
           151
         ]
       },
-      "players": 8803,
+      "players": 4625,
       "regen_per_second": 1388.8889
     },
     {
@@ -6243,7 +6346,7 @@
           153
         ]
       },
-      "players": 8,
+      "players": 3,
       "regen_per_second": 4.1666665
     },
     {
@@ -6266,7 +6369,7 @@
           243
         ]
       },
-      "players": 5232,
+      "players": 3590,
       "regen_per_second": 4.1666665
     },
     {
@@ -6287,7 +6390,7 @@
         "sector": "48",
         "waypoints": []
       },
-      "players": 170,
+      "players": 64,
       "regen_per_second": 4.1666665
     },
     {
@@ -6674,6 +6777,6 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "1970-01-31T05:41:50Z",
+  "snapshot_at": "1970-01-31T05:49:10Z",
   "war_id": 801
 }
