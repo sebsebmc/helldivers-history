@@ -79,9 +79,15 @@ const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {val
   <h2>Welcome Helldiver!</h2>
 </div>
 
+```js
+const loadedAt = Date.now();
+setTimeout(document.location.reload, 10*60*1000);
+```
+
 <div class="warning" label="Watch out, Helldiver">
-This page does not auto-update and the underlying data is collected every 10 minutes. You need to manually refresh for the latest version.
-Thanks for understanding as we try and minimize server impact.
+This page will automatically refresh every 10 minutes, the data is collected approximately every 10 minutes.
+<br>
+This page was last refreshed ${((now - loadedAt)/(60*1000)).toFixed()}m ${((now - loadedAt)/1000).toFixed()%60}s ago.
 </div>
 
 ```js
@@ -267,4 +273,3 @@ const filterLastWeek = x => (new Date(x.timestamp) > weekAgo);
     }))
   }</div>
 </div>
-
