@@ -140,9 +140,27 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
 ```
 
 ```js
-const active = status.campaigns.map(p => p.planet.index)
+const active = status.campaigns.map(p => p.planet.index);
 active.push(0);
+// I dont think this is confirmed? We won't know until other event types show up
+// const defenses = status.planet_events.filter(e => e.event_type == 1);
+// const UTC_EPOCH = new Date("1970-01-01T00:00:00Z");
+// const GAME_EPOCH = new Date("2024-02-07T14:06:00Z");
+// const timeSinceGameEpoch = now - GAME_EPOCH;
 ```
+
+<!-- <div>
+<p>
+${defenses[0].planet.name} is under attack. Defense progress: ${1.0 - defenses[0].health/defenses[0].max_health}.
+</p>
+<p>
+${(timeSinceGameEpoch -new Date(defenses[0].start_time).getTime()) / 1000} / ${(new Date(defenses[0].expire_time) - new Date(defenses[0].start_time))/1000} <br>
+Time percentage: ${(timeSinceGameEpoch - new Date(defenses[0].start_time).getTime()) / (new Date(defenses[0].expire_time) - new Date(defenses[0].start_time))}
+</p>
+<p>
+A timed event ends at ${new Date(new Date(new Date(defenses[0].expire_time)-UTC_EPOCH).getTime()+GAME_EPOCH.getTime())}
+</p>
+</div> -->
 
 <div class="card">
 ${
@@ -176,7 +194,7 @@ ${
             stroke: p => getColor(p.planet.initial_owner),
             fill: p => getColor(p.owner), 
             strokeWidth: width/220,
-            opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.6),
+            opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.25),
           }),
           Plot.arrow(status.planet_attacks, {
             x1: p => p.source.position.x,

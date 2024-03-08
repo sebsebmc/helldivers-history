@@ -9,14 +9,14 @@ import datetime
 import subprocess
 import os
 
-from pydantic import RootModel, TypeAdapter, ValidationError
+from pydantic import RootModel, TypeAdapter, ValidationError, computed_field
 from pydantic.dataclasses import dataclass
 
 PLANET_INDEXES = range(261)
 
 CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
-CACHE_VERSION = 0
+CACHE_VERSION = 1
 
 # TODO: Use the hash to memoize Planets, if the Hash does change we can track the histories then
 @dataclass
@@ -40,6 +40,7 @@ class PlanetStatus:
     players: int
     regen_per_second: float
     _liberation: Optional[float] = None
+
     @property
     def liberation(self) -> float:
         if self._liberation is not None and self._liberation >= 0:
@@ -68,11 +69,31 @@ class Attacks:
     target: PlanetRecord
 
 @dataclass
+class PlanetEvent:
+    campaign: Campaign
+    event_type: int
+    start_time: str
+    expire_time: str
+    health: int
+    max_health: int
+    id: int
+    joint_operations: List[Dict]
+    planet: PlanetRecord
+    race: str
+
+    @computed_field
+    @property
+    def liberation(self) -> float:
+        return (1.0 - (self.health / self.max_health)) * 100
+
+
+@dataclass
 class FullStatus:
     campaigns: List[Campaign]
     impact_multiplier: float
     planet_attacks: List[Attacks]
     planet_status: List[PlanetStatus]
+    planet_events: List[PlanetEvent]
     # We'll just override this with the commit timestamp
     snapshot_at: str
     war_id: int
@@ -110,6 +131,7 @@ def fetch_all_records():
         try:
             record = TypeAdapter(FullStatus).validate_json(git_show(ref, 'helldivers.json', repo))
         except ValidationError as exc:
+            print(f"Bad committed data {exc.errors()[0]}")
             continue
         timestamp = repo.commit(ref).committed_datetime.isoformat()
         record.snapshot_at = timestamp
@@ -135,7 +157,7 @@ def create_agg_stats():
     players = [0]*len(records)
     timestamps = []
     impact = []
-    active = [planet.target.index for planet in records[len(records)-1].planet_attacks]
+    active = set([planet.planet.index for planet in records[len(records)-1].campaigns]) | set([attack.target.index for attack in records[len(records)-1].planet_attacks])
     active_sum = {p:0 for p in active}
     active_planet_hist = []
 
@@ -149,6 +171,9 @@ def create_agg_stats():
                 active_step[status.planet.index] = {'players': status.players, 'liberation': status.liberation}
                 if step > recent_start:
                     active_sum[status.planet.index] += status.players
+        for event in record.planet_events:
+            planet = record.planet_status[event.planet.index]
+            active_step[event.planet.index] = {'players': planet.players, 'liberation': event.liberation}
         active_planet_hist.append(active_step)
 
     most_active = sorted(active_sum.items(), key=lambda x: x[1], reverse=True)
@@ -180,3 +205,6 @@ create_agg_stats()
 
 # Campaigns seems to list currently active planets players can choose from
 # Plotting recent attacks based solely on player count is a bit boring sometimes. Maybe we should use variance of liberation?
+
+# Defense: have a fixed duration, the attacking race has a linear progression (the timer) while players need to hit 100% defense before the timer expires
+# Annoyingly the liberation works in weird way where you have a different health and max health, and players need to drop the planet's health to 0
