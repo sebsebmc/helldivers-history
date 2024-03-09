@@ -208,3 +208,5 @@ create_agg_stats()
 
 # Defense: have a fixed duration, the attacking race has a linear progression (the timer) while players need to hit 100% defense before the timer expires
 # Annoyingly the liberation works in weird way where you have a different health and max health, and players need to drop the planet's health to 0
+
+# intial_owner's do change, such as when we lost the defense of Angel's Venture. We should keep track of these and add them to the message logs

@@ -148,25 +148,7 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
 ```js
 const active = status.campaigns.map(p => p.planet.index);
 active.push(0);
-// I dont think this is confirmed? We won't know until other event types show up
-// const defenses = status.planet_events.filter(e => e.event_type == 1);
-// const UTC_EPOCH = new Date("1970-01-01T00:00:00Z");
-// const GAME_EPOCH = new Date("2024-02-07T14:06:00Z");
-// const timeSinceGameEpoch = now - GAME_EPOCH;
 ```
-
-<!-- <div>
-<p>
-${defenses[0].planet.name} is under attack. Defense progress: ${1.0 - defenses[0].health/defenses[0].max_health}.
-</p>
-<p>
-${(timeSinceGameEpoch -new Date(defenses[0].start_time).getTime()) / 1000} / ${(new Date(defenses[0].expire_time) - new Date(defenses[0].start_time))/1000} <br>
-Time percentage: ${(timeSinceGameEpoch - new Date(defenses[0].start_time).getTime()) / (new Date(defenses[0].expire_time) - new Date(defenses[0].start_time))}
-</p>
-<p>
-A timed event ends at ${new Date(new Date(new Date(defenses[0].expire_time)-UTC_EPOCH).getTime()+GAME_EPOCH.getTime())}
-</p>
-</div> -->
 
 <div class="card">
 ${
@@ -179,6 +161,11 @@ ${
   )
 }
 </div>
+
+```js
+const showWaypoints = view(Inputs.toggle({label:"Show routes", value:false}))
+const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => ({from:x.planet.position, to:status.planet_status[y].planet.position})));
+```
 
 <div class="grid grid-cols-4">
   <div id="map-container" class="card grid-colspan-2 grid-rowspan-2">
@@ -202,15 +189,23 @@ ${
             strokeWidth: width/220,
             opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.25),
           }),
-          Plot.arrow(status.planet_attacks, {
+          showWaypoints ? null : Plot.arrow(status.planet_attacks, {
             x1: p => p.source.position.x,
             y1: p => p.source.position.y,
             x2: p => p.target.position.x,
             y2: p => p.target.position.y,
             bend: true,
-            inset: width/220,
+            inset: width/110,
             strokeWidth: width/440,
           }),
+          showWaypoints ? Plot.arrow(waypoints, {
+            x1: p => p.from.x,
+            y1: p => p.from.y,
+            x2: p => p.to.x,
+            y2: p => p.to.y,
+            inset: width/110,
+            strokeWidth: width/880,
+          }) : null,
           Plot.rect(status.planet_attacks, {
             x1: p => p.target.position.x-(width/440),
             y1: p => p.target.position.y-(width/220),
