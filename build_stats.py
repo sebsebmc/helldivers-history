@@ -131,8 +131,10 @@ def fetch_all_records():
         try:
             record = TypeAdapter(FullStatus).validate_json(git_show(ref, 'helldivers.json', repo))
         except ValidationError as exc:
+            res = json.loads(git_show(ref, 'helldivers.json', repo))
+            if 'error' in res.keys() or 'errors' in res.keys():
+                continue
             print(f"Bad committed data {exc.errors()[0]}")
-            continue
         timestamp = repo.commit(ref).committed_datetime.isoformat()
         record.snapshot_at = timestamp
         record.version = CACHE_VERSION
