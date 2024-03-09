@@ -17,7 +17,9 @@ export default {
   //     ]
   //   }
   // ],
-  head: `<meta property="og:title" content="Helldivers Dashboard"><meta property="og:description" content="View the current status and history of the Helldivers 2 Galactic War" /> 
+  head: `<meta property="og:title" content="Helldivers Dashboard">
+   <meta name="og:site_name" content="Helldivers Dashboard">
+   <meta property="og:description" content="View the current status and history of the Helldivers 2 Galactic War" /> 
    <meta name="description" content="View the current status and history of the Helldivers 2 Galactic War"/>
    <meta name="dc.description" content="View the current status and history of the Helldivers 2 Galactic War"/>
    <link rel="icon" href="${imageData}">`,
