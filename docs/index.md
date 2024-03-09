@@ -81,7 +81,7 @@ const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {val
 
 ```js
 const loadedAt = Date.now();
-setTimeout(document.location.reload, 10*60*1000);
+setTimeout(() => document.location.reload(), 10*60*1000);
 ```
 
 <div class="warning" label="Watch out, Helldiver">
