@@ -71,12 +71,15 @@ import {twoDayPlanetAttack} from "./components/planet_history.js";
 
 
 ```js
-const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}))
+const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}));
+const UTC_EPOCH = new Date("1970-01-01T00:00:00Z");
+const GAME_EPOCH = new Date("2024-02-07T14:06:00Z");
+const timeSinceGameEpoch = now - GAME_EPOCH;
 ```
 
 <div class="hero">
   <h1>Helldivers Dashboard </h1>
-  <h2>Welcome Helldiver!</h2>
+  <h2>Welcome Helldiver! It is Day ${(timeSinceGameEpoch / (1000 * 60 * 60 * 24)).toFixed()} of The Second Galactic War.</h2>
 </div>
 
 ```js
