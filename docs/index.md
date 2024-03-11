@@ -95,7 +95,7 @@ setTimeout(() => document.location.reload(), 10*60*1000);
 ```
 
 <div class="warning" label="Watch out, Helldiver">
-This page will automatically refresh every 10 minutes, the data is collected approximately every 10 minutes.
+This page will automatically refresh every 10 minutes, the data is collected approximately every 10 minutes. This helps keep keep servers up and makes this website 100% ad and tracker free.
 <br>
 This page was last refreshed ${((now - loadedAt)/(60*1000)).toFixed()}m ${((now - loadedAt)/1000).toFixed()%60}s ago.
 </div>

@@ -39,7 +39,7 @@ function calculateTrend(agg, planetIdx, planetStatus) {
         let timeDiff = time(agg[i]) - lastTime;
         lastTime = time(agg[i]);
         let libDiff = liberation(agg[i]) - lastLib;
-        lastLib = liberation(agg[i])
+        lastLib = liberation(agg[i]);
         diffs += libDiff/timeDiff; // delta Liberation / delta milliseconds
     }
     return (diffs/4)*1000 * secondsPerHour;
