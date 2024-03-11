@@ -74,6 +74,13 @@ import {twoDayPlanetAttack} from "./components/planet_history.js";
 const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}));
 const UTC_EPOCH = new Date("1970-01-01T00:00:00Z");
 const GAME_EPOCH = new Date("2024-02-07T14:06:00Z");
+const status = FileAttachment('./data/helldivers.json').json();
+const agg = FileAttachment('./data/aggregates.json').json();
+const focus = FileAttachment('./data/recent_attacks.json').json();
+const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
+```
+
+```js
 const timeSinceGameEpoch = now - GAME_EPOCH;
 ```
 
@@ -94,9 +101,6 @@ This page was last refreshed ${((now - loadedAt)/(60*1000)).toFixed()}m ${((now 
 </div>
 
 ```js
-const status = FileAttachment('./data/helldivers.json').json();
-const agg = FileAttachment('./data/aggregates.json').json();
-const focus = FileAttachment('./data/recent_attacks.json').json();
 function getColor(owner) {
   switch(owner){
     case 'Terminids':
@@ -130,12 +134,12 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
       ]
     });
     let arrowMarks = [
-      Plot.arrow(['Attack'],{ 
-      x1:73, 
-      x2:78,
-      y1:88,
-      y2:88,
-      bend: true,
+      Plot.image(['Attack'],{ 
+        frameAnchor: frameAnchor,
+        r: r*1.5,
+        dx: -6*16 - r,
+        dy: 9*r-2,
+        src: legendArrowURL,
     }), Plot.text(['Attack'],{
       frameAnchor,
       text: ['Attack'],
@@ -170,7 +174,7 @@ const showWaypoints = view(Inputs.toggle({label:"Show routes", value:false}))
 const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => ({from:x.planet.position, to:status.planet_status[y].planet.position})));
 ```
 
-<div class="grid grid-cols-4">
+<div class="grid grid-cols-4" style="grid-auto-rows: auto;">
   <div id="map-container" class="card grid-colspan-2 grid-rowspan-2">
     <div id="map">
     <h2>&nbsp;</h2>
@@ -236,12 +240,12 @@ const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => 
       }))
     }</div>
   </div>
-  <div class="card grid-colspan-2" style="padding:1rem;">${resize((width) => 
-    twoDayPlanetAttack(width, agg, focus[0][0], status.planet_status[focus[0][0]].planet.name))
-  }</div>
-<div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planet_status[focus[1][0]].planet.name))}</div>
-<div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planet_status[focus[2][0]].planet.name))}</div>
-<div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planet_status[focus[3][0]].planet.name))}</div>
+  <div class="card grid-colspan-2" style="padding:1rem;">
+  ${resize((width) => twoDayPlanetAttack(width, agg, focus[0][0], status.planet_status[focus[0][0]]))}
+  </div>
+  <div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planet_status[focus[1][0]]))}</div>
+  <div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planet_status[focus[2][0]]))}</div>
+  <div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planet_status[focus[3][0]]))}</div>
 </div>
 
 ## History
