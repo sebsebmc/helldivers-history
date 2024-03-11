@@ -30,24 +30,25 @@ function getRegen(planetStatus) {
 }
 
 function calculateTrend(agg, planetIdx, planetStatus) {
+    const SMOOTHING = 3;
     const liberation = x => x.attacks[planetIdx].liberation;
     const time = x => new Date(x.timestamp);
     let diffs = 0;
-    let lastTime = new Date(agg[agg.length-5].timestamp);
-    let lastLib = liberation(agg[agg.length-5]);
-    for(let i=agg.length-4; i < agg.length; i++){
+    let lastTime = new Date(agg[agg.length-SMOOTHING].timestamp);
+    let lastLib = liberation(agg[agg.length-SMOOTHING]);
+    for(let i=agg.length-(SMOOTHING-1); i < agg.length; i++){
         let timeDiff = time(agg[i]) - lastTime;
         lastTime = time(agg[i]);
         let libDiff = liberation(agg[i]) - lastLib;
         lastLib = liberation(agg[i]);
         diffs += libDiff/timeDiff; // delta Liberation / delta milliseconds
     }
-    return (diffs/4)*1000 * secondsPerHour;
+    return (diffs/(SMOOTHING-1))*1000 * secondsPerHour;
 }
 
 function getResult(trend, planetStatus) {
     //TODO: this needs to be reworked for timed events like defenses
-    if(Math.abs(trend) < 1e-5) {
+    if(Math.abs(trend) < 1e-3) {
         return "NO CHANGE";
     }
     let dividend = -planetStatus.liberation;
