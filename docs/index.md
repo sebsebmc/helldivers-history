@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {twoDayPlanetAttack} from "./components/planet_history.js";
+import {twoDayPlanetAttack, planetTableRows} from "./components/planet_history.js";
 ```
 
 <style>
@@ -65,6 +65,21 @@ import {twoDayPlanetAttack} from "./components/planet_history.js";
 
 #map img {
   margin-top:1rem;
+}
+
+.center table{
+  width: 100%;
+  margin-inline: auto;
+}
+
+.center td {
+  padding: inherit auto;
+  text-align: center;
+}
+
+.center th {
+  padding: inherit auto;
+  text-align: center;
 }
 
 </style>
@@ -156,17 +171,23 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
 const active = status.campaigns.map(p => p.planet.index);
 active.push(0);
 ```
-
-<div class="card">
-${
-  Inputs.table(status.global_events, {
-    header: {title: "Title", message: "Message"}, 
-    columns:['title', 'message'],
-    format: { message: x => htl.html`<span style="white-space:normal">${x[lang]}`},
-    layout: 'auto',
-    }
-  )
-}
+<div class="grid grid-cols-2">
+  <div class="card">
+    <div>
+    ${
+      Inputs.table(status.global_events, {
+        header: {title: "Title", message: "Message"}, 
+        columns:['title', 'message'],
+        format: { message: x => htl.html`<span style="white-space:normal">${x[lang]}`},
+        layout: 'auto',
+        }
+      )
+    }</div>
+  </div>
+  <div class="center card">
+    ${display(planetTableRows(agg, focus, status))}
+    </div>
+  </div>
 </div>
 
 ```js
