@@ -240,12 +240,12 @@ const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => 
       }))
     }</div>
   </div>
-  <div class="card grid-colspan-2" style="padding:1rem;">
+  <div class="card grid-colspan-1" style="padding:1rem;">
   ${resize((width) => twoDayPlanetAttack(width, agg, focus[0][0], status.planet_status[focus[0][0]]))}
   </div>
-  <div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planet_status[focus[1][0]]))}</div>
-  <div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planet_status[focus[2][0]]))}</div>
-  <div class="card grid-colspan-2">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planet_status[focus[3][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planet_status[focus[1][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planet_status[focus[2][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planet_status[focus[3][0]]))}</div>
 </div>
 
 ## History

@@ -8,15 +8,15 @@ export default {
   // The pages and sections in the sidebar. If you don’t specify this option,
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
-  // pages: [
-  //   {
-  //     name: "Examples",
-  //     pages: [
-  //       {name: "Dashboard", path: "/example-dashboard"},
-  //       {name: "Report", path: "/example-report"}
-  //     ]
-  //   }
-  // ],
+  pages: [
+    {
+      name: "Pages",
+      pages: [
+        {name: "Dashboard", path: "/index"},
+        {name: "FAQ", path: "/faq"}
+      ]
+    }
+  ],
   head: `<meta property="og:title" content="Helldivers Dashboard">
    <meta name="og:site_name" content="Helldivers Dashboard">
    <meta property="og:description" content="View the current status and history of the Helldivers 2 Galactic War" /> 

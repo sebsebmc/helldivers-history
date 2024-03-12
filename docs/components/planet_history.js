@@ -67,5 +67,5 @@ function formatHoursMinutes(minutes) {
 
 function getSubtitle(agg, planetIdx, planetStatus) {
     let current = calculateTrend(agg, planetIdx, planetStatus);
-    return `Current regen: ${getRegen(planetStatus)}%/hr | Recent trend: ${current.toFixed(2)}%/hr | Estimated result: ${getResult(current, planetStatus)}`;
+    return `Current regen: ${getRegen(planetStatus)}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${getResult(current, planetStatus)}`;
 }
