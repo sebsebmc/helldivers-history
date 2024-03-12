@@ -35,6 +35,7 @@ jobs:
 
     - name: Fetch latest data
       run: |-
+        cp helldivers.json ./docs/data/helldivers.json
         curl https://helldivers-2.fly.dev/api/801/status | jq . > helldivers.json
         curl https://helldivers-2.fly.dev/api/805/status | jq . > 805.json
 
