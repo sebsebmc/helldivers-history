@@ -1,5 +1,5 @@
 ---
-theme: dashboard
+theme: [dark, dashboard]
 toc: false
 ---
 
@@ -205,7 +205,7 @@ const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => 
             inset: width/110,
             strokeWidth: width/440,
           }),
-          showWaypoints ? Plot.arrow(waypoints, {
+          showWaypoints ? Plot.link(waypoints, {
             x1: p => p.from.x,
             y1: p => p.from.y,
             x2: p => p.to.x,
