@@ -18,7 +18,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "type": 0
+      "type": 2
     },
     {
       "count": 5,
@@ -40,7 +40,7 @@
           168
         ]
       },
-      "type": 0
+      "type": 2
     },
     {
       "count": 9,
@@ -107,7 +107,7 @@
           169
         ]
       },
-      "type": 0
+      "type": 2
     },
     {
       "count": 3,
@@ -128,7 +128,7 @@
           127
         ]
       },
-      "type": 0
+      "type": 2
     },
     {
       "count": 2,
@@ -155,6 +155,29 @@
   "community_targets": [],
   "global_events": [
     {
+      "assignment_id_32": 2311178494,
+      "effects": [],
+      "flag": 1,
+      "id": 1499087,
+      "id_32": 0,
+      "message": {
+        "es": "En cada Planeta Barrera, ahora hay una red de torres inmensas que liberan Termicida: el Sistema de Control de Termínidos. Una vez activado, el SCT acabará con todos los termínidos de ese planeta, y lo inoculará contra futuras infestaciones. \n\nSin embargo, el aumento de la actividad de los termínidos ha obligado a evacuar a los ingenieros de S.E.A.F. Ahora, solo los Helldivers pueden garantizar la seguridad de nuestros ciudadanos.\n\nHay que volver a activar el Sistema de Control de Termínidos cueste lo que cueste.",
+        "fr": "La construction du système de contrôle des terminides est terminée. Sur chaque planète barrière ont été érigées des tours de propagation du termicide. Une fois activé, le SCT exterminera tous les terminides sur la planète et la protégera des futures invasions.\n\nNéanmoins, la recrudescence d'assauts terminides a obligé les ingénieurs S.E.A.F. à évacuer. Désormais, seuls les Helldivers peuvent assurer la sécurité de nos citoyens.\n\nLe système de contrôle des terminides doit absolument être activé. Quoi qu'il en coûte.",
+        "de": "Auf jeder Barrierewelt wurde ein Netzwerk gewaltiger, Termizid-ausstoßender Türme errichtet: das Terminiden-Kontrollsystem. Sobald es aktiviert ist, eliminiert das TKS alle Terminiden auf dem jeweiligen Planeten und impft ihn gegen jeglichen zukünftigen Befall.\n \nDie zunehmende Terminiden-Aktivität hat die S.E.A.F.-Ingenieure jedoch zur Evakuierung gezwungen. Jetzt können nur noch die Helldivers für die Sicherheit unserer Bürger sorgen.\n \nDas Terminiden-Kontrollsystem muss aktiviert werden – um jeden Preis.",
+        "en": "Upon each Barrier Planet now stands a network of massive, Termicide-dispensing towers: the Terminid Control System. Once activated, the TCS will exterminate every Terminid on that planet, and inoculate it against all future infestations. \n\nHowever, surges in Terminid activity have forced the SEAF Engineers to evacuate. Now, only the Helldivers can ensure the safety of our citizens.\n\nThe Terminid Control System must be activated—at any cost.",
+        "it": "Su ogni pianeta barriera si trova ora una rete di enormi torri di distribuzione di Terminicida: il Sistema di controllo dei Terminidi. Una volta attivato, l'SCT stermina tutti i Terminidi presenti sul pianeta e lo protegge da tutte le infestazioni future. \n\nTuttavia, l'aumento dell'attività Terminide ha costretto gli ingegneri del FAST a evacuare. Ora solo gli Helldiver possono garantire la sicurezza dei nostri cittadini.\n\nIl Sistema di controllo dei Terminidi deve essere attivato, ad ogni costo.",
+        "pl": "Na każdej planecie Bariery została wzniesiona sieć potężnych wież rozpylających termicyd, czyli System Kontroli Terminidów. Po aktywacji SKT eksterminuje każdego terminida na tej planecie i zaszczepi ją przed kolejnymi plagami. \n\nJednak zwiększona aktywność terminidów zmusiła inżynierów SZSZ do ewakuacji. Teraz jedynie helldiversi mogą zapewnić bezpieczeństwo naszym obywatelom.\n\nSystem Kontroli Terminidów musi zostać aktywowany za wszelką cenę.",
+        "ru": "Теперь на каждой планете Барьера возвышается сеть огромных распыляющих термицид башен, которая называется системой контроля терминидов. После активации СКТ уничтожит всех терминидов на своей планете до единого и обработает ее, чтобы предотвратить будущие вторжения. \n\nОднако, всплеск активности терминидов вынудил инженеров ВССЗ эвакуироваться. Теперь только Адские Десантники могут обеспечить безопасность наших граждан.\n\nСистему контроля терминидов необходимо активировать любой ценой.",
+        "zh": "现在各个屏障星球已经筑起喷洒灭虫终结剂的巨塔网络：终结族遏制体系。一旦启动，TCS将消灭星球上的所有终结族，并彻底杜绝未来虫害。\n\n然而，终结族活动激增，迫使超级地球武装部队的工程师立即撤离。现在，只有绝地潜兵能保卫公民的安全。\n\n不惜一切代价，终结族遏制体系也必须启动。"
+      },
+      "message_id_32": 46181626,
+      "planets": [],
+      "portrait_id_32": 0,
+      "race": "Humans",
+      "title": "BRIEFING",
+      "title_32": 2908633975
+    },
+    {
       "assignment_id_32": 0,
       "effects": [],
       "flag": 2,
@@ -178,7 +201,7 @@
       "title_32": 2998873950
     }
   ],
-  "impact_multiplier": 0.0028939347,
+  "impact_multiplier": 0.0024393662,
   "joint_operations": [],
   "planet_active_effects": [],
   "planet_attacks": [
@@ -841,7 +864,7 @@
           1
         ]
       },
-      "players": 1083,
+      "players": 1087,
       "regen_per_second": 1388.8889
     },
     {
@@ -1622,7 +1645,7 @@
           211
         ]
       },
-      "players": 18,
+      "players": 14,
       "regen_per_second": 4.1666665
     },
     {
@@ -2276,8 +2299,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 954378,
-      "liberation": 4.562200000000004,
+      "health": 955352,
+      "liberation": 4.464799999999997,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -2298,7 +2321,7 @@
           169
         ]
       },
-      "players": 19505,
+      "players": 20160,
       "regen_per_second": 4.1666665
     },
     {
@@ -2591,7 +2614,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 7,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -2640,7 +2663,7 @@
           168
         ]
       },
-      "players": 1,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -3277,7 +3300,7 @@
           155
         ]
       },
-      "players": 10,
+      "players": 11,
       "regen_per_second": 1388.8889
     },
     {
@@ -3662,8 +3685,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 562422,
-      "liberation": 43.7578,
+      "health": 850492,
+      "liberation": 14.950800000000001,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3682,12 +3705,12 @@
           168
         ]
       },
-      "players": 60365,
+      "players": 62204,
       "regen_per_second": 4.1666665
     },
     {
-      "health": 791067,
-      "liberation": 20.89330000000001,
+      "health": 950839,
+      "liberation": 4.9161,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -3705,7 +3728,7 @@
           127
         ]
       },
-      "players": 33368,
+      "players": 34309,
       "regen_per_second": 4.1666665
     },
     {
@@ -3728,7 +3751,7 @@
           85
         ]
       },
-      "players": 4489,
+      "players": 4654,
       "regen_per_second": 1388.8889
     },
     {
@@ -4294,8 +4317,8 @@
       "regen_per_second": 4.1666665
     },
     {
-      "health": 886246,
-      "liberation": 11.375399999999999,
+      "health": 884646,
+      "liberation": 11.535399999999996,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4313,7 +4336,7 @@
           239
         ]
       },
-      "players": 51370,
+      "players": 51966,
       "regen_per_second": 4.1666665
     },
     {
@@ -4337,7 +4360,7 @@
           155
         ]
       },
-      "players": 3,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -4360,7 +4383,7 @@
           197
         ]
       },
-      "players": 20,
+      "players": 19,
       "regen_per_second": 1388.8889
     },
     {
@@ -4658,7 +4681,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 15580,
+      "players": 16279,
       "regen_per_second": 4.1666665
     },
     {
@@ -4681,7 +4704,7 @@
           170
         ]
       },
-      "players": 20,
+      "players": 25,
       "regen_per_second": 4.1666665
     },
     {
@@ -5294,7 +5317,7 @@
           153
         ]
       },
-      "players": 9254,
+      "players": 9372,
       "regen_per_second": 4.1666665
     },
     {
@@ -5319,7 +5342,7 @@
           196
         ]
       },
-      "players": 42,
+      "players": 41,
       "regen_per_second": 1388.8889
     },
     {
@@ -6282,7 +6305,7 @@
           243
         ]
       },
-      "players": 6,
+      "players": 5,
       "regen_per_second": 4.1666665
     },
     {
@@ -6306,7 +6329,7 @@
           153
         ]
       },
-      "players": 1,
+      "players": 3,
       "regen_per_second": 4.1666665
     },
     {
@@ -6329,7 +6352,7 @@
           243
         ]
       },
-      "players": 5937,
+      "players": 6187,
       "regen_per_second": 4.1666665
     },
     {
@@ -6350,7 +6373,7 @@
         "sector": "48",
         "waypoints": []
       },
-      "players": 14,
+      "players": 10,
       "regen_per_second": 4.1666665
     },
     {
@@ -6737,6 +6760,6 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "1970-02-01T07:21:00Z",
+  "snapshot_at": "1970-02-01T07:31:00Z",
   "war_id": 801
 }
