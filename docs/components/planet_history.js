@@ -79,11 +79,18 @@ export function planetTableRows(agg, recentAttacks, status) {
         let current = calculateTrend(agg, planetIdx, planetStatus).toFixed(2);
         let regen = getRegen(planetStatus);
         let result = getResult(current, planetStatus);
-        rows.push(html`<tr><td>${planetStatus.planet.name}</td><td>${planetStatus.players}</td><td>${regen}%/hr</td><td>${current}%/hr</td><td>${result}</td></tr>`);
+        rows.push(html`<tr>
+        <td>${planetStatus.planet.name}</td>
+        <td>${planetStatus.players}</td>
+        <td>${planetStatus.liberation.toFixed(2)}%</td>
+        <td>${regen}%/hr</td>
+        <td>${current}%/hr</td>
+        <td>${result}</td></tr>`);
     }
     return html`<table><thead>
     <th>Planet</th>
     <th>Players</th>
+    <th>Liberation</th>
     <th>Regen</th>
     <th>Recent Liberation Rate</th>
     <th>Estimated Result</th>
