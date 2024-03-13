@@ -63,7 +63,7 @@ function getResult(trend, planetStatus) {
 }
 
 function formatHoursMinutes(minutes) {
-    return `${(minutes/60).toFixed()}h${((minutes%60).toFixed()+"").padStart(2, '0')}m`;
+    return `${Math.floor(minutes/60).toFixed()}h${((minutes%60).toFixed()+"").padStart(2, '0')}m`;
 }
 
 function getSubtitle(agg, planetIdx, planetStatus) {

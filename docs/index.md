@@ -101,7 +101,7 @@ const timeSinceGameEpoch = now - GAME_EPOCH;
 
 <div class="hero">
   <h1>Helldivers Dashboard </h1>
-  <h2>Welcome Helldiver! It is Day ${(timeSinceGameEpoch / (1000 * 60 * 60 * 24)).toFixed()} of The Second Galactic War.</h2>
+  <h2>Welcome Helldiver! It is Day ${Math.floor(timeSinceGameEpoch / (1000 * 60 * 60 * 24)).toFixed()} of The Second Galactic War.</h2>
 </div>
 
 ```js
@@ -112,7 +112,7 @@ setTimeout(() => document.location.reload(), 10*60*1000);
 <div class="warning" label="Watch out, Helldiver">
 This page will automatically refresh every 10 minutes, the data is collected approximately every 10 minutes. This helps keep the servers stable and makes this website 100% ad and tracker free.
 <br>
-This page was last refreshed ${((now - loadedAt)/(60*1000)).toFixed()}m ${((now - loadedAt)/1000).toFixed()%60}s ago.
+This page was last refreshed ${Math.floor((now - loadedAt)/(60*1000)).toFixed()}m ${((now - loadedAt)/1000).toFixed()%60}s ago.
 </div>
 
 ```js
