@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {twoDayPlanetAttack, planetTableRows} from "./components/planet_history.js";
+import {twoDayPlanetAttack, planetTableRows, renderDefenses} from "./components/planet_history.js";
 ```
 
 <style>
@@ -67,9 +67,22 @@ import {twoDayPlanetAttack, planetTableRows} from "./components/planet_history.j
   margin-top:1rem;
 }
 
-.center table{
+.center {
+  width: 100%;
+  text-align: center;
+}
+
+.center p {
   width: 100%;
   margin-inline: auto;
+}
+
+.center strong {
+  font-size: calc(1.25rem + 0.25vw);
+}
+
+.center table{
+  margin-inline: auto;  
 }
 
 .center td {
@@ -84,11 +97,17 @@ import {twoDayPlanetAttack, planetTableRows} from "./components/planet_history.j
 
 </style>
 
+```js
+const eff_now = (async function*(){
+  for(;;){
+    yield Date.now();
+    await new Promise(resolve => setTimeout(resolve, 1000));
+  }
+})();
+```
 
 ```js
 const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}));
-const UTC_EPOCH = new Date("1970-01-01T00:00:00Z");
-const GAME_EPOCH = new Date("2024-02-07T14:06:00Z");
 const status = FileAttachment('./data/helldivers.json').json();
 const agg = FileAttachment('./data/aggregates.json').json();
 const focus = FileAttachment('./data/recent_attacks.json').json();
@@ -96,23 +115,28 @@ const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
 ```
 
 ```js
-const timeSinceGameEpoch = now - GAME_EPOCH;
+const loadedAt = Date.now();
+setTimeout(() => document.location.reload(), 10*60*1000);
+const defenses = status.planet_events.filter(e => e.event_type == 1);
+const lastEntryTime = new Date(agg[agg.length-1].timestamp);
+const statusTime = new Date(status.snapshot_at);
+```
+
+```js
+const timeSinceLastEntry = new Date(eff_now - lastEntryTime);
+const timeSinceGameEpoch = timeSinceLastEntry.getTime() + statusTime.getTime();
 ```
 
 <div class="hero">
   <h1>Helldivers Dashboard </h1>
   <h2>Welcome Helldiver! It is Day ${Math.floor(timeSinceGameEpoch / (1000 * 60 * 60 * 24)).toFixed()} of The Second Galactic War.</h2>
-</div>
+</div> 
 
-```js
-const loadedAt = Date.now();
-setTimeout(() => document.location.reload(), 10*60*1000);
-```
 
 <div class="warning" label="Watch out, Helldiver">
 This page will automatically refresh every 10 minutes, the data is collected approximately every 10 minutes. This helps keep the servers stable and makes this website 100% ad and tracker free.
 <br>
-This page was last refreshed ${Math.floor((now - loadedAt)/(60*1000)).toFixed()}m ${((now - loadedAt)/1000).toFixed()%60}s ago.
+This page was last refreshed ${Math.floor((eff_now - loadedAt)/(60*1000)).toFixed()}m ${((eff_now - loadedAt)/1000).toFixed()%60}s ago.
 </div>
 
 ```js
@@ -183,9 +207,13 @@ active.push(0);
         }
       )
     }</div>
+    <hr>
+    <div class="center">
+   ${display(renderDefenses(defenses, timeSinceGameEpoch))}
+   </div>
   </div>
   <div class="center card">
-    ${display(planetTableRows(agg, focus, status))}
+    ${display(planetTableRows(agg, focus, status, timeSinceGameEpoch))}
     </div>
   </div>
 </div>
