@@ -6,7 +6,8 @@
     "build": "rm -rf dist && observable build",
     "dev": "observable preview",
     "deploy": "observable deploy",
-    "observable": "observable"
+    "observable": "observable",
+    "update": "git stash && git pull && cp helldivers.json docs/data/helldivers.json && python3 build_stats.py && git stash pop"
   },
   "dependencies": {
     "@observablehq/framework": "latest",

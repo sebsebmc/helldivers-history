@@ -13,7 +13,7 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v4
       with:
-        fetch-depth: 0
+        fetch-depth: 1440
 
     - name: Setup node
       uses: actions/setup-node@v4

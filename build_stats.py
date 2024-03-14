@@ -109,7 +109,7 @@ def git_show(ref, name, repo_client):
     return commit_tree[name].data_stream.read()
 
 def fetch_all_records():
-    commits = git_commits_for("helldivers.json")
+    commits = git_commits_for("helldivers.json")[:1440]
 
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
