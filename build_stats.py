@@ -135,7 +135,7 @@ def fetch_all_records():
             if 'error' in res.keys() or 'errors' in res.keys():
                 continue
             print(f"Bad committed data {exc.errors()[0]}")
-        timestamp = repo.commit(ref).committed_datetime.isoformat()
+        timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc).isoformat()
         record.snapshot_at = timestamp
         record.version = CACHE_VERSION
         
