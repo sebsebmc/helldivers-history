@@ -98,6 +98,7 @@ import {twoDayPlanetAttack, planetTableRows, renderDefenses} from "./components/
 </style>
 
 ```js
+const loadedAt = Date.now();
 const eff_now = (async function*(){
   for(;;){
     yield Date.now();
@@ -115,16 +116,16 @@ const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
 ```
 
 ```js
-const loadedAt = Date.now();
 setTimeout(() => document.location.reload(), 10*60*1000);
 const defenses = status.planet_events.filter(e => e.event_type == 1);
 const lastEntryTime = new Date(agg[agg.length-1].timestamp);
 const statusTime = new Date(status.snapshot_at);
+const GAME_EPOCH = new Date(status.started_at);
 ```
 
 ```js
 const timeSinceLastEntry = new Date(eff_now - lastEntryTime);
-const timeSinceGameEpoch = timeSinceLastEntry.getTime() + statusTime.getTime();
+const timeSinceGameEpoch = timeSinceLastEntry.getTime() + statusTime.getTime() - GAME_EPOCH.getTime();
 ```
 
 <div class="hero">
