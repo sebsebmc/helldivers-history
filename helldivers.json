@@ -2,27 +2,6 @@
   "active_election_policy_effects": [],
   "campaigns": [
     {
-      "count": 9,
-      "id": 50007,
-      "planet": {
-        "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Draupnir",
-        "position": {
-          "x": -74.5425,
-          "y": -13.14594
-        },
-        "sector": "31",
-        "waypoints": [
-          239
-        ]
-      },
-      "type": 0
-    },
-    {
       "count": 4,
       "id": 50008,
       "planet": {
@@ -152,11 +131,33 @@
         ]
       },
       "type": 0
+    },
+    {
+      "count": 6,
+      "id": 50025,
+      "planet": {
+        "disabled": false,
+        "hash": 2216912817,
+        "index": 241,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Ubanea",
+        "position": {
+          "x": -81.57918,
+          "y": -21.70526
+        },
+        "sector": "46",
+        "waypoints": [
+          152,
+          153
+        ]
+      },
+      "type": 0
     }
   ],
   "community_targets": [],
   "global_events": [],
-  "impact_multiplier": 0.0017018797,
+  "impact_multiplier": 0.0016781634,
   "joint_operations": [
     {
       "hq_node_index": 2,
@@ -390,146 +391,6 @@
         "waypoints": [
           152,
           153
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 1806559160,
-        "index": 197,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Mantes",
-        "position": {
-          "x": -74.603856,
-          "y": -3.198197
-        },
-        "sector": "33",
-        "waypoints": [
-          107,
-          153,
-          196
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Draupnir",
-        "position": {
-          "x": -74.5425,
-          "y": -13.14594
-        },
-        "sector": "31",
-        "waypoints": [
-          239
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 1806559160,
-        "index": 197,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Mantes",
-        "position": {
-          "x": -74.603856,
-          "y": -3.198197
-        },
-        "sector": "33",
-        "waypoints": [
-          107,
-          153,
-          196
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Draupnir",
-        "position": {
-          "x": -74.5425,
-          "y": -13.14594
-        },
-        "sector": "31",
-        "waypoints": [
-          239
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Draupnir",
-        "position": {
-          "x": -74.5425,
-          "y": -13.14594
-        },
-        "sector": "31",
-        "waypoints": [
-          239
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Draupnir",
-        "position": {
-          "x": -74.5425,
-          "y": -13.14594
-        },
-        "sector": "31",
-        "waypoints": [
-          239
         ]
       }
     },
@@ -787,6 +648,76 @@
           212
         ]
       }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -74.5425,
+          "y": -13.14594
+        },
+        "sector": "31",
+        "waypoints": [
+          239
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3244992775,
+        "index": 196,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Malevelon Creek",
+        "position": {
+          "x": -84.73348,
+          "y": -9.6041
+        },
+        "sector": "33",
+        "waypoints": [
+          152,
+          153
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1192040123,
+        "index": 153,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Draupnir",
+        "position": {
+          "x": -74.5425,
+          "y": -13.14594
+        },
+        "sector": "31",
+        "waypoints": [
+          239
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2216912817,
+        "index": 241,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Ubanea",
+        "position": {
+          "x": -81.57918,
+          "y": -21.70526
+        },
+        "sector": "46",
+        "waypoints": [
+          152,
+          153
+        ]
+      }
     }
   ],
   "planet_events": [
@@ -814,7 +745,7 @@
       },
       "event_type": 1,
       "expire_time": "1970-02-08T05:37:20Z",
-      "health": 1694943,
+      "health": 1680481,
       "id": 4320,
       "joint_operations": [
         {
@@ -880,7 +811,7 @@
           1
         ]
       },
-      "players": 945,
+      "players": 902,
       "regen_per_second": 1388.8889
     },
     {
@@ -1661,7 +1592,7 @@
           211
         ]
       },
-      "players": 15402,
+      "players": 15384,
       "regen_per_second": 13.888888
     },
     {
@@ -2337,7 +2268,7 @@
           169
         ]
       },
-      "players": 474,
+      "players": 502,
       "regen_per_second": 1388.8889
     },
     {
@@ -2654,7 +2585,7 @@
           170
         ]
       },
-      "players": 35836,
+      "players": 35697,
       "regen_per_second": 13.888888
     },
     {
@@ -2679,7 +2610,7 @@
           168
         ]
       },
-      "players": 142,
+      "players": 144,
       "regen_per_second": 1388.8889
     },
     {
@@ -2703,7 +2634,7 @@
           127
         ]
       },
-      "players": 16,
+      "players": 18,
       "regen_per_second": 1388.8889
     },
     {
@@ -3316,7 +3247,7 @@
           155
         ]
       },
-      "players": 7,
+      "players": 6,
       "regen_per_second": 1388.8889
     },
     {
@@ -3721,7 +3652,7 @@
           168
         ]
       },
-      "players": 247,
+      "players": 235,
       "regen_per_second": 1388.8889
     },
     {
@@ -3744,7 +3675,7 @@
           127
         ]
       },
-      "players": 290,
+      "players": 263,
       "regen_per_second": 1388.8889
     },
     {
@@ -3767,7 +3698,7 @@
           85
         ]
       },
-      "players": 230,
+      "players": 212,
       "regen_per_second": 1388.8889
     },
     {
@@ -4333,9 +4264,9 @@
       "regen_per_second": 4.1666665
     },
     {
-      "health": 3750,
-      "liberation": 99.625,
-      "owner": "Automaton",
+      "health": 624992,
+      "liberation": 62.4992,
+      "owner": "Humans",
       "planet": {
         "disabled": false,
         "hash": 1192040123,
@@ -4352,8 +4283,8 @@
           239
         ]
       },
-      "players": 48446,
-      "regen_per_second": 4.1666665
+      "players": 50714,
+      "regen_per_second": 1388.8889
     },
     {
       "health": 1000000,
@@ -4376,7 +4307,7 @@
           155
         ]
       },
-      "players": 1,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -4399,7 +4330,7 @@
           197
         ]
       },
-      "players": 10,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -4697,7 +4628,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 546,
+      "players": 600,
       "regen_per_second": 1388.8889
     },
     {
@@ -4720,7 +4651,7 @@
           170
         ]
       },
-      "players": 97438,
+      "players": 100655,
       "regen_per_second": 1388.8889
     },
     {
@@ -4743,7 +4674,7 @@
           212
         ]
       },
-      "players": 20023,
+      "players": 20155,
       "regen_per_second": 13.888888
     },
     {
@@ -5306,7 +5237,8 @@
         },
         "sector": "46",
         "waypoints": [
-          196
+          196,
+          243
         ]
       },
       "players": 0,
@@ -5333,7 +5265,7 @@
           153
         ]
       },
-      "players": 5309,
+      "players": 5473,
       "regen_per_second": 4.1666665
     },
     {
@@ -5358,7 +5290,7 @@
           196
         ]
       },
-      "players": 11,
+      "players": 16,
       "regen_per_second": 1388.8889
     },
     {
@@ -6298,7 +6230,7 @@
           151
         ]
       },
-      "players": 21,
+      "players": 36,
       "regen_per_second": 1388.8889
     },
     {
@@ -6321,7 +6253,7 @@
           243
         ]
       },
-      "players": 1,
+      "players": 2,
       "regen_per_second": 4.1666665
     },
     {
@@ -6345,7 +6277,7 @@
           153
         ]
       },
-      "players": 0,
+      "players": 7,
       "regen_per_second": 4.1666665
     },
     {
@@ -6368,7 +6300,7 @@
           243
         ]
       },
-      "players": 3171,
+      "players": 3223,
       "regen_per_second": 4.1666665
     },
     {
@@ -6387,9 +6319,11 @@
           "y": 6.103413
         },
         "sector": "48",
-        "waypoints": []
+        "waypoints": [
+          155
+        ]
       },
-      "players": 11,
+      "players": 6,
       "regen_per_second": 4.1666665
     },
     {
@@ -6776,7 +6710,7 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "2024-03-18T15:52:48.005415Z",
-  "started_at": "2024-02-10T06:34:18.005415Z",
+  "snapshot_at": "2024-03-18T16:12:47.994359Z",
+  "started_at": "2024-02-10T06:34:27.994359Z",
   "war_id": 801
 }
