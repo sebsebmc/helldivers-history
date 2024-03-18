@@ -25,6 +25,7 @@ export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus){
 }
 
 const SEC_PER_HOUR = 60 * 60;
+const MSEC_PER_HOUR = SEC_PER_HOUR * 1000;
 
 function getRegen(planetStatus) {
     return (((planetStatus.regen_per_second * SEC_PER_HOUR) / planetStatus.planet.max_health) * 100.0).toFixed(2);
@@ -44,7 +45,7 @@ function calculateTrend(agg, planetIdx, planetStatus) {
         lastLib = liberation(agg[i]);
         diffs += libDiff/timeDiff; // delta Liberation / delta milliseconds
     }
-    return (diffs/(SMOOTHING-1))*1000 * SEC_PER_HOUR;
+    return (diffs/(SMOOTHING-1))*MSEC_PER_HOUR;
 }
 
 function getResult(trend, planetStatus) {
@@ -65,7 +66,7 @@ function getResult(trend, planetStatus) {
 function getDefenseResult(trend, liberation, timeRemaining){
     // We need to know trend, time remaining, and current progress
     const liberationNeeded = 100.0-liberation;
-    const remainingHours = (timeRemaining / 1000 / SEC_PER_HOUR);
+    const remainingHours = (timeRemaining / MSEC_PER_HOUR);
     const libPerHourNeeded = liberationNeeded / remainingHours;
     if(trend > libPerHourNeeded) {
         return `SUCCESS in ${formatHoursMinutes((liberationNeeded/trend) * 60)}`;
@@ -154,7 +155,10 @@ export function renderDefenses(defenses, msSinceGameEpoch){
         <strong>🛡 ${defense.planet.name} is under attack! 🛡 </strong> <br>
         <p>
         Defense progress: ${(100* (1.0 - defense.health/defense.max_health)).toFixed(2)}%.
-        This event ends at ${new Date(Date.now() + new Date(defense.expire_time).getTime()-msSinceGameEpoch).toLocaleString()}
+        This event ends at ${new Date(Date.now() + new Date(defense.expire_time).getTime()-msSinceGameEpoch).toLocaleString()}. 
+        Rate needed: ${
+            (100*(defense.health / defense.max_health)/((new Date(defense.expire_time).getTime()-msSinceGameEpoch)/(MSEC_PER_HOUR))).toFixed(2)
+        }%/hr
         </p>
         </div>`);
     }
