@@ -81,12 +81,18 @@ function formatHoursMinutes(minutes) {
 function getSubtitle(agg, planetIdx, planetStatus) {
     let current = calculateTrend(agg, planetIdx, planetStatus);
     let result = null;
+    let regen = 0;
     if(planetStatus.result_str) {
         result = planetStatus.result_str;
     }else {
-        result = getResult(current, planetStatus);
+        result = `${getResult(current, planetStatus)}%/hr`;
     }
-    return `Current regen: ${getRegen(planetStatus)}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
+    if(planetStatus.regen_per_hour){
+        regen = planetStatus.regen_per_hour;
+    }else {
+        getRegen(planetStatus);
+    }
+    return `Current regen: ${regen} | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
 }
 
 export function planetTableRows(agg, recentAttacks, status, gameTime) {
@@ -99,8 +105,10 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
         let result = getResult(current, planetStatus);
         let event = isDefense(status, planetIdx);
         if(event){
-            let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation.toFixed(2)
+            let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation.toFixed(2);
+            planetStatus.liberation = liberation;
             planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.expire_time) - gameTime);
+            planetStatus['regen_per_hour'] = "N/A";
             rows.push(html`<tr>
             <td>${planetStatus.planet.name}</td>
             <td>${planetStatus.players}</td>
@@ -110,6 +118,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
             <td>${planetStatus.result_str}</td></tr>`);
         }else{
             planetStatus['result_str'] = result;
+            planetStatus['regen_per_hour'] = regen;
             rows.push(html`<tr>
             <td>${planetStatus.planet.name}</td>
             <td>${planetStatus.players}</td>
@@ -130,7 +139,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
 }
 
 function isDefense(status, planetIdx) {
-    for(event of status.planet_events) {
+    for(let event of status.planet_events) {
         if(event.planet.index == planetIdx){
             return event;
         }
