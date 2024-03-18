@@ -106,14 +106,14 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
         let result = getResult(current, planetStatus);
         let event = isDefense(status, planetIdx);
         if(event){
-            let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation.toFixed(2);
+            let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation;
             planetStatus.liberation = liberation;
             planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.expire_time) - gameTime);
             planetStatus['regen_per_hour'] = "N/A";
             rows.push(html`<tr>
             <td>${planetStatus.planet.name}</td>
             <td>${planetStatus.players}</td>
-            <td>${liberation}%</td>
+            <td>${liberation.toFixed(2)}%</td>
             <td>N/A</td>
             <td>${current}%/hr</td>
             <td>${planetStatus.result_str}</td></tr>`);
