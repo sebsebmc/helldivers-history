@@ -80,7 +80,13 @@ function formatHoursMinutes(minutes) {
 
 function getSubtitle(agg, planetIdx, planetStatus) {
     let current = calculateTrend(agg, planetIdx, planetStatus);
-    return `Current regen: ${getRegen(planetStatus)}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${getResult(current, planetStatus)}`;
+    let result = null;
+    if(planetStatus.result_str) {
+        result = planetStatus.result_str;
+    }else {
+        result = getResult(current, planetStatus);
+    }
+    return `Current regen: ${getRegen(planetStatus)}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
 }
 
 export function planetTableRows(agg, recentAttacks, status, gameTime) {
@@ -94,14 +100,16 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
         let event = isDefense(status, planetIdx);
         if(event){
             let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation.toFixed(2)
+            planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.expire_time) - gameTime);
             rows.push(html`<tr>
             <td>${planetStatus.planet.name}</td>
             <td>${planetStatus.players}</td>
             <td>${liberation}%</td>
             <td>N/A</td>
             <td>${current}%/hr</td>
-            <td>${getDefenseResult(current, liberation, new Date(event.expire_time) - gameTime)}</td></tr>`);
+            <td>${planetStatus.result_str}</td></tr>`);
         }else{
+            planetStatus['result_str'] = result;
             rows.push(html`<tr>
             <td>${planetStatus.planet.name}</td>
             <td>${planetStatus.players}</td>
