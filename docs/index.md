@@ -124,7 +124,7 @@ const GAME_EPOCH = new Date(status.started_at);
 ```
 
 ```js
-const timeSinceLastEntry = new Date(eff_now - lastEntryTime);
+const timeSinceLastEntry = new Date(eff_now - statusTime);
 const timeSinceGameEpoch = timeSinceLastEntry.getTime() + statusTime.getTime() - GAME_EPOCH.getTime();
 ```
 
