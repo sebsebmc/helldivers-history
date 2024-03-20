@@ -98,6 +98,26 @@ import {twoDayPlanetAttack, planetTableRows, renderDefenses} from "./components/
 </style>
 
 ```js
+window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
+    if(errorMsg == "RuntimeError: Unable to load file: helldivers.json"){
+      window.location.reload();
+    }
+    return false;
+}
+window.addEventListener("error", function (e) {
+   if(e.error.message == "RuntimeError: Unable to load file: helldivers.json"){
+      window.location.reload();
+    }
+   return false;
+});
+window.addEventListener('unhandledrejection', function (e) {
+  if(e.reason.message == "RuntimeError: Unable to load file: helldivers.json"){
+      window.location.reload();
+    }
+});
+```
+
+```js
 const loadedAt = Date.now();
 const eff_now = (async function*(){
   for(;;){
