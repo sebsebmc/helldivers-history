@@ -105,7 +105,7 @@ window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
     return false;
 }
 window.addEventListener("error", function (e) {
-   if(e.error.message == "RuntimeError: Unable to load file: helldivers.json"){
+   if(e.error && e.error.message == "RuntimeError: Unable to load file: helldivers.json"){
       window.location.reload();
     }
    return false;
