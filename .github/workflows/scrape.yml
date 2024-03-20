@@ -38,12 +38,14 @@ jobs:
         cp helldivers.json ./docs/data/helldivers.json
         curl https://helldivers-2.fly.dev/api/801/status | jq . > helldivers.json
         curl https://helldivers-2.fly.dev/api/805/status | jq . > 805.json
+        curl https://api.diveharder.com/raw/planetStats | jq . > planetStats.json
+
 
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
-        git add helldivers.json 805.json
+        git add helldivers.json 805.json planetStats.json
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push
