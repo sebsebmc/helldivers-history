@@ -93,7 +93,7 @@ function getSubtitle(agg, planetIdx, planetStatus) {
     }else {
         getRegen(planetStatus);
     }
-    return `Current regen: ${regen} | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
+    return `Current regen: ${regen}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
 }
 
 export function planetTableRows(agg, recentAttacks, status, gameTime) {
