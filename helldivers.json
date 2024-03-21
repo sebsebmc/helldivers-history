@@ -113,23 +113,21 @@
       "type": 0
     },
     {
-      "count": 2,
-      "id": 50027,
+      "count": 1,
+      "id": 50028,
       "planet": {
         "disabled": false,
-        "hash": 3087050848,
-        "index": 170,
+        "hash": 1344035939,
+        "index": 212,
         "initial_owner": "Terminids",
         "max_health": 1000000,
-        "name": "Fori Prime",
+        "name": "Oshaune",
         "position": {
-          "x": 68.80386,
-          "y": 30.101782
+          "x": 63.3865,
+          "y": 39.55063
         },
-        "sector": "21",
-        "waypoints": [
-          212
-        ]
+        "sector": "38",
+        "waypoints": []
       },
       "type": 0
     }
@@ -162,7 +160,7 @@
       "title_32": 3093350071
     }
   ],
-  "impact_multiplier": 0.008939974,
+  "impact_multiplier": 0.00889379,
   "joint_operations": [],
   "planet_active_effects": [],
   "planet_attacks": [
@@ -887,22 +885,6 @@
     {
       "source": {
         "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      },
-      "target": {
-        "disabled": false,
         "hash": 3087050848,
         "index": 170,
         "initial_owner": "Terminids",
@@ -915,28 +897,29 @@
         "sector": "21",
         "waypoints": [
           212
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1886266372,
+        "index": 78,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Crimsica",
+        "position": {
+          "x": 61.13544,
+          "y": 22.880854
+        },
+        "sector": "21",
+        "waypoints": [
+          169,
+          170
         ]
       }
     },
     {
       "source": {
         "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      },
-      "target": {
-        "disabled": false,
         "hash": 3087050848,
         "index": 170,
         "initial_owner": "Terminids",
@@ -950,6 +933,20 @@
         "waypoints": [
           212
         ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 1344035939,
+        "index": 212,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Oshaune",
+        "position": {
+          "x": 63.3865,
+          "y": 39.55063
+        },
+        "sector": "38",
+        "waypoints": []
       }
     }
   ],
@@ -975,7 +972,7 @@
           1
         ]
       },
-      "players": 718,
+      "players": 728,
       "regen_per_second": 1388.8889
     },
     {
@@ -1734,8 +1731,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 978152,
-      "liberation": 2.1847999999999956,
+      "health": 977738,
+      "liberation": 2.2262000000000057,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -1756,7 +1753,7 @@
           211
         ]
       },
-      "players": 13470,
+      "players": 14045,
       "regen_per_second": 0
     },
     {
@@ -2432,7 +2429,7 @@
           169
         ]
       },
-      "players": 121,
+      "players": 118,
       "regen_per_second": 1388.8889
     },
     {
@@ -2725,12 +2722,12 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 5,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 958725,
-      "liberation": 4.127499999999998,
+      "health": 958022,
+      "liberation": 4.197800000000001,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -2749,7 +2746,7 @@
           170
         ]
       },
-      "players": 21072,
+      "players": 21475,
       "regen_per_second": 0
     },
     {
@@ -2774,7 +2771,7 @@
           168
         ]
       },
-      "players": 24,
+      "players": 30,
       "regen_per_second": 1388.8889
     },
     {
@@ -2798,7 +2795,7 @@
           127
         ]
       },
-      "players": 12,
+      "players": 17,
       "regen_per_second": 1388.8889
     },
     {
@@ -3411,7 +3408,7 @@
           155
         ]
       },
-      "players": 6,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -3816,7 +3813,7 @@
           168
         ]
       },
-      "players": 70,
+      "players": 68,
       "regen_per_second": 1388.8889
     },
     {
@@ -3839,7 +3836,7 @@
           127
         ]
       },
-      "players": 86,
+      "players": 95,
       "regen_per_second": 1388.8889
     },
     {
@@ -3862,7 +3859,7 @@
           85
         ]
       },
-      "players": 67,
+      "players": 69,
       "regen_per_second": 1388.8889
     },
     {
@@ -4447,7 +4444,7 @@
           239
         ]
       },
-      "players": 199,
+      "players": 183,
       "regen_per_second": 1388.8889
     },
     {
@@ -4494,7 +4491,7 @@
           197
         ]
       },
-      "players": 5,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -4792,7 +4789,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 122,
+      "players": 117,
       "regen_per_second": 1388.8889
     },
     {
@@ -4815,13 +4812,13 @@
           170
         ]
       },
-      "players": 1226,
+      "players": 1276,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 2435,
-      "liberation": 99.7565,
-      "owner": "Terminids",
+      "health": 888864,
+      "liberation": 88.8864,
+      "owner": "Humans",
       "planet": {
         "disabled": false,
         "hash": 3087050848,
@@ -4838,8 +4835,8 @@
           212
         ]
       },
-      "players": 126165,
-      "regen_per_second": 0
+      "players": 117065,
+      "regen_per_second": 1388.8889
     },
     {
       "health": 1000000,
@@ -5409,8 +5406,8 @@
       "regen_per_second": 4.1666665
     },
     {
-      "health": 989464,
-      "liberation": 1.053600000000003,
+      "health": 989264,
+      "liberation": 1.073599999999999,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5429,7 +5426,7 @@
           153
         ]
       },
-      "players": 5849,
+      "players": 5755,
       "regen_per_second": 0
     },
     {
@@ -5789,8 +5786,8 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 0,
-      "regen_per_second": 4.1666665
+      "players": 2295,
+      "regen_per_second": 0
     },
     {
       "health": 1000000,
@@ -6394,7 +6391,7 @@
           151
         ]
       },
-      "players": 5,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -6421,8 +6418,8 @@
       "regen_per_second": 4.1666665
     },
     {
-      "health": 994422,
-      "liberation": 0.5578000000000003,
+      "health": 994334,
+      "liberation": 0.566599999999994,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -6441,12 +6438,12 @@
           153
         ]
       },
-      "players": 2994,
+      "players": 2901,
       "regen_per_second": 0
     },
     {
-      "health": 991609,
-      "liberation": 0.839100000000002,
+      "health": 991440,
+      "liberation": 0.8559999999999945,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -6464,7 +6461,7 @@
           243
         ]
       },
-      "players": 5652,
+      "players": 5526,
       "regen_per_second": 0
     },
     {
@@ -6487,7 +6484,7 @@
           155
         ]
       },
-      "players": 4,
+      "players": 1,
       "regen_per_second": 4.1666665
     },
     {
@@ -6874,7 +6871,7 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "2024-03-21T16:31:28.088118Z",
-  "started_at": "2024-02-10T06:43:48.088118Z",
+  "snapshot_at": "2024-03-21T16:41:28.104476Z",
+  "started_at": "2024-02-10T06:43:48.104476Z",
   "war_id": 801
 }
