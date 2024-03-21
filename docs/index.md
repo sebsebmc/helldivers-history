@@ -129,7 +129,7 @@ const eff_now = (async function*(){
 
 ```js
 const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}));
-const status = FileAttachment('./data/helldivers.json').json();
+const status = FileAttachment('./data/helldivers.json').json().catch(() => window.location.reload());
 const agg = FileAttachment('./data/aggregates.json').json();
 const focus = FileAttachment('./data/recent_attacks.json').json();
 const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
