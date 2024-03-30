@@ -91,8 +91,51 @@
     }
   ],
   "community_targets": [],
-  "global_events": [],
-  "impact_multiplier": 0.010865103,
+  "global_events": [
+    {
+      "assignment_id_32": 0,
+      "effects": [
+        "Unknown"
+      ],
+      "flag": 0,
+      "id": 1499098,
+      "id_32": 0,
+      "message": {
+        "es": "Se ha autorizado temporalmente el uso de la estratagema del cañón láser LAS-98 para todos los Helldivers.",
+        "fr": "Le stratagème Canon laser LAS-98 est temporairement disponible pour tous les Helldivers.",
+        "de": "Die Taktikausrüstung „LAS-98-Laserkanone“ steht vorübergehend allen Helldivers für den Einsatz zur Verfügung.",
+        "en": "The LAS-98 Laser Cannon stratagem has been temporarily authorized for use by all Helldivers.",
+        "it": "Lo stratagemma Cannone laser LAS-98 è temporaneamente a disposizione di tutti gli Helldiver.",
+        "pl": "Manewr działka laserowego LAS-98 został tymczasowo autoryzowany do użycia przez wszystkich helldiversów.",
+        "ru": "Стратагема LAS-98 «Лазерная винтовка» временно доступна для всех Адских Десантников.",
+        "zh": "“LAS-98激光大炮”战略配备暂时获准供全体绝地潜兵使用。"
+      },
+      "message_id_32": 0,
+      "planets": [
+        {
+          "disabled": false,
+          "hash": 1192040123,
+          "index": 153,
+          "initial_owner": "Humans",
+          "max_health": 1000000,
+          "name": "Draupnir",
+          "position": {
+            "x": -74.5425,
+            "y": -13.14594
+          },
+          "sector": "31",
+          "waypoints": [
+            239
+          ]
+        }
+      ],
+      "portrait_id_32": 0,
+      "race": "Unknown",
+      "title": "WEAPON EXPERIMENTATION",
+      "title_32": 1793666817
+    }
+  ],
+  "impact_multiplier": 0.010806436,
   "joint_operations": [],
   "planet_active_effects": [],
   "planet_attacks": [
@@ -405,7 +448,7 @@
           1
         ]
       },
-      "players": 1102,
+      "players": 1101,
       "regen_per_second": 1388.8889
     },
     {
@@ -1164,8 +1207,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 875639,
-      "liberation": 12.43610000000001,
+      "health": 877014,
+      "liberation": 12.298600000000008,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -1186,7 +1229,7 @@
           211
         ]
       },
-      "players": 29698,
+      "players": 31275,
       "regen_per_second": 2.777778
     },
     {
@@ -1862,7 +1905,7 @@
           169
         ]
       },
-      "players": 89,
+      "players": 82,
       "regen_per_second": 1388.8889
     },
     {
@@ -2155,7 +2198,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 3,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -2179,7 +2222,7 @@
           170
         ]
       },
-      "players": 348,
+      "players": 361,
       "regen_per_second": 1388.8889
     },
     {
@@ -2204,7 +2247,7 @@
           168
         ]
       },
-      "players": 14,
+      "players": 15,
       "regen_per_second": 1388.8889
     },
     {
@@ -2228,7 +2271,7 @@
           127
         ]
       },
-      "players": 10,
+      "players": 32,
       "regen_per_second": 1388.8889
     },
     {
@@ -2841,7 +2884,7 @@
           155
         ]
       },
-      "players": 3,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -3246,7 +3289,7 @@
           168
         ]
       },
-      "players": 61,
+      "players": 60,
       "regen_per_second": 1388.8889
     },
     {
@@ -3269,7 +3312,7 @@
           127
         ]
       },
-      "players": 54,
+      "players": 65,
       "regen_per_second": 1388.8889
     },
     {
@@ -3858,8 +3901,8 @@
       "regen_per_second": 1.388889
     },
     {
-      "health": 504169,
-      "liberation": 49.5831,
+      "health": 503123,
+      "liberation": 49.6877,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -3877,7 +3920,7 @@
           239
         ]
       },
-      "players": 81797,
+      "players": 89568,
       "regen_per_second": 1.388889
     },
     {
@@ -3901,7 +3944,7 @@
           155
         ]
       },
-      "players": 2,
+      "players": 10,
       "regen_per_second": 1388.8889
     },
     {
@@ -3924,7 +3967,7 @@
           197
         ]
       },
-      "players": 6,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -4222,7 +4265,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 127,
+      "players": 140,
       "regen_per_second": 1388.8889
     },
     {
@@ -4245,12 +4288,12 @@
           170
         ]
       },
-      "players": 262,
+      "players": 269,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 489141,
-      "liberation": 51.0859,
+      "health": 487842,
+      "liberation": 51.2158,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -4268,7 +4311,7 @@
           212
         ]
       },
-      "players": 92655,
+      "players": 96755,
       "regen_per_second": 2.777778
     },
     {
@@ -4838,8 +4881,8 @@
       "regen_per_second": 1.388889
     },
     {
-      "health": 454901,
-      "liberation": 54.5099,
+      "health": 453782,
+      "liberation": 54.6218,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4858,7 +4901,7 @@
           153
         ]
       },
-      "players": 73740,
+      "players": 82131,
       "regen_per_second": 1.388889
     },
     {
@@ -4883,7 +4926,7 @@
           196
         ]
       },
-      "players": 184,
+      "players": 221,
       "regen_per_second": 1388.8889
     },
     {
@@ -5197,12 +5240,12 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 471,
+      "players": 487,
       "regen_per_second": 2.777778
     },
     {
-      "health": 562162,
-      "liberation": 43.78379999999999,
+      "health": 564592,
+      "liberation": 43.540800000000004,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -5218,7 +5261,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 12211,
+      "players": 8939,
       "regen_per_second": 2.777778
     },
     {
@@ -5823,7 +5866,7 @@
           151
         ]
       },
-      "players": 8,
+      "players": 13,
       "regen_per_second": 1388.8889
     },
     {
@@ -5846,12 +5889,12 @@
           243
         ]
       },
-      "players": 1455,
+      "players": 1460,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 47989,
-      "liberation": 95.2011,
+      "health": 49159,
+      "liberation": 95.0841,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5870,7 +5913,7 @@
           153
         ]
       },
-      "players": 38876,
+      "players": 25159,
       "regen_per_second": 1.388889
     },
     {
@@ -5916,7 +5959,7 @@
           155
         ]
       },
-      "players": 481,
+      "players": 505,
       "regen_per_second": 1388.8889
     },
     {
@@ -6276,7 +6319,7 @@
           258
         ]
       },
-      "players": 297,
+      "players": 300,
       "regen_per_second": 2.777778
     },
     {
@@ -6303,7 +6346,7 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "2024-03-30T20:16:51.138849Z",
-  "started_at": "2024-02-10T07:00:11.138849Z",
+  "snapshot_at": "2024-03-30T20:31:51.046567Z",
+  "started_at": "2024-02-10T07:00:11.046567Z",
   "war_id": 801
 }
