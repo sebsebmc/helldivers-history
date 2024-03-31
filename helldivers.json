@@ -69,22 +69,23 @@
       "type": 0
     },
     {
-      "count": 11,
-      "id": 50048,
+      "count": 7,
+      "id": 50050,
       "planet": {
         "disabled": false,
-        "hash": 1192040123,
-        "index": 153,
-        "initial_owner": "Humans",
+        "hash": 2216912817,
+        "index": 241,
+        "initial_owner": "Automaton",
         "max_health": 1000000,
-        "name": "Draupnir",
+        "name": "Ubanea",
         "position": {
-          "x": -74.5425,
-          "y": -13.14594
+          "x": -81.57918,
+          "y": -21.70526
         },
-        "sector": "31",
+        "sector": "46",
         "waypoints": [
-          239
+          152,
+          153
         ]
       },
       "type": 0
@@ -92,7 +93,7 @@
   ],
   "community_targets": [],
   "global_events": [],
-  "impact_multiplier": 0.0089144,
+  "impact_multiplier": 0.008894506,
   "joint_operations": [],
   "planet_active_effects": [],
   "planet_attacks": [
@@ -315,22 +316,6 @@
     {
       "source": {
         "disabled": false,
-        "hash": 2659689769,
-        "index": 239,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Tien Kwan",
-        "position": {
-          "x": -62.68659,
-          "y": -12.653387
-        },
-        "sector": "46",
-        "waypoints": [
-          151
-        ]
-      },
-      "target": {
-        "disabled": false,
         "hash": 1192040123,
         "index": 153,
         "initial_owner": "Humans",
@@ -343,30 +328,29 @@
         "sector": "31",
         "waypoints": [
           239
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3244992775,
+        "index": 196,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Malevelon Creek",
+        "position": {
+          "x": -84.73348,
+          "y": -9.6041
+        },
+        "sector": "33",
+        "waypoints": [
+          152,
+          153
         ]
       }
     },
     {
       "source": {
         "disabled": false,
-        "hash": 1806559160,
-        "index": 197,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Mantes",
-        "position": {
-          "x": -74.603856,
-          "y": -3.198197
-        },
-        "sector": "33",
-        "waypoints": [
-          107,
-          153,
-          196
-        ]
-      },
-      "target": {
-        "disabled": false,
         "hash": 1192040123,
         "index": 153,
         "initial_owner": "Humans",
@@ -379,6 +363,23 @@
         "sector": "31",
         "waypoints": [
           239
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2216912817,
+        "index": 241,
+        "initial_owner": "Automaton",
+        "max_health": 1000000,
+        "name": "Ubanea",
+        "position": {
+          "x": -81.57918,
+          "y": -21.70526
+        },
+        "sector": "46",
+        "waypoints": [
+          152,
+          153
         ]
       }
     }
@@ -405,7 +406,7 @@
           1
         ]
       },
-      "players": 988,
+      "players": 984,
       "regen_per_second": 1388.8889
     },
     {
@@ -1186,7 +1187,7 @@
           211
         ]
       },
-      "players": 27575,
+      "players": 27532,
       "regen_per_second": 2.777778
     },
     {
@@ -1862,7 +1863,7 @@
           169
         ]
       },
-      "players": 64,
+      "players": 67,
       "regen_per_second": 1388.8889
     },
     {
@@ -2155,7 +2156,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 4,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -2179,7 +2180,7 @@
           170
         ]
       },
-      "players": 243,
+      "players": 235,
       "regen_per_second": 1388.8889
     },
     {
@@ -2204,7 +2205,7 @@
           168
         ]
       },
-      "players": 17,
+      "players": 11,
       "regen_per_second": 1388.8889
     },
     {
@@ -2228,7 +2229,7 @@
           127
         ]
       },
-      "players": 22,
+      "players": 14,
       "regen_per_second": 1388.8889
     },
     {
@@ -2841,7 +2842,7 @@
           155
         ]
       },
-      "players": 11,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -3246,7 +3247,7 @@
           168
         ]
       },
-      "players": 47,
+      "players": 44,
       "regen_per_second": 1388.8889
     },
     {
@@ -3269,7 +3270,7 @@
           127
         ]
       },
-      "players": 51,
+      "players": 32,
       "regen_per_second": 1388.8889
     },
     {
@@ -3292,7 +3293,7 @@
           85
         ]
       },
-      "players": 83,
+      "players": 77,
       "regen_per_second": 1388.8889
     },
     {
@@ -3854,13 +3855,13 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 0,
+      "players": 2,
       "regen_per_second": 1.388889
     },
     {
-      "health": 3143,
-      "liberation": 99.6857,
-      "owner": "Automaton",
+      "health": 819424,
+      "liberation": 81.9424,
+      "owner": "Humans",
       "planet": {
         "disabled": false,
         "hash": 1192040123,
@@ -3877,8 +3878,8 @@
           239
         ]
       },
-      "players": 140303,
-      "regen_per_second": 1.388889
+      "players": 134993,
+      "regen_per_second": 1388.8889
     },
     {
       "health": 1000000,
@@ -3901,7 +3902,7 @@
           155
         ]
       },
-      "players": 2,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -3924,7 +3925,7 @@
           197
         ]
       },
-      "players": 10,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -4222,7 +4223,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 78,
+      "players": 86,
       "regen_per_second": 1388.8889
     },
     {
@@ -4245,12 +4246,12 @@
           170
         ]
       },
-      "players": 18069,
+      "players": 13659,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 512371,
-      "liberation": 48.762899999999995,
+      "health": 511752,
+      "liberation": 48.8248,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -4268,7 +4269,7 @@
           212
         ]
       },
-      "players": 97264,
+      "players": 99708,
       "regen_per_second": 2.777778
     },
     {
@@ -4838,8 +4839,8 @@
       "regen_per_second": 1.388889
     },
     {
-      "health": 183740,
-      "liberation": 81.626,
+      "health": 182004,
+      "liberation": 81.7996,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4858,7 +4859,7 @@
           153
         ]
       },
-      "players": 72001,
+      "players": 72413,
       "regen_per_second": 1.388889
     },
     {
@@ -4883,7 +4884,7 @@
           196
         ]
       },
-      "players": 132,
+      "players": 138,
       "regen_per_second": 1388.8889
     },
     {
@@ -5197,12 +5198,12 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 301,
+      "players": 309,
       "regen_per_second": 2.777778
     },
     {
-      "health": 805702,
-      "liberation": 19.4298,
+      "health": 807322,
+      "liberation": 19.26780000000001,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -5218,7 +5219,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 1240,
+      "players": 1274,
       "regen_per_second": 2.777778
     },
     {
@@ -5800,7 +5801,7 @@
           241
         ]
       },
-      "players": 0,
+      "players": 1,
       "regen_per_second": 1.388889
     },
     {
@@ -5823,7 +5824,7 @@
           151
         ]
       },
-      "players": 7,
+      "players": 14,
       "regen_per_second": 1388.8889
     },
     {
@@ -5846,12 +5847,12 @@
           243
         ]
       },
-      "players": 698,
+      "players": 721,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 165249,
-      "liberation": 83.4751,
+      "health": 166029,
+      "liberation": 83.3971,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5870,7 +5871,7 @@
           153
         ]
       },
-      "players": 1237,
+      "players": 5885,
       "regen_per_second": 1.388889
     },
     {
@@ -5893,7 +5894,7 @@
           243
         ]
       },
-      "players": 216,
+      "players": 180,
       "regen_per_second": 1388.8889
     },
     {
@@ -5916,7 +5917,7 @@
           155
         ]
       },
-      "players": 327,
+      "players": 322,
       "regen_per_second": 1388.8889
     },
     {
@@ -6276,7 +6277,7 @@
           258
         ]
       },
-      "players": 158,
+      "players": 173,
       "regen_per_second": 2.777778
     },
     {
@@ -6303,7 +6304,7 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "2024-03-31T21:21:52.091249Z",
-  "started_at": "2024-02-10T07:01:52.091249Z",
+  "snapshot_at": "2024-03-31T21:31:52.115706Z",
+  "started_at": "2024-02-10T07:01:52.115706Z",
   "war_id": 801
 }
