@@ -129,6 +129,27 @@
         ]
       },
       "type": 0
+    },
+    {
+      "count": 5,
+      "id": 50059,
+      "planet": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -84.0825,
+          "y": 6.103413
+        },
+        "sector": "48",
+        "waypoints": [
+          155
+        ]
+      },
+      "type": 0
     }
   ],
   "community_targets": [],
@@ -159,8 +180,29 @@
       "title_32": 159552540
     }
   ],
-  "impact_multiplier": 0.025638694,
-  "joint_operations": [],
+  "impact_multiplier": 0.026689386,
+  "joint_operations": [
+    {
+      "hq_node_index": 1,
+      "id": 4349,
+      "planet": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -84.0825,
+          "y": 6.103413
+        },
+        "sector": "48",
+        "waypoints": [
+          155
+        ]
+      }
+    }
+  ],
   "planet_active_effects": [],
   "planet_attacks": [
     {
@@ -518,7 +560,76 @@
       }
     }
   ],
-  "planet_events": [],
+  "planet_events": [
+    {
+      "campaign": {
+        "count": 5,
+        "id": 50059,
+        "planet": {
+          "disabled": false,
+          "hash": 230950549,
+          "index": 243,
+          "initial_owner": "Humans",
+          "max_health": 1000000,
+          "name": "Vandalon IV",
+          "position": {
+            "x": -84.0825,
+            "y": 6.103413
+          },
+          "sector": "48",
+          "waypoints": [
+            155
+          ]
+        },
+        "type": 0
+      },
+      "event_type": 1,
+      "expire_time": "1970-02-24T00:34:20Z",
+      "health": 400000,
+      "id": 4349,
+      "joint_operations": [
+        {
+          "hq_node_index": 1,
+          "id": 4349,
+          "planet": {
+            "disabled": false,
+            "hash": 230950549,
+            "index": 243,
+            "initial_owner": "Humans",
+            "max_health": 1000000,
+            "name": "Vandalon IV",
+            "position": {
+              "x": -84.0825,
+              "y": 6.103413
+            },
+            "sector": "48",
+            "waypoints": [
+              155
+            ]
+          }
+        }
+      ],
+      "max_health": 400000,
+      "planet": {
+        "disabled": false,
+        "hash": 230950549,
+        "index": 243,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vandalon IV",
+        "position": {
+          "x": -84.0825,
+          "y": 6.103413
+        },
+        "sector": "48",
+        "waypoints": [
+          155
+        ]
+      },
+      "race": "Automaton",
+      "start_time": "1970-02-23T00:34:20Z"
+    }
+  ],
   "planet_status": [
     {
       "health": 1000000,
@@ -540,7 +651,7 @@
           1
         ]
       },
-      "players": 531,
+      "players": 487,
       "regen_per_second": 1388.8889
     },
     {
@@ -1321,7 +1432,7 @@
           211
         ]
       },
-      "players": 5337,
+      "players": 5053,
       "regen_per_second": 2.777778
     },
     {
@@ -1997,7 +2108,7 @@
           169
         ]
       },
-      "players": 27,
+      "players": 24,
       "regen_per_second": 1388.8889
     },
     {
@@ -2294,8 +2405,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 507119,
-      "liberation": 49.2881,
+      "health": 506616,
+      "liberation": 49.33840000000001,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -2314,7 +2425,7 @@
           170
         ]
       },
-      "players": 20020,
+      "players": 19837,
       "regen_per_second": 2.777778
     },
     {
@@ -2339,7 +2450,7 @@
           168
         ]
       },
-      "players": 7,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -2363,7 +2474,7 @@
           127
         ]
       },
-      "players": 6,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -2976,7 +3087,7 @@
           155
         ]
       },
-      "players": 0,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -3381,7 +3492,7 @@
           168
         ]
       },
-      "players": 19,
+      "players": 14,
       "regen_per_second": 1388.8889
     },
     {
@@ -3404,7 +3515,7 @@
           127
         ]
       },
-      "players": 7,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -3427,7 +3538,7 @@
           85
         ]
       },
-      "players": 23,
+      "players": 13,
       "regen_per_second": 1388.8889
     },
     {
@@ -3989,7 +4100,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 8270,
+      "players": 8120,
       "regen_per_second": 4.1666665
     },
     {
@@ -4012,7 +4123,7 @@
           239
         ]
       },
-      "players": 147,
+      "players": 158,
       "regen_per_second": 1388.8889
     },
     {
@@ -4357,7 +4468,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 29,
+      "players": 24,
       "regen_per_second": 1388.8889
     },
     {
@@ -4380,12 +4491,12 @@
           170
         ]
       },
-      "players": 125,
+      "players": 158,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 283829,
-      "liberation": 71.6171,
+      "health": 282861,
+      "liberation": 71.7139,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -4403,7 +4514,7 @@
           212
         ]
       },
-      "players": 24160,
+      "players": 23916,
       "regen_per_second": 2.777778
     },
     {
@@ -4950,8 +5061,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 1000000,
-      "liberation": 0,
+      "health": 999998,
+      "liberation": 0.00019999999999242846,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4970,7 +5081,7 @@
           243
         ]
       },
-      "players": 17061,
+      "players": 16498,
       "regen_per_second": 4.1666665
     },
     {
@@ -4994,7 +5105,7 @@
           153
         ]
       },
-      "players": 910,
+      "players": 815,
       "regen_per_second": 1388.8889
     },
     {
@@ -5019,7 +5130,7 @@
           196
         ]
       },
-      "players": 22,
+      "players": 17,
       "regen_per_second": 1388.8889
     },
     {
@@ -5333,7 +5444,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 48,
+      "players": 35,
       "regen_per_second": 2.777778
     },
     {
@@ -5354,7 +5465,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 152,
+      "players": 153,
       "regen_per_second": 2.777778
     },
     {
@@ -5917,8 +6028,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 939324,
-      "liberation": 6.067599999999999,
+      "health": 938329,
+      "liberation": 6.167100000000005,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5936,7 +6047,7 @@
           241
         ]
       },
-      "players": 28982,
+      "players": 28077,
       "regen_per_second": 4.1666665
     },
     {
@@ -5959,7 +6070,7 @@
           151
         ]
       },
-      "players": 4,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -5982,7 +6093,7 @@
           243
         ]
       },
-      "players": 94,
+      "players": 83,
       "regen_per_second": 1388.8889
     },
     {
@@ -6006,7 +6117,7 @@
           153
         ]
       },
-      "players": 1432,
+      "players": 1410,
       "regen_per_second": 1388.8889
     },
     {
@@ -6052,7 +6163,7 @@
           155
         ]
       },
-      "players": 55,
+      "players": 38,
       "regen_per_second": 1388.8889
     },
     {
@@ -6412,7 +6523,7 @@
           258
         ]
       },
-      "players": 17,
+      "players": 20,
       "regen_per_second": 2.777778
     },
     {
@@ -6439,7 +6550,7 @@
       "regen_per_second": 1388.8889
     }
   ],
-  "snapshot_at": "2024-04-03T07:31:54.531502Z",
-  "started_at": "2024-02-10T07:07:04.531502Z",
+  "snapshot_at": "2024-04-03T07:41:54.565368Z",
+  "started_at": "2024-02-10T07:07:04.565368Z",
   "war_id": 801
 }
