@@ -10,7 +10,7 @@ export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus){
     const first = agg.findIndex(x => (new Date(x.timestamp) > start));
     agg = agg.slice(first);
     return Plot.plot({
-        title: currentStatus.planet.name,
+        title: currentStatus.name,
         subtitle: getSubtitle(agg, planetIdx, currentStatus),
         width:width,
         x: {domain:[start, Date.now()]},
@@ -28,7 +28,7 @@ const SEC_PER_HOUR = 60 * 60;
 const MSEC_PER_HOUR = SEC_PER_HOUR * 1000;
 
 function getRegen(planetStatus) {
-    return (((planetStatus.regen_per_second * SEC_PER_HOUR) / planetStatus.planet.max_health) * 100.0).toFixed(2);
+    return (((planetStatus.regen_per_second * SEC_PER_HOUR) / planetStatus.max_health) * 100.0).toFixed(2);
 }
 
 function calculateTrend(agg, planetIdx, planetStatus) {
@@ -100,7 +100,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
     let rows = [];
     for(const planet of recentAttacks){
         const planetIdx = planet[0];
-        const planetStatus = status.planet_status[planetIdx];
+        const planetStatus = status.planets[planetIdx];
         let regen = getRegen(planetStatus);
         let current = calculateTrend(agg, planetIdx, planetStatus).toFixed(2);
         let result = getResult(current, planetStatus);
@@ -108,10 +108,10 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
         if(event){
             let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation;
             planetStatus.liberation = liberation;
-            planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.expire_time) - gameTime);
+            planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.end_time) - gameTime);
             planetStatus['regen_per_hour'] = "N/A";
             rows.push(html`<tr>
-            <td>${planetStatus.planet.name}</td>
+            <td>${planetStatus.name}</td>
             <td>${planetStatus.players}</td>
             <td>${liberation.toFixed(2)}%</td>
             <td>N/A</td>
@@ -121,7 +121,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
             planetStatus['result_str'] = result;
             planetStatus['regen_per_hour'] = regen;
             rows.push(html`<tr>
-            <td>${planetStatus.planet.name}</td>
+            <td>${planetStatus.name}</td>
             <td>${planetStatus.players}</td>
             <td>${planetStatus.liberation.toFixed(2)}%</td>
             <td>${regen}%/hr</td>
@@ -140,7 +140,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
 }
 
 function isDefense(status, planetIdx) {
-    for(let event of status.planet_events) {
+    for(let event of status.events) {
         if(event.planet.index == planetIdx){
             return event;
         }
@@ -155,12 +155,20 @@ export function renderDefenses(defenses, msSinceGameEpoch){
         <strong>🛡 ${defense.planet.name} is under attack! 🛡 </strong> <br>
         <p>
         Defense progress: ${(100* (1.0 - defense.health/defense.max_health)).toFixed(2)}%.
-        This event ends at ${new Date(Date.now() + new Date(defense.expire_time).getTime()-msSinceGameEpoch).toLocaleString()}. 
+        This event ends at ${new Date(Date.now() + new Date(defense.end_time).getTime()-msSinceGameEpoch).toLocaleString()}. 
         Rate needed: ${
-            (100*(defense.health / defense.max_health)/((new Date(defense.expire_time).getTime()-msSinceGameEpoch)/(MSEC_PER_HOUR))).toFixed(2)
+            (100*(defense.health / defense.max_health)/((new Date(defense.end_time).getTime()-msSinceGameEpoch)/(MSEC_PER_HOUR))).toFixed(2)
         }%/hr
         </p>
         </div>`);
     }
     return rows;
+}
+
+export function getDefender(status, index){
+    let def = isDefense(status, index);
+    if(def) {
+        return def.faction;
+    }
+    return status.planets[index].current_owner;
 }

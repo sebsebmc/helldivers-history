@@ -36,15 +36,19 @@ jobs:
     - name: Fetch latest data
       run: |-
         cp helldivers.json ./docs/data/helldivers.json
-        curl https://helldivers-2.fly.dev/api/801/status | jq . > helldivers.json
-        curl https://helldivers-2.fly.dev/api/805/status | jq . > 805.json
-
+        curl -A "$GITHUB_REPOSITORY" https://helldivers-2.fly.dev/api/801/status     | jq . > helldivers.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: en-us" https://helldivers-2-dotnet.fly.dev/api/v1/war         -o 801_war_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: en-us" https://helldivers-2-dotnet.fly.dev/api/v1/planets     -o 801_planets_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: en-us" https://helldivers-2-dotnet.fly.dev/api/v1/assignments -o 801_assignments_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: en-us" https://helldivers-2-dotnet.fly.dev/api/v1/campaigns   -o 801_campaigns_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: en-us" https://helldivers-2-dotnet.fly.dev/api/v1/dispatches  -o 801_dispatches_v1.json
+        jq -s "{war:.[0],planets:.[1],assignments:.[2],campaigns:.[3],dispatches:.[4]}" 801_war_v1.json 801_planets_v1.json 801_assignments_v1.json 801_campaigns_v1.json 801_dispatches_v1.json > 801_full_v1.json
 
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
         git config user.email "actions@users.noreply.github.com"
-        git add helldivers.json 805.json planetStats.json
+        git add helldivers.json 801_full_v1.json
         timestamp=$(date -u)
         git commit -m "Latest data: ${timestamp}" || exit 0
         git push

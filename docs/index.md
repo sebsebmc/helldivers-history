@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {twoDayPlanetAttack, planetTableRows, renderDefenses} from "./components/planet_history.js";
+import {twoDayPlanetAttack, planetTableRows, getDefender, renderDefenses} from "./components/planet_history.js";
 ```
 
 <style>
@@ -98,26 +98,6 @@ import {twoDayPlanetAttack, planetTableRows, renderDefenses} from "./components/
 </style>
 
 ```js
-window.onerror = function myErrorHandler(errorMsg, url, lineNumber) {
-    if(errorMsg == "RuntimeError: Unable to load file: helldivers.json"){
-      window.location.reload();
-    }
-    return false;
-}
-window.addEventListener("error", function (e) {
-   if(e.error && e.error.message == "RuntimeError: Unable to load file: helldivers.json"){
-      window.location.reload();
-    }
-   return false;
-});
-window.addEventListener('unhandledrejection', function (e) {
-  if(e.reason.message == "RuntimeError: Unable to load file: helldivers.json"){
-      window.location.reload();
-    }
-});
-```
-
-```js
 const loadedAt = Date.now();
 const eff_now = (async function*(){
   for(;;){
@@ -129,7 +109,7 @@ const eff_now = (async function*(){
 
 ```js
 const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}));
-const status = FileAttachment('./data/helldivers.json').json().catch(() => window.location.reload());
+const status = FileAttachment('./data/current_status.json').json().catch(() => window.location.reload());
 const agg = FileAttachment('./data/aggregates.json').json();
 const focus = FileAttachment('./data/recent_attacks.json').json();
 const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
@@ -137,10 +117,10 @@ const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
 
 ```js
 setTimeout(() => document.location.reload(), 10*60*1000);
-const defenses = status.planet_events.filter(e => e.event_type == 1);
+const defenses = status.events.filter(e => e.type == 1);
 const lastEntryTime = new Date(agg[agg.length-1].timestamp);
-const statusTime = new Date(status.snapshot_at);
-const GAME_EPOCH = new Date(status.started_at);
+const statusTime = new Date(status.war.now);
+const GAME_EPOCH = new Date(status.war.start_time);
 ```
 
 ```js
@@ -213,14 +193,14 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
 ```
 
 ```js
-const active = status.campaigns.map(p => p.planet.index);
+const active = status.active.map(p => p.planet.index);
 active.push(0);
 ```
 <div class="grid grid-cols-2">
   <div class="card">
     <div>
     ${
-      Inputs.table(status.global_events, {
+      Inputs.table(status.assignments, {
         header: {title: "Title", message: "Message"}, 
         columns:['title', 'message'],
         format: { message: x => htl.html`<span style="white-space:normal">${x[lang]}`},
@@ -241,7 +221,7 @@ active.push(0);
 
 ```js
 const showWaypoints = view(Inputs.toggle({label:"Show routes", value:false}))
-const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => ({from:x.planet.position, to:status.planet_status[y].planet.position})));
+const waypoints = status.planets.flatMap(x => x.waypoints.map(y => ({from:x.position, to:status.planets[y].position})));
 ```
 
 <div class="grid grid-cols-4" style="grid-auto-rows: auto;">
@@ -257,23 +237,14 @@ const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => 
         height: width,
         projection: {type: "reflect-y", domain: {type: "MultiPoint", coordinates: [[100,-100],[100,100],[-100,100],[-100,-100]]}},
         marks: [
-          Plot.dot(status.planet_status, {
-            x: p => p.planet.position.x,
-            y: p => p.planet.position.y, 
+          Plot.dot(status.planets, {
+            x: p => p.position.x,
+            y: p => p.position.y, 
             r: width/150, 
-            stroke: p => getColor(p.planet.initial_owner),
-            fill: p => getColor(p.owner), 
+            stroke: p => getColor(p.initial_owner),
+            fill: p => getColor(p.current_owner), 
             strokeWidth: width/220,
-            opacity: p => (active.includes(p.planet.index) ? 1.0 : 0.25),
-          }),
-          showWaypoints ? null : Plot.arrow(status.planet_attacks, {
-            x1: p => p.source.position.x,
-            y1: p => p.source.position.y,
-            x2: p => p.target.position.x,
-            y2: p => p.target.position.y,
-            bend: true,
-            inset: width/110,
-            strokeWidth: width/440,
+            opacity: p => (active.includes(p.index) ? 1.0 : 0.25),
           }),
           showWaypoints ? Plot.link(waypoints, {
             x1: p => p.from.x,
@@ -283,26 +254,26 @@ const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => 
             inset: width/110,
             strokeWidth: width/880,
           }) : null,
-          Plot.rect(status.planet_attacks, {
-            x1: p => p.target.position.x-(width/440),
-            y1: p => p.target.position.y-(width/220),
-            x2: p => p.target.position.x+(width/440),
-            y2: p => p.target.position.y-(width/220)+1,
+          Plot.rect(status.active, {
+            x1: p => p.planet.position.x-(width/440),
+            y1: p => p.planet.position.y-(width/220),
+            x2: p => p.planet.position.x+(width/440),
+            y2: p => p.planet.position.y-(width/220)+1,
             stroke: "black",
-            fill: p => getColor(status.planet_status[p.target.index].owner)
+            fill: p => getColor(getDefender(status, p.planet.index))
           }),
-          Plot.rect(status.planet_attacks, {
-            x1: p => p.target.position.x-(width/440),
-            y1: p => p.target.position.y-(width/220),
-            x2: p => (p.target.position.x-(width/440))+((width/220)*(status.planet_status[p.target.index].liberation/100)),
-            y2: p => p.target.position.y-(width/220)+1,
+          Plot.rect(status.active, {
+            x1: p => p.planet.position.x-(width/440),
+            y1: p => p.planet.position.y-(width/220),
+            x2: p => (p.planet.position.x-(width/440))+((width/220)*(status.planets[p.planet.index].liberation/100)),
+            y2: p => p.planet.position.y-(width/220)+1,
             stroke: "black",
-            fill: p => getColor(status.planet_status[p.source.index].owner)
+            fill: p => getColor('Humans')
           }),
-          Plot.tip(status.planet_status, Plot.pointer({
-            x: p => p.planet.position.x, 
-            y: p => p.planet.position.y,
-            title: p => [`${p.planet.name}\n`, `Liberation: ${p.liberation.toFixed(2)}%`, `Players: ${p.players}`].join("\n"), fontSize: 20})
+          Plot.tip(status.planets, Plot.pointer({
+            x: p => p.position.x, 
+            y: p => p.position.y,
+            title: p => [`${p.name}\n`, `Liberation: ${p.liberation.toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
           ),
           factionLegend(['Humans', 'Terminids', 'Automaton'], {r:width/150, strokeWidth:width/220, width}),
         ],
@@ -311,11 +282,11 @@ const waypoints = status.planet_status.flatMap(x => x.planet.waypoints.map(y => 
     }</div>
   </div>
   <div class="card grid-colspan-1" style="padding:1rem;">
-  ${resize((width) => twoDayPlanetAttack(width, agg, focus[0][0], status.planet_status[focus[0][0]]))}
+  ${resize((width) => twoDayPlanetAttack(width, agg, focus[0][0], status.planets[focus[0][0]]))}
   </div>
-  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planet_status[focus[1][0]]))}</div>
-  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planet_status[focus[2][0]]))}</div>
-  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planet_status[focus[3][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planets[focus[1][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planets[focus[2][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planets[focus[3][0]]))}</div>
 </div>
 
 ## History
