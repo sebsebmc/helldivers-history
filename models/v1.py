@@ -950,8 +950,6 @@ class Campaign2(BaseModel):
     Represents an ongoing campaign on a planet.
     """
 
-    model_config = ConfigDict(extra='forbid')
-
     id: Optional[int] = None
     """
     The unique identifier of this Campaign.
@@ -967,6 +965,10 @@ class Campaign2(BaseModel):
     count: Optional[int] = None
     """
     Indicates how many campaigns have already been fought on this Planet.
+    """
+    attacking: Optional[List[int]] = None
+    """
+    List of planet indices this planet is attacking
     """
 
 class FullStatus(BaseModel):

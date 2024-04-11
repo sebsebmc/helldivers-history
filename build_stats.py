@@ -222,6 +222,7 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
             'health': planet_status.health,
             'max_health': planet_status.planet.max_health,
             'statistics': frontend.Statistics.model_validate({'player_count':planet_status.players}),
+            'attacking': [target for (source, target) in v0_rec.planet_attacks if source == planet_status.planet.index]
         }))
         total_players += planet_status.players
     

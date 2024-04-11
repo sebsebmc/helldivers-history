@@ -60,6 +60,9 @@ class Attacks:
     source: PlanetRecord
     target: PlanetRecord
 
+    def __iter__(self):
+        return iter((self.source.index, self.target.index))
+
 @dataclass
 class PlanetEvent:
     campaign: Campaign

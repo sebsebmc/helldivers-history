@@ -36,6 +36,7 @@ class Planet(BaseModel):
     health: int
     max_health: int
     statistics: Optional[Statistics]
+    attacking: Optional[List[int]]
 
     @computed_field
     @property

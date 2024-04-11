@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {twoDayPlanetAttack, planetTableRows, getDefender, renderDefenses} from "./components/planet_history.js";
+import {twoDayPlanetAttack, planetTableRows, getDefender, renderDefenses, renderAHTags} from "./components/planet_history.js";
 ```
 
 <style>
@@ -203,7 +203,7 @@ active.push(0);
       Inputs.table(status.assignments, {
         header: {title: "Title", message: "Message"}, 
         columns:['title', 'message'],
-        format: { message: x => htl.html`<span style="white-space:normal">${x[lang]}`},
+        format: { message: x => htl.html`<span style="white-space:normal">${renderAHTags`${x[lang]}`}`},
         layout: 'auto',
         }
       )
@@ -222,6 +222,7 @@ active.push(0);
 ```js
 const showWaypoints = view(Inputs.toggle({label:"Show routes", value:false}))
 const waypoints = status.planets.flatMap(x => x.waypoints.map(y => ({from:x.position, to:status.planets[y].position})));
+const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.position, to:status.planets[y].position})));
 ```
 
 <div class="grid grid-cols-4" style="grid-auto-rows: auto;">
@@ -245,6 +246,15 @@ const waypoints = status.planets.flatMap(x => x.waypoints.map(y => ({from:x.posi
             fill: p => getColor(p.current_owner), 
             strokeWidth: width/220,
             opacity: p => (active.includes(p.index) ? 1.0 : 0.25),
+          }),
+          showWaypoints ? null : Plot.arrow(attacks, {
+            x1: p => p.from.x,
+            y1: p => p.from.y,
+            x2: p => p.to.x,
+            y2: p => p.to.y,
+            bend: true,
+            inset: width/110,
+            strokeWidth: width/440,
           }),
           showWaypoints ? Plot.link(waypoints, {
             x1: p => p.from.x,
