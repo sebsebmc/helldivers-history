@@ -81,6 +81,11 @@ class PlanetEvent:
     def liberation(self) -> float:
         return (1.0 - (self.health / self.max_health)) * 100
 
+@dataclass
+class Dispatch:
+    id: int
+    message: Dict[str,str]
+    title:Optional[str]
 
 @dataclass
 class FullStatus:
@@ -89,6 +94,7 @@ class FullStatus:
     planet_attacks: List[Attacks]
     planet_status: List[PlanetStatus]
     planet_events: List[PlanetEvent]
+    global_events: List[Dispatch]
     # We'll just override this with the commit timestamp
     snapshot_at: datetime
     started_at: datetime

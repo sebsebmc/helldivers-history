@@ -95,6 +95,14 @@ import {twoDayPlanetAttack, planetTableRows, getDefender, renderDefenses, render
   text-align: center;
 }
 
+.text-yellow {
+  color: yellow;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
 </style>
 
 ```js
@@ -200,10 +208,10 @@ active.push(0);
   <div class="card">
     <div>
     ${
-      Inputs.table(status.assignments, {
+      Inputs.table(status.dispatches, {
         header: {title: "Title", message: "Message"}, 
         columns:['title', 'message'],
-        format: { message: x => htl.html`<span style="white-space:normal">${renderAHTags`${x[lang]}`}`},
+        format: { message: x => htl.html`<span style="white-space:normal">${renderAHTags(x[lang])}`},
         layout: 'auto',
         }
       )

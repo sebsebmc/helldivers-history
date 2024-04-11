@@ -264,6 +264,7 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
         'assignments': [],
         'war': war_details,
         'active': campaigns,
+        'dispatches':[dataclasses.asdict(d) for d in v0_rec.global_events],
     })
 
 create_agg_stats()

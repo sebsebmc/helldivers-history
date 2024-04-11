@@ -172,3 +172,9 @@ export function getDefender(status, index){
     }
     return status.planets[index].current_owner;
 }
+
+export function renderAHTags(string){
+    return string.replaceAll("</i>", "")
+        .replaceAll("<i=1>","")
+        .replaceAll("<i=3>", "");
+}

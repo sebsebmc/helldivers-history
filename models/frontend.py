@@ -95,6 +95,12 @@ class Campaign(BaseModel):
     type: int
     count: int
 
+class Dispatch(BaseModel):
+    id: int
+    message: Dict[str, str]
+    title: Optional[str] = None
+    faction: Optional[str] = None
+
 class CurrentStatus(BaseModel):
     # union type for now in case we get more types later
     events: List[Union[Defense]]
@@ -103,3 +109,4 @@ class CurrentStatus(BaseModel):
     assignments: List[Assignment]
     war: WarDetails
     active: List[Campaign]
+    dispatches: List[Dispatch]
