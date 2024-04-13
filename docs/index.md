@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {twoDayPlanetAttack, planetTableRows, getDefender, renderDefenses, renderAHTags} from "./components/planet_history.js";
+import {twoDayPlanetAttack, planetTableRows, getDefender, getLiberation, renderDefenses, renderAHTags} from "./components/planet_history.js";
 ```
 
 <style>
@@ -283,7 +283,7 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
           Plot.rect(status.active, {
             x1: p => p.planet.position.x-(width/440),
             y1: p => p.planet.position.y-(width/220),
-            x2: p => (p.planet.position.x-(width/440))+((width/220)*(status.planets[p.planet.index].liberation/100)),
+            x2: p => (p.planet.position.x-(width/440))+((width/220)*(getLiberation(p.planet.index, status, defenses)/100)),
             y2: p => p.planet.position.y-(width/220)+1,
             stroke: "black",
             fill: p => getColor('Humans')
@@ -291,7 +291,7 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
           Plot.tip(status.planets, Plot.pointer({
             x: p => p.position.x, 
             y: p => p.position.y,
-            title: p => [`${p.name}\n`, `Liberation: ${p.liberation.toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
+            title: p => [`${p.name}\n`, `Liberation: ${getLiberation(p.index, status, defenses).toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
           ),
           factionLegend(['Humans', 'Terminids', 'Automaton'], {r:width/150, strokeWidth:width/220, width}),
         ],

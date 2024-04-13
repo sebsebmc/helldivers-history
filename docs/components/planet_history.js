@@ -106,12 +106,12 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
         let result = getResult(current, planetStatus);
         let event = isDefense(status, planetIdx);
         if(event){
-            let liberation = agg[agg.length-1]["attacks"][planetIdx].liberation;
+            let liberation = event.liberation;
             planetStatus.liberation = liberation;
             planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.end_time) - gameTime);
             planetStatus['regen_per_hour'] = "N/A";
             rows.push(html`<tr>
-            <td>${planetStatus.name}</td>
+            <td>🛡 ${planetStatus.name}</td>
             <td>${planetStatus.statistics.player_count}</td>
             <td>${liberation.toFixed(2)}%</td>
             <td>N/A</td>
@@ -121,7 +121,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
             planetStatus['result_str'] = result;
             planetStatus['regen_per_hour'] = regen;
             rows.push(html`<tr>
-            <td>${planetStatus.name}</td>
+            <td>⚔ ${planetStatus.name}</td>
             <td>${planetStatus.statistics.player_count}</td>
             <td>${planetStatus.liberation.toFixed(2)}%</td>
             <td>${regen}%/hr</td>
@@ -154,11 +154,12 @@ export function renderDefenses(defenses, msSinceGameEpoch){
         rows.push(html`<div>
         <strong>🛡 ${defense.planet.name} is under attack! 🛡 </strong> <br>
         <p>
+        Difficulty: ${(defense.max_health / defense.planet.max_health).toFixed(2)}
         Defense progress: ${(100* (1.0 - defense.health/defense.max_health)).toFixed(2)}%.
-        This event ends at ${new Date(Date.now() + new Date(defense.end_time).getTime()-msSinceGameEpoch).toLocaleString()}. 
-        Rate needed: ${
+        <span style="white-space: nowrap;">This event ends at ${new Date(Date.now() + new Date(defense.end_time).getTime()-msSinceGameEpoch).toLocaleString()}.</span> 
+        <span style="white-space: nowrap;">Rate needed: ${
             (100*(defense.health / defense.max_health)/((new Date(defense.end_time).getTime()-msSinceGameEpoch)/(MSEC_PER_HOUR))).toFixed(2)
-        }%/hr
+        }%/hr</span>
         </p>
         </div>`);
     }
@@ -171,6 +172,15 @@ export function getDefender(status, index){
         return def.faction;
     }
     return status.planets[index].current_owner;
+}
+
+export function getLiberation(index, currentStatus, defenses) {
+    let def = isDefense(currentStatus, index);
+    if(def){
+        return def.liberation;
+    } else {
+        return currentStatus.planets[index].liberation;
+    }
 }
 
 export function renderAHTags(string){
