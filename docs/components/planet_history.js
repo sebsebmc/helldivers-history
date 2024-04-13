@@ -112,7 +112,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
             planetStatus['regen_per_hour'] = "N/A";
             rows.push(html`<tr>
             <td>${planetStatus.name}</td>
-            <td>${planetStatus.players}</td>
+            <td>${planetStatus.statistics.player_count}</td>
             <td>${liberation.toFixed(2)}%</td>
             <td>N/A</td>
             <td>${current}%/hr</td>
@@ -122,7 +122,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
             planetStatus['regen_per_hour'] = regen;
             rows.push(html`<tr>
             <td>${planetStatus.name}</td>
-            <td>${planetStatus.players}</td>
+            <td>${planetStatus.statistics.player_count}</td>
             <td>${planetStatus.liberation.toFixed(2)}%</td>
             <td>${regen}%/hr</td>
             <td>${current}%/hr</td>
