@@ -174,7 +174,27 @@ export function getDefender(status, index){
 }
 
 export function renderAHTags(string){
-    return string.replaceAll("</i>", "")
-        .replaceAll("<i=1>","")
-        .replaceAll("<i=3>", "");
+    let re = /<i=([13])>([^<]+)<\/i>/g;
+    let match;
+    let out = [];
+    let prevEnd = 0;
+    while((match = re.exec(string)) !== null){
+        if(prevEnd != match.index) {
+            out.push(html`${string.slice(prevEnd, match.index)}`);
+        }
+        if(match[1] == '3'){
+            out.push(html`<span class='font-bold'>${match[2]}</span>`);
+        }else if(match[1] == '1'){
+            out.push(html`<span class='font-bold text-yellow'>${match[2]}</span>`);
+        }
+        prevEnd = re.lastIndex;
+    }
+    if(prevEnd != string.length) {
+        out.push(html`${string.slice(prevEnd)}`);
+    }
+
+    if(out.length == 0){
+        return string;
+    }
+    return out;
 }
