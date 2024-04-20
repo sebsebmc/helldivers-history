@@ -2,7 +2,7 @@
   "war": {
     "started": "2024-01-23T20:05:13Z",
     "ended": "2028-02-08T20:04:55Z",
-    "now": "1970-03-12T06:48:30Z",
+    "now": "1970-03-12T07:00:30Z",
     "clientVersion": "0.3.0",
     "factions": [
       "Humans",
@@ -10,23 +10,23 @@
       "Automaton",
       "Illuminate"
     ],
-    "impactMultiplier": 0.01480083,
+    "impactMultiplier": 0.014700396,
     "statistics": {
-      "missionsWon": 165842443,
-      "missionsLost": 18160600,
-      "missionTime": 317506583431,
-      "terminidKills": 20595269754,
-      "automatonKills": 10506643975,
+      "missionsWon": 165870699,
+      "missionsLost": 18165295,
+      "missionTime": 317614039998,
+      "terminidKills": 20605222710,
+      "automatonKills": 10508981863,
       "illuminateKills": 28,
-      "bulletsFired": 188353927394,
-      "bulletsHit": 202696925363,
-      "timePlayed": 317506583431,
-      "deaths": 892124073,
+      "bulletsFired": 188411734581,
+      "bulletsHit": 202764661395,
+      "timePlayed": 317614039998,
+      "deaths": 892377931,
       "revives": 2,
-      "friendlies": 117398609,
+      "friendlies": 117438232,
       "missionSuccessRate": 90,
       "accuracy": 100,
-      "playerCount": 229315
+      "playerCount": 229988
     }
   },
   "planets": [
@@ -74,7 +74,7 @@
         "friendlies": 1,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 982
+        "playerCount": 936
       },
       "attacking": []
     },
@@ -1767,21 +1767,21 @@
       "regenPerSecond": 2.777778,
       "event": null,
       "statistics": {
-        "missionsWon": 13585082,
-        "missionsLost": 1754481,
-        "missionTime": 23685836095,
-        "terminidKills": 2649181702,
+        "missionsWon": 13587203,
+        "missionsLost": 1754736,
+        "missionTime": 23692694062,
+        "terminidKills": 2649937728,
         "automatonKills": 133,
         "illuminateKills": 0,
-        "bulletsFired": 15248507614,
-        "bulletsHit": 18193115762,
-        "timePlayed": 23685836095,
-        "deaths": 73856329,
+        "bulletsFired": 15252299626,
+        "bulletsHit": 18197701338,
+        "timePlayed": 23692694062,
+        "deaths": 73874697,
         "revives": 0,
-        "friendlies": 10269101,
+        "friendlies": 10271544,
         "missionSuccessRate": 88,
         "accuracy": 100,
-        "playerCount": 15094
+        "playerCount": 14800
       },
       "attacking": []
     },
@@ -3245,21 +3245,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 3315893,
-        "missionsLost": 381220,
-        "missionTime": 4040690360,
-        "terminidKills": 539485662,
+        "missionsWon": 3315894,
+        "missionsLost": 381221,
+        "missionTime": 4040693165,
+        "terminidKills": 539486010,
         "automatonKills": 16718,
         "illuminateKills": 0,
-        "bulletsFired": 3394737428,
-        "bulletsHit": 3740457753,
-        "timePlayed": 4040690360,
-        "deaths": 14462353,
+        "bulletsFired": 3394739555,
+        "bulletsHit": 3740460657,
+        "timePlayed": 4040693165,
+        "deaths": 14462363,
         "revives": 0,
         "friendlies": 2451031,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 23
+        "playerCount": 16
       },
       "attacking": []
     },
@@ -3952,21 +3952,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 14090095,
-        "missionsLost": 1321699,
-        "missionTime": 25929063851,
-        "terminidKills": 3222776474,
+        "missionsWon": 14090114,
+        "missionsLost": 1321706,
+        "missionTime": 25929145548,
+        "terminidKills": 3222784879,
         "automatonKills": 579,
         "illuminateKills": 0,
-        "bulletsFired": 18184952759,
-        "bulletsHit": 21764090778,
-        "timePlayed": 25929063851,
-        "deaths": 65404438,
+        "bulletsFired": 18185000395,
+        "bulletsHit": 21764148916,
+        "timePlayed": 25929145548,
+        "deaths": 65404703,
         "revives": 0,
-        "friendlies": 10850596,
+        "friendlies": 10850631,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 340
+        "playerCount": 329
       },
       "attacking": []
     },
@@ -4020,7 +4020,7 @@
         "friendlies": 680450,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 4
+        "playerCount": 5
       },
       "attacking": []
     },
@@ -4069,7 +4069,7 @@
         "friendlies": 1438,
         "missionSuccessRate": 70,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 1
       },
       "attacking": []
     },
@@ -5413,7 +5413,7 @@
         "friendlies": 2853,
         "missionSuccessRate": 88,
         "accuracy": 61,
-        "playerCount": 3
+        "playerCount": 4
       },
       "attacking": []
     },
@@ -5636,25 +5636,39 @@
       "initialOwner": "Humans",
       "currentOwner": "Humans",
       "regenPerSecond": 1388.8889,
-      "event": null,
+      "event": {
+        "id": 4386,
+        "eventType": 1,
+        "faction": "Automaton",
+        "health": 299995,
+        "maxHealth": 300000,
+        "startTime": "1970-03-12T06:50:50Z",
+        "endTime": "1970-03-13T06:50:50Z",
+        "campaignId": 50111,
+        "jointOperationIds": [
+          4386
+        ]
+      },
       "statistics": {
-        "missionsWon": 2109306,
-        "missionsLost": 397929,
-        "missionTime": 8557664133,
+        "missionsWon": 2109346,
+        "missionsLost": 397931,
+        "missionTime": 8557698506,
         "terminidKills": 0,
-        "automatonKills": 653945714,
+        "automatonKills": 653949023,
         "illuminateKills": 0,
-        "bulletsFired": 4176645627,
-        "bulletsHit": 4438977910,
-        "timePlayed": 8557664133,
-        "deaths": 20650863,
+        "bulletsFired": 4176666276,
+        "bulletsHit": 4438999444,
+        "timePlayed": 8557698506,
+        "deaths": 20651008,
         "revives": 0,
-        "friendlies": 2490978,
+        "friendlies": 2490994,
         "missionSuccessRate": 84,
         "accuracy": 100,
-        "playerCount": 61
+        "playerCount": 6172
       },
-      "attacking": []
+      "attacking": [
+        194
+      ]
     },
     {
       "index": 113,
@@ -5700,7 +5714,9 @@
         "accuracy": 0,
         "playerCount": 0
       },
-      "attacking": []
+      "attacking": [
+        198
+      ]
     },
     {
       "index": 114,
@@ -5781,21 +5797,21 @@
       "regenPerSecond": 1.388889,
       "event": null,
       "statistics": {
-        "missionsWon": 701064,
-        "missionsLost": 68073,
-        "missionTime": 2357500926,
+        "missionsWon": 701425,
+        "missionsLost": 68112,
+        "missionTime": 2358716893,
         "terminidKills": 0,
-        "automatonKills": 148044916,
+        "automatonKills": 148115874,
         "illuminateKills": 0,
-        "bulletsFired": 991288514,
-        "bulletsHit": 991293410,
-        "timePlayed": 2357500926,
-        "deaths": 6372281,
+        "bulletsFired": 991770515,
+        "bulletsHit": 991769542,
+        "timePlayed": 2358716893,
+        "deaths": 6375423,
         "revives": 0,
-        "friendlies": 646645,
+        "friendlies": 646952,
         "missionSuccessRate": 91,
-        "accuracy": 100,
-        "playerCount": 2518
+        "accuracy": 99,
+        "playerCount": 2046
       },
       "attacking": []
     },
@@ -6289,16 +6305,16 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5420311,
-        "missionsLost": 344372,
-        "missionTime": 6988904452,
-        "terminidKills": 809809912,
+        "missionsWon": 5420312,
+        "missionsLost": 344373,
+        "missionTime": 6988905950,
+        "terminidKills": 809810050,
         "automatonKills": 93142,
         "illuminateKills": 0,
-        "bulletsFired": 5004189755,
-        "bulletsHit": 3090523949,
-        "timePlayed": 6988904452,
-        "deaths": 14420789,
+        "bulletsFired": 5004190722,
+        "bulletsHit": 3090525115,
+        "timePlayed": 6988905950,
+        "deaths": 14420801,
         "revives": 0,
         "friendlies": 2386674,
         "missionSuccessRate": 94,
@@ -6340,21 +6356,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 9701282,
-        "missionsLost": 625907,
-        "missionTime": 11783002195,
-        "terminidKills": 1367886251,
+        "missionsWon": 9701283,
+        "missionsLost": 625908,
+        "missionTime": 11783004610,
+        "terminidKills": 1367886560,
         "automatonKills": 52464,
         "illuminateKills": 0,
-        "bulletsFired": 8378311316,
-        "bulletsHit": 5945211644,
-        "timePlayed": 11783002195,
-        "deaths": 28659600,
+        "bulletsFired": 8378312707,
+        "bulletsHit": 5945213432,
+        "timePlayed": 11783004610,
+        "deaths": 28659613,
         "revives": 0,
         "friendlies": 5169637,
         "missionSuccessRate": 93,
         "accuracy": 70,
-        "playerCount": 12
+        "playerCount": 10
       },
       "attacking": []
     },
@@ -6388,21 +6404,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 127493,
-        "missionsLost": 29264,
-        "missionTime": 51505208,
-        "terminidKills": 6354204,
+        "missionsWon": 127494,
+        "missionsLost": 29265,
+        "missionTime": 51508896,
+        "terminidKills": 6354442,
         "automatonKills": 75,
         "illuminateKills": 0,
-        "bulletsFired": 40039858,
-        "bulletsHit": 39770086,
-        "timePlayed": 51505208,
-        "deaths": 211832,
+        "bulletsFired": 40043211,
+        "bulletsHit": 39773662,
+        "timePlayed": 51508896,
+        "deaths": 211848,
         "revives": 0,
         "friendlies": 16402,
         "missionSuccessRate": 81,
         "accuracy": 99,
-        "playerCount": 13
+        "playerCount": 23
       },
       "attacking": []
     },
@@ -7627,21 +7643,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5112229,
-        "missionsLost": 484023,
-        "missionTime": 15333232941,
+        "missionsWon": 5112234,
+        "missionsLost": 484025,
+        "missionTime": 15333242747,
         "terminidKills": 24794,
-        "automatonKills": 1005357490,
+        "automatonKills": 1005358064,
         "illuminateKills": 0,
-        "bulletsFired": 7272990935,
-        "bulletsHit": 6960181595,
-        "timePlayed": 15333232941,
-        "deaths": 39415734,
+        "bulletsFired": 7272996175,
+        "bulletsHit": 6960186157,
+        "timePlayed": 15333242747,
+        "deaths": 39415771,
         "revives": 0,
-        "friendlies": 3646764,
+        "friendlies": 3646769,
         "missionSuccessRate": 91,
         "accuracy": 95,
-        "playerCount": 75
+        "playerCount": 67
       },
       "attacking": []
     },
@@ -7679,21 +7695,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5293391,
+        "missionsWon": 5293394,
         "missionsLost": 658812,
-        "missionTime": 4412041319,
+        "missionTime": 4412046562,
         "terminidKills": 519,
-        "automatonKills": 343955872,
+        "automatonKills": 343956414,
         "illuminateKills": 0,
-        "bulletsFired": 2490845661,
-        "bulletsHit": 2451182304,
-        "timePlayed": 4412041319,
-        "deaths": 21534324,
+        "bulletsFired": 2490848373,
+        "bulletsHit": 2451184550,
+        "timePlayed": 4412046562,
+        "deaths": 21534332,
         "revives": 0,
         "friendlies": 2106716,
         "missionSuccessRate": 88,
         "accuracy": 98,
-        "playerCount": 35
+        "playerCount": 50
       },
       "attacking": []
     },
@@ -7776,21 +7792,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 4839,
+        "missionsWon": 4840,
         "missionsLost": 1427,
-        "missionTime": 3979612,
+        "missionTime": 3980578,
         "terminidKills": 0,
-        "automatonKills": 340222,
+        "automatonKills": 340347,
         "illuminateKills": 0,
-        "bulletsFired": 2358225,
-        "bulletsHit": 1861009,
-        "timePlayed": 3979612,
-        "deaths": 18736,
+        "bulletsFired": 2358913,
+        "bulletsHit": 1861795,
+        "timePlayed": 3980578,
+        "deaths": 18746,
         "revives": 0,
         "friendlies": 1654,
         "missionSuccessRate": 77,
         "accuracy": 78,
-        "playerCount": 10
+        "playerCount": 7
       },
       "attacking": []
     },
@@ -7845,7 +7861,9 @@
         "accuracy": 0,
         "playerCount": 0
       },
-      "attacking": []
+      "attacking": [
+        157
+      ]
     },
     {
       "index": 157,
@@ -7872,45 +7890,30 @@
         158
       ],
       "maxHealth": 1000000,
-      "health": 1000000,
+      "health": 500857,
       "disabled": false,
       "initialOwner": "Humans",
-      "currentOwner": "Humans",
-      "regenPerSecond": 1388.8889,
-      "event": {
-        "id": 4382,
-        "eventType": 1,
-        "faction": "Automaton",
-        "health": 279223,
-        "maxHealth": 350000,
-        "startTime": "1970-03-11T06:49:20Z",
-        "endTime": "1970-03-12T06:49:20Z",
-        "campaignId": 50103,
-        "jointOperationIds": [
-          4382
-        ]
-      },
+      "currentOwner": "Automaton",
+      "regenPerSecond": 1.388889,
+      "event": null,
       "statistics": {
-        "missionsWon": 135263,
-        "missionsLost": 37674,
-        "missionTime": 553319836,
+        "missionsWon": 136412,
+        "missionsLost": 37942,
+        "missionTime": 557896048,
         "terminidKills": 0,
-        "automatonKills": 40906525,
+        "automatonKills": 41235826,
         "illuminateKills": 0,
-        "bulletsFired": 249238142,
-        "bulletsHit": 258409438,
-        "timePlayed": 553319836,
-        "deaths": 1473958,
+        "bulletsFired": 251298642,
+        "bulletsHit": 260530828,
+        "timePlayed": 557896048,
+        "deaths": 1485864,
         "revives": 0,
-        "friendlies": 174645,
+        "friendlies": 176019,
         "missionSuccessRate": 78,
         "accuracy": 100,
-        "playerCount": 9492
+        "playerCount": 9030
       },
-      "attacking": [
-        199,
-        199
-      ]
+      "attacking": []
     },
     {
       "index": 158,
@@ -7959,7 +7962,9 @@
         "accuracy": 0,
         "playerCount": 0
       },
-      "attacking": []
+      "attacking": [
+        157
+      ]
     },
     {
       "index": 159,
@@ -7996,21 +8001,21 @@
       "regenPerSecond": 1.388889,
       "event": null,
       "statistics": {
-        "missionsWon": 313993,
-        "missionsLost": 41101,
-        "missionTime": 1042377764,
+        "missionsWon": 314141,
+        "missionsLost": 41116,
+        "missionTime": 1042847561,
         "terminidKills": 0,
-        "automatonKills": 66813332,
+        "automatonKills": 66841836,
         "illuminateKills": 0,
-        "bulletsFired": 451029208,
-        "bulletsHit": 446214928,
-        "timePlayed": 1042377764,
-        "deaths": 2957495,
+        "bulletsFired": 451227260,
+        "bulletsHit": 446414824,
+        "timePlayed": 1042847561,
+        "deaths": 2958697,
         "revives": 0,
-        "friendlies": 285147,
+        "friendlies": 285253,
         "missionSuccessRate": 88,
         "accuracy": 98,
-        "playerCount": 1078
+        "playerCount": 1088
       },
       "attacking": []
     },
@@ -8046,21 +8051,21 @@
       "regenPerSecond": 1.388889,
       "event": null,
       "statistics": {
-        "missionsWon": 615066,
-        "missionsLost": 130539,
-        "missionTime": 2343599501,
+        "missionsWon": 615233,
+        "missionsLost": 130566,
+        "missionTime": 2344120565,
         "terminidKills": 0,
-        "automatonKills": 165309496,
+        "automatonKills": 165342405,
         "illuminateKills": 0,
-        "bulletsFired": 1082519284,
-        "bulletsHit": 1125563572,
-        "timePlayed": 2343599501,
-        "deaths": 6904263,
+        "bulletsFired": 1082717761,
+        "bulletsHit": 1125756948,
+        "timePlayed": 2344120565,
+        "deaths": 6905970,
         "revives": 0,
-        "friendlies": 730816,
+        "friendlies": 730980,
         "missionSuccessRate": 82,
         "accuracy": 100,
-        "playerCount": 1069
+        "playerCount": 1193
       },
       "attacking": []
     },
@@ -8448,21 +8453,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 3152905,
-        "missionsLost": 379492,
-        "missionTime": 3705888161,
-        "terminidKills": 505275152,
+        "missionsWon": 3152906,
+        "missionsLost": 379494,
+        "missionTime": 3705893366,
+        "terminidKills": 505275593,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 3036018182,
-        "bulletsHit": 3537932913,
-        "timePlayed": 3705888161,
-        "deaths": 13568577,
+        "bulletsFired": 3036020791,
+        "bulletsHit": 3537936405,
+        "timePlayed": 3705893366,
+        "deaths": 13568604,
         "revives": 0,
-        "friendlies": 2384889,
+        "friendlies": 2384890,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 17
+        "playerCount": 12
       },
       "attacking": [
         34,
@@ -8497,23 +8502,35 @@
       "initialOwner": "Terminids",
       "currentOwner": "Humans",
       "regenPerSecond": 1388.8889,
-      "event": null,
+      "event": {
+        "id": 4385,
+        "eventType": 1,
+        "faction": "Terminids",
+        "health": 399982,
+        "maxHealth": 400000,
+        "startTime": "1970-03-12T06:49:50Z",
+        "endTime": "1970-03-13T06:49:50Z",
+        "campaignId": 50109,
+        "jointOperationIds": [
+          4385
+        ]
+      },
       "statistics": {
-        "missionsWon": 17050248,
-        "missionsLost": 1850159,
-        "missionTime": 30800658532,
-        "terminidKills": 4002480681,
+        "missionsWon": 17050447,
+        "missionsLost": 1850207,
+        "missionTime": 30801190929,
+        "terminidKills": 4002554621,
         "automatonKills": 750,
         "illuminateKills": 0,
-        "bulletsFired": 22166053041,
-        "bulletsHit": 26399811252,
-        "timePlayed": 30800658532,
-        "deaths": 79521179,
+        "bulletsFired": 22166373649,
+        "bulletsHit": 26400209702,
+        "timePlayed": 30801190929,
+        "deaths": 79522532,
         "revives": 0,
-        "friendlies": 14150752,
+        "friendlies": 14150906,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 2867
+        "playerCount": 12609
       },
       "attacking": [
         34,
@@ -8548,23 +8565,35 @@
       "initialOwner": "Terminids",
       "currentOwner": "Humans",
       "regenPerSecond": 1388.8889,
-      "event": null,
+      "event": {
+        "id": 4384,
+        "eventType": 1,
+        "faction": "Terminids",
+        "health": 399974,
+        "maxHealth": 400000,
+        "startTime": "1970-03-12T06:48:30Z",
+        "endTime": "1970-03-13T06:48:30Z",
+        "campaignId": 50106,
+        "jointOperationIds": [
+          4384
+        ]
+      },
       "statistics": {
-        "missionsWon": 13792368,
-        "missionsLost": 1383609,
-        "missionTime": 30681067654,
-        "terminidKills": 3803326837,
+        "missionsWon": 13792573,
+        "missionsLost": 1383638,
+        "missionTime": 30681422152,
+        "terminidKills": 3803373151,
         "automatonKills": 214,
         "illuminateKills": 0,
-        "bulletsFired": 20862736117,
-        "bulletsHit": 24870868116,
-        "timePlayed": 30681067654,
-        "deaths": 75541183,
+        "bulletsFired": 20862959660,
+        "bulletsHit": 24871132880,
+        "timePlayed": 30681422152,
+        "deaths": 75542258,
         "revives": 0,
-        "friendlies": 12786079,
+        "friendlies": 12786265,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 687
+        "playerCount": 10505
       },
       "attacking": [
         212
@@ -9752,47 +9781,30 @@
         160
       ],
       "maxHealth": 1000000,
-      "health": 1000000,
+      "health": 500933,
       "disabled": false,
       "initialOwner": "Humans",
-      "currentOwner": "Humans",
-      "regenPerSecond": 1388.8889,
-      "event": {
-        "id": 4381,
-        "eventType": 1,
-        "faction": "Automaton",
-        "health": 370401,
-        "maxHealth": 450000,
-        "startTime": "1970-03-11T06:48:20Z",
-        "endTime": "1970-03-12T06:48:20Z",
-        "campaignId": 50102,
-        "jointOperationIds": [
-          4381
-        ]
-      },
+      "currentOwner": "Automaton",
+      "regenPerSecond": 1.388889,
+      "event": null,
       "statistics": {
-        "missionsWon": 3789759,
-        "missionsLost": 400269,
-        "missionTime": 14288491998,
+        "missionsWon": 3791228,
+        "missionsLost": 400652,
+        "missionTime": 14294325818,
         "terminidKills": 110,
-        "automatonKills": 1002230871,
+        "automatonKills": 1002649861,
         "illuminateKills": 0,
-        "bulletsFired": 6414225342,
-        "bulletsHit": 6654820586,
-        "timePlayed": 14288491998,
-        "deaths": 33858182,
+        "bulletsFired": 6416662889,
+        "bulletsHit": 6657393300,
+        "timePlayed": 14294325818,
+        "deaths": 33873384,
         "revives": 0,
-        "friendlies": 3288158,
+        "friendlies": 3289885,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 12289
+        "playerCount": 11258
       },
-      "attacking": [
-        115,
-        115,
-        160,
-        160
-      ]
+      "attacking": []
     },
     {
       "index": 195,
@@ -9829,21 +9841,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 3310474,
+        "missionsWon": 3310475,
         "missionsLost": 270520,
-        "missionTime": 12231681129,
+        "missionTime": 12231683104,
         "terminidKills": 2,
-        "automatonKills": 838865923,
+        "automatonKills": 838866088,
         "illuminateKills": 0,
-        "bulletsFired": 6202761472,
-        "bulletsHit": 6361787962,
-        "timePlayed": 12231681129,
-        "deaths": 29883245,
+        "bulletsFired": 6202764073,
+        "bulletsHit": 6361790656,
+        "timePlayed": 12231683104,
+        "deaths": 29883247,
         "revives": 0,
         "friendlies": 2619094,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 20
+        "playerCount": 31
       },
       "attacking": []
     },
@@ -9879,20 +9891,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 5118660,
-        "missionsLost": 700861,
-        "missionTime": 5324013030,
+        "missionsLost": 700868,
+        "missionTime": 5324013247,
         "terminidKills": 597,
-        "automatonKills": 376008399,
+        "automatonKills": 376008411,
         "illuminateKills": 0,
-        "bulletsFired": 2767219570,
-        "bulletsHit": 2754878516,
-        "timePlayed": 5324013030,
-        "deaths": 25013481,
+        "bulletsFired": 2767219600,
+        "bulletsHit": 2754878556,
+        "timePlayed": 5324013247,
+        "deaths": 25013485,
         "revives": 0,
         "friendlies": 2363211,
         "missionSuccessRate": 87,
         "accuracy": 99,
-        "playerCount": 28
+        "playerCount": 29
       },
       "attacking": []
     },
@@ -9946,7 +9958,7 @@
         "friendlies": 1472960,
         "missionSuccessRate": 90,
         "accuracy": 75,
-        "playerCount": 6
+        "playerCount": 12
       },
       "attacking": []
     },
@@ -9979,47 +9991,30 @@
         200
       ],
       "maxHealth": 1000000,
-      "health": 1000000,
+      "health": 500798,
       "disabled": false,
       "initialOwner": "Humans",
-      "currentOwner": "Humans",
-      "regenPerSecond": 1388.8889,
-      "event": {
-        "id": 4383,
-        "eventType": 1,
-        "faction": "Automaton",
-        "health": 276303,
-        "maxHealth": 400000,
-        "startTime": "1970-03-11T06:50:00Z",
-        "endTime": "1970-03-12T06:50:00Z",
-        "campaignId": 50104,
-        "jointOperationIds": [
-          4383
-        ]
-      },
+      "currentOwner": "Automaton",
+      "regenPerSecond": 1.388889,
+      "event": null,
       "statistics": {
-        "missionsWon": 2325612,
-        "missionsLost": 268699,
-        "missionTime": 9055854382,
+        "missionsWon": 2327539,
+        "missionsLost": 269167,
+        "missionTime": 9063963162,
         "terminidKills": 0,
-        "automatonKills": 609875407,
+        "automatonKills": 610450943,
         "illuminateKills": 0,
-        "bulletsFired": 3838827661,
-        "bulletsHit": 4049833144,
-        "timePlayed": 9055854382,
-        "deaths": 21815509,
+        "bulletsFired": 3842144134,
+        "bulletsHit": 4053414216,
+        "timePlayed": 9063963162,
+        "deaths": 21835176,
         "revives": 0,
-        "friendlies": 2269137,
+        "friendlies": 2271573,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 17024
+        "playerCount": 16964
       },
-      "attacking": [
-        200,
-        200,
-        199,
-        199
-      ]
+      "attacking": []
     },
     {
       "index": 199,
@@ -10042,28 +10037,28 @@
       },
       "waypoints": [],
       "maxHealth": 1000000,
-      "health": 55224,
+      "health": 55866,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Automaton",
       "regenPerSecond": 1.388889,
       "event": null,
       "statistics": {
-        "missionsWon": 3173753,
-        "missionsLost": 364686,
-        "missionTime": 11942204570,
+        "missionsWon": 3176946,
+        "missionsLost": 365022,
+        "missionTime": 11954263313,
         "terminidKills": 444,
-        "automatonKills": 822022463,
+        "automatonKills": 822829550,
         "illuminateKills": 0,
-        "bulletsFired": 5318207632,
-        "bulletsHit": 5377793218,
-        "timePlayed": 11942204570,
-        "deaths": 32099387,
+        "bulletsFired": 5323402356,
+        "bulletsHit": 5383072208,
+        "timePlayed": 11954263313,
+        "deaths": 32131104,
         "revives": 0,
-        "friendlies": 2840660,
+        "friendlies": 2843071,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 25125
+        "playerCount": 21047
       },
       "attacking": []
     },
@@ -10099,21 +10094,21 @@
       "regenPerSecond": 1.388889,
       "event": null,
       "statistics": {
-        "missionsWon": 971310,
-        "missionsLost": 156392,
-        "missionTime": 3612129390,
+        "missionsWon": 971635,
+        "missionsLost": 156438,
+        "missionTime": 3613142390,
         "terminidKills": 43,
-        "automatonKills": 257813078,
+        "automatonKills": 257879500,
         "illuminateKills": 0,
-        "bulletsFired": 1674420938,
-        "bulletsHit": 1728797660,
-        "timePlayed": 3612129390,
-        "deaths": 9635622,
+        "bulletsFired": 1674893570,
+        "bulletsHit": 1729253164,
+        "timePlayed": 3613142390,
+        "deaths": 9638554,
         "revives": 0,
-        "friendlies": 1020149,
+        "friendlies": 1020377,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 2473
+        "playerCount": 2744
       },
       "attacking": []
     },
@@ -10149,23 +10144,35 @@
       "initialOwner": "Humans",
       "currentOwner": "Humans",
       "regenPerSecond": 1388.8889,
-      "event": null,
+      "event": {
+        "id": 4387,
+        "eventType": 1,
+        "faction": "Automaton",
+        "health": 299998,
+        "maxHealth": 300000,
+        "startTime": "1970-03-12T06:51:50Z",
+        "endTime": "1970-03-13T06:51:50Z",
+        "campaignId": 50112,
+        "jointOperationIds": [
+          4387
+        ]
+      },
       "statistics": {
-        "missionsWon": 0,
+        "missionsWon": 15,
         "missionsLost": 0,
-        "missionTime": 0,
+        "missionTime": 9075,
         "terminidKills": 0,
-        "automatonKills": 0,
+        "automatonKills": 840,
         "illuminateKills": 0,
-        "bulletsFired": 0,
-        "bulletsHit": 0,
-        "timePlayed": 0,
-        "deaths": 0,
+        "bulletsFired": 3548,
+        "bulletsHit": 3436,
+        "timePlayed": 9075,
+        "deaths": 42,
         "revives": 0,
-        "friendlies": 0,
-        "missionSuccessRate": 0,
-        "accuracy": 0,
-        "playerCount": 0
+        "friendlies": 5,
+        "missionSuccessRate": 100,
+        "accuracy": 96,
+        "playerCount": 2227
       },
       "attacking": []
     },
@@ -10253,27 +10260,28 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5101904,
-        "missionsLost": 910839,
-        "missionTime": 19722375260,
+        "missionsWon": 5101912,
+        "missionsLost": 910841,
+        "missionTime": 19722396251,
         "terminidKills": 1015,
-        "automatonKills": 1336557061,
+        "automatonKills": 1336558545,
         "illuminateKills": 0,
-        "bulletsFired": 8750066016,
-        "bulletsHit": 9055368328,
-        "timePlayed": 19722375260,
-        "deaths": 56540246,
+        "bulletsFired": 8750072946,
+        "bulletsHit": 9055375848,
+        "timePlayed": 19722396251,
+        "deaths": 56540311,
         "revives": 0,
-        "friendlies": 5082495,
+        "friendlies": 5082499,
         "missionSuccessRate": 84,
         "accuracy": 100,
-        "playerCount": 274
+        "playerCount": 258
       },
       "attacking": [
         159,
         159,
         160,
-        160
+        160,
+        194
       ]
     },
     {
@@ -10654,21 +10662,21 @@
       "regenPerSecond": 2.777778,
       "event": null,
       "statistics": {
-        "missionsWon": 3540296,
-        "missionsLost": 348092,
-        "missionTime": 5717012883,
-        "terminidKills": 661463869,
+        "missionsWon": 3540299,
+        "missionsLost": 348095,
+        "missionTime": 5717021865,
+        "terminidKills": 661464997,
         "automatonKills": 485,
         "illuminateKills": 0,
-        "bulletsFired": 3670576490,
-        "bulletsHit": 4378209702,
-        "timePlayed": 5717012883,
-        "deaths": 16839403,
+        "bulletsFired": 3670580906,
+        "bulletsHit": 4378214724,
+        "timePlayed": 5717021865,
+        "deaths": 16839439,
         "revives": 0,
-        "friendlies": 2624914,
+        "friendlies": 2624921,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 52
+        "playerCount": 45
       },
       "attacking": []
     },
@@ -10697,28 +10705,28 @@
       },
       "waypoints": [],
       "maxHealth": 1000000,
-      "health": 500216,
+      "health": 502135,
       "disabled": false,
       "initialOwner": "Terminids",
       "currentOwner": "Terminids",
       "regenPerSecond": 2.777778,
       "event": null,
       "statistics": {
-        "missionsWon": 11949992,
-        "missionsLost": 1314838,
-        "missionTime": 21110227739,
-        "terminidKills": 2689828960,
+        "missionsWon": 11964396,
+        "missionsLost": 1317398,
+        "missionTime": 21166390355,
+        "terminidKills": 2697669478,
         "automatonKills": 138,
         "illuminateKills": 0,
-        "bulletsFired": 14117584329,
-        "bulletsHit": 16816968370,
-        "timePlayed": 21110227739,
-        "deaths": 58554843,
+        "bulletsFired": 14151240001,
+        "bulletsHit": 16857912040,
+        "timePlayed": 21166390355,
+        "deaths": 58679206,
         "revives": 0,
-        "friendlies": 9701701,
+        "friendlies": 9726356,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 117810
+        "playerCount": 100943
       },
       "attacking": []
     },
@@ -11992,21 +12000,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5659796,
-        "missionsLost": 481395,
-        "missionTime": 16193199137,
+        "missionsWon": 5659801,
+        "missionsLost": 481397,
+        "missionTime": 16193210655,
         "terminidKills": 20049,
-        "automatonKills": 1033814292,
+        "automatonKills": 1033815079,
         "illuminateKills": 0,
-        "bulletsFired": 7917646241,
-        "bulletsHit": 7581777648,
-        "timePlayed": 16193199137,
-        "deaths": 43794562,
+        "bulletsFired": 7917651864,
+        "bulletsHit": 7581783218,
+        "timePlayed": 16193210655,
+        "deaths": 43794620,
         "revives": 0,
         "friendlies": 3997496,
         "missionSuccessRate": 92,
         "accuracy": 95,
-        "playerCount": 51
+        "playerCount": 54
       },
       "attacking": []
     },
@@ -12058,7 +12066,7 @@
         "friendlies": 997,
         "missionSuccessRate": 72,
         "accuracy": 98,
-        "playerCount": 3
+        "playerCount": 0
       },
       "attacking": []
     },
@@ -12106,7 +12114,7 @@
         "friendlies": 1925587,
         "missionSuccessRate": 88,
         "accuracy": 76,
-        "playerCount": 3
+        "playerCount": 4
       },
       "attacking": []
     },
@@ -12155,7 +12163,7 @@
         "friendlies": 3163633,
         "missionSuccessRate": 88,
         "accuracy": 92,
-        "playerCount": 28
+        "playerCount": 25
       },
       "attacking": []
     },
@@ -12194,21 +12202,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 3135120,
+        "missionsWon": 3135122,
         "missionsLost": 435282,
-        "missionTime": 2755975099,
+        "missionTime": 2755980801,
         "terminidKills": 1510,
-        "automatonKills": 201360932,
+        "automatonKills": 201361275,
         "illuminateKills": 0,
-        "bulletsFired": 1455237907,
-        "bulletsHit": 1435308298,
-        "timePlayed": 2755975099,
-        "deaths": 14163974,
+        "bulletsFired": 1455240586,
+        "bulletsHit": 1435310958,
+        "timePlayed": 2755980801,
+        "deaths": 14163986,
         "revives": 0,
         "friendlies": 1297807,
         "missionSuccessRate": 87,
         "accuracy": 98,
-        "playerCount": 16
+        "playerCount": 12
       },
       "attacking": []
     },
@@ -12260,7 +12268,7 @@
         "friendlies": 1468573,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 13
+        "playerCount": 6
       },
       "attacking": []
     },
@@ -13052,21 +13060,21 @@
       "regenPerSecond": 2.777778,
       "event": null,
       "statistics": {
-        "missionsWon": 969722,
-        "missionsLost": 89500,
-        "missionTime": 1510282710,
-        "terminidKills": 185181773,
+        "missionsWon": 972203,
+        "missionsLost": 89690,
+        "missionTime": 1519828260,
+        "terminidKills": 186406924,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 963450992,
-        "bulletsHit": 1138644150,
-        "timePlayed": 1510282710,
-        "deaths": 4257990,
+        "bulletsFired": 968792739,
+        "bulletsHit": 1145181514,
+        "timePlayed": 1519828260,
+        "deaths": 4278452,
         "revives": 0,
-        "friendlies": 670392,
+        "friendlies": 673751,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 19697
+        "playerCount": 15406
       },
       "attacking": []
     },
@@ -13149,61 +13157,10 @@
         "type": 1,
         "amount": 50
       },
-      "expiration": "2024-04-24T15:08:57.5390422Z"
+      "expiration": "2024-04-24T15:09:12.1556189Z"
     }
   ],
   "campaigns": [
-    {
-      "id": 50085,
-      "planet": {
-        "index": 199,
-        "name": "MARTALE",
-        "sector": "Andromeda",
-        "biome": {
-          "name": "Tundra",
-          "description": "A perenially chilly climate has allowed short, colourful shrubs to flourish across this planet's surface."
-        },
-        "hazards": [
-          {
-            "name": "None",
-            "description": "This planet's environment is not yet known, or has no environmental modifiers."
-          }
-        ],
-        "hash": 2016899055,
-        "position": {
-          "x": -0.5379487,
-          "y": 0.3338475
-        },
-        "waypoints": [],
-        "maxHealth": 1000000,
-        "health": 55224,
-        "disabled": false,
-        "initialOwner": "Humans",
-        "currentOwner": "Automaton",
-        "regenPerSecond": 1.388889,
-        "event": null,
-        "statistics": {
-          "missionsWon": 3173753,
-          "missionsLost": 364686,
-          "missionTime": 11942204570,
-          "terminidKills": 444,
-          "automatonKills": 822022463,
-          "illuminateKills": 0,
-          "bulletsFired": 5318207632,
-          "bulletsHit": 5377793218,
-          "timePlayed": 11942204570,
-          "deaths": 32099387,
-          "revives": 0,
-          "friendlies": 2840660,
-          "missionSuccessRate": 89,
-          "accuracy": 100,
-          "playerCount": 25125
-        },
-        "attacking": []
-      },
-      "type": 0,
-      "count": 2
-    },
     {
       "id": 50088,
       "planet": {
@@ -13243,21 +13200,21 @@
         "regenPerSecond": 2.777778,
         "event": null,
         "statistics": {
-          "missionsWon": 13585082,
-          "missionsLost": 1754481,
-          "missionTime": 23685836095,
-          "terminidKills": 2649181702,
+          "missionsWon": 13587203,
+          "missionsLost": 1754736,
+          "missionTime": 23692694062,
+          "terminidKills": 2649937728,
           "automatonKills": 133,
           "illuminateKills": 0,
-          "bulletsFired": 15248507614,
-          "bulletsHit": 18193115762,
-          "timePlayed": 23685836095,
-          "deaths": 73856329,
+          "bulletsFired": 15252299626,
+          "bulletsHit": 18197701338,
+          "timePlayed": 23692694062,
+          "deaths": 73874697,
           "revives": 0,
-          "friendlies": 10269101,
+          "friendlies": 10271544,
           "missionSuccessRate": 88,
           "accuracy": 100,
-          "playerCount": 15094
+          "playerCount": 14800
         },
         "attacking": []
       },
@@ -13301,21 +13258,21 @@
         "regenPerSecond": 1.388889,
         "event": null,
         "statistics": {
-          "missionsWon": 313993,
-          "missionsLost": 41101,
-          "missionTime": 1042377764,
+          "missionsWon": 314141,
+          "missionsLost": 41116,
+          "missionTime": 1042847561,
           "terminidKills": 0,
-          "automatonKills": 66813332,
+          "automatonKills": 66841836,
           "illuminateKills": 0,
-          "bulletsFired": 451029208,
-          "bulletsHit": 446214928,
-          "timePlayed": 1042377764,
-          "deaths": 2957495,
+          "bulletsFired": 451227260,
+          "bulletsHit": 446414824,
+          "timePlayed": 1042847561,
+          "deaths": 2958697,
           "revives": 0,
-          "friendlies": 285147,
+          "friendlies": 285253,
           "missionSuccessRate": 88,
           "accuracy": 98,
-          "playerCount": 1078
+          "playerCount": 1088
         },
         "attacking": []
       },
@@ -13356,80 +13313,26 @@
         "regenPerSecond": 1.388889,
         "event": null,
         "statistics": {
-          "missionsWon": 615066,
-          "missionsLost": 130539,
-          "missionTime": 2343599501,
+          "missionsWon": 615233,
+          "missionsLost": 130566,
+          "missionTime": 2344120565,
           "terminidKills": 0,
-          "automatonKills": 165309496,
+          "automatonKills": 165342405,
           "illuminateKills": 0,
-          "bulletsFired": 1082519284,
-          "bulletsHit": 1125563572,
-          "timePlayed": 2343599501,
-          "deaths": 6904263,
+          "bulletsFired": 1082717761,
+          "bulletsHit": 1125756948,
+          "timePlayed": 2344120565,
+          "deaths": 6905970,
           "revives": 0,
-          "friendlies": 730816,
+          "friendlies": 730980,
           "missionSuccessRate": 82,
           "accuracy": 100,
-          "playerCount": 1069
+          "playerCount": 1193
         },
         "attacking": []
       },
       "type": 0,
       "count": 3
-    },
-    {
-      "id": 50093,
-      "planet": {
-        "index": 115,
-        "name": "PENTA",
-        "sector": "Lacaille",
-        "biome": {
-          "name": "Swamp",
-          "description": "The lifeless grey of this planet is interrupted only by the violet flowers that grow from strange, parasitic outcroppings."
-        },
-        "hazards": [
-          {
-            "name": "Thick Fog",
-            "description": "Dense fog lightly reduce visibility for both enemy and friendly units."
-          }
-        ],
-        "hash": 101741274,
-        "position": {
-          "x": -0.27880847,
-          "y": 0.58735436
-        },
-        "waypoints": [
-          160,
-          194
-        ],
-        "maxHealth": 1000000,
-        "health": 1000000,
-        "disabled": false,
-        "initialOwner": "Humans",
-        "currentOwner": "Automaton",
-        "regenPerSecond": 1.388889,
-        "event": null,
-        "statistics": {
-          "missionsWon": 701064,
-          "missionsLost": 68073,
-          "missionTime": 2357500926,
-          "terminidKills": 0,
-          "automatonKills": 148044916,
-          "illuminateKills": 0,
-          "bulletsFired": 991288514,
-          "bulletsHit": 991293410,
-          "timePlayed": 2357500926,
-          "deaths": 6372281,
-          "revives": 0,
-          "friendlies": 646645,
-          "missionSuccessRate": 91,
-          "accuracy": 100,
-          "playerCount": 2518
-        },
-        "attacking": []
-      },
-      "type": 0,
-      "count": 2
     },
     {
       "id": 50096,
@@ -13465,239 +13368,23 @@
         "regenPerSecond": 1.388889,
         "event": null,
         "statistics": {
-          "missionsWon": 971310,
-          "missionsLost": 156392,
-          "missionTime": 3612129390,
+          "missionsWon": 971635,
+          "missionsLost": 156438,
+          "missionTime": 3613142390,
           "terminidKills": 43,
-          "automatonKills": 257813078,
+          "automatonKills": 257879500,
           "illuminateKills": 0,
-          "bulletsFired": 1674420938,
-          "bulletsHit": 1728797660,
-          "timePlayed": 3612129390,
-          "deaths": 9635622,
+          "bulletsFired": 1674893570,
+          "bulletsHit": 1729253164,
+          "timePlayed": 3613142390,
+          "deaths": 9638554,
           "revives": 0,
-          "friendlies": 1020149,
+          "friendlies": 1020377,
           "missionSuccessRate": 86,
           "accuracy": 100,
-          "playerCount": 2473
+          "playerCount": 2744
         },
         "attacking": []
-      },
-      "type": 0,
-      "count": 3
-    },
-    {
-      "id": 50102,
-      "planet": {
-        "index": 194,
-        "name": "LESATH",
-        "sector": "Lacaille",
-        "biome": {
-          "name": "Icemoss",
-          "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
-        },
-        "hazards": [
-          {
-            "name": "Extreme Cold",
-            "description": "Icy temperatures reduce rate of fire and delay heat buildup in weapons."
-          }
-        ],
-        "hash": 3837447591,
-        "position": {
-          "x": -0.22899726,
-          "y": 0.49906695
-        },
-        "waypoints": [
-          160
-        ],
-        "maxHealth": 1000000,
-        "health": 1000000,
-        "disabled": false,
-        "initialOwner": "Humans",
-        "currentOwner": "Humans",
-        "regenPerSecond": 1388.8889,
-        "event": {
-          "id": 4381,
-          "eventType": 1,
-          "faction": "Automaton",
-          "health": 370401,
-          "maxHealth": 450000,
-          "startTime": "1970-03-11T06:48:20Z",
-          "endTime": "1970-03-12T06:48:20Z",
-          "campaignId": 50102,
-          "jointOperationIds": [
-            4381
-          ]
-        },
-        "statistics": {
-          "missionsWon": 3789759,
-          "missionsLost": 400269,
-          "missionTime": 14288491998,
-          "terminidKills": 110,
-          "automatonKills": 1002230871,
-          "illuminateKills": 0,
-          "bulletsFired": 6414225342,
-          "bulletsHit": 6654820586,
-          "timePlayed": 14288491998,
-          "deaths": 33858182,
-          "revives": 0,
-          "friendlies": 3288158,
-          "missionSuccessRate": 90,
-          "accuracy": 100,
-          "playerCount": 12289
-        },
-        "attacking": [
-          115,
-          115,
-          160,
-          160
-        ]
-      },
-      "type": 0,
-      "count": 3
-    },
-    {
-      "id": 50103,
-      "planet": {
-        "index": 157,
-        "name": "CHARON PRIME",
-        "sector": "Andromeda",
-        "biome": {
-          "name": "Crimsonmoor",
-          "description": "A crimson algae has propagated wildly across this entire planet, coating its rocky hills with a constant red that masks the spilt blood of the heroes who defend it from tyranny."
-        },
-        "hazards": [
-          {
-            "name": "Intense Heat",
-            "description": "High temperatures increase stamina drain and speed up heat buildup in weapons."
-          }
-        ],
-        "hash": 2007360508,
-        "position": {
-          "x": -0.575186,
-          "y": 0.26594892
-        },
-        "waypoints": [
-          156,
-          199,
-          158
-        ],
-        "maxHealth": 1000000,
-        "health": 1000000,
-        "disabled": false,
-        "initialOwner": "Humans",
-        "currentOwner": "Humans",
-        "regenPerSecond": 1388.8889,
-        "event": {
-          "id": 4382,
-          "eventType": 1,
-          "faction": "Automaton",
-          "health": 279223,
-          "maxHealth": 350000,
-          "startTime": "1970-03-11T06:49:20Z",
-          "endTime": "1970-03-12T06:49:20Z",
-          "campaignId": 50103,
-          "jointOperationIds": [
-            4382
-          ]
-        },
-        "statistics": {
-          "missionsWon": 135263,
-          "missionsLost": 37674,
-          "missionTime": 553319836,
-          "terminidKills": 0,
-          "automatonKills": 40906525,
-          "illuminateKills": 0,
-          "bulletsFired": 249238142,
-          "bulletsHit": 258409438,
-          "timePlayed": 553319836,
-          "deaths": 1473958,
-          "revives": 0,
-          "friendlies": 174645,
-          "missionSuccessRate": 78,
-          "accuracy": 100,
-          "playerCount": 9492
-        },
-        "attacking": [
-          199,
-          199
-        ]
-      },
-      "type": 0,
-      "count": 1
-    },
-    {
-      "id": 50104,
-      "planet": {
-        "index": 198,
-        "name": "MARFARK",
-        "sector": "Andromeda",
-        "biome": {
-          "name": "Winter",
-          "description": "Submerged in eternal winter, this world's frosty peaks glimmer in the light of its too-distant star."
-        },
-        "hazards": [
-          {
-            "name": "Extreme Cold",
-            "description": "Icy temperatures reduce rate of fire and delay heat buildup in weapons."
-          },
-          {
-            "name": "Blizzards",
-            "description": "Intense blizzard reduce mobility and moderately reduce visibility for both enemy and friendly units."
-          }
-        ],
-        "hash": 2831860380,
-        "position": {
-          "x": -0.43697178,
-          "y": 0.3259796
-        },
-        "waypoints": [
-          113,
-          199,
-          200
-        ],
-        "maxHealth": 1000000,
-        "health": 1000000,
-        "disabled": false,
-        "initialOwner": "Humans",
-        "currentOwner": "Humans",
-        "regenPerSecond": 1388.8889,
-        "event": {
-          "id": 4383,
-          "eventType": 1,
-          "faction": "Automaton",
-          "health": 276303,
-          "maxHealth": 400000,
-          "startTime": "1970-03-11T06:50:00Z",
-          "endTime": "1970-03-12T06:50:00Z",
-          "campaignId": 50104,
-          "jointOperationIds": [
-            4383
-          ]
-        },
-        "statistics": {
-          "missionsWon": 2325612,
-          "missionsLost": 268699,
-          "missionTime": 9055854382,
-          "terminidKills": 0,
-          "automatonKills": 609875407,
-          "illuminateKills": 0,
-          "bulletsFired": 3838827661,
-          "bulletsHit": 4049833144,
-          "timePlayed": 9055854382,
-          "deaths": 21815509,
-          "revives": 0,
-          "friendlies": 2269137,
-          "missionSuccessRate": 89,
-          "accuracy": 100,
-          "playerCount": 17024
-        },
-        "attacking": [
-          200,
-          200,
-          199,
-          199
-        ]
       },
       "type": 0,
       "count": 3
@@ -13729,33 +13416,472 @@
         },
         "waypoints": [],
         "maxHealth": 1000000,
-        "health": 500216,
+        "health": 502135,
         "disabled": false,
         "initialOwner": "Terminids",
         "currentOwner": "Terminids",
         "regenPerSecond": 2.777778,
         "event": null,
         "statistics": {
-          "missionsWon": 11949992,
-          "missionsLost": 1314838,
-          "missionTime": 21110227739,
-          "terminidKills": 2689828960,
+          "missionsWon": 11964396,
+          "missionsLost": 1317398,
+          "missionTime": 21166390355,
+          "terminidKills": 2697669478,
           "automatonKills": 138,
           "illuminateKills": 0,
-          "bulletsFired": 14117584329,
-          "bulletsHit": 16816968370,
-          "timePlayed": 21110227739,
-          "deaths": 58554843,
+          "bulletsFired": 14151240001,
+          "bulletsHit": 16857912040,
+          "timePlayed": 21166390355,
+          "deaths": 58679206,
           "revives": 0,
-          "friendlies": 9701701,
+          "friendlies": 9726356,
           "missionSuccessRate": 90,
           "accuracy": 100,
-          "playerCount": 117810
+          "playerCount": 100943
         },
         "attacking": []
       },
       "type": 0,
       "count": 9
+    },
+    {
+      "id": 50106,
+      "planet": {
+        "index": 170,
+        "name": "FORI PRIME",
+        "sector": "Draco",
+        "biome": {
+          "name": "Canyon",
+          "description": "This arid, rocky biome covering this world has driven the evolution of exceptionally efficient water usage in its various organisms."
+        },
+        "hazards": [
+          {
+            "name": "Tremors",
+            "description": "Frequent earthquakes stun players and enemies alike."
+          }
+        ],
+        "hash": 3087050848,
+        "position": {
+          "x": 0.6880386,
+          "y": 0.30101782
+        },
+        "waypoints": [
+          212
+        ],
+        "maxHealth": 1000000,
+        "health": 1000000,
+        "disabled": false,
+        "initialOwner": "Terminids",
+        "currentOwner": "Humans",
+        "regenPerSecond": 1388.8889,
+        "event": {
+          "id": 4384,
+          "eventType": 1,
+          "faction": "Terminids",
+          "health": 399974,
+          "maxHealth": 400000,
+          "startTime": "1970-03-12T06:48:30Z",
+          "endTime": "1970-03-13T06:48:30Z",
+          "campaignId": 50106,
+          "jointOperationIds": [
+            4384
+          ]
+        },
+        "statistics": {
+          "missionsWon": 13792573,
+          "missionsLost": 1383638,
+          "missionTime": 30681422152,
+          "terminidKills": 3803373151,
+          "automatonKills": 214,
+          "illuminateKills": 0,
+          "bulletsFired": 20862959660,
+          "bulletsHit": 24871132880,
+          "timePlayed": 30681422152,
+          "deaths": 75542258,
+          "revives": 0,
+          "friendlies": 12786265,
+          "missionSuccessRate": 90,
+          "accuracy": 100,
+          "playerCount": 10505
+        },
+        "attacking": [
+          212
+        ]
+      },
+      "type": 0,
+      "count": 8
+    },
+    {
+      "id": 50107,
+      "planet": {
+        "index": 194,
+        "name": "LESATH",
+        "sector": "Lacaille",
+        "biome": {
+          "name": "Icemoss",
+          "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
+        },
+        "hazards": [
+          {
+            "name": "Extreme Cold",
+            "description": "Icy temperatures reduce rate of fire and delay heat buildup in weapons."
+          }
+        ],
+        "hash": 3837447591,
+        "position": {
+          "x": -0.22899726,
+          "y": 0.49906695
+        },
+        "waypoints": [
+          160
+        ],
+        "maxHealth": 1000000,
+        "health": 500933,
+        "disabled": false,
+        "initialOwner": "Humans",
+        "currentOwner": "Automaton",
+        "regenPerSecond": 1.388889,
+        "event": null,
+        "statistics": {
+          "missionsWon": 3791228,
+          "missionsLost": 400652,
+          "missionTime": 14294325818,
+          "terminidKills": 110,
+          "automatonKills": 1002649861,
+          "illuminateKills": 0,
+          "bulletsFired": 6416662889,
+          "bulletsHit": 6657393300,
+          "timePlayed": 14294325818,
+          "deaths": 33873384,
+          "revives": 0,
+          "friendlies": 3289885,
+          "missionSuccessRate": 90,
+          "accuracy": 100,
+          "playerCount": 11258
+        },
+        "attacking": []
+      },
+      "type": 0,
+      "count": 4
+    },
+    {
+      "id": 50108,
+      "planet": {
+        "index": 157,
+        "name": "CHARON PRIME",
+        "sector": "Andromeda",
+        "biome": {
+          "name": "Crimsonmoor",
+          "description": "A crimson algae has propagated wildly across this entire planet, coating its rocky hills with a constant red that masks the spilt blood of the heroes who defend it from tyranny."
+        },
+        "hazards": [
+          {
+            "name": "Intense Heat",
+            "description": "High temperatures increase stamina drain and speed up heat buildup in weapons."
+          }
+        ],
+        "hash": 2007360508,
+        "position": {
+          "x": -0.575186,
+          "y": 0.26594892
+        },
+        "waypoints": [
+          156,
+          199,
+          158
+        ],
+        "maxHealth": 1000000,
+        "health": 500857,
+        "disabled": false,
+        "initialOwner": "Humans",
+        "currentOwner": "Automaton",
+        "regenPerSecond": 1.388889,
+        "event": null,
+        "statistics": {
+          "missionsWon": 136412,
+          "missionsLost": 37942,
+          "missionTime": 557896048,
+          "terminidKills": 0,
+          "automatonKills": 41235826,
+          "illuminateKills": 0,
+          "bulletsFired": 251298642,
+          "bulletsHit": 260530828,
+          "timePlayed": 557896048,
+          "deaths": 1485864,
+          "revives": 0,
+          "friendlies": 176019,
+          "missionSuccessRate": 78,
+          "accuracy": 100,
+          "playerCount": 9030
+        },
+        "attacking": []
+      },
+      "type": 0,
+      "count": 2
+    },
+    {
+      "id": 50109,
+      "planet": {
+        "index": 169,
+        "name": "ESTANU",
+        "sector": "Draco",
+        "biome": {
+          "name": "Icemoss",
+          "description": "Ice and moss-covered rock can be found across most of the surface of this planet."
+        },
+        "hazards": [
+          {
+            "name": "Extreme Cold",
+            "description": "Icy temperatures reduce rate of fire and delay heat buildup in weapons."
+          }
+        ],
+        "hash": 356540875,
+        "position": {
+          "x": 0.5803697,
+          "y": 0.29137206
+        },
+        "waypoints": [
+          170
+        ],
+        "maxHealth": 1000000,
+        "health": 1000000,
+        "disabled": false,
+        "initialOwner": "Terminids",
+        "currentOwner": "Humans",
+        "regenPerSecond": 1388.8889,
+        "event": {
+          "id": 4385,
+          "eventType": 1,
+          "faction": "Terminids",
+          "health": 399982,
+          "maxHealth": 400000,
+          "startTime": "1970-03-12T06:49:50Z",
+          "endTime": "1970-03-13T06:49:50Z",
+          "campaignId": 50109,
+          "jointOperationIds": [
+            4385
+          ]
+        },
+        "statistics": {
+          "missionsWon": 17050447,
+          "missionsLost": 1850207,
+          "missionTime": 30801190929,
+          "terminidKills": 4002554621,
+          "automatonKills": 750,
+          "illuminateKills": 0,
+          "bulletsFired": 22166373649,
+          "bulletsHit": 26400209702,
+          "timePlayed": 30801190929,
+          "deaths": 79522532,
+          "revives": 0,
+          "friendlies": 14150906,
+          "missionSuccessRate": 90,
+          "accuracy": 100,
+          "playerCount": 12609
+        },
+        "attacking": [
+          34,
+          34
+        ]
+      },
+      "type": 0,
+      "count": 12
+    },
+    {
+      "id": 50110,
+      "planet": {
+        "index": 198,
+        "name": "MARFARK",
+        "sector": "Andromeda",
+        "biome": {
+          "name": "Winter",
+          "description": "Submerged in eternal winter, this world's frosty peaks glimmer in the light of its too-distant star."
+        },
+        "hazards": [
+          {
+            "name": "Extreme Cold",
+            "description": "Icy temperatures reduce rate of fire and delay heat buildup in weapons."
+          },
+          {
+            "name": "Blizzards",
+            "description": "Intense blizzard reduce mobility and moderately reduce visibility for both enemy and friendly units."
+          }
+        ],
+        "hash": 2831860380,
+        "position": {
+          "x": -0.43697178,
+          "y": 0.3259796
+        },
+        "waypoints": [
+          113,
+          199,
+          200
+        ],
+        "maxHealth": 1000000,
+        "health": 500798,
+        "disabled": false,
+        "initialOwner": "Humans",
+        "currentOwner": "Automaton",
+        "regenPerSecond": 1.388889,
+        "event": null,
+        "statistics": {
+          "missionsWon": 2327539,
+          "missionsLost": 269167,
+          "missionTime": 9063963162,
+          "terminidKills": 0,
+          "automatonKills": 610450943,
+          "illuminateKills": 0,
+          "bulletsFired": 3842144134,
+          "bulletsHit": 4053414216,
+          "timePlayed": 9063963162,
+          "deaths": 21835176,
+          "revives": 0,
+          "friendlies": 2271573,
+          "missionSuccessRate": 89,
+          "accuracy": 100,
+          "playerCount": 16964
+        },
+        "attacking": []
+      },
+      "type": 0,
+      "count": 4
+    },
+    {
+      "id": 50111,
+      "planet": {
+        "index": 112,
+        "name": "VERNEN WELLS",
+        "sector": "Hydra",
+        "biome": {
+          "name": "Canyon",
+          "description": "This arid, rocky biome covering this world has driven the evolution of exceptionally efficient water usage in its various organisms."
+        },
+        "hazards": [
+          {
+            "name": "Tremors",
+            "description": "Frequent earthquakes stun players and enemies alike."
+          }
+        ],
+        "hash": 2442155408,
+        "position": {
+          "x": -0.26997122,
+          "y": 0.3760109
+        },
+        "waypoints": [
+          113,
+          194
+        ],
+        "maxHealth": 1000000,
+        "health": 1000000,
+        "disabled": false,
+        "initialOwner": "Humans",
+        "currentOwner": "Humans",
+        "regenPerSecond": 1388.8889,
+        "event": {
+          "id": 4386,
+          "eventType": 1,
+          "faction": "Automaton",
+          "health": 299995,
+          "maxHealth": 300000,
+          "startTime": "1970-03-12T06:50:50Z",
+          "endTime": "1970-03-13T06:50:50Z",
+          "campaignId": 50111,
+          "jointOperationIds": [
+            4386
+          ]
+        },
+        "statistics": {
+          "missionsWon": 2109346,
+          "missionsLost": 397931,
+          "missionTime": 8557698506,
+          "terminidKills": 0,
+          "automatonKills": 653949023,
+          "illuminateKills": 0,
+          "bulletsFired": 4176666276,
+          "bulletsHit": 4438999444,
+          "timePlayed": 8557698506,
+          "deaths": 20651008,
+          "revives": 0,
+          "friendlies": 2490994,
+          "missionSuccessRate": 84,
+          "accuracy": 100,
+          "playerCount": 6172
+        },
+        "attacking": [
+          194
+        ]
+      },
+      "type": 0,
+      "count": 3
+    },
+    {
+      "id": 50112,
+      "planet": {
+        "index": 201,
+        "name": "MEISSA",
+        "sector": "Ymir",
+        "biome": {
+          "name": "Jungle",
+          "description": "Abundant with life, this wet planet is covered in deep oceans, thick forests, and tall grasses."
+        },
+        "hazards": [
+          {
+            "name": "Volcanic Activity",
+            "description": "Volcanoes throw burning rocks around this planet."
+          },
+          {
+            "name": "Rainstorms",
+            "description": "Torrential rainstorms reduce visibility."
+          }
+        ],
+        "hash": 996779072,
+        "position": {
+          "x": -0.5683347,
+          "y": 0.4903273
+        },
+        "waypoints": [
+          245
+        ],
+        "maxHealth": 1000000,
+        "health": 1000000,
+        "disabled": false,
+        "initialOwner": "Humans",
+        "currentOwner": "Humans",
+        "regenPerSecond": 1388.8889,
+        "event": {
+          "id": 4387,
+          "eventType": 1,
+          "faction": "Automaton",
+          "health": 299998,
+          "maxHealth": 300000,
+          "startTime": "1970-03-12T06:51:50Z",
+          "endTime": "1970-03-13T06:51:50Z",
+          "campaignId": 50112,
+          "jointOperationIds": [
+            4387
+          ]
+        },
+        "statistics": {
+          "missionsWon": 15,
+          "missionsLost": 0,
+          "missionTime": 9075,
+          "terminidKills": 0,
+          "automatonKills": 840,
+          "illuminateKills": 0,
+          "bulletsFired": 3548,
+          "bulletsHit": 3436,
+          "timePlayed": 9075,
+          "deaths": 42,
+          "revives": 0,
+          "friendlies": 5,
+          "missionSuccessRate": 100,
+          "accuracy": 96,
+          "playerCount": 2227
+        },
+        "attacking": []
+      },
+      "type": 0,
+      "count": 1
     }
   ],
   "dispatches": [
