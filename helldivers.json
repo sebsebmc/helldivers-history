@@ -45,29 +45,6 @@
       "type": 0
     },
     {
-      "count": 2,
-      "id": 50108,
-      "planet": {
-        "disabled": false,
-        "hash": 2007360508,
-        "index": 157,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Charon Prime",
-        "position": {
-          "x": -57.5186,
-          "y": 26.594892
-        },
-        "sector": "32",
-        "waypoints": [
-          156,
-          158,
-          199
-        ]
-      },
-      "type": 0
-    },
-    {
       "count": 4,
       "id": 50110,
       "planet": {
@@ -134,28 +111,6 @@
       "type": 0
     },
     {
-      "count": 1,
-      "id": 50118,
-      "planet": {
-        "disabled": false,
-        "hash": 2564387350,
-        "index": 158,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Choepessa IV",
-        "position": {
-          "x": -70.44093,
-          "y": 25.667855
-        },
-        "sector": "32",
-        "waypoints": [
-          242,
-          244
-        ]
-      },
-      "type": 0
-    },
-    {
       "count": 2,
       "id": 50119,
       "planet": {
@@ -176,15 +131,10 @@
         ]
       },
       "type": 0
-    }
-  ],
-  "community_targets": [],
-  "global_events": [],
-  "impact_multiplier": 0.01934638,
-  "joint_operations": [
+    },
     {
-      "hq_node_index": 2,
-      "id": 4391,
+      "count": 2,
+      "id": 50120,
       "planet": {
         "disabled": false,
         "hash": 2564387350,
@@ -200,6 +150,96 @@
         "waypoints": [
           242,
           244
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 14,
+      "id": 50121,
+      "planet": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 58.03697,
+          "y": 29.137206
+        },
+        "sector": "21",
+        "waypoints": [
+          170
+        ]
+      },
+      "type": 0
+    },
+    {
+      "count": 2,
+      "id": 50122,
+      "planet": {
+        "disabled": false,
+        "hash": 457558822,
+        "index": 154,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mort",
+        "position": {
+          "x": -67.88745,
+          "y": 11.7238
+        },
+        "sector": "31",
+        "waypoints": [
+          107,
+          155
+        ]
+      },
+      "type": 0
+    }
+  ],
+  "community_targets": [],
+  "global_events": [],
+  "impact_multiplier": 0.01944779,
+  "joint_operations": [
+    {
+      "hq_node_index": 0,
+      "id": 4392,
+      "planet": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 58.03697,
+          "y": 29.137206
+        },
+        "sector": "21",
+        "waypoints": [
+          170
+        ]
+      }
+    },
+    {
+      "hq_node_index": 1,
+      "id": 4393,
+      "planet": {
+        "disabled": false,
+        "hash": 457558822,
+        "index": 154,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Mort",
+        "position": {
+          "x": -67.88745,
+          "y": 11.7238
+        },
+        "sector": "31",
+        "waypoints": [
+          107,
+          155
         ]
       }
     }
@@ -345,80 +385,6 @@
         "waypoints": [
           113,
           194
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2564387350,
-        "index": 158,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Choepessa IV",
-        "position": {
-          "x": -70.44093,
-          "y": 25.667855
-        },
-        "sector": "32",
-        "waypoints": [
-          242,
-          244
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 2007360508,
-        "index": 157,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Charon Prime",
-        "position": {
-          "x": -57.5186,
-          "y": 26.594892
-        },
-        "sector": "32",
-        "waypoints": [
-          156,
-          158,
-          199
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2564387350,
-        "index": 158,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Choepessa IV",
-        "position": {
-          "x": -70.44093,
-          "y": 25.667855
-        },
-        "sector": "32",
-        "waypoints": [
-          242,
-          244
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 2007360508,
-        "index": 157,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Charon Prime",
-        "position": {
-          "x": -57.5186,
-          "y": 26.594892
-        },
-        "sector": "32",
-        "waypoints": [
-          156,
-          158,
-          199
         ]
       }
     },
@@ -813,6 +779,23 @@
     {
       "source": {
         "disabled": false,
+        "hash": 260933067,
+        "index": 242,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ustotu",
+        "position": {
+          "x": -80.6865,
+          "y": 20.750636
+        },
+        "sector": "48",
+        "waypoints": [
+          240,
+          243
+        ]
+      },
+      "target": {
+        "disabled": false,
         "hash": 2564387350,
         "index": 158,
         "initial_owner": "Humans",
@@ -827,22 +810,41 @@
           242,
           244
         ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 17046409,
+        "index": 244,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Varylia 5",
+        "position": {
+          "x": -74.635,
+          "y": 34.41284
+        },
+        "sector": "49",
+        "waypoints": [
+          242,
+          247
+        ]
       },
       "target": {
         "disabled": false,
-        "hash": 3531149629,
-        "index": 156,
+        "hash": 2564387350,
+        "index": 158,
         "initial_owner": "Humans",
         "max_health": 1000000,
-        "name": "Charbal-VII",
+        "name": "Choepessa IV",
         "position": {
-          "x": -60.09798,
-          "y": 20.24094
+          "x": -70.44093,
+          "y": 25.667855
         },
-        "sector": "33",
+        "sector": "32",
         "waypoints": [
-          154,
-          158
+          242,
+          244
         ]
       }
     }
@@ -850,50 +852,118 @@
   "planet_events": [
     {
       "campaign": {
-        "count": 1,
-        "id": 50118,
+        "count": 14,
+        "id": 50121,
         "planet": {
           "disabled": false,
-          "hash": 2564387350,
-          "index": 158,
-          "initial_owner": "Humans",
+          "hash": 356540875,
+          "index": 169,
+          "initial_owner": "Terminids",
           "max_health": 1000000,
-          "name": "Choepessa IV",
+          "name": "Estanu",
           "position": {
-            "x": -70.44093,
-            "y": 25.667855
+            "x": 58.03697,
+            "y": 29.137206
           },
-          "sector": "32",
+          "sector": "21",
           "waypoints": [
-            242,
-            244
+            170
           ]
         },
         "type": 0
       },
       "event_type": 1,
-      "expire_time": "1970-03-14T07:02:50Z",
-      "health": 87259,
-      "id": 4391,
+      "expire_time": "1970-03-15T07:03:30Z",
+      "health": 350000,
+      "id": 4392,
       "joint_operations": [
         {
-          "hq_node_index": 2,
-          "id": 4391,
+          "hq_node_index": 0,
+          "id": 4392,
           "planet": {
             "disabled": false,
-            "hash": 2564387350,
-            "index": 158,
+            "hash": 356540875,
+            "index": 169,
+            "initial_owner": "Terminids",
+            "max_health": 1000000,
+            "name": "Estanu",
+            "position": {
+              "x": 58.03697,
+              "y": 29.137206
+            },
+            "sector": "21",
+            "waypoints": [
+              170
+            ]
+          }
+        }
+      ],
+      "max_health": 350000,
+      "planet": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 58.03697,
+          "y": 29.137206
+        },
+        "sector": "21",
+        "waypoints": [
+          170
+        ]
+      },
+      "race": "Terminids",
+      "start_time": "1970-03-14T07:03:30Z"
+    },
+    {
+      "campaign": {
+        "count": 2,
+        "id": 50122,
+        "planet": {
+          "disabled": false,
+          "hash": 457558822,
+          "index": 154,
+          "initial_owner": "Humans",
+          "max_health": 1000000,
+          "name": "Mort",
+          "position": {
+            "x": -67.88745,
+            "y": 11.7238
+          },
+          "sector": "31",
+          "waypoints": [
+            107,
+            155
+          ]
+        },
+        "type": 0
+      },
+      "event_type": 1,
+      "expire_time": "1970-03-15T07:04:30Z",
+      "health": 200000,
+      "id": 4393,
+      "joint_operations": [
+        {
+          "hq_node_index": 1,
+          "id": 4393,
+          "planet": {
+            "disabled": false,
+            "hash": 457558822,
+            "index": 154,
             "initial_owner": "Humans",
             "max_health": 1000000,
-            "name": "Choepessa IV",
+            "name": "Mort",
             "position": {
-              "x": -70.44093,
-              "y": 25.667855
+              "x": -67.88745,
+              "y": 11.7238
             },
-            "sector": "32",
+            "sector": "31",
             "waypoints": [
-              242,
-              244
+              107,
+              155
             ]
           }
         }
@@ -901,23 +971,23 @@
       "max_health": 200000,
       "planet": {
         "disabled": false,
-        "hash": 2564387350,
-        "index": 158,
+        "hash": 457558822,
+        "index": 154,
         "initial_owner": "Humans",
         "max_health": 1000000,
-        "name": "Choepessa IV",
+        "name": "Mort",
         "position": {
-          "x": -70.44093,
-          "y": 25.667855
+          "x": -67.88745,
+          "y": 11.7238
         },
-        "sector": "32",
+        "sector": "31",
         "waypoints": [
-          242,
-          244
+          107,
+          155
         ]
       },
       "race": "Automaton",
-      "start_time": "1970-03-13T07:02:50Z"
+      "start_time": "1970-03-14T07:04:30Z"
     }
   ],
   "planet_status": [
@@ -941,7 +1011,7 @@
           1
         ]
       },
-      "players": 748,
+      "players": 686,
       "regen_per_second": 1388.8889
     },
     {
@@ -1722,7 +1792,7 @@
           211
         ]
       },
-      "players": 10876,
+      "players": 10850,
       "regen_per_second": 2.7777777
     },
     {
@@ -2398,7 +2468,7 @@
           169
         ]
       },
-      "players": 16,
+      "players": 18,
       "regen_per_second": 1388.8889
     },
     {
@@ -2741,7 +2811,7 @@
           168
         ]
       },
-      "players": 0,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
@@ -2765,7 +2835,7 @@
           127
         ]
       },
-      "players": 5,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -3468,8 +3538,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 323674,
-      "liberation": 67.6326,
+      "health": 322697,
+      "liberation": 67.7303,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -3488,7 +3558,7 @@
           194
         ]
       },
-      "players": 25873,
+      "players": 27452,
       "regen_per_second": 0
     },
     {
@@ -3558,7 +3628,7 @@
           194
         ]
       },
-      "players": 40,
+      "players": 36,
       "regen_per_second": 1.3888888
     },
     {
@@ -3784,7 +3854,7 @@
           168
         ]
       },
-      "players": 7,
+      "players": 6,
       "regen_per_second": 1388.8889
     },
     {
@@ -3830,7 +3900,7 @@
           85
         ]
       },
-      "players": 14,
+      "players": 9,
       "regen_per_second": 1388.8889
     },
     {
@@ -4392,7 +4462,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 21,
+      "players": 22,
       "regen_per_second": 1388.8889
     },
     {
@@ -4439,7 +4509,7 @@
           155
         ]
       },
-      "players": 2,
+      "players": 575,
       "regen_per_second": 1388.8889
     },
     {
@@ -4466,8 +4536,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 499949,
-      "liberation": 50.0051,
+      "health": 499934,
+      "liberation": 50.0066,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4486,12 +4556,12 @@
           158
         ]
       },
-      "players": 3702,
+      "players": 3528,
       "regen_per_second": 0
     },
     {
-      "health": 549188,
-      "liberation": 45.081199999999995,
+      "health": 549544,
+      "liberation": 45.04559999999999,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4511,13 +4581,13 @@
           199
         ]
       },
-      "players": 3551,
-      "regen_per_second": 0
+      "players": 3379,
+      "regen_per_second": 1.3888888
     },
     {
-      "health": 1000000,
-      "liberation": 100,
-      "owner": "Humans",
+      "health": 500000,
+      "liberation": 50,
+      "owner": "Automaton",
       "planet": {
         "disabled": false,
         "hash": 2564387350,
@@ -4535,12 +4605,12 @@
           244
         ]
       },
-      "players": 17706,
-      "regen_per_second": 1388.8889
+      "players": 17500,
+      "regen_per_second": 0
     },
     {
-      "health": 990900,
-      "liberation": 0.9099999999999966,
+      "health": 991290,
+      "liberation": 0.8709999999999951,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4559,12 +4629,12 @@
           203
         ]
       },
-      "players": 895,
+      "players": 815,
       "regen_per_second": 1.3888888
     },
     {
-      "health": 992173,
-      "liberation": 0.7827000000000055,
+      "health": 992563,
+      "liberation": 0.743700000000004,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4580,7 +4650,7 @@
         "sector": "34",
         "waypoints": []
       },
-      "players": 868,
+      "players": 794,
       "regen_per_second": 1.3888888
     },
     {
@@ -4762,7 +4832,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 18,
+      "players": 17,
       "regen_per_second": 1388.8889
     },
     {
@@ -4785,7 +4855,7 @@
           170
         ]
       },
-      "players": 2677,
+      "players": 4459,
       "regen_per_second": 1388.8889
     },
     {
@@ -4808,7 +4878,7 @@
           212
         ]
       },
-      "players": 794,
+      "players": 798,
       "regen_per_second": 1388.8889
     },
     {
@@ -5332,8 +5402,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 544921,
-      "liberation": 45.5079,
+      "health": 545311,
+      "liberation": 45.4689,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5351,7 +5421,7 @@
           160
         ]
       },
-      "players": 3776,
+      "players": 3407,
       "regen_per_second": 1.3888888
     },
     {
@@ -5375,7 +5445,7 @@
           243
         ]
       },
-      "players": 18,
+      "players": 16,
       "regen_per_second": 1388.8889
     },
     {
@@ -5399,7 +5469,7 @@
           153
         ]
       },
-      "players": 8,
+      "players": 14,
       "regen_per_second": 1388.8889
     },
     {
@@ -5424,12 +5494,12 @@
           196
         ]
       },
-      "players": 1,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 501296,
-      "liberation": 49.870400000000004,
+      "health": 501065,
+      "liberation": 49.8935,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5449,12 +5519,12 @@
           200
         ]
       },
-      "players": 6229,
+      "players": 6546,
       "regen_per_second": 0
     },
     {
-      "health": 280675,
-      "liberation": 71.9325,
+      "health": 281065,
+      "liberation": 71.8935,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5470,7 +5540,7 @@
         "sector": "33",
         "waypoints": []
       },
-      "players": 228,
+      "players": 206,
       "regen_per_second": 1.3888888
     },
     {
@@ -5495,12 +5565,12 @@
           201
         ]
       },
-      "players": 88,
+      "players": 84,
       "regen_per_second": 1.3888888
     },
     {
-      "health": 448573,
-      "liberation": 55.1427,
+      "health": 448301,
+      "liberation": 55.1699,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5518,7 +5588,7 @@
           245
         ]
       },
-      "players": 6021,
+      "players": 6151,
       "regen_per_second": 0
     },
     {
@@ -5545,8 +5615,8 @@
       "regen_per_second": 1.3888888
     },
     {
-      "health": 500130,
-      "liberation": 49.987,
+      "health": 500520,
+      "liberation": 49.948,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5566,7 +5636,7 @@
           194
         ]
       },
-      "players": 30367,
+      "players": 26704,
       "regen_per_second": 1.3888888
     },
     {
@@ -5746,12 +5816,12 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 45,
+      "players": 31,
       "regen_per_second": 2.7777777
     },
     {
-      "health": 62923,
-      "liberation": 93.7077,
+      "health": 61096,
+      "liberation": 93.8904,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -5767,7 +5837,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 61668,
+      "players": 60922,
       "regen_per_second": 2.7777777
     },
     {
@@ -6349,7 +6419,7 @@
           241
         ]
       },
-      "players": 23,
+      "players": 19,
       "regen_per_second": 1388.8889
     },
     {
@@ -6395,7 +6465,7 @@
           243
         ]
       },
-      "players": 2,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -6419,7 +6489,7 @@
           153
         ]
       },
-      "players": 12,
+      "players": 19,
       "regen_per_second": 1388.8889
     },
     {
@@ -6828,7 +6898,7 @@
           258
         ]
       },
-      "players": 39,
+      "players": 38,
       "regen_per_second": 2.7777777
     },
     {
@@ -6855,7 +6925,7 @@
       "regen_per_second": 1.3888888
     }
   ],
-  "snapshot_at": "2024-04-23T20:43:10.009535Z",
-  "started_at": "2024-02-11T13:40:30.009535Z",
+  "snapshot_at": "2024-04-23T20:48:10.013234Z",
+  "started_at": "2024-02-11T13:40:30.013234Z",
   "war_id": 801
 }
