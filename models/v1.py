@@ -5,7 +5,7 @@
 from __future__ import annotations
 
 from datetime import datetime
-from typing import List, Optional
+from typing import Dict, List, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -25,7 +25,7 @@ class PlanetStatus(BaseModel):
     Represents the 'current' status of a planet in the galactic war.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     index: Optional[int] = None
     """
@@ -71,7 +71,7 @@ class Campaign(BaseModel):
     Contains information of ongoing campaigns.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     id: Optional[int] = None
     """
@@ -96,7 +96,7 @@ class JointOperation(BaseModel):
     Represents a joint operation.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     id: Optional[int] = None
     planet_index: Optional[int] = Field(None, alias='planetIndex')
@@ -108,7 +108,7 @@ class PlanetEvent(BaseModel):
     An ongoing event on a planet.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     id: Optional[int] = None
     """
@@ -170,7 +170,7 @@ class HomeWorld(BaseModel):
     Represents information about the homeworld(s) of a given race.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     race: Optional[int] = None
     """
@@ -187,7 +187,7 @@ class GalaxyStats(BaseModel):
     Represents galaxy wide statistics.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     missions_won: Optional[int] = Field(None, alias='missionsWon')
     """
@@ -252,7 +252,7 @@ class PlanetStats(BaseModel):
     Similar to GalaxyStats, but scoped to a specific planet.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     planet_index: Optional[int] = Field(None, alias='planetIndex')
     """
@@ -347,7 +347,7 @@ class Task(BaseModel):
     It's exact values are not known, therefor little of it's purpose is clear.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     type: Optional[int] = None
     """
@@ -389,7 +389,7 @@ class Statistics(BaseModel):
     Contains statistics of missions, kills, success rate etc.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     missions_won: Optional[int] = Field(None, alias='missionsWon')
     """
@@ -459,7 +459,7 @@ class Task2(BaseModel):
     to finish the assignment.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     type: Optional[int] = None
     """
@@ -528,7 +528,7 @@ class Dispatch(BaseModel):
     """
     The type of dispatch, purpose unknown.
     """
-    message: Optional[str] = None
+    message: Optional[Union[Dict[str,Optional[str]],str]] = None
     """
     The message this dispatch represents.
     """
@@ -539,7 +539,7 @@ class SteamNews(BaseModel):
     Represents a new article from Steam's news feed.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     id: Optional[str] = None
     """
@@ -572,7 +572,7 @@ class WarStatus(BaseModel):
     Represents a snapshot of the current status of the galactic war.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     war_id: Optional[int] = Field(None, alias='warId')
     """
@@ -619,7 +619,7 @@ class PlanetInfo(BaseModel):
     Represents information of a planet from the 'WarInfo' endpoint returned by ArrowHead's API.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     index: Optional[int] = None
     """
@@ -677,7 +677,7 @@ class Setting(BaseModel):
     Contains the details of an Assignment like reward and requirements.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     type: Optional[int] = None
     """
@@ -714,7 +714,7 @@ class War(BaseModel):
     Global information of the ongoing war.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid', populate_by_name=True)
 
     started: Optional[datetime] = None
     """
@@ -754,19 +754,19 @@ class Assignment2(BaseModel):
 
     model_config = ConfigDict(extra='forbid')
 
-    id: Optional[int] = None
+    id: int
     """
     The unique identifier of this assignment.
     """
-    title: Optional[str] = None
+    title: Union[Dict[str,Optional[str]],str]
     """
     The title of the assignment.
     """
-    briefing: Optional[str] = None
+    briefing: Optional[Union[Dict[str,Optional[str]],str]] = None
     """
     A long form description of the assignment, usually contains context.
     """
-    description: Optional[str] = None
+    description: Optional[Union[Dict[str,Optional[str]],str]] = None
     """
     A very short summary of the description.
     """
@@ -778,11 +778,15 @@ class Assignment2(BaseModel):
     """
     The reward for completing the assignment.
     """
+    progress: List[int]
+    expiration: datetime
 
 class Event(BaseModel):
     """	
     An ongoing event on a Planet.
     """
+
+    model_config = ConfigDict(populate_by_name=True)
 
     id: Optional[int] = None
     """
@@ -821,19 +825,27 @@ class Event(BaseModel):
     A list of joint operation identifier linked to this event.
     """
 
+class Biome(BaseModel):
+    name: str
+    description: str
+
+class Hazard(BaseModel):
+    name: str
+    description: str
+
 
 class Planet(BaseModel):
     """
     Contains all aggregated information AH has about a planet.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
-    index: Optional[int] = None
+    index: int
     """
     The unique identifier ArrowHead assigned to this planet.
     """
-    name: Optional[str] = None
+    name: Union[Dict[str,str],str]
     """
     The name of the planet, as shown in game.
     """
@@ -845,7 +857,7 @@ class Planet(BaseModel):
     """
     A hash assigned to the planet by ArrowHead, purpose unknown.
     """
-    position: Optional[Position] = None
+    position: Position
     """
     The coordinates of this planet on the galactic war map.
     """
@@ -853,11 +865,11 @@ class Planet(BaseModel):
     """
     A list of Index of all the planets to which this planet is connected.
     """
-    max_health: Optional[int] = Field(None, alias='maxHealth')
+    max_health: int = Field(alias='maxHealth')
     """
     The maximum health pool of this planet.
     """
-    health: Optional[int] = None
+    health: int
     """
     The current planet this planet has.
     """
@@ -869,11 +881,11 @@ class Planet(BaseModel):
     """
     The faction that originally owned the planet.
     """
-    current_owner: Optional[str] = Field(None, alias='currentOwner')
+    current_owner: str = Field(alias='currentOwner')
     """
     The faction that currently controls the planet.
     """
-    regen_per_second: Optional[float] = Field(None, alias='regenPerSecond')
+    regen_per_second: float = Field(None, alias='regenPerSecond')
     """
     How much the planet regenerates per second if left alone.
     """
@@ -885,6 +897,9 @@ class Planet(BaseModel):
     """
     A set of statistics scoped to this planet.
     """
+    attacking: Optional[List[int]] = None
+    biome: Optional[Biome] = None
+    hazards: Optional[List[Hazard]] = None
 
 
 class WarInfo(BaseModel):
@@ -892,7 +907,7 @@ class WarInfo(BaseModel):
     Represents mostly static information of the current galactic war.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid',populate_by_name=True)
 
     war_id: Optional[int] = Field(None, alias='warId')
     """
@@ -925,7 +940,7 @@ class Assignment(BaseModel):
     Represents an assignment given from Super Earth to the Helldivers.
     """
 
-    model_config = ConfigDict(extra='forbid')
+    model_config = ConfigDict(extra='forbid', populate_by_name=True)
 
     id32: Optional[int] = None
     """
@@ -954,7 +969,7 @@ class Campaign2(BaseModel):
     """
     The unique identifier of this Campaign.
     """
-    planet: Optional[Planet] = None
+    planet: Planet
     """
     The planet on which this campaign is being fought.
     """
@@ -972,9 +987,10 @@ class Campaign2(BaseModel):
     """
 
 class FullStatus(BaseModel):
-    war: Optional[War] = None
-    planets: Optional[List[Planet]] = None
-    assignments: Optional[List[Assignment2]] = None
-    campaigns: Optional[List[Campaign2]] = None
-    dispatches: Optional[List[Dispatch]] = None
-    events: Optional[List[Event]] = None
+    war: War
+    planets: List[Planet]
+    assignments: List[Assignment2]
+    campaigns: List[Campaign2]
+    dispatches: List[Dispatch] 
+    snapshot_at: Optional[datetime] = None
+    version: Optional[int] = None

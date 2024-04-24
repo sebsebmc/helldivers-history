@@ -35,7 +35,7 @@ def fetch_all_records_v0():
     out: List[v0.FullStatus] = []
 
     for ref in commits:
-        cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
+        cache_path = os.path.join(CACHE_DIR, "v0", ref[:2], ref[2:] + ".json")
 
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
@@ -79,7 +79,7 @@ def fetch_all_records_v1():
     out: List[v1.FullStatus] = []
 
     for ref in commits:
-        cache_path = os.path.join(CACHE_DIR, ref[:2], ref[2:] + ".json")
+        cache_path = os.path.join(CACHE_DIR, "v1", ref[:2], ref[2:] + ".json")
 
         if os.path.exists(cache_path):
             with open(cache_path) as fh:
@@ -92,13 +92,15 @@ def fetch_all_records_v1():
                     out.append(record)
                     continue
         try:
-            record = TypeAdapter(v0.FullStatus).validate_json(git_show(ref, '801_full_v1.json', repo))
+            record = v1.FullStatus.model_validate_json(git_show(ref, '801_full_v1.json', repo))
         except ValidationError as exc:
+            if ref.startswith('a514ea'):
+                continue
             res = json.loads(git_show(ref, '801_full_v1.json', repo))
             if 'error' in res.keys() or 'errors' in res.keys():
                 continue
             print(f"Bad committed data {exc.errors()[0]}")
-        timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc).isoformat()
+        timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc)
         record.snapshot_at = timestamp
         record.version = CACHE_VERSION
         
@@ -118,9 +120,10 @@ def fetch_all_records_v1():
 RECENCY = 6 * 24 
 
 def create_agg_stats():
-    records = [v0_to_frontend(rec) for rec in fetch_all_records_v0()] # + [v1_to_frontend(rec) for rec in fetch_all_records_v1()]
+    records = [v1_to_frontend(rec) for rec in fetch_all_records_v1()]
     players = [0]*len(records)
     timestamps = []
+    time_correction = []
     impact = []
     active = set([campaign.planet.index for campaign in records[len(records)-1].active])
     active_sum = {p:0 for p in active}
@@ -144,7 +147,7 @@ def create_agg_stats():
     most_active = sorted(active_sum.items(), key=lambda x: x[1], reverse=True)
 
     for step in records:
-        timestamps.append(step.war.now)
+        timestamps.append(step.snapshot_at)
         impact.append(step.war.impact_multiplier)
 
     with open('./docs/data/aggregates.json', 'w') as fh:
@@ -154,10 +157,19 @@ def create_agg_stats():
     with open('./docs/data/current_status.json', 'w') as fh:
         fh.write(records[-1].model_dump_json())
 
+def wrap_if_str(val):
+    if isinstance(val, str):
+        return {'en-US':val}
+    return val
+
 def v1_to_frontend(v1_rec: v1.FullStatus) -> frontend.CurrentStatus:
     planets = []
     events = []
+
     for planet in v1_rec.planets:
+        planet.name = wrap_if_str(planet.name) 
+        planet.position.x *= 100
+        planet.position.y *= 100
         planets.append(frontend.Planet.model_validate(planet.model_dump()))
         if planet.event is not None:
             events.append(frontend.Defense.model_validate({
@@ -176,11 +188,13 @@ def v1_to_frontend(v1_rec: v1.FullStatus) -> frontend.CurrentStatus:
     for assignment in v1_rec.assignments:
         assignments.append(frontend.Assignment.model_validate({
             'id': assignment.id,
-            'title': {'en-us':assignment.title},
-            'briefing': {'en-us':assignment.briefing},
-            'description': {'en-us':assignment.description},
+            'title': wrap_if_str(assignment.title),
+            'briefing': wrap_if_str(assignment.briefing),
+            'description': wrap_if_str(assignment.description),
             'tasks': [task.model_dump() for task in assignment.tasks],
             'reward': assignment.reward.model_dump(),
+            'progress': assignment.progress,
+            'expiration': int(assignment.expiration.timestamp()*1000),
         }))
     stats = v1_rec.war.statistics
     war_details = frontend.WarDetails.model_validate({
@@ -194,7 +208,20 @@ def v1_to_frontend(v1_rec: v1.FullStatus) -> frontend.CurrentStatus:
 
     campaigns = []
     for campaign in v1_rec.campaigns:
+        campaign.planet.name = wrap_if_str(campaign.planet.name)
+        campaign.planet.position.x *= 100
+        campaign.planet.position.y *= 100
         campaigns.append(frontend.Campaign.model_validate(campaign.model_dump()))
+
+    dispatches: List[frontend.Dispatch] = []
+    for dispatch in v1_rec.dispatches:
+        if dispatch.message is None:
+            continue
+        dispatches.append(frontend.Dispatch.model_validate({
+            'id': dispatch.id,
+            'message': wrap_if_str(dispatch.message),
+            'title':wrap_if_str('Dispatch'),
+        }))
 
     return frontend.CurrentStatus.model_validate({
         'events': events,
@@ -202,6 +229,8 @@ def v1_to_frontend(v1_rec: v1.FullStatus) -> frontend.CurrentStatus:
         'assignments': assignments,
         'war': war_details,
         'active': campaigns,
+        'dispatches': dispatches,
+        'snapshot_at': int(v1_rec.snapshot_at.timestamp()*1000),
     })
 
 def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
@@ -212,7 +241,7 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
         planets.append(frontend.Planet.model_validate({
             'position': planet_status.planet.position,
             'index': planet_status.planet.index,
-            'name': planet_status.planet.name,
+            'name': {'en-US': planet_status.planet.name},
             'sector': planet_status.planet.sector,
             'waypoints': planet_status.planet.waypoints,
             'disabled': planet_status.planet.disabled,
@@ -244,7 +273,7 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
         'start_time': int(v0_rec.started_at.timestamp()*1000),
         'end_time': None,
         'now': int(v0_rec.snapshot_at.timestamp()*1000),
-        'factions': ['Humans', 'Automatons', 'Terminids'],
+        'factions': ['Humans', 'Automatons', 'Terminids', 'Illuminate'],
         'impact_multiplier': v0_rec.impact_multiplier,
         'statistics': frontend.Statistics.model_validate({'player_count': total_players}),
     })
@@ -265,9 +294,11 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
         'war': war_details,
         'active': campaigns,
         'dispatches':[dataclasses.asdict(d) for d in v0_rec.global_events],
+        'snapshot_at': war_details.now,
     })
 
-create_agg_stats()
+if __name__ == "__main__":
+    create_agg_stats()
 # Plotting recent attacks based solely on player count is a bit boring sometimes. Maybe we should use variance of liberation?
 
 # intial_owner's do change, such as when we lost the defense of Angel's Venture. We should keep track of these and add them to the message logs

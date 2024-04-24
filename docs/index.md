@@ -4,7 +4,7 @@ toc: false
 ---
 
 ```js
-import {twoDayPlanetAttack, planetTableRows, getDefender, getLiberation, renderDefenses, renderAHTags} from "./components/planet_history.js";
+import {twoDayPlanetAttack, planetTableRows, getDefender, getLiberation, renderDefenses, renderAHTags, getMajorOrderDetails} from "./components/planet_history.js";
 ```
 
 <style>
@@ -116,7 +116,7 @@ const eff_now = (async function*(){
 ```
 
 ```js
-const lang = view(Inputs.select(["es", "fr", "de", "en", "it", "pl", "ru"], {value: "en", label: "Language", width: '4em'}));
+const lang = view(Inputs.select(["en-US", "de-DE", "es-ES", "ru-RU", "fr-FR", "it-IT", "pl-PL", "zh-Hans", "zh-Hant"], {value: "en", label: "Language", width: '7em'}));
 const status = FileAttachment('./data/current_status.json').json().catch(() => window.location.reload());
 const agg = FileAttachment('./data/aggregates.json').json();
 const focus = FileAttachment('./data/recent_attacks.json').json();
@@ -127,13 +127,13 @@ const legendArrowURL = FileAttachment("./data/legend_arrow.svg").url();
 setTimeout(() => document.location.reload(), 10*60*1000);
 const defenses = status.events.filter(e => e.type == 1);
 const lastEntryTime = new Date(agg[agg.length-1].timestamp);
-const statusTime = new Date(status.war.now);
+const lastEntryWarTime = new Date(status.war.now);
 const GAME_EPOCH = new Date(status.war.start_time);
 ```
 
 ```js
-const timeSinceLastEntry = new Date(eff_now - statusTime);
-const timeSinceGameEpoch = timeSinceLastEntry.getTime() + statusTime.getTime() - GAME_EPOCH.getTime();
+const timeSinceLastEntry = new Date(eff_now - lastEntryTime);
+const timeSinceGameEpoch = timeSinceLastEntry.getTime() + lastEntryWarTime.getTime();
 ```
 
 <div class="hero">
@@ -209,8 +209,8 @@ active.push(0);
     <div>
     ${
       Inputs.table(status.dispatches, {
-        header: {title: "Title", message: "Message"}, 
-        columns:['title', 'message'],
+        header: {message: "Dispatch History"}, 
+        columns:['message'],
         format: { message: x => htl.html`<span style="white-space:normal">${renderAHTags(x[lang])}`},
         layout: 'auto',
         }
@@ -218,11 +218,18 @@ active.push(0);
     }</div>
     <hr>
     <div class="center">
-   ${display(renderDefenses(defenses, timeSinceGameEpoch))}
-   </div>
+    <strong>${renderAHTags(status.assignments[0].title[lang])}</strong>
+    </strong><br>
+    ${renderAHTags(status.assignments[0].briefing[lang])}
+    <br>
+    ${renderAHTags(status.assignments[0].description[lang])}<br>
+    Status: ${getMajorOrderDetails(status.assignments[0], status.planets).status}
+    | Ends: ${new Date(status.assignments[0].expiration).toLocaleString()}
+    </div>
   </div>
   <div class="center card">
-    ${display(planetTableRows(agg, focus, status, timeSinceGameEpoch))}
+    ${display(planetTableRows(agg, focus, status, lang))}
+    ${display(renderDefenses(defenses, lang))}
     </div>
   </div>
 </div>
@@ -291,7 +298,7 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
           Plot.tip(status.planets, Plot.pointer({
             x: p => p.position.x, 
             y: p => p.position.y,
-            title: p => [`${p.name}\n`, `Liberation: ${getLiberation(p.index, status, defenses).toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
+            title: p => [`${p.name[lang]}\n`, `Liberation: ${getLiberation(p.index, status, defenses).toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
           ),
           factionLegend(['Humans', 'Terminids', 'Automaton'], {r:width/150, strokeWidth:width/220, width}),
         ],
@@ -300,11 +307,11 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
     }</div>
   </div>
   <div class="card grid-colspan-1" style="padding:1rem;">
-  ${resize((width) => twoDayPlanetAttack(width, agg, focus[0][0], status.planets[focus[0][0]]))}
+  ${resize((width) => twoDayPlanetAttack(width, agg, focus[0][0], status.planets[focus[0][0]], lang))}
   </div>
-  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planets[focus[1][0]]))}</div>
-  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planets[focus[2][0]]))}</div>
-  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planets[focus[3][0]]))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[1][0], status.planets[focus[1][0]], lang))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[2][0], status.planets[focus[2][0]], lang))}</div>
+  <div class="card grid-colspan-1">${resize((width) => twoDayPlanetAttack(width, agg, focus[3][0], status.planets[focus[3][0]], lang))}</div>
 </div>
 
 ## History

@@ -1,3 +1,4 @@
+from datetime import datetime
 from pydantic import BaseModel, ConfigDict, Field, computed_field
 from typing import Dict, List, Optional, Union
 
@@ -26,7 +27,7 @@ class Position(BaseModel):
 class Planet(BaseModel):
     position: Position
     index: int
-    name: str
+    name: Dict[str,str]
     sector: str
     waypoints: List[int]
     disabled: bool
@@ -78,6 +79,8 @@ class Assignment(BaseModel):
     briefing: Dict[str,str]
     description: Dict[str,str]
     tasks: List[Task]
+    progress: List[int]
+    expiration: int
     reward: Reward
 
 class WarDetails(BaseModel):
@@ -97,8 +100,8 @@ class Campaign(BaseModel):
 
 class Dispatch(BaseModel):
     id: int
-    message: Dict[str, str]
-    title: Optional[str] = None
+    message: Dict[str, Optional[str]]
+    title:  Dict[str, str]
     faction: Optional[str] = None
 
 class CurrentStatus(BaseModel):
@@ -110,3 +113,4 @@ class CurrentStatus(BaseModel):
     war: WarDetails
     active: List[Campaign]
     dispatches: List[Dispatch]
+    snapshot_at: int

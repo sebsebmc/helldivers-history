@@ -2,15 +2,73 @@ import * as Plot from "npm:@observablehq/plot";
 import {scaleLinear, extent, max} from "npm:d3";
 import {html} from "npm:htl";
 
-export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus){
+const SEC_PER_HOUR = 60 * 60;
+const MSEC_PER_HOUR = SEC_PER_HOUR * 1000;
+
+const MajorOrderTypes = {
+    3: "Eradicate",
+    11: "Liberation",
+    12: "Defense",
+    13: "Control",
+};
+
+export function getMajorOrderDetails(majorOrder, planets){
+    const index = 0;
+    const task = majorOrder.tasks[index];
+    switch (task.type) {
+        case 3: {
+            const progress = majorOrder.progress[index];
+            const target = task.values[2];
+
+            const value = (progress / target) * 100;
+
+            return {
+                type: MajorOrderTypes[task.type],
+                percent: value,
+                target: target,
+                faction: task.values[0],
+                status: `${percent}%`
+            };
+        }
+        case 12: {
+            const progress = majorOrder.progress[index];
+            const target = task.values[0];
+
+            const value = (progress / target) * 100;
+
+            return {
+                type: MajorOrderTypes[task.type],
+                progress: progress,
+                percent: value,
+                target: target,
+                faction: task.values[1],
+                status: `${progress} / ${target}`
+            };
+        }
+        case 11:
+        case 13:
+        default: {
+            const planetIndex = task.values[2];
+            return {
+                type: MajorOrderTypes[task.type],
+                percent: planets[planetIndex].liberation,
+                target: 100,
+                faction: planets[planetIndex].faction,
+                status: `${percent}%`
+            };
+        }
+    }
+}
+
+export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus, lang){
     const v1 = x => x.attacks[planetIdx].players;
     const v2 = x => x.attacks[planetIdx].liberation;
     const y2 = scaleLinear([0, 100], [0, max(agg, v1)]);
-    const start = new Date(Date.now() - (60_000*60*24*2));
+    const start = new Date(Date.now() - (MSEC_PER_HOUR*24*2));
     const first = agg.findIndex(x => (new Date(x.timestamp) > start));
     agg = agg.slice(first);
     return Plot.plot({
-        title: currentStatus.name,
+        title: currentStatus.name[lang],
         subtitle: getSubtitle(agg, planetIdx, currentStatus),
         width:width,
         x: {domain:[start, Date.now()]},
@@ -23,9 +81,6 @@ export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus){
         ]
     });
 }
-
-const SEC_PER_HOUR = 60 * 60;
-const MSEC_PER_HOUR = SEC_PER_HOUR * 1000;
 
 function getRegen(planetStatus) {
     return (((planetStatus.regen_per_second * SEC_PER_HOUR) / planetStatus.max_health) * 100.0).toFixed(2);
@@ -96,7 +151,7 @@ function getSubtitle(agg, planetIdx, planetStatus) {
     return `Current regen: ${regen}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
 }
 
-export function planetTableRows(agg, recentAttacks, status, gameTime) {
+export function planetTableRows(agg, recentAttacks, status, lang) {
     let rows = [];
     for(const planet of recentAttacks){
         const planetIdx = planet[0];
@@ -108,10 +163,10 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
         if(event){
             let liberation = event.liberation;
             planetStatus.liberation = liberation;
-            planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.end_time) - gameTime);
+            planetStatus['result_str'] = getDefenseResult(current, liberation, new Date(event.end_time) - Date.now());
             planetStatus['regen_per_hour'] = "N/A";
             rows.push(html`<tr>
-            <td>🛡 ${planetStatus.name}</td>
+            <td>🛡 ${planetStatus.name[lang]}</td>
             <td>${planetStatus.statistics.player_count}</td>
             <td>${liberation.toFixed(2)}%</td>
             <td>N/A</td>
@@ -121,7 +176,7 @@ export function planetTableRows(agg, recentAttacks, status, gameTime) {
             planetStatus['result_str'] = result;
             planetStatus['regen_per_hour'] = regen;
             rows.push(html`<tr>
-            <td>⚔ ${planetStatus.name}</td>
+            <td>⚔ ${planetStatus.name[lang]}</td>
             <td>${planetStatus.statistics.player_count}</td>
             <td>${planetStatus.liberation.toFixed(2)}%</td>
             <td>${regen}%/hr</td>
@@ -148,17 +203,17 @@ function isDefense(status, planetIdx) {
     return false;
 }
 
-export function renderDefenses(defenses, msSinceGameEpoch){
+export function renderDefenses(defenses, lang){
     let rows = [];
     for(let defense of defenses){
         rows.push(html`<div>
-        <strong>🛡 ${defense.planet.name} is under attack! 🛡 </strong> <br>
+        <strong>🛡 ${defense.planet.name[lang]} is under attack! 🛡 </strong> <br>
         <p>
         Difficulty: ${(defense.max_health / defense.planet.max_health).toFixed(2)}
         Defense progress: ${(100* (1.0 - defense.health/defense.max_health)).toFixed(2)}%.
-        <span style="white-space: nowrap;">This event ends at ${new Date(Date.now() + new Date(defense.end_time).getTime()-msSinceGameEpoch).toLocaleString()}.</span> 
+        <span style="white-space: nowrap;">This event ends at ${new Date(defense.end_time).toLocaleString()}.</span> 
         <span style="white-space: nowrap;">Rate needed: ${
-            (100*(defense.health / defense.max_health)/((new Date(defense.end_time).getTime()-msSinceGameEpoch)/(MSEC_PER_HOUR))).toFixed(2)
+            (100*(defense.health / defense.max_health)/((new Date(defense.end_time).getTime() - Date.now())/(MSEC_PER_HOUR))).toFixed(2)
         }%/hr</span>
         </p>
         </div>`);
