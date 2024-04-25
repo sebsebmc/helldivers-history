@@ -204,7 +204,7 @@
   ],
   "community_targets": [],
   "global_events": [],
-  "impact_multiplier": 0.042322893,
+  "impact_multiplier": 0.04146973,
   "joint_operations": [
     {
       "hq_node_index": 1,
@@ -305,288 +305,36 @@
     {
       "source": {
         "disabled": false,
-        "hash": 3825459240,
-        "index": 245,
+        "hash": 457558822,
+        "index": 154,
         "initial_owner": "Humans",
         "max_health": 1000000,
-        "name": "Wasat",
+        "name": "Mort",
         "position": {
-          "x": -65.19177,
-          "y": 45.428553
+          "x": -67.88745,
+          "y": 11.7238
         },
-        "sector": "49",
+        "sector": "31",
         "waypoints": [
-          249
+          107,
+          155
         ]
       },
       "target": {
         "disabled": false,
-        "hash": 996779072,
-        "index": 201,
+        "hash": 3531149629,
+        "index": 156,
         "initial_owner": "Humans",
         "max_health": 1000000,
-        "name": "Meissa",
+        "name": "Charbal-VII",
         "position": {
-          "x": -56.83347,
-          "y": 49.03273
+          "x": -60.09798,
+          "y": 20.24094
         },
-        "sector": "34",
+        "sector": "33",
         "waypoints": [
-          245
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 3825459240,
-        "index": 245,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Wasat",
-        "position": {
-          "x": -65.19177,
-          "y": 45.428553
-        },
-        "sector": "49",
-        "waypoints": [
-          249
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 996779072,
-        "index": 201,
-        "initial_owner": "Humans",
-        "max_health": 1000000,
-        "name": "Meissa",
-        "position": {
-          "x": -56.83347,
-          "y": 49.03273
-        },
-        "sector": "34",
-        "waypoints": [
-          245
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2875368439,
-        "index": 125,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Fenrir III",
-        "position": {
-          "x": 46.994886,
-          "y": 27.418607
-        },
-        "sector": "20",
-        "waypoints": [
-          64,
-          168
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 3551496165,
-        "index": 34,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Hellmire",
-        "position": {
-          "x": 51.11386,
-          "y": 35.11805
-        },
-        "sector": "Cancri",
-        "waypoints": [
-          125,
-          168,
-          169,
-          211
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 2875368439,
-        "index": 125,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Fenrir III",
-        "position": {
-          "x": 46.994886,
-          "y": 27.418607
-        },
-        "sector": "20",
-        "waypoints": [
-          64,
-          168
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 3551496165,
-        "index": 34,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Hellmire",
-        "position": {
-          "x": 51.11386,
-          "y": 35.11805
-        },
-        "sector": "Cancri",
-        "waypoints": [
-          125,
-          168,
-          169,
-          211
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 3604506896,
-        "index": 168,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Erata Prime",
-        "position": {
-          "x": 42.43272,
-          "y": 34.833485
-        },
-        "sector": "38",
-        "waypoints": []
-      },
-      "target": {
-        "disabled": false,
-        "hash": 3551496165,
-        "index": 34,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Hellmire",
-        "position": {
-          "x": 51.11386,
-          "y": 35.11805
-        },
-        "sector": "Cancri",
-        "waypoints": [
-          125,
-          168,
-          169,
-          211
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 3604506896,
-        "index": 168,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Erata Prime",
-        "position": {
-          "x": 42.43272,
-          "y": 34.833485
-        },
-        "sector": "38",
-        "waypoints": []
-      },
-      "target": {
-        "disabled": false,
-        "hash": 3551496165,
-        "index": 34,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Hellmire",
-        "position": {
-          "x": 51.11386,
-          "y": 35.11805
-        },
-        "sector": "Cancri",
-        "waypoints": [
-          125,
-          168,
-          169,
-          211
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 3551496165,
-        "index": 34,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Hellmire",
-        "position": {
-          "x": 51.11386,
-          "y": 35.11805
-        },
-        "sector": "Cancri",
-        "waypoints": [
-          125,
-          168,
-          169,
-          211
-        ]
-      }
-    },
-    {
-      "source": {
-        "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      },
-      "target": {
-        "disabled": false,
-        "hash": 3551496165,
-        "index": 34,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Hellmire",
-        "position": {
-          "x": 51.11386,
-          "y": 35.11805
-        },
-        "sector": "Cancri",
-        "waypoints": [
-          125,
-          168,
-          169,
-          211
+          154,
+          158
         ]
       }
     },
@@ -629,19 +377,19 @@
     {
       "source": {
         "disabled": false,
-        "hash": 260933067,
-        "index": 242,
+        "hash": 17046409,
+        "index": 244,
         "initial_owner": "Humans",
         "max_health": 1000000,
-        "name": "Ustotu",
+        "name": "Varylia 5",
         "position": {
-          "x": -80.6865,
-          "y": 20.750636
+          "x": -74.635,
+          "y": 34.41284
         },
-        "sector": "48",
+        "sector": "49",
         "waypoints": [
-          240,
-          243
+          242,
+          247
         ]
       },
       "target": {
@@ -695,6 +443,399 @@
         "waypoints": [
           242,
           244
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 3825459240,
+        "index": 245,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Wasat",
+        "position": {
+          "x": -65.19177,
+          "y": 45.428553
+        },
+        "sector": "49",
+        "waypoints": [
+          249
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 996779072,
+        "index": 201,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Meissa",
+        "position": {
+          "x": -56.83347,
+          "y": 49.03273
+        },
+        "sector": "34",
+        "waypoints": [
+          245
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 3825459240,
+        "index": 245,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Wasat",
+        "position": {
+          "x": -65.19177,
+          "y": 45.428553
+        },
+        "sector": "49",
+        "waypoints": [
+          249
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 996779072,
+        "index": 201,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Meissa",
+        "position": {
+          "x": -56.83347,
+          "y": 49.03273
+        },
+        "sector": "34",
+        "waypoints": [
+          245
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2875368439,
+        "index": 125,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Fenrir III",
+        "position": {
+          "x": 46.994886,
+          "y": 27.418607
+        },
+        "sector": "20",
+        "waypoints": [
+          64,
+          168
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 51.11386,
+          "y": 35.11805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2875368439,
+        "index": 125,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Fenrir III",
+        "position": {
+          "x": 46.994886,
+          "y": 27.418607
+        },
+        "sector": "20",
+        "waypoints": [
+          64,
+          168
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 51.11386,
+          "y": 35.11805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 42.43272,
+          "y": 34.833485
+        },
+        "sector": "38",
+        "waypoints": []
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 51.11386,
+          "y": 35.11805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 3604506896,
+        "index": 168,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Erata Prime",
+        "position": {
+          "x": 42.43272,
+          "y": 34.833485
+        },
+        "sector": "38",
+        "waypoints": []
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 51.11386,
+          "y": 35.11805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 260933067,
+        "index": 242,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ustotu",
+        "position": {
+          "x": -80.6865,
+          "y": 20.750636
+        },
+        "sector": "48",
+        "waypoints": [
+          240,
+          243
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2564387350,
+        "index": 158,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Choepessa IV",
+        "position": {
+          "x": -70.44093,
+          "y": 25.667855
+        },
+        "sector": "32",
+        "waypoints": [
+          242,
+          244
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 260933067,
+        "index": 242,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Ustotu",
+        "position": {
+          "x": -80.6865,
+          "y": 20.750636
+        },
+        "sector": "48",
+        "waypoints": [
+          240,
+          243
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 2564387350,
+        "index": 158,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Choepessa IV",
+        "position": {
+          "x": -70.44093,
+          "y": 25.667855
+        },
+        "sector": "32",
+        "waypoints": [
+          242,
+          244
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 58.03697,
+          "y": 29.137206
+        },
+        "sector": "21",
+        "waypoints": [
+          170
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 51.11386,
+          "y": 35.11805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 356540875,
+        "index": 169,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Estanu",
+        "position": {
+          "x": 58.03697,
+          "y": 29.137206
+        },
+        "sector": "21",
+        "waypoints": [
+          170
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3551496165,
+        "index": 34,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Hellmire",
+        "position": {
+          "x": 51.11386,
+          "y": 35.11805
+        },
+        "sector": "Cancri",
+        "waypoints": [
+          125,
+          168,
+          169,
+          211
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 1344035939,
+        "index": 212,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Oshaune",
+        "position": {
+          "x": 63.3865,
+          "y": 39.55063
+        },
+        "sector": "38",
+        "waypoints": []
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3966660905,
+        "index": 259,
+        "initial_owner": "Terminids",
+        "max_health": 1000000,
+        "name": "Omicron",
+        "position": {
+          "x": 68.38866,
+          "y": 48.672357
+        },
+        "sector": "53",
+        "waypoints": [
+          212,
+          258
         ]
       }
     },
@@ -786,6 +927,78 @@
       },
       "target": {
         "disabled": false,
+        "hash": 3837447591,
+        "index": 194,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Lesath",
+        "position": {
+          "x": -22.899726,
+          "y": 49.906695
+        },
+        "sector": "46",
+        "waypoints": [
+          160
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2442155408,
+        "index": 112,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vernen Wells",
+        "position": {
+          "x": -26.997122,
+          "y": 37.60109
+        },
+        "sector": "32",
+        "waypoints": [
+          113,
+          194
+        ]
+      },
+      "target": {
+        "disabled": false,
+        "hash": 3161413384,
+        "index": 203,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Menkent",
+        "position": {
+          "x": -31.501773,
+          "y": 45.60387
+        },
+        "sector": "34",
+        "waypoints": [
+          112,
+          160,
+          194
+        ]
+      }
+    },
+    {
+      "source": {
+        "disabled": false,
+        "hash": 2442155408,
+        "index": 112,
+        "initial_owner": "Humans",
+        "max_health": 1000000,
+        "name": "Vernen Wells",
+        "position": {
+          "x": -26.997122,
+          "y": 37.60109
+        },
+        "sector": "32",
+        "waypoints": [
+          113,
+          194
+        ]
+      },
+      "target": {
+        "disabled": false,
         "hash": 3161413384,
         "index": 203,
         "initial_owner": "Humans",
@@ -830,7 +1043,7 @@
       },
       "event_type": 1,
       "expire_time": "1970-03-16T07:24:20Z",
-      "health": 51561,
+      "health": 45009,
       "id": 4398,
       "joint_operations": [
         {
@@ -898,7 +1111,7 @@
           1
         ]
       },
-      "players": 411,
+      "players": 420,
       "regen_per_second": 1388.8889
     },
     {
@@ -1657,8 +1870,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 909696,
-      "liberation": 9.0304,
+      "health": 908430,
+      "liberation": 9.15700000000001,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -1679,7 +1892,7 @@
           211
         ]
       },
-      "players": 14097,
+      "players": 14318,
       "regen_per_second": 2.7777777
     },
     {
@@ -2355,7 +2568,7 @@
           169
         ]
       },
-      "players": 5,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -2673,7 +2886,7 @@
           170
         ]
       },
-      "players": 35,
+      "players": 34,
       "regen_per_second": 1388.8889
     },
     {
@@ -3445,7 +3658,7 @@
           194
         ]
       },
-      "players": 526,
+      "players": 501,
       "regen_per_second": 1388.8889
     },
     {
@@ -3515,7 +3728,7 @@
           194
         ]
       },
-      "players": 9,
+      "players": 14,
       "regen_per_second": 2.7777777
     },
     {
@@ -3764,7 +3977,7 @@
           127
         ]
       },
-      "players": 1,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -3787,7 +4000,7 @@
           85
         ]
       },
-      "players": 4,
+      "players": 3,
       "regen_per_second": 1388.8889
     },
     {
@@ -4349,7 +4562,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 12,
+      "players": 13,
       "regen_per_second": 1388.8889
     },
     {
@@ -4372,7 +4585,7 @@
           239
         ]
       },
-      "players": 6,
+      "players": 12,
       "regen_per_second": 1388.8889
     },
     {
@@ -4396,7 +4609,7 @@
           155
         ]
       },
-      "players": 72,
+      "players": 84,
       "regen_per_second": 1388.8889
     },
     {
@@ -4423,8 +4636,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 472786,
-      "liberation": 52.7214,
+      "health": 472655,
+      "liberation": 52.734500000000004,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4443,12 +4656,12 @@
           158
         ]
       },
-      "players": 555,
+      "players": 564,
       "regen_per_second": 0
     },
     {
-      "health": 862989,
-      "liberation": 13.701099999999997,
+      "health": 865392,
+      "liberation": 13.460799999999992,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4468,12 +4681,12 @@
           199
         ]
       },
-      "players": 14,
+      "players": 21,
       "regen_per_second": 2.7777777
     },
     {
-      "health": 445866,
-      "liberation": 55.4134,
+      "health": 445510,
+      "liberation": 55.449,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4492,7 +4705,7 @@
           244
         ]
       },
-      "players": 1247,
+      "players": 1205,
       "regen_per_second": 0
     },
     {
@@ -4516,7 +4729,7 @@
           203
         ]
       },
-      "players": 11,
+      "players": 10,
       "regen_per_second": 2.7777777
     },
     {
@@ -4537,7 +4750,7 @@
         "sector": "34",
         "waypoints": []
       },
-      "players": 14,
+      "players": 5,
       "regen_per_second": 2.7777777
     },
     {
@@ -4719,7 +4932,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 7,
+      "players": 6,
       "regen_per_second": 1388.8889
     },
     {
@@ -4742,7 +4955,7 @@
           170
         ]
       },
-      "players": 535,
+      "players": 519,
       "regen_per_second": 1388.8889
     },
     {
@@ -4765,7 +4978,7 @@
           212
         ]
       },
-      "players": 221,
+      "players": 225,
       "regen_per_second": 1388.8889
     },
     {
@@ -5289,8 +5502,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 725748,
-      "liberation": 27.425200000000004,
+      "health": 725401,
+      "liberation": 27.459900000000005,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5308,7 +5521,7 @@
           160
         ]
       },
-      "players": 1411,
+      "players": 1383,
       "regen_per_second": 0
     },
     {
@@ -5332,7 +5545,7 @@
           243
         ]
       },
-      "players": 2,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
@@ -5356,7 +5569,7 @@
           153
         ]
       },
-      "players": 7,
+      "players": 9,
       "regen_per_second": 1388.8889
     },
     {
@@ -5381,12 +5594,12 @@
           196
         ]
       },
-      "players": 5,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 374197,
-      "liberation": 62.5803,
+      "health": 373222,
+      "liberation": 62.6778,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5406,12 +5619,12 @@
           200
         ]
       },
-      "players": 3178,
+      "players": 3288,
       "regen_per_second": 0
     },
     {
-      "health": 594510,
-      "liberation": 40.549,
+      "health": 596913,
+      "liberation": 40.308699999999995,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5427,7 +5640,7 @@
         "sector": "33",
         "waypoints": []
       },
-      "players": 51,
+      "players": 73,
       "regen_per_second": 2.7777777
     },
     {
@@ -5452,12 +5665,12 @@
           201
         ]
       },
-      "players": 32,
+      "players": 28,
       "regen_per_second": 2.7777777
     },
     {
-      "health": 367133,
-      "liberation": 63.2867,
+      "health": 366661,
+      "liberation": 63.3339,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5475,7 +5688,7 @@
           245
         ]
       },
-      "players": 1959,
+      "players": 1988,
       "regen_per_second": 0
     },
     {
@@ -5502,8 +5715,8 @@
       "regen_per_second": 2.7777777
     },
     {
-      "health": 646137,
-      "liberation": 35.386300000000006,
+      "health": 645176,
+      "liberation": 35.4824,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5523,7 +5736,7 @@
           194
         ]
       },
-      "players": 4251,
+      "players": 4247,
       "regen_per_second": 0
     },
     {
@@ -5703,7 +5916,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 4,
+      "players": 8,
       "regen_per_second": 2.7777777
     },
     {
@@ -5724,7 +5937,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 1277,
+      "players": 1332,
       "regen_per_second": 1388.8889
     },
     {
@@ -6306,7 +6519,7 @@
           241
         ]
       },
-      "players": 4,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -6329,7 +6542,7 @@
           151
         ]
       },
-      "players": 3,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
@@ -6352,7 +6565,7 @@
           243
         ]
       },
-      "players": 4,
+      "players": 6,
       "regen_per_second": 1388.8889
     },
     {
@@ -6400,7 +6613,7 @@
           243
         ]
       },
-      "players": 28608,
+      "players": 29397,
       "regen_per_second": 1388.8889
     },
     {
@@ -6423,7 +6636,7 @@
           155
         ]
       },
-      "players": 0,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -6447,7 +6660,7 @@
           247
         ]
       },
-      "players": 348,
+      "players": 397,
       "regen_per_second": 1388.8889
     },
     {
@@ -6765,8 +6978,8 @@
       "regen_per_second": 2.7777777
     },
     {
-      "health": 875596,
-      "liberation": 12.440399999999997,
+      "health": 873586,
+      "liberation": 12.641400000000004,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -6785,7 +6998,7 @@
           258
         ]
       },
-      "players": 15537,
+      "players": 16135,
       "regen_per_second": 2.7777777
     },
     {
@@ -6812,7 +7025,7 @@
       "regen_per_second": 2.7777777
     }
   ],
-  "snapshot_at": "2024-04-25T10:53:11.592328Z",
-  "started_at": "2024-02-11T13:43:21.592328Z",
+  "snapshot_at": "2024-04-25T11:08:11.599073Z",
+  "started_at": "2024-02-11T13:43:31.599073Z",
   "war_id": 801
 }
