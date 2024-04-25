@@ -218,13 +218,15 @@ active.push(0);
     }</div>
     <hr>
     <div class="center">
-    <strong>${renderAHTags(status.assignments[0].title[lang])}</strong>
-    </strong><br>
-    ${renderAHTags(status.assignments[0].briefing[lang])}
-    <br>
-    ${renderAHTags(status.assignments[0].description[lang])}<br>
-    Status: ${getMajorOrderDetails(status.assignments[0], status.planets).status}
-    | Ends: ${new Date(status.assignments[0].expiration).toLocaleString()}
+    ${ status.assignments[0] != undefined ? 
+        htl.html`<strong>${renderAHTags(status.assignments[0].title[lang])}</strong>
+        <br>
+        ${renderAHTags(status.assignments[0].briefing[lang])}
+        <br>
+        ${renderAHTags(status.assignments[0].description[lang])}<br>
+        Status: ${getMajorOrderDetails(status.assignments[0], status.planets).status}
+        | Ends: ${new Date(status.assignments[0].expiration).toLocaleString()}` : ""
+      }
     </div>
   </div>
   <div class="center card">
