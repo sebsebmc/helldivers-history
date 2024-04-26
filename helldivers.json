@@ -178,54 +178,99 @@
         ]
       },
       "type": 0
-    },
-    {
-      "count": 15,
-      "id": 50130,
-      "planet": {
-        "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      },
-      "type": 0
     }
   ],
   "community_targets": [],
-  "global_events": [],
-  "impact_multiplier": 0.038948163,
-  "joint_operations": [
+  "global_events": [
     {
-      "hq_node_index": 1,
-      "id": 4400,
-      "planet": {
-        "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      }
+      "assignment_id_32": 0,
+      "effects": [
+        "Unknown"
+      ],
+      "flag": 0,
+      "id": 1499105,
+      "id_32": 0,
+      "message": {
+        "es": " \nLa estratagema <i=1>MINAS ANTITANQUE MD-17</i> está disponible temporalmente para todos los Helldivers que luchen en <i=1>Choohe.</i>",
+        "fr": " \nLe stratagème <i=1>MINES ANTICHARS MD-17</i> est temporairement disponible pour tous les Helldivers combattant sur <i=1>Choohe</i>.",
+        "de": " \nDie Taktikausrüstung „<i=1>MD-17-ANTI-PANZER-MINEN</i>“ steht vorübergehend allen Helldivers zur Verfügung, die auf <i=1>Choohe</i> kämpfen.",
+        "en": " \nThe <i=1>MD-17 ANTI-TANK MINES</i> stratagem is temporarily available to all Helldivers fighting on <i=1>Choohe.</i>",
+        "it": " \nLo stratagemma <i=1>MINE ANTICARRO MD-17</i> è temporaneamente disponibile per tutti gli Helldiver che combattono su <i=1>Choohe</i>.",
+        "pl": " \nManewr <i=1>MIN PPANC. MD-17</i> jest tymczasowo dostępny dla wszystkich helldiversów walczących na <i=1>Choohe.</i>",
+        "ru": " \nСтратагема <i=1>«ПРОТИВОТАНКОВЫЕ МИНЫ MD-17»</i> временно доступна всем Адским Десантникам на <i=1>Чухи.</i>",
+        "zh": " \n<i=1>MD-17反坦克地雷</i>战略配备可暂时供所有在<i=1>丘伊</i>战场上作战的绝地潜兵使用。"
+      },
+      "message_id_32": 0,
+      "planets": [
+        {
+          "disabled": false,
+          "hash": 1159313659,
+          "index": 159,
+          "initial_owner": "Humans",
+          "max_health": 1000000,
+          "name": "Choohe",
+          "position": {
+            "x": -39.92379,
+            "y": 51.28745
+          },
+          "sector": "34",
+          "waypoints": [
+            160,
+            203
+          ]
+        }
+      ],
+      "portrait_id_32": 0,
+      "race": "Unknown",
+      "title": "<i=3>EXPLOSIVES CACHE LIBERATED</i>",
+      "title_32": 853089915
+    },
+    {
+      "assignment_id_32": 0,
+      "effects": [
+        "Unknown"
+      ],
+      "flag": 0,
+      "id": 1499104,
+      "id_32": 0,
+      "message": {
+        "es": " \nLa estratagema <i=1>LANZACOHETES DE EXPLOSIÓN AÉREA RL-77</i> está disponible temporalmente para todos los Helldivers que luchen en <i=1>Penta.</i>",
+        "fr": " \nLe stratagème <i=1>LANCE-ROQUETTES DE PROXIMITÉ RL-77</i> est temporairement disponible pour tous les Helldivers combattant sur <i=1>Penta</i>.",
+        "de": " \nDie Taktikausrüstung „<i=1>RL-77-LUFTSTOSS-RAKETENWERFER</i>“ steht vorübergehend allen Helldivers zur Verfügung, die auf <i=1>Penta</i> kämpfen.",
+        "en": " \nThe <i=1>RL-77 AIRBURST ROCKET LAUNCHER</i> stratagem is temporarily available to all Helldivers fighting on <i=1>Penta.</i>",
+        "it": " \nLo stratagemma <i=1>LANCIARAZZI A ESPLOSIONE AEREA RL-77</i> è temporaneamente disponibile per tutti gli Helldiver che combattono su <i=1>Penta</i>.",
+        "pl": " \nManewr <i=1>KASETOWYCH WYRZUTNI RAKIETOWYCH RL-77</i> jest tymczasowo dostępny dla wszystkich helldiversów walczących na <i=1>Pencie</i>.",
+        "ru": " \nСтратагема <i=1>«РАКЕТНИЦА С ПОДРЫВОМ В ВОЗДУХЕ RL-77»</i> временно доступна всем Адским Десантникам на <i=1>Пенте.</i>",
+        "zh": " \nRL-77空爆火箭弹发射器</i>战略配备可暂时供所有在<i=1>彭塔</i>战场上作战的绝地潜兵使用。"
+      },
+      "message_id_32": 0,
+      "planets": [
+        {
+          "disabled": false,
+          "hash": 101741274,
+          "index": 115,
+          "initial_owner": "Humans",
+          "max_health": 1000000,
+          "name": "Penta",
+          "position": {
+            "x": -27.880847,
+            "y": 58.735436
+          },
+          "sector": "19",
+          "waypoints": [
+            160,
+            194
+          ]
+        }
+      ],
+      "portrait_id_32": 0,
+      "race": "Unknown",
+      "title": "<i=1>CHEMICAL FACTORY LIBERATED</i>",
+      "title_32": 2003928816
     }
   ],
+  "impact_multiplier": 0.034561325,
+  "joint_operations": [],
   "planet_active_effects": [],
   "planet_attacks": [
     {
@@ -1015,76 +1060,7 @@
       }
     }
   ],
-  "planet_events": [
-    {
-      "campaign": {
-        "count": 15,
-        "id": 50130,
-        "planet": {
-          "disabled": false,
-          "hash": 356540875,
-          "index": 169,
-          "initial_owner": "Terminids",
-          "max_health": 1000000,
-          "name": "Estanu",
-          "position": {
-            "x": 58.03697,
-            "y": 29.137206
-          },
-          "sector": "21",
-          "waypoints": [
-            170
-          ]
-        },
-        "type": 0
-      },
-      "event_type": 1,
-      "expire_time": "1970-03-17T05:42:20Z",
-      "health": 7985,
-      "id": 4400,
-      "joint_operations": [
-        {
-          "hq_node_index": 1,
-          "id": 4400,
-          "planet": {
-            "disabled": false,
-            "hash": 356540875,
-            "index": 169,
-            "initial_owner": "Terminids",
-            "max_health": 1000000,
-            "name": "Estanu",
-            "position": {
-              "x": 58.03697,
-              "y": 29.137206
-            },
-            "sector": "21",
-            "waypoints": [
-              170
-            ]
-          }
-        }
-      ],
-      "max_health": 450000,
-      "planet": {
-        "disabled": false,
-        "hash": 356540875,
-        "index": 169,
-        "initial_owner": "Terminids",
-        "max_health": 1000000,
-        "name": "Estanu",
-        "position": {
-          "x": 58.03697,
-          "y": 29.137206
-        },
-        "sector": "21",
-        "waypoints": [
-          170
-        ]
-      },
-      "race": "Terminids",
-      "start_time": "1970-03-16T05:42:20Z"
-    }
-  ],
+  "planet_events": [],
   "planet_status": [
     {
       "health": 1000000,
@@ -1106,7 +1082,7 @@
           1
         ]
       },
-      "players": 444,
+      "players": 838,
       "regen_per_second": 1388.8889
     },
     {
@@ -1865,8 +1841,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 835196,
-      "liberation": 16.48039999999999,
+      "health": 836488,
+      "liberation": 16.351200000000006,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -1887,8 +1863,8 @@
           211
         ]
       },
-      "players": 7806,
-      "regen_per_second": 2.7777777
+      "players": 10517,
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -2250,7 +2226,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -2563,7 +2539,7 @@
           169
         ]
       },
-      "players": 8,
+      "players": 10,
       "regen_per_second": 1388.8889
     },
     {
@@ -2857,7 +2833,7 @@
         "sector": "20",
         "waypoints": []
       },
-      "players": 0,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
@@ -2881,7 +2857,7 @@
           170
         ]
       },
-      "players": 30,
+      "players": 58,
       "regen_per_second": 1388.8889
     },
     {
@@ -2930,7 +2906,7 @@
           127
         ]
       },
-      "players": 6,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
@@ -3383,7 +3359,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -3543,7 +3519,7 @@
           155
         ]
       },
-      "players": 2,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -3653,7 +3629,7 @@
           194
         ]
       },
-      "players": 201,
+      "players": 300,
       "regen_per_second": 1388.8889
     },
     {
@@ -3723,7 +3699,7 @@
           194
         ]
       },
-      "players": 10,
+      "players": 7,
       "regen_per_second": 2.7777777
     },
     {
@@ -3949,7 +3925,7 @@
           168
         ]
       },
-      "players": 2,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -3972,7 +3948,7 @@
           127
         ]
       },
-      "players": 2,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -3995,7 +3971,7 @@
           85
         ]
       },
-      "players": 2,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -4557,7 +4533,7 @@
         "sector": "31",
         "waypoints": []
       },
-      "players": 2,
+      "players": 14,
       "regen_per_second": 1388.8889
     },
     {
@@ -4580,7 +4556,7 @@
           239
         ]
       },
-      "players": 13,
+      "players": 8,
       "regen_per_second": 1388.8889
     },
     {
@@ -4604,7 +4580,7 @@
           155
         ]
       },
-      "players": 17,
+      "players": 34,
       "regen_per_second": 1388.8889
     },
     {
@@ -4627,12 +4603,12 @@
           197
         ]
       },
-      "players": 0,
+      "players": 1,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 604614,
-      "liberation": 39.5386,
+      "health": 606406,
+      "liberation": 39.3594,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4651,8 +4627,8 @@
           158
         ]
       },
-      "players": 673,
-      "regen_per_second": 2.7777777
+      "players": 797,
+      "regen_per_second": 0
     },
     {
       "health": 1000000,
@@ -4680,8 +4656,8 @@
       "regen_per_second": 2.7777777
     },
     {
-      "health": 478533,
-      "liberation": 52.1467,
+      "health": 479644,
+      "liberation": 52.035599999999995,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -4700,8 +4676,8 @@
           244
         ]
       },
-      "players": 2853,
-      "regen_per_second": 2.7777777
+      "players": 3069,
+      "regen_per_second": 0
     },
     {
       "health": 1000000,
@@ -4724,7 +4700,7 @@
           203
         ]
       },
-      "players": 6,
+      "players": 4,
       "regen_per_second": 2.7777777
     },
     {
@@ -4745,7 +4721,7 @@
         "sector": "34",
         "waypoints": []
       },
-      "players": 7,
+      "players": 8,
       "regen_per_second": 2.7777777
     },
     {
@@ -4884,7 +4860,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -4907,7 +4883,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -4927,7 +4903,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 6,
+      "players": 5,
       "regen_per_second": 1388.8889
     },
     {
@@ -4950,7 +4926,7 @@
           170
         ]
       },
-      "players": 34838,
+      "players": 35978,
       "regen_per_second": 1388.8889
     },
     {
@@ -4973,7 +4949,7 @@
           212
         ]
       },
-      "players": 157,
+      "players": 234,
       "regen_per_second": 1388.8889
     },
     {
@@ -5497,8 +5473,8 @@
       "regen_per_second": 1388.8889
     },
     {
-      "health": 810365,
-      "liberation": 18.963499999999996,
+      "health": 811621,
+      "liberation": 18.83789999999999,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5516,8 +5492,8 @@
           160
         ]
       },
-      "players": 2229,
-      "regen_per_second": 2.7777777
+      "players": 7855,
+      "regen_per_second": 0
     },
     {
       "health": 1000000,
@@ -5540,7 +5516,7 @@
           243
         ]
       },
-      "players": 5,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -5564,7 +5540,7 @@
           153
         ]
       },
-      "players": 3,
+      "players": 7,
       "regen_per_second": 1388.8889
     },
     {
@@ -5589,12 +5565,12 @@
           196
         ]
       },
-      "players": 1,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
-      "health": 385015,
-      "liberation": 61.4985,
+      "health": 385627,
+      "liberation": 61.4373,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5614,12 +5590,12 @@
           200
         ]
       },
-      "players": 3886,
-      "regen_per_second": 2.7777777
+      "players": 4399,
+      "regen_per_second": 0
     },
     {
-      "health": 831516,
-      "liberation": 16.848399999999998,
+      "health": 834891,
+      "liberation": 16.510899999999992,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5635,7 +5611,7 @@
         "sector": "33",
         "waypoints": []
       },
-      "players": 64,
+      "players": 82,
       "regen_per_second": 2.7777777
     },
     {
@@ -5660,12 +5636,12 @@
           201
         ]
       },
-      "players": 24,
+      "players": 35,
       "regen_per_second": 2.7777777
     },
     {
-      "health": 437731,
-      "liberation": 56.2269,
+      "health": 438896,
+      "liberation": 56.1104,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5683,8 +5659,8 @@
           245
         ]
       },
-      "players": 2496,
-      "regen_per_second": 2.7777777
+      "players": 2696,
+      "regen_per_second": 0
     },
     {
       "health": 1000000,
@@ -5710,8 +5686,8 @@
       "regen_per_second": 2.7777777
     },
     {
-      "health": 618506,
-      "liberation": 38.1494,
+      "health": 618946,
+      "liberation": 38.1054,
       "owner": "Automaton",
       "planet": {
         "disabled": false,
@@ -5731,8 +5707,8 @@
           194
         ]
       },
-      "players": 5707,
-      "regen_per_second": 2.7777777
+      "players": 6914,
+      "regen_per_second": 0
     },
     {
       "health": 1000000,
@@ -5870,7 +5846,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -5891,7 +5867,7 @@
         "waypoints": []
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -5912,7 +5888,7 @@
         "waypoints": []
       },
       "players": 12,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -5932,7 +5908,7 @@
         "sector": "38",
         "waypoints": []
       },
-      "players": 538,
+      "players": 783,
       "regen_per_second": 1388.8889
     },
     {
@@ -5954,7 +5930,7 @@
         "waypoints": []
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -6000,7 +5976,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -6023,7 +5999,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -6514,7 +6490,7 @@
           241
         ]
       },
-      "players": 6,
+      "players": 9,
       "regen_per_second": 1388.8889
     },
     {
@@ -6537,7 +6513,7 @@
           151
         ]
       },
-      "players": 1,
+      "players": 0,
       "regen_per_second": 1388.8889
     },
     {
@@ -6560,7 +6536,7 @@
           243
         ]
       },
-      "players": 6,
+      "players": 2,
       "regen_per_second": 1388.8889
     },
     {
@@ -6584,7 +6560,7 @@
           153
         ]
       },
-      "players": 2,
+      "players": 6,
       "regen_per_second": 1388.8889
     },
     {
@@ -6608,7 +6584,7 @@
           243
         ]
       },
-      "players": 258,
+      "players": 338,
       "regen_per_second": 1388.8889
     },
     {
@@ -6631,7 +6607,7 @@
           155
         ]
       },
-      "players": 0,
+      "players": 4,
       "regen_per_second": 1388.8889
     },
     {
@@ -6655,7 +6631,7 @@
           247
         ]
       },
-      "players": 79,
+      "players": 114,
       "regen_per_second": 1388.8889
     },
     {
@@ -6924,7 +6900,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -6947,7 +6923,7 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -6970,11 +6946,11 @@
         ]
       },
       "players": 0,
-      "regen_per_second": 2.7777777
+      "regen_per_second": 4.1666665
     },
     {
-      "health": 635654,
-      "liberation": 36.434599999999996,
+      "health": 635193,
+      "liberation": 36.4807,
       "owner": "Terminids",
       "planet": {
         "disabled": false,
@@ -6993,8 +6969,8 @@
           258
         ]
       },
-      "players": 11872,
-      "regen_per_second": 2.7777777
+      "players": 15697,
+      "regen_per_second": 4.1666665
     },
     {
       "health": 1000000,
@@ -7020,7 +6996,7 @@
       "regen_per_second": 2.7777777
     }
   ],
-  "snapshot_at": "2024-04-26T11:53:12.621321Z",
-  "started_at": "2024-02-11T14:20:22.621321Z",
+  "snapshot_at": "2024-04-26T12:18:12.637774Z",
+  "started_at": "2024-02-11T14:24:32.637774Z",
   "war_id": 801
 }
