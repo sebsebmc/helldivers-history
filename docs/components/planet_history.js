@@ -12,52 +12,56 @@ const MajorOrderTypes = {
     13: "Control",
 };
 
-export function getMajorOrderDetails(majorOrder, planets){
-    const index = 0;
-    const task = majorOrder.tasks[index];
-    switch (task.type) {
-        case 3: {
-            const progress = majorOrder.progress[index];
-            const target = task.values[2];
+export function getMajorOrderDetails(majorOrder, planets, lang){
+    const results = [];
+    for(let index = 0; index < majorOrder.tasks.length; index++){
+        const task = majorOrder.tasks[index];
+        switch (task.type) {
+            case 3: {
+                const progress = majorOrder.progress[index];
+                const target = task.values[2];
 
-            const value = (progress / target) * 100;
+                const value = (progress / target) * 100;
 
-            return {
-                type: MajorOrderTypes[task.type],
-                percent: value,
-                target: target,
-                faction: task.values[0],
-                status: `${percent}%`
-            };
-        }
-        case 12: {
-            const progress = majorOrder.progress[index];
-            const target = task.values[0];
+                results.push({
+                    type: MajorOrderTypes[task.type],
+                    percent: value,
+                    target: target,
+                    faction: task.values[0],
+                    status: `${percent}%`
+                });
+            }
+            case 12: {
+                const progress = majorOrder.progress[index];
+                const target = task.values[0];
 
-            const value = (progress / target) * 100;
+                const value = (progress / target) * 100;
 
-            return {
-                type: MajorOrderTypes[task.type],
-                progress: progress,
-                percent: value,
-                target: target,
-                faction: task.values[1],
-                status: `${progress} / ${target}`
-            };
-        }
-        case 11:
-        case 13:
-        default: {
-            const planetIndex = task.values[2];
-            return {
-                type: MajorOrderTypes[task.type],
-                percent: planets[planetIndex].liberation,
-                target: 100,
-                faction: planets[planetIndex].faction,
-                status: `${percent}%`
-            };
+                results.push({
+                    type: MajorOrderTypes[task.type],
+                    progress: progress,
+                    percent: value,
+                    target: target,
+                    faction: task.values[1],
+                    status: `${progress} / ${target}`
+                });
+            }
+            case 11:
+            case 13:
+            default: {
+                const planetIndex = task.values[2];
+                const percent = planets[planetIndex].liberation;
+                results.push({
+                    type: MajorOrderTypes[task.type],
+                    percent: percent,
+                    target: 100,
+                    faction: planets[planetIndex].faction,
+                    status: `${planets[planetIndex].name[lang]} ${percent}%`
+                });
+            }
         }
     }
+    return results;
 }
 
 export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus, lang){

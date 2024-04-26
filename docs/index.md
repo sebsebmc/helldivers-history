@@ -224,7 +224,7 @@ active.push(0);
         ${renderAHTags(status.assignments[0].briefing[lang])}
         <br>
         ${renderAHTags(status.assignments[0].description[lang])}<br>
-        Status: ${getMajorOrderDetails(status.assignments[0], status.planets).status}
+        Status: ${getMajorOrderDetails(status.assignments[0], status.planets, lang).map(x=>x.status).join(' | ')}
         | Ends: ${new Date(status.assignments[0].expiration).toLocaleString()}` : ""
       }
     </div>
