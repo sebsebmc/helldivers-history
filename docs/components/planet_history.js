@@ -28,7 +28,7 @@ export function getMajorOrderDetails(majorOrder, planets, lang){
                     percent: value,
                     target: target,
                     faction: task.values[0],
-                    status: `${percent}%`
+                    status: `${percent.toFixed(2)}%`
                 });
             }
             case 12: {
@@ -56,7 +56,7 @@ export function getMajorOrderDetails(majorOrder, planets, lang){
                     percent: percent,
                     target: 100,
                     faction: planets[planetIndex].faction,
-                    status: `${planets[planetIndex].name[lang]} ${percent}%`
+                    status: `${planets[planetIndex].name[lang]} ${percent.toFixed(2)}%`
                 });
             }
         }
