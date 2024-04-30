@@ -37,11 +37,11 @@ jobs:
       run: |-
         cp helldivers.json ./docs/data/helldivers.json
         curl -A "$GITHUB_REPOSITORY" https://helldivers-2.fly.dev/api/801/status     | jq . > helldivers.json
-        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://helldivers-2-dotnet.fly.dev/api/v1/war         -o 801_war_v1.json
-        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://helldivers-2-dotnet.fly.dev/api/v1/planets     -o 801_planets_v1.json
-        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://helldivers-2-dotnet.fly.dev/api/v1/assignments -o 801_assignments_v1.json
-        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://helldivers-2-dotnet.fly.dev/api/v1/campaigns   -o 801_campaigns_v1.json
-        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://helldivers-2-dotnet.fly.dev/api/v1/dispatches  -o 801_dispatches_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://api.helldivers2.dev/api/v1/war         -o 801_war_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://api.helldivers2.dev/api/v1/planets     -o 801_planets_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://api.helldivers2.dev/api/v1/assignments -o 801_assignments_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://api.helldivers2.dev/api/v1/campaigns   -o 801_campaigns_v1.json
+        curl -A "$GITHUB_REPOSITORY" -H "Accept-Language: ivl-IV" -H "X-Super-Client: Helldivers History" -H "X-Super-Contact: @sebsebmc" https://api.helldivers2.dev/api/v1/dispatches  -o 801_dispatches_v1.json
         jq -s "{war:.[0],planets:.[1],assignments:.[2],campaigns:.[3],dispatches:.[4]}" 801_war_v1.json 801_planets_v1.json 801_assignments_v1.json 801_campaigns_v1.json 801_dispatches_v1.json > 801_full_v1.json
 
     - name: Commit and push if it changed
