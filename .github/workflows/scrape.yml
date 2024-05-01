@@ -9,7 +9,7 @@ on:
 env:
   ACCEPT_LANG: 'Accept-Language: ivl-IV'
   CLIENT: 'X-Super-Client: ${{ github.repository }}'
-  CONTACT: 'X-Super-Contact: $${{ github.repository_owner }}'
+  CONTACT: 'X-Super-Contact: ${{ github.repository_owner }}'
 
 jobs:
   scheduled:
