@@ -28,8 +28,9 @@ export function getMajorOrderDetails(majorOrder, planets, lang){
                     percent: value,
                     target: target,
                     faction: task.values[0],
-                    status: `${percent.toFixed(2)}%`
+                    status: `${progress} / ${target} (${value.toFixed(2)}%)`
                 });
+                break;
             }
             case 12: {
                 const progress = majorOrder.progress[index];
@@ -45,6 +46,7 @@ export function getMajorOrderDetails(majorOrder, planets, lang){
                     faction: task.values[1],
                     status: `${progress} / ${target}`
                 });
+                break;
             }
             case 11:
             case 13:
