@@ -2,7 +2,7 @@
   "war": {
     "started": "2024-01-23T20:05:13Z",
     "ended": "2028-02-08T20:04:55Z",
-    "now": "1970-04-15T22:52:20Z",
+    "now": "1970-04-15T23:10:20Z",
     "clientVersion": "0.3.0",
     "factions": [
       "Humans",
@@ -10,23 +10,23 @@
       "Automaton",
       "Illuminate"
     ],
-    "impactMultiplier": 0.043283336,
+    "impactMultiplier": 0.046429068,
     "statistics": {
-      "missionsWon": 236549404,
-      "missionsLost": 25325434,
-      "missionTime": 545692887244,
-      "terminidKills": 39386934852,
-      "automatonKills": 16263960024,
+      "missionsWon": 236566235,
+      "missionsLost": 25327152,
+      "missionTime": 545753939295,
+      "terminidKills": 39390920359,
+      "automatonKills": 16266384635,
       "illuminateKills": 28,
-      "bulletsFired": 311300375996,
-      "bulletsHit": 345494297997,
-      "timePlayed": 545692887244,
-      "deaths": 1451053891,
+      "bulletsFired": 311331483448,
+      "bulletsHit": 345528476257,
+      "timePlayed": 545753939295,
+      "deaths": 1451187817,
       "revives": 2,
-      "friendlies": 196639936,
+      "friendlies": 196655546,
       "missionSuccessRate": 90,
       "accuracy": 100,
-      "playerCount": 87807
+      "playerCount": 88792
     }
   },
   "planets": [
@@ -90,7 +90,7 @@
         "friendlies": 9,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 421
+        "playerCount": 388
       },
       "attacking": []
     },
@@ -2326,21 +2326,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 18731434,
-        "missionsLost": 2278519,
-        "missionTime": 39317351315,
-        "terminidKills": 4427959392,
+        "missionsWon": 18731666,
+        "missionsLost": 2278549,
+        "missionTime": 39318087137,
+        "terminidKills": 4428039939,
         "automatonKills": 500,
         "illuminateKills": 0,
-        "bulletsFired": 24328985038,
-        "bulletsHit": 29116349626,
-        "timePlayed": 39317351315,
-        "deaths": 114415376,
+        "bulletsFired": 24329380158,
+        "bulletsHit": 29116798060,
+        "timePlayed": 39318087137,
+        "deaths": 114417261,
         "revives": 0,
-        "friendlies": 16034436,
+        "friendlies": 16034700,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 1184
+        "playerCount": 1204
       },
       "attacking": []
     },
@@ -5224,7 +5224,7 @@
         "friendlies": 11343433,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 9
+        "playerCount": 11
       },
       "attacking": []
     },
@@ -5278,23 +5278,35 @@
       "initialOwner": "Terminids",
       "currentOwner": "Humans",
       "regenPerSecond": 6.9444447,
-      "event": null,
+      "event": {
+        "id": 4450,
+        "eventType": 1,
+        "faction": "Terminids",
+        "health": 599992,
+        "maxHealth": 600000,
+        "startTime": "2024-05-26T15:03:28.9337183Z",
+        "endTime": "2024-05-27T15:03:28.9337183Z",
+        "campaignId": 50197,
+        "jointOperationIds": [
+          4450
+        ]
+      },
       "statistics": {
-        "missionsWon": 3287180,
-        "missionsLost": 335238,
-        "missionTime": 7954642161,
-        "terminidKills": 1052907407,
+        "missionsWon": 3287188,
+        "missionsLost": 335239,
+        "missionTime": 7954648520,
+        "terminidKills": 1052908332,
         "automatonKills": 23,
         "illuminateKills": 0,
-        "bulletsFired": 4844471690,
-        "bulletsHit": 5887975002,
-        "timePlayed": 7954642161,
-        "deaths": 18244037,
+        "bulletsFired": 4844475780,
+        "bulletsHit": 5887978838,
+        "timePlayed": 7954648520,
+        "deaths": 18244055,
         "revives": 2,
-        "friendlies": 3341098,
+        "friendlies": 3341103,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 17
+        "playerCount": 4759
       },
       "attacking": [
         168,
@@ -5349,20 +5361,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 1978279,
-        "missionsLost": 131352,
-        "missionTime": 6220039859,
-        "terminidKills": 777587116,
+        "missionsLost": 131353,
+        "missionTime": 6220042895,
+        "terminidKills": 777587413,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 3687397032,
-        "bulletsHit": 4540578723,
-        "timePlayed": 6220039859,
-        "deaths": 14958757,
+        "bulletsFired": 3687398509,
+        "bulletsHit": 4540581071,
+        "timePlayed": 6220042895,
+        "deaths": 14958769,
         "revives": 0,
         "friendlies": 2222319,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 10
+        "playerCount": 15
       },
       "attacking": []
     },
@@ -7436,28 +7448,28 @@
         194
       ],
       "maxHealth": 1000000,
-      "health": 633815,
+      "health": 635812,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Automaton",
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 5679938,
-        "missionsLost": 1061054,
-        "missionTime": 23003510486,
+        "missionsWon": 5681256,
+        "missionsLost": 1061140,
+        "missionTime": 23007251241,
         "terminidKills": 133,
-        "automatonKills": 1736490186,
+        "automatonKills": 1736781460,
         "illuminateKills": 0,
-        "bulletsFired": 10862974504,
-        "bulletsHit": 11420126344,
-        "timePlayed": 23003510486,
-        "deaths": 55580646,
+        "bulletsFired": 10864745259,
+        "bulletsHit": 11421826972,
+        "timePlayed": 23007251241,
+        "deaths": 55589996,
         "revives": 0,
-        "friendlies": 6443966,
+        "friendlies": 6444739,
         "missionSuccessRate": 84,
         "accuracy": 100,
-        "playerCount": 6039
+        "playerCount": 8560
       },
       "attacking": []
     },
@@ -7507,21 +7519,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 541429,
-        "missionsLost": 104369,
-        "missionTime": 2175315280,
+        "missionsWon": 541431,
+        "missionsLost": 104372,
+        "missionTime": 2175322845,
         "terminidKills": 0,
-        "automatonKills": 164256227,
+        "automatonKills": 164257005,
         "illuminateKills": 0,
-        "bulletsFired": 902623377,
-        "bulletsHit": 958816404,
-        "timePlayed": 2175315280,
-        "deaths": 5096261,
+        "bulletsFired": 902628107,
+        "bulletsHit": 958820786,
+        "timePlayed": 2175322845,
+        "deaths": 5096298,
         "revives": 0,
-        "friendlies": 702587,
+        "friendlies": 702590,
         "missionSuccessRate": 83,
         "accuracy": 100,
-        "playerCount": 44
+        "playerCount": 30
       },
       "attacking": [
         198,
@@ -7641,21 +7653,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 2575161,
+        "missionsWon": 2575162,
         "missionsLost": 231929,
-        "missionTime": 9182127324,
+        "missionTime": 9182128203,
         "terminidKills": 101,
-        "automatonKills": 594368693,
+        "automatonKills": 594368825,
         "illuminateKills": 0,
-        "bulletsFired": 3634336882,
-        "bulletsHit": 3683407800,
-        "timePlayed": 9182127324,
+        "bulletsFired": 3634337528,
+        "bulletsHit": 3683408240,
+        "timePlayed": 9182128203,
         "deaths": 25215638,
         "revives": 0,
         "friendlies": 3085011,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 12
+        "playerCount": 13
       },
       "attacking": []
     },
@@ -8310,31 +8322,31 @@
         "id": 4448,
         "eventType": 1,
         "faction": "Terminids",
-        "health": 190821,
+        "health": 184598,
         "maxHealth": 550000,
-        "startTime": "2024-05-25T18:26:04.8024368Z",
-        "endTime": "2024-05-26T18:26:04.8024368Z",
+        "startTime": "2024-05-25T18:26:08.9337183Z",
+        "endTime": "2024-05-26T18:26:08.9337183Z",
         "campaignId": 50196,
         "jointOperationIds": [
           4448
         ]
       },
       "statistics": {
-        "missionsWon": 10205346,
-        "missionsLost": 686699,
-        "missionTime": 19255304468,
-        "terminidKills": 2491733387,
+        "missionsWon": 10210946,
+        "missionsLost": 687358,
+        "missionTime": 19275264653,
+        "terminidKills": 2494683215,
         "automatonKills": 93142,
         "illuminateKills": 0,
-        "bulletsFired": 12450100684,
-        "bulletsHit": 12187800297,
-        "timePlayed": 19255304468,
-        "deaths": 45536323,
+        "bulletsFired": 12462034414,
+        "bulletsHit": 12201854693,
+        "timePlayed": 19275264653,
+        "deaths": 45572873,
         "revives": 0,
-        "friendlies": 7504623,
+        "friendlies": 7511427,
         "missionSuccessRate": 93,
         "accuracy": 97,
-        "playerCount": 28609
+        "playerCount": 32143
       },
       "attacking": [
         34,
@@ -8390,21 +8402,21 @@
       "regenPerSecond": 8.333333,
       "event": null,
       "statistics": {
-        "missionsWon": 15016259,
-        "missionsLost": 960949,
-        "missionTime": 22337064051,
-        "terminidKills": 2775895593,
+        "missionsWon": 15017391,
+        "missionsLost": 961018,
+        "missionTime": 22340509405,
+        "terminidKills": 2776330111,
         "automatonKills": 52464,
         "illuminateKills": 0,
-        "bulletsFired": 14851572075,
-        "bulletsHit": 13919575546,
-        "timePlayed": 22337064051,
-        "deaths": 60218799,
+        "bulletsFired": 14853544250,
+        "bulletsHit": 13921916600,
+        "timePlayed": 22340509405,
+        "deaths": 60226156,
         "revives": 0,
-        "friendlies": 9713170,
+        "friendlies": 9714176,
         "missionSuccessRate": 93,
         "accuracy": 93,
-        "playerCount": 5041
+        "playerCount": 5338
       },
       "attacking": []
     },
@@ -8454,21 +8466,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 3784789,
-        "missionsLost": 350192,
-        "missionTime": 12266133707,
-        "terminidKills": 1663663998,
+        "missionsWon": 3784816,
+        "missionsLost": 350206,
+        "missionTime": 12266237993,
+        "terminidKills": 1663680709,
         "automatonKills": 145,
         "illuminateKills": 0,
-        "bulletsFired": 7586361436,
-        "bulletsHit": 9214789372,
-        "timePlayed": 12266133707,
-        "deaths": 26137476,
+        "bulletsFired": 7586433239,
+        "bulletsHit": 9214881492,
+        "timePlayed": 12266237993,
+        "deaths": 26137776,
         "revives": 0,
-        "friendlies": 4581735,
+        "friendlies": 4581769,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 458
+        "playerCount": 456
       },
       "attacking": [
         126,
@@ -8592,21 +8604,21 @@
       "regenPerSecond": 0.00027777778,
       "event": null,
       "statistics": {
-        "missionsWon": 1963531,
+        "missionsWon": 1963532,
         "missionsLost": 131009,
-        "missionTime": 5998903478,
-        "terminidKills": 792793554,
+        "missionTime": 5998904348,
+        "terminidKills": 792793725,
         "automatonKills": 72,
         "illuminateKills": 0,
-        "bulletsFired": 3485361652,
-        "bulletsHit": 4283150112,
-        "timePlayed": 5998903478,
-        "deaths": 13268802,
+        "bulletsFired": 3485362035,
+        "bulletsHit": 4283150522,
+        "timePlayed": 5998904348,
+        "deaths": 13268804,
         "revives": 0,
         "friendlies": 2247806,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 30
+        "playerCount": 35
       },
       "attacking": [
         126,
@@ -10114,7 +10126,7 @@
         "friendlies": 3647938,
         "missionSuccessRate": 91,
         "accuracy": 95,
-        "playerCount": 4
+        "playerCount": 1
       },
       "attacking": []
     },
@@ -10168,21 +10180,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5295151,
-        "missionsLost": 659637,
-        "missionTime": 4417277128,
+        "missionsWon": 5295152,
+        "missionsLost": 659639,
+        "missionTime": 4417278837,
         "terminidKills": 519,
-        "automatonKills": 344303645,
+        "automatonKills": 344303781,
         "illuminateKills": 0,
-        "bulletsFired": 2493732428,
-        "bulletsHit": 2453965082,
-        "timePlayed": 4417277128,
-        "deaths": 21552659,
+        "bulletsFired": 2493734285,
+        "bulletsHit": 2453966900,
+        "timePlayed": 4417278837,
+        "deaths": 21552676,
         "revives": 0,
         "friendlies": 2108005,
         "missionSuccessRate": 88,
         "accuracy": 98,
-        "playerCount": 9
+        "playerCount": 12
       },
       "attacking": []
     },
@@ -10314,7 +10326,7 @@
         "friendlies": 1789,
         "missionSuccessRate": 76,
         "accuracy": 80,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": []
     },
@@ -10369,21 +10381,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 403774,
-        "missionsLost": 57709,
-        "missionTime": 1161019139,
+        "missionsWon": 403848,
+        "missionsLost": 57720,
+        "missionTime": 1161207019,
         "terminidKills": 0,
-        "automatonKills": 77706246,
+        "automatonKills": 77719732,
         "illuminateKills": 0,
-        "bulletsFired": 503985826,
-        "bulletsHit": 505229798,
-        "timePlayed": 1161019139,
-        "deaths": 3436414,
+        "bulletsFired": 504072572,
+        "bulletsHit": 505311798,
+        "timePlayed": 1161207019,
+        "deaths": 3437053,
         "revives": 0,
-        "friendlies": 330917,
+        "friendlies": 330964,
         "missionSuccessRate": 87,
         "accuracy": 100,
-        "playerCount": 333
+        "playerCount": 385
       },
       "attacking": []
     },
@@ -10449,7 +10461,7 @@
         "friendlies": 292579,
         "missionSuccessRate": 83,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": []
     },
@@ -10500,21 +10512,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 1244881,
-        "missionsLost": 125226,
-        "missionTime": 4256154796,
+        "missionsWon": 1246596,
+        "missionsLost": 125336,
+        "missionTime": 4261187141,
         "terminidKills": 0,
-        "automatonKills": 304459680,
+        "automatonKills": 304851267,
         "illuminateKills": 0,
-        "bulletsFired": 1853585770,
-        "bulletsHit": 1892813196,
-        "timePlayed": 4256154796,
-        "deaths": 10136280,
+        "bulletsFired": 1855917260,
+        "bulletsHit": 1895075490,
+        "timePlayed": 4261187141,
+        "deaths": 10148275,
         "revives": 0,
-        "friendlies": 989315,
+        "friendlies": 990387,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 8214
+        "playerCount": 10736
       },
       "attacking": []
     },
@@ -10583,7 +10595,7 @@
         "friendlies": 322886,
         "missionSuccessRate": 88,
         "accuracy": 98,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": []
     },
@@ -10649,7 +10661,7 @@
         "friendlies": 1668546,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 133
+        "playerCount": 7
       },
       "attacking": []
     },
@@ -11158,28 +11170,28 @@
       },
       "waypoints": [],
       "maxHealth": 1000000,
-      "health": 800750,
+      "health": 802905,
       "disabled": false,
       "initialOwner": "Terminids",
       "currentOwner": "Terminids",
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 9475322,
-        "missionsLost": 909651,
-        "missionTime": 18761809468,
-        "terminidKills": 2465782145,
+        "missionsWon": 9475881,
+        "missionsLost": 909689,
+        "missionTime": 18763479038,
+        "terminidKills": 2465993007,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 12221164214,
-        "bulletsHit": 14804811893,
-        "timePlayed": 18761809468,
-        "deaths": 58388206,
+        "bulletsFired": 12222146655,
+        "bulletsHit": 14805957287,
+        "timePlayed": 18763479038,
+        "deaths": 58392068,
         "revives": 0,
-        "friendlies": 8842350,
+        "friendlies": 8842880,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 2465
+        "playerCount": 2507
       },
       "attacking": []
     },
@@ -11230,20 +11242,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 20989683,
-        "missionsLost": 2480577,
-        "missionTime": 45566711527,
-        "terminidKills": 6012765148,
+        "missionsLost": 2480578,
+        "missionTime": 45566712346,
+        "terminidKills": 6012765234,
         "automatonKills": 750,
         "illuminateKills": 0,
-        "bulletsFired": 31165596902,
-        "bulletsHit": 37202862446,
-        "timePlayed": 45566711527,
-        "deaths": 111246221,
+        "bulletsFired": 31165597485,
+        "bulletsHit": 37202863158,
+        "timePlayed": 45566712346,
+        "deaths": 111246230,
         "revives": 0,
         "friendlies": 20445735,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 16
+        "playerCount": 22
       },
       "attacking": []
     },
@@ -11293,21 +11305,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 15102725,
-        "missionsLost": 1639971,
-        "missionTime": 35662021262,
-        "terminidKills": 4472707577,
+        "missionsWon": 15102726,
+        "missionsLost": 1639972,
+        "missionTime": 35662025245,
+        "terminidKills": 4472708147,
         "automatonKills": 214,
         "illuminateKills": 0,
-        "bulletsFired": 24092751616,
-        "bulletsHit": 28706409532,
-        "timePlayed": 35662021262,
-        "deaths": 86639190,
+        "bulletsFired": 24092753034,
+        "bulletsHit": 28706410932,
+        "timePlayed": 35662025245,
+        "deaths": 86639199,
         "revives": 0,
-        "friendlies": 14980543,
+        "friendlies": 14980545,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 17
+        "playerCount": 16
       },
       "attacking": []
     },
@@ -12885,21 +12897,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 7534650,
-        "missionsLost": 792401,
-        "missionTime": 28978963440,
+        "missionsWon": 7534653,
+        "missionsLost": 792402,
+        "missionTime": 28978968195,
         "terminidKills": 188,
-        "automatonKills": 2071994870,
+        "automatonKills": 2071995285,
         "illuminateKills": 0,
-        "bulletsFired": 12723404610,
-        "bulletsHit": 13230826740,
-        "timePlayed": 28978963440,
-        "deaths": 67777540,
+        "bulletsFired": 12723407564,
+        "bulletsHit": 13230829224,
+        "timePlayed": 28978968195,
+        "deaths": 67777557,
         "revives": 0,
         "friendlies": 6654838,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 51
+        "playerCount": 56
       },
       "attacking": []
     },
@@ -12968,7 +12980,7 @@
         "friendlies": 2619693,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": []
     },
@@ -13019,16 +13031,16 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 5120293,
+        "missionsWon": 5120294,
         "missionsLost": 714095,
-        "missionTime": 5329216912,
+        "missionTime": 5329218415,
         "terminidKills": 597,
-        "automatonKills": 376338165,
+        "automatonKills": 376338313,
         "illuminateKills": 0,
-        "bulletsFired": 2769887713,
-        "bulletsHit": 2757500884,
-        "timePlayed": 5329216912,
-        "deaths": 25032877,
+        "bulletsFired": 2769887910,
+        "bulletsHit": 2757501134,
+        "timePlayed": 5329218415,
+        "deaths": 25032881,
         "revives": 0,
         "friendlies": 2364517,
         "missionSuccessRate": 87,
@@ -13159,21 +13171,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 4752206,
-        "missionsLost": 459472,
-        "missionTime": 17523595016,
+        "missionsWon": 4752624,
+        "missionsLost": 459511,
+        "missionTime": 17524812029,
         "terminidKills": 0,
-        "automatonKills": 1184694528,
+        "automatonKills": 1184787727,
         "illuminateKills": 0,
-        "bulletsFired": 7351889503,
-        "bulletsHit": 7708793288,
-        "timePlayed": 17523595016,
-        "deaths": 41666404,
+        "bulletsFired": 7352406842,
+        "bulletsHit": 7709300404,
+        "timePlayed": 17524812029,
+        "deaths": 41669386,
         "revives": 0,
-        "friendlies": 4271931,
+        "friendlies": 4272186,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 2022
+        "playerCount": 2709
       },
       "attacking": []
     },
@@ -13489,16 +13501,16 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 8811227,
-        "missionsLost": 1310684,
-        "missionTime": 30493729050,
+        "missionsWon": 8811233,
+        "missionsLost": 1310685,
+        "missionTime": 30493739770,
         "terminidKills": 1315,
-        "automatonKills": 2033253643,
+        "automatonKills": 2033254524,
         "illuminateKills": 0,
-        "bulletsFired": 13429880634,
-        "bulletsHit": 13755612508,
-        "timePlayed": 30493729050,
-        "deaths": 87024677,
+        "bulletsFired": 13429886111,
+        "bulletsHit": 13755617698,
+        "timePlayed": 30493739770,
+        "deaths": 87024713,
         "revives": 0,
         "friendlies": 7819078,
         "missionSuccessRate": 87,
@@ -14027,7 +14039,7 @@
         "friendlies": 2627669,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 6
       },
       "attacking": []
     },
@@ -14079,21 +14091,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 14990995,
+        "missionsWon": 14990996,
         "missionsLost": 1724487,
-        "missionTime": 32320630458,
-        "terminidKills": 4160319188,
+        "missionTime": 32320632752,
+        "terminidKills": 4160319536,
         "automatonKills": 307,
         "illuminateKills": 0,
-        "bulletsFired": 21486068101,
-        "bulletsHit": 25683417228,
-        "timePlayed": 32320630458,
-        "deaths": 84211262,
+        "bulletsFired": 21486069024,
+        "bulletsHit": 25683418420,
+        "timePlayed": 32320632752,
+        "deaths": 84211269,
         "revives": 0,
         "friendlies": 14349566,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 13
+        "playerCount": 15
       },
       "attacking": []
     },
@@ -14205,21 +14217,21 @@
       "regenPerSecond": 1388.8889,
       "event": null,
       "statistics": {
-        "missionsWon": 3441480,
-        "missionsLost": 217634,
-        "missionTime": 11550927774,
-        "terminidKills": 1435471448,
+        "missionsWon": 3441495,
+        "missionsLost": 217637,
+        "missionTime": 11550982849,
+        "terminidKills": 1435478895,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 6492070502,
-        "bulletsHit": 7939016790,
-        "timePlayed": 11550927774,
-        "deaths": 26570193,
+        "bulletsFired": 6492100213,
+        "bulletsHit": 7939054252,
+        "timePlayed": 11550982849,
+        "deaths": 26570382,
         "revives": 0,
-        "friendlies": 4413424,
+        "friendlies": 4413439,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 221
+        "playerCount": 205
       },
       "attacking": [
         217,
@@ -14406,21 +14418,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 1687272,
-        "missionsLost": 153343,
-        "missionTime": 5925568206,
-        "terminidKills": 742029766,
+        "missionsWon": 1687952,
+        "missionsLost": 153397,
+        "missionTime": 5927904905,
+        "terminidKills": 742312963,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 3374282237,
-        "bulletsHit": 4137019488,
-        "timePlayed": 5925568206,
-        "deaths": 13699898,
+        "bulletsFired": 3375636426,
+        "bulletsHit": 4138590436,
+        "timePlayed": 5927904905,
+        "deaths": 13704722,
         "revives": 0,
-        "friendlies": 2275537,
+        "friendlies": 2276341,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 3365
+        "playerCount": 3603
       },
       "attacking": []
     },
@@ -15800,7 +15812,7 @@
         "friendlies": 3998649,
         "missionSuccessRate": 92,
         "accuracy": 95,
-        "playerCount": 3
+        "playerCount": 7
       },
       "attacking": []
     },
@@ -15985,19 +15997,19 @@
       "statistics": {
         "missionsWon": 7536647,
         "missionsLost": 985758,
-        "missionTime": 8431566309,
+        "missionTime": 8431566461,
         "terminidKills": 37206,
-        "automatonKills": 664967847,
+        "automatonKills": 664967856,
         "illuminateKills": 0,
-        "bulletsFired": 4653315972,
-        "bulletsHit": 4321222187,
-        "timePlayed": 8431566309,
-        "deaths": 31831144,
+        "bulletsFired": 4653316152,
+        "bulletsHit": 4321222327,
+        "timePlayed": 8431566461,
+        "deaths": 31831146,
         "revives": 0,
         "friendlies": 3164410,
         "missionSuccessRate": 88,
         "accuracy": 92,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": []
     },
@@ -16066,7 +16078,7 @@
         "friendlies": 1499338,
         "missionSuccessRate": 87,
         "accuracy": 99,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [
         158,
@@ -16185,28 +16197,28 @@
         247
       ],
       "maxHealth": 1000000,
-      "health": 514647,
+      "health": 525123,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Humans",
       "regenPerSecond": 9.722222,
       "event": null,
       "statistics": {
-        "missionsWon": 2259296,
-        "missionsLost": 214014,
-        "missionTime": 9916879982,
+        "missionsWon": 2264202,
+        "missionsLost": 214586,
+        "missionTime": 9939054799,
         "terminidKills": 56,
-        "automatonKills": 635044901,
+        "automatonKills": 636653018,
         "illuminateKills": 0,
-        "bulletsFired": 3861466803,
-        "bulletsHit": 3963180908,
-        "timePlayed": 9916879982,
-        "deaths": 22211616,
+        "bulletsFired": 3870949463,
+        "bulletsHit": 3972952798,
+        "timePlayed": 9939054799,
+        "deaths": 22264400,
         "revives": 0,
-        "friendlies": 2123707,
+        "friendlies": 2127626,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 28361
+        "playerCount": 14746
       },
       "attacking": [
         158,
@@ -16261,21 +16273,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 146817,
-        "missionsLost": 31655,
-        "missionTime": 560485839,
+        "missionsWon": 146909,
+        "missionsLost": 31668,
+        "missionTime": 560753621,
         "terminidKills": 0,
-        "automatonKills": 39674602,
+        "automatonKills": 39693517,
         "illuminateKills": 0,
-        "bulletsFired": 248531963,
-        "bulletsHit": 254280788,
-        "timePlayed": 560485839,
-        "deaths": 1610629,
+        "bulletsFired": 248645300,
+        "bulletsHit": 254386064,
+        "timePlayed": 560753621,
+        "deaths": 1611372,
         "revives": 0,
-        "friendlies": 176052,
+        "friendlies": 176110,
         "missionSuccessRate": 82,
         "accuracy": 100,
-        "playerCount": 431
+        "playerCount": 528
       },
       "attacking": []
     },
@@ -16394,28 +16406,28 @@
       },
       "waypoints": [],
       "maxHealth": 1000000,
-      "health": 995792,
+      "health": 998674,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Automaton",
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 13224,
-        "missionsLost": 5083,
-        "missionTime": 55393521,
+        "missionsWon": 13262,
+        "missionsLost": 5092,
+        "missionTime": 55473345,
         "terminidKills": 0,
-        "automatonKills": 4192997,
+        "automatonKills": 4198531,
         "illuminateKills": 0,
-        "bulletsFired": 22839218,
-        "bulletsHit": 23706072,
-        "timePlayed": 55393521,
-        "deaths": 160620,
+        "bulletsFired": 22880259,
+        "bulletsHit": 23740718,
+        "timePlayed": 55473345,
+        "deaths": 160916,
         "revives": 0,
-        "friendlies": 21072,
+        "friendlies": 21091,
         "missionSuccessRate": 72,
         "accuracy": 100,
-        "playerCount": 190
+        "playerCount": 201
       },
       "attacking": []
     },
@@ -17329,21 +17341,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 4752206,
-          "missionsLost": 459472,
-          "missionTime": 17523595016,
+          "missionsWon": 4752624,
+          "missionsLost": 459511,
+          "missionTime": 17524812029,
           "terminidKills": 0,
-          "automatonKills": 1184694528,
+          "automatonKills": 1184787727,
           "illuminateKills": 0,
-          "bulletsFired": 7351889503,
-          "bulletsHit": 7708793288,
-          "timePlayed": 17523595016,
-          "deaths": 41666404,
+          "bulletsFired": 7352406842,
+          "bulletsHit": 7709300404,
+          "timePlayed": 17524812029,
+          "deaths": 41669386,
           "revives": 0,
-          "friendlies": 4271931,
+          "friendlies": 4272186,
           "missionSuccessRate": 91,
           "accuracy": 100,
-          "playerCount": 2022
+          "playerCount": 2709
         },
         "attacking": []
       },
@@ -17403,21 +17415,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 403774,
-          "missionsLost": 57709,
-          "missionTime": 1161019139,
+          "missionsWon": 403848,
+          "missionsLost": 57720,
+          "missionTime": 1161207019,
           "terminidKills": 0,
-          "automatonKills": 77706246,
+          "automatonKills": 77719732,
           "illuminateKills": 0,
-          "bulletsFired": 503985826,
-          "bulletsHit": 505229798,
-          "timePlayed": 1161019139,
-          "deaths": 3436414,
+          "bulletsFired": 504072572,
+          "bulletsHit": 505311798,
+          "timePlayed": 1161207019,
+          "deaths": 3437053,
           "revives": 0,
-          "friendlies": 330917,
+          "friendlies": 330964,
           "missionSuccessRate": 87,
           "accuracy": 100,
-          "playerCount": 333
+          "playerCount": 385
         },
         "attacking": []
       },
@@ -17473,21 +17485,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 1244881,
-          "missionsLost": 125226,
-          "missionTime": 4256154796,
+          "missionsWon": 1246596,
+          "missionsLost": 125336,
+          "missionTime": 4261187141,
           "terminidKills": 0,
-          "automatonKills": 304459680,
+          "automatonKills": 304851267,
           "illuminateKills": 0,
-          "bulletsFired": 1853585770,
-          "bulletsHit": 1892813196,
-          "timePlayed": 4256154796,
-          "deaths": 10136280,
+          "bulletsFired": 1855917260,
+          "bulletsHit": 1895075490,
+          "timePlayed": 4261187141,
+          "deaths": 10148275,
           "revives": 0,
-          "friendlies": 989315,
+          "friendlies": 990387,
           "missionSuccessRate": 90,
           "accuracy": 100,
-          "playerCount": 8214
+          "playerCount": 10736
         },
         "attacking": []
       },
@@ -17544,21 +17556,21 @@
         "regenPerSecond": 6.9444447,
         "event": null,
         "statistics": {
-          "missionsWon": 1687272,
-          "missionsLost": 153343,
-          "missionTime": 5925568206,
-          "terminidKills": 742029766,
+          "missionsWon": 1687952,
+          "missionsLost": 153397,
+          "missionTime": 5927904905,
+          "terminidKills": 742312963,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 3374282237,
-          "bulletsHit": 4137019488,
-          "timePlayed": 5925568206,
-          "deaths": 13699898,
+          "bulletsFired": 3375636426,
+          "bulletsHit": 4138590436,
+          "timePlayed": 5927904905,
+          "deaths": 13704722,
           "revives": 0,
-          "friendlies": 2275537,
+          "friendlies": 2276341,
           "missionSuccessRate": 91,
           "accuracy": 100,
-          "playerCount": 3365
+          "playerCount": 3603
         },
         "attacking": []
       },
@@ -17615,21 +17627,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 146817,
-          "missionsLost": 31655,
-          "missionTime": 560485839,
+          "missionsWon": 146909,
+          "missionsLost": 31668,
+          "missionTime": 560753621,
           "terminidKills": 0,
-          "automatonKills": 39674602,
+          "automatonKills": 39693517,
           "illuminateKills": 0,
-          "bulletsFired": 248531963,
-          "bulletsHit": 254280788,
-          "timePlayed": 560485839,
-          "deaths": 1610629,
+          "bulletsFired": 248645300,
+          "bulletsHit": 254386064,
+          "timePlayed": 560753621,
+          "deaths": 1611372,
           "revives": 0,
-          "friendlies": 176052,
+          "friendlies": 176110,
           "missionSuccessRate": 82,
           "accuracy": 100,
-          "playerCount": 431
+          "playerCount": 528
         },
         "attacking": []
       },
@@ -17691,21 +17703,21 @@
         "regenPerSecond": 6.9444447,
         "event": null,
         "statistics": {
-          "missionsWon": 18731434,
-          "missionsLost": 2278519,
-          "missionTime": 39317351315,
-          "terminidKills": 4427959392,
+          "missionsWon": 18731666,
+          "missionsLost": 2278549,
+          "missionTime": 39318087137,
+          "terminidKills": 4428039939,
           "automatonKills": 500,
           "illuminateKills": 0,
-          "bulletsFired": 24328985038,
-          "bulletsHit": 29116349626,
-          "timePlayed": 39317351315,
-          "deaths": 114415376,
+          "bulletsFired": 24329380158,
+          "bulletsHit": 29116798060,
+          "timePlayed": 39318087137,
+          "deaths": 114417261,
           "revives": 0,
-          "friendlies": 16034436,
+          "friendlies": 16034700,
           "missionSuccessRate": 89,
           "accuracy": 100,
-          "playerCount": 1184
+          "playerCount": 1204
         },
         "attacking": []
       },
@@ -17754,28 +17766,28 @@
           194
         ],
         "maxHealth": 1000000,
-        "health": 633815,
+        "health": 635812,
         "disabled": false,
         "initialOwner": "Humans",
         "currentOwner": "Automaton",
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 5679938,
-          "missionsLost": 1061054,
-          "missionTime": 23003510486,
+          "missionsWon": 5681256,
+          "missionsLost": 1061140,
+          "missionTime": 23007251241,
           "terminidKills": 133,
-          "automatonKills": 1736490186,
+          "automatonKills": 1736781460,
           "illuminateKills": 0,
-          "bulletsFired": 10862974504,
-          "bulletsHit": 11420126344,
-          "timePlayed": 23003510486,
-          "deaths": 55580646,
+          "bulletsFired": 10864745259,
+          "bulletsHit": 11421826972,
+          "timePlayed": 23007251241,
+          "deaths": 55589996,
           "revives": 0,
-          "friendlies": 6443966,
+          "friendlies": 6444739,
           "missionSuccessRate": 84,
           "accuracy": 100,
-          "playerCount": 6039
+          "playerCount": 8560
         },
         "attacking": []
       },
@@ -17825,28 +17837,28 @@
         },
         "waypoints": [],
         "maxHealth": 1000000,
-        "health": 800750,
+        "health": 802905,
         "disabled": false,
         "initialOwner": "Terminids",
         "currentOwner": "Terminids",
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 9475322,
-          "missionsLost": 909651,
-          "missionTime": 18761809468,
-          "terminidKills": 2465782145,
+          "missionsWon": 9475881,
+          "missionsLost": 909689,
+          "missionTime": 18763479038,
+          "terminidKills": 2465993007,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 12221164214,
-          "bulletsHit": 14804811893,
-          "timePlayed": 18761809468,
-          "deaths": 58388206,
+          "bulletsFired": 12222146655,
+          "bulletsHit": 14805957287,
+          "timePlayed": 18763479038,
+          "deaths": 58392068,
           "revives": 0,
-          "friendlies": 8842350,
+          "friendlies": 8842880,
           "missionSuccessRate": 91,
           "accuracy": 100,
-          "playerCount": 2465
+          "playerCount": 2507
         },
         "attacking": []
       },
@@ -17896,28 +17908,28 @@
         },
         "waypoints": [],
         "maxHealth": 1000000,
-        "health": 995792,
+        "health": 998674,
         "disabled": false,
         "initialOwner": "Humans",
         "currentOwner": "Automaton",
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 13224,
-          "missionsLost": 5083,
-          "missionTime": 55393521,
+          "missionsWon": 13262,
+          "missionsLost": 5092,
+          "missionTime": 55473345,
           "terminidKills": 0,
-          "automatonKills": 4192997,
+          "automatonKills": 4198531,
           "illuminateKills": 0,
-          "bulletsFired": 22839218,
-          "bulletsHit": 23706072,
-          "timePlayed": 55393521,
-          "deaths": 160620,
+          "bulletsFired": 22880259,
+          "bulletsHit": 23740718,
+          "timePlayed": 55473345,
+          "deaths": 160916,
           "revives": 0,
-          "friendlies": 21072,
+          "friendlies": 21091,
           "missionSuccessRate": 72,
           "accuracy": 100,
-          "playerCount": 190
+          "playerCount": 201
         },
         "attacking": []
       },
@@ -17973,21 +17985,21 @@
         "regenPerSecond": 8.333333,
         "event": null,
         "statistics": {
-          "missionsWon": 15016259,
-          "missionsLost": 960949,
-          "missionTime": 22337064051,
-          "terminidKills": 2775895593,
+          "missionsWon": 15017391,
+          "missionsLost": 961018,
+          "missionTime": 22340509405,
+          "terminidKills": 2776330111,
           "automatonKills": 52464,
           "illuminateKills": 0,
-          "bulletsFired": 14851572075,
-          "bulletsHit": 13919575546,
-          "timePlayed": 22337064051,
-          "deaths": 60218799,
+          "bulletsFired": 14853544250,
+          "bulletsHit": 13921916600,
+          "timePlayed": 22340509405,
+          "deaths": 60226156,
           "revives": 0,
-          "friendlies": 9713170,
+          "friendlies": 9714176,
           "missionSuccessRate": 93,
           "accuracy": 93,
-          "playerCount": 5041
+          "playerCount": 5338
         },
         "attacking": []
       },
@@ -18048,31 +18060,31 @@
           "id": 4448,
           "eventType": 1,
           "faction": "Terminids",
-          "health": 190821,
+          "health": 184598,
           "maxHealth": 550000,
-          "startTime": "2024-05-25T18:26:04.8024368Z",
-          "endTime": "2024-05-26T18:26:04.8024368Z",
+          "startTime": "2024-05-25T18:26:08.9337183Z",
+          "endTime": "2024-05-26T18:26:08.9337183Z",
           "campaignId": 50196,
           "jointOperationIds": [
             4448
           ]
         },
         "statistics": {
-          "missionsWon": 10205346,
-          "missionsLost": 686699,
-          "missionTime": 19255304468,
-          "terminidKills": 2491733387,
+          "missionsWon": 10210946,
+          "missionsLost": 687358,
+          "missionTime": 19275264653,
+          "terminidKills": 2494683215,
           "automatonKills": 93142,
           "illuminateKills": 0,
-          "bulletsFired": 12450100684,
-          "bulletsHit": 12187800297,
-          "timePlayed": 19255304468,
-          "deaths": 45536323,
+          "bulletsFired": 12462034414,
+          "bulletsHit": 12201854693,
+          "timePlayed": 19275264653,
+          "deaths": 45572873,
           "revives": 0,
-          "friendlies": 7504623,
+          "friendlies": 7511427,
           "missionSuccessRate": 93,
           "accuracy": 97,
-          "playerCount": 28609
+          "playerCount": 32143
         },
         "attacking": [
           34,
@@ -18083,12 +18095,134 @@
       },
       "type": 0,
       "count": 12
+    },
+    {
+      "id": 50197,
+      "planet": {
+        "index": 79,
+        "name": {
+          "en-US": "HEETH",
+          "en-GB": "HEETH",
+          "pt-BR": "HEETH",
+          "de-DE": "HEETH",
+          "es-ES": "HEETH",
+          "fr-FR": "HÏS",
+          "it-IT": "HEETH",
+          "ja-JP": "ヒース",
+          "ko-KO": "히스",
+          "ms-MY": "HEETH",
+          "pl-PL": "HEETH",
+          "pt-PT": "HEETH",
+          "ru-RU": "ХИИТ",
+          "zh-Hans": "希斯",
+          "zh-Hant": "希斯"
+        },
+        "sector": "Orion",
+        "biome": {
+          "name": "Winter",
+          "description": "Submerged in eternal winter, this world's frosty peaks glimmer in the light of its too-distant star."
+        },
+        "hazards": [
+          {
+            "name": "Extreme Cold",
+            "description": "Icy temperatures reduce rate of fire and delay heat buildup in weapons."
+          },
+          {
+            "name": "Blizzards",
+            "description": "Intense blizzard reduce mobility and moderately reduce visibility for both enemy and friendly units."
+          }
+        ],
+        "hash": 1391690878,
+        "position": {
+          "x": 0.39437926,
+          "y": 0.27310377
+        },
+        "waypoints": [
+          77,
+          125,
+          168
+        ],
+        "maxHealth": 1000000,
+        "health": 1000000,
+        "disabled": false,
+        "initialOwner": "Terminids",
+        "currentOwner": "Humans",
+        "regenPerSecond": 6.9444447,
+        "event": {
+          "id": 4450,
+          "eventType": 1,
+          "faction": "Terminids",
+          "health": 599992,
+          "maxHealth": 600000,
+          "startTime": "2024-05-26T15:03:28.9337183Z",
+          "endTime": "2024-05-27T15:03:28.9337183Z",
+          "campaignId": 50197,
+          "jointOperationIds": [
+            4450
+          ]
+        },
+        "statistics": {
+          "missionsWon": 3287188,
+          "missionsLost": 335239,
+          "missionTime": 7954648520,
+          "terminidKills": 1052908332,
+          "automatonKills": 23,
+          "illuminateKills": 0,
+          "bulletsFired": 4844475780,
+          "bulletsHit": 5887978838,
+          "timePlayed": 7954648520,
+          "deaths": 18244055,
+          "revives": 2,
+          "friendlies": 3341103,
+          "missionSuccessRate": 90,
+          "accuracy": 100,
+          "playerCount": 4759
+        },
+        "attacking": [
+          168,
+          168
+        ]
+      },
+      "type": 0,
+      "count": 7
     }
   ],
   "dispatches": [
     {
+      "id": 2876,
+      "published": "2024-05-26T15:04:36.9337183Z",
+      "type": 0,
+      "message": {
+        "en-US": "<i=3>STRATEGIC GUIDANCE</i>\n\nThe Terminids are attacking <i=1>Heeth</i>, the site of a newly-constructed SEAF Training Facility. If the planet falls, the capability of the SEAF to replenish their forces and thereby aid in galactic defense will be significantly impacted.\n\nTherefore, Super Earth High Command recommends prioritizing the defense of <i=1>Heeth</i>.",
+        "de-DE": "<i=3>STRATEGISCHE LEITLINIE</i>\n\nDie Terminiden greifen <i=1>Heeth</i> an, den Standort einer neu errichteten S.E.A.F.-Trainingsanlage. Wenn der Planet fällt, wird die Fähigkeit der S.E.A.F., ihre Streitkräfte aufzufüllen und dadurch die galaktische Verteidigung zu unterstützen, erheblich beeinträchtigt.\n\nDaher empfiehlt das Oberkommando Über-Erdes, der Verteidigung von <i=1>Heeth</i> Priorität einzuräumen.",
+        "es-ES": "<i=3>ORIENTACIÓN ESTRATÉGICA</i>\n\nLos termínidos están atacando <i=1>Heeth</i>, el emplazamiento de una nueva instalación de entrenamiento de S.E.A.F. Si el planeta cae, la capacidad de S.E.A.F. para reponer sus fuerzas y ayudar en la defensa galáctica se verá seriamente afectada.\n\nPor lo tanto, el alto mando de Supertierra recomienda priorizar la defensa de <i=1>Heeth</i>.",
+        "ru-RU": "<i=3>СТРАТЕГИЧЕСКИЕ УКАЗАНИЯ</i>\n\nТерминиды наступают на <i=1>Хиит</i>, где расположены только что построенные центры подготовки ВССЗ. Если планета будет захвачена, возможности ВССЗ пополнять свои ряды и помогать обороне галактики будут в значительной мере подорваны.\n\nПотому высшее командование Супер-Земли рекомендует в первую очередь бросить усилия на оборону <i=1>Хиита</i>.",
+        "fr-FR": "<i=3>DIRECTIVES STRATÉGIQUES</i>\n\nLes terminides attaquent <i=1>Hïs</i>, le site d'un tout nouveau centre d'entraînement des forces armées de la Super-Terre. Si la planète tombe, la capacité des S.E.A.F. à renouveler leurs forces et, par là même, à participer à la défense de la galaxie sera grandement impactée.\n\nPar conséquent, l'état-major de la Super-Terre recommande de prioriser la défense de <i=1>Hïs</i>.",
+        "it-IT": "<i=3>DIREZIONE STRATEGICA</i>\n\nI Terminidi stanno attaccando <i=1>Heeth</i>, sede di una struttura di addestramento FAST di recente costruzione. Se il pianeta cade, la capacità della FAST di reintegrare le proprie forze e quindi di contribuire alla difesa galattica sarà significativamente compromessa.\n\nPertanto, l'Alto comando della Super Terra raccomanda di dare priorità alla difesa di <i=1>Heeth</i>.",
+        "pl-PL": "<i=3>WSKAZÓWKI STRATEGICZNE</i>\n\nTerminidy atakują planetę <i=1>Heeth</i>, na której powstał nowy ośrodek szkoleniowy SZSZ. Jeśli planeta upadnie, możliwości uzupełnień SZSZ znacznie się zmniejszą i nie będziecie mogli liczyć na wsparcie w obronie galaktyki.\n\nW związku z tym sztab generalny Super Ziemi zaleca uczynienie priorytetem obrony <i=1>Heeth</i>.",
+        "zh-Hans": "<i=3>战略指导</i>\n\n终结族在攻击<i=1>希斯星系</i>，那是新建成的超级地球武装部队训练设施所在地。如这颗星球沦陷，超级地球武装部队补充兵力、继而协助星系防御的能力也将受到严重影响。\n\n因此，超级地球最高指挥部建议优先守住<i=1>希斯星系</i>。",
+        "zh-Hant": "<i=3>戰略引導</i>\n\n蟲族正在攻擊新建的SEAF訓練設施地點<i=1>希斯</i>。若該星球淪陷，SEAF補充兵力、支援協助銀河防禦的能力將受到嚴重影響。\n\n因此超級地球最高司令部建議優先防守<i=1>希斯</i>。"
+      }
+    },
+    {
+      "id": 2875,
+      "published": "2024-05-26T15:00:12.9337183Z",
+      "type": 0,
+      "message": {
+        "en-US": "<i=1>INTEL BRIEF</i>\n\nSpore production on the <i=1>Meridian Supercolony</i> has doubled overnight, indicating continued evolution of the Terminid threat. Increased Terminid outbreaks on nearby planets is highly likely. Helldivers are advised to exercise extreme vigilance in stamping out these outbreaks, lest they spread out of control.",
+        "de-DE": "<i=1>INFO-BRIEFING</i>\n\nDie Sporenproduktion in der <i=1>Superkolonie auf Meridia</i> hat sich über Nacht verdoppelt, was auf eine andauernde Evolution der Terminiden-Bedrohung hinweist. Verstärkte Terminiden-Ausbrüche auf Planeten in der Nähe sind sehr wahrscheinlich. Den Helldivers wird geraten, beim Eindämmen dieser Ausbrüche extrem wachsam zu sein, damit sie nicht außer Kontrolle geraten.",
+        "es-ES": "<i=1>INFORME DE INTELIGENCIA</i>\n\nLa actividad de las esporas de la <i=1>supercolonia Meridia</i> se ha duplicado de la noche a la mañana, lo que indica una evolución continua de la amenaza de los termínidos. Es altamente probable que aumenten las plagas termínidas en los planetas cercanos. Se recomienda que los Helldivers extremen la vigilancia para acabar con estas plagas y evitar que se extiendan sin control.",
+        "ru-RU": "<i=1>РАЗВЕДДАННЫЕ</i>\n\nКоличество производимых <i=1>Меридианской суперколонией</i> спор внезапно удвоилось, что указывает на продолжающуюся эволюцию угрозы со стороны терминидов. Крайне вероятно увеличение числа атак жуков на окружающих планетах. Адским Десантникам рекомендуется с крайней тщательностью подавлять эти нападения и держать распространение под контролем.",
+        "fr-FR": "<i=1>RAPPORT DE RENSEIGNEMENTS</i>\n\nLa production de spores au sein de la <i=1>super colonie de Méridia</i> a doublé en un rien de temps, indiquant l'évolution continue de la menace terminide. Une hausse de la prolifération des terminides sur les planètes avoisinantes est fort probable. Les Helldivers sont priés de faire preuve d'une extrême vigilance lors de leurs efforts visant à endiguer ces proliférations, afin qu'elles n'échappent pas à notre contrôle.",
+        "it-IT": "<i=1>RAPPORTO DI INTELLIGENCE</i>\n\nLa produzione di spore sulla <i=1>Supercolonia di Meridia</i> è raddoppiata nell'arco di una notte: ciò indica che la minaccia dei Terminidi è tutt'altro che finita. È molto probabile un aumento dei focolai di Terminidi sui pianeti vicini. Si consiglia agli Helldiver di restare all'erta e debellare questi focolai, per evitare che vadano fuori controllo.",
+        "pl-PL": "<i=1>SKRÓT WYWIADOWCZY</i>\n\nZ dnia na dzień produkcja zarodników w <i=1>superkolonii na Meridii</i> się podwoiła. Wskazuje to na ciągłą ewolucję zagrożenia ze strony terminidów. Możliwe są liczne wyrojenia terminidów na pobliskich planetach. Helldiversom zaleca się zwiększoną czujność i szybkie rozprawianie się z robalami, inaczej mogą się one wymknąć spod kontroli.",
+        "zh-Hans": "<i=1>简报</i>\n\n<i=1>默里迪亚超级拓殖地</i>的孢子产量一夜之间翻了一倍，表明终结族构成的威胁持续升级。临近星球的终结族暴乱极有可能加剧。建议绝地潜兵保持高度警惕，遏制暴乱局面，以免其失控蔓延。",
+        "zh-Hant": "<i=1>情報簡報</i>\n\n一夜之間，<i=1>梅里迪亞超級蟲巢</i>上的孢子產量增加了一倍，代表蟲族威脅升級。附近的星球極有可能發生蟲族暴亂。建議絕地戰兵在平息暴亂時保持高度警惕，以免蟲災蔓延失控。"
+      }
+    },
+    {
       "id": 2874,
-      "published": "2024-05-26T14:32:23.8024368Z",
+      "published": "2024-05-26T14:32:27.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER WON</i>\n\nThe Automaton Petafactory on <i=1>Varylia 5</i> has been liberated by the Helldivers, thwarting their expansion and allowing production to begin on the <i=1>EXO-49 EMANCIPATOR EXOSUIT</i>. Consult the Galactic Map on your Super Destroyer for a full briefing.",
@@ -18104,7 +18238,7 @@
     },
     {
       "id": 2873,
-      "published": "2024-05-25T19:28:54.8024368Z",
+      "published": "2024-05-25T19:28:58.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=1>STRATEGIC UPDATE</i>\n\nAutomaton resistance has faltered, no doubt due to the stalwart and unrelenting pressure applied by the valiant Helldivers. Maintain the offensive; liberate the Petafactory on <i=1>Varylia 5</i>.",
@@ -18120,7 +18254,7 @@
     },
     {
       "id": 2872,
-      "published": "2024-05-25T17:35:56.8024368Z",
+      "published": "2024-05-25T17:36:00.9337183Z",
       "type": 0,
       "message": {
         "en-US": "ANGEL'S VENTURE DEFENDED\nThanks to the selfless valor of the Helldivers, the citizens of Angel's Venture are safe from the Terminid Menace.",
@@ -18136,7 +18270,7 @@
     },
     {
       "id": 2871,
-      "published": "2024-05-24T19:42:06.8024368Z",
+      "published": "2024-05-24T19:42:10.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>STRATEGIC GUIDANCE</i>\n\nThe Terminids are attacking <i=1>Angel's Venture</i>. If they succeed, the valuable, newly-constructed SEAF Training Facility on the planet will be destroyed, which will significantly decrease the capability of the SEAF to aid in galactic defense.\n\nSuper Earth High Command recommends prioritizing the defense of <i=1>Angel's Venture</i>.",
@@ -18152,7 +18286,7 @@
     },
     {
       "id": 2870,
-      "published": "2024-05-24T19:34:11.8024368Z",
+      "published": "2024-05-24T19:34:15.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>INTEL BRIEF</i>\n\nSpore activity on the <i=1>Meridian Supercolony</i> has sharply increased. Sudden Terminid outbreaks on previously-safe planets may increase in frequency as a result.",
@@ -18168,7 +18302,7 @@
     },
     {
       "id": 2869,
-      "published": "2024-05-23T23:24:51.8024368Z",
+      "published": "2024-05-23T23:24:55.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>BATTLEFRONT UPDATE</i>\n\nFresh intel warns of an increased level of Automaton resistance, likely a last-ditch effort to forestall their inevitable defeat. Press even harder!",
@@ -18184,7 +18318,7 @@
     },
     {
       "id": 2868,
-      "published": "2024-05-23T16:03:09.8024368Z",
+      "published": "2024-05-23T16:03:13.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nWe have acquired imagery of a massive new Automaton factory nearing completion on the planet <i=1>Varylia 5</i>. This factory, if liberated, could be retrofitted to allow the construction of a dual-autocannon Exosuit variant: the <i=1>EXO-49 EMANCIPATOR EXOSUIT</i>.\n\nThe Helldivers are ordered to liberate <i=1>Varylia 5</i>. Consult the Galactic Map on your Super Destroyer for a complete briefing.",
@@ -18200,7 +18334,7 @@
     },
     {
       "id": 2867,
-      "published": "2024-05-23T15:58:45.8024368Z",
+      "published": "2024-05-23T15:58:49.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER FAILED</i>\n\nHuge quantities of Terminids and Automatons have been righteously terminated by the valiant Helldivers, but not in high enough quantities to further inspire the already unquestionably patriotic citizens of Super Earth. They will continue to support the war effort with unquestionable unity and grim determination, yearning for a more hopeful future.",
@@ -18216,7 +18350,7 @@
     },
     {
       "id": 2866,
-      "published": "2024-05-18T15:53:13.8024368Z",
+      "published": "2024-05-18T15:53:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nAcross the Federation, patriotic citizens are doing their part for the war effort. The fervent faith of Super Earth citizens for the war effort deserves to be rewarded—viscerally.\n\nTo that end, the Helldivers are ordered to demonstrate the unassailable might of a united citizenry by destroying greater numbers of our enemies than ever before. ",
@@ -18232,7 +18366,7 @@
     },
     {
       "id": 2865,
-      "published": "2024-05-15T15:47:13.8024368Z",
+      "published": "2024-05-15T15:47:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nWar has been declared. Mobilization across all sectors of the industry and economy has begun. Billions of able-bodied citizens from across the Federation have already volunteered for conscription.\n\nTo train these new recruits, massive new facilities are being erected on a small number of lightly-populated planets. The Helldivers must hold the planets construction is completed.",
@@ -18248,7 +18382,7 @@
     },
     {
       "id": 2864,
-      "published": "2024-05-15T15:40:54.8024368Z",
+      "published": "2024-05-15T15:40:58.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER FAILED</i>\n\nDespite the best efforts of the Helldivers to decommission as many Automatons as possible, our scrap recollection efforts ultimately fell short. Construction of <i=1>MD-17 Anti-Tank Mines</i> will be, once again, delayed.",
@@ -18264,7 +18398,7 @@
     },
     {
       "id": 2863,
-      "published": "2024-05-10T15:38:20.8024368Z",
+      "published": "2024-05-10T15:38:24.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>CONTRACTOR MESSAGE</i>\n\nThe following is a message from Battlefield Systems, a contracted defense service:\n\n\"\"Battlefield Systems regrets to inform all Helldivers that a software issue has resulted in duplicate reporting of enemies killed during a previous Major Order. The issue has since been resolved. Users should anticipate longer times to reach target numbers of enemies to kill or dismantle.\n\nWith this issue resolved, rest assured that battlefield tracking will now return to perfect functioning.\"",
@@ -18280,7 +18414,7 @@
     },
     {
       "id": 2862,
-      "published": "2024-05-10T15:33:44.8024368Z",
+      "published": "2024-05-10T15:33:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nThe Helldivers are ordered to conduct a forceful, large-scale decommissioning of Automaton forces. The recovered scrap of dismantled bots will then be put towards construction of <i=1>MD-17 Anti-Tank Mines</i>.",
@@ -18296,7 +18430,7 @@
     },
     {
       "id": 2861,
-      "published": "2024-05-10T15:31:33.8024368Z",
+      "published": "2024-05-10T15:31:37.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER FAILED</i>\n\nWe have failed to contain all of the outbreaks from the <i=1>Meridian Supercolony.</i> Terminids now infest more of our planets, spawning yet more agents of tyranny.",
@@ -18312,7 +18446,7 @@
     },
     {
       "id": 2860,
-      "published": "2024-05-06T15:11:23.8024368Z",
+      "published": "2024-05-06T15:11:27.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nSudden, massive outbreaks, traced back to the <i=1>Meridian Supercolony,</i> have erupted on multiple planets. The Supercolony appears to be producing far more Terminid spores than other infested planets, leading to unpredictable outbreaks within its vicinity.\n\nThe Helldivers must contain these outbreaks immediately, before they spread out of control.",
@@ -18328,7 +18462,7 @@
     },
     {
       "id": 2859,
-      "published": "2024-05-05T09:55:23.8024368Z",
+      "published": "2024-05-05T09:55:27.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER WON</i>\n\nFurther calamity has been averted, thanks to the swift and disciplined response of the Helldivers to deactivate the remaining Terminid Control System nodes. With further Termicide dispersement arrested, the remaining Barrier Planets are safe from suffering Meridia's fate. Meridia has been classified as a \"Supercolony.\"\n\nWhile the worst has been avoided, with the TCS inoperable and this new Supercolony active, the Terminids are now a greater threat than ever before.",
@@ -18344,7 +18478,7 @@
     },
     {
       "id": 2858,
-      "published": "2024-04-29T15:58:44.8024368Z",
+      "published": "2024-04-29T15:58:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>EMERGENCY BROADCAST</i>\n\nTerminid outbreaks have erupted on all <i=1>Barrier Planets.</i> The bugs appear to be showing resistance to Termicide. \n\nOn <i=1>Meridia</i>, Terminid reproduction rates have exploded overnight. While the mechanism for this adaptation is unclear, it appears to be linked to continued Termicide exposure. It cannot be allowed to spread.\n\nThe Helldivers are ordered to deactivate the Terminid Control System on the remaining Barrier Planets immediately.",
@@ -18360,7 +18494,7 @@
     },
     {
       "id": 2857,
-      "published": "2024-04-29T13:51:31.8024368Z",
+      "published": "2024-04-29T13:51:35.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>OP LEGITIMATE UNDERTAKING, PHASE I FAILED</i>\n\nThe Automatons, in their calculated oppression and hardwired avarice, have stymied our valiant efforts to liberate Choohe. The loss of the indispensible explosives on the planet will mean significant delays to the production of <i=1>Anti-Tank Mines</i>.\n\nThe explosive technicians on Choohe have almost certainly been torn to pieces by the vicious blades of the Automatons. All will agree that every possible resource was directed towards their salvation. Their sacrifice is hereby honored.",
@@ -18376,7 +18510,7 @@
     },
     {
       "id": 2856,
-      "published": "2024-04-28T11:31:10.8024368Z",
+      "published": "2024-04-28T11:31:14.9337183Z",
       "type": 0,
       "message": {
         "en-US": "</i=3>PENTA LIBERATED</i>\n\n90% of <i=1>Penta's</i> chemical factories have been secured. Fleetwide distribution of <i=1>Airburst Rocket Launchers</i> can now commence.\n\nMost of the chemical technicians who had been trapped on the planet were rescued. Tragically though, some had already perished by the time we reached them, having succumbed to toxic fume poisoning. The Automatons show no hesitation in the use of chemical warfare against civilians.  The sacrifice of these heroes will never be forgotten.",
@@ -18392,7 +18526,7 @@
     },
     {
       "id": 2855,
-      "published": "2024-04-26T13:43:24.8024368Z",
+      "published": "2024-04-26T13:43:28.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW OPERATION ORDER: \"LEGITIMATE UNDERTAKING\"</i>\n\n<i=1>Phase I: Citizen Rescue.</i> Intel has identified surviving citizens on two planets:\n\nOn  <i=1>Choohe</i>, citizens who have proved their loyalty through testing of a new <i=1>Fortification Stratagem</i> are trapped.\n\nOn <i=1>Penta</i>, citizens who have synthesized tons of caustic chemicals for a new <i=1>Support Weapon Stratagem</i> are awaiting rescue.\n\nLikely, only the citizens and weaponry of the <i=1>first</i> planet liberated will be saved.",
@@ -18408,7 +18542,7 @@
     },
     {
       "id": 2854,
-      "published": "2024-04-25T16:01:00.8024368Z",
+      "published": "2024-04-25T16:01:04.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=1>MAJOR ORDER WON</i>\n\nFreedom has overcome oppression once more. Even the combined might of the Terminids and Automatons was no match for the fierce and obedient resistance of the Helldivers. \n\nThough much ground was lost, our enemies are exhausted, their assault broken upon the valiant defense raised by the Helldivers. The fight is far from over, but the light of Liberty shines bright over the worlds of the Federation today.",
@@ -18424,7 +18558,7 @@
     },
     {
       "id": 2853,
-      "published": "2024-04-20T22:48:44.8024368Z",
+      "published": "2024-04-20T22:48:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nFreedom is under attack once more. In an act of sinister syncronicity, both the Terminids and Automatons have launched large-scale assaults. The Helldivers must now defend our citizens on two fronts at once.",
@@ -18440,7 +18574,7 @@
     },
     {
       "id": 2852,
-      "published": "2024-04-20T18:36:30.8024368Z",
+      "published": "2024-04-20T18:36:34.9337183Z",
       "type": 0,
       "message": {
         "en-US": "In further proof of their elite training and irreplaceable value, the Helldivers reached the target set for Terminid biomass production far faster than anticipated. While additional destruction of Liberty's enemies is always beneficial, E-710 refinement pipelines are full at the present time. However, there will be ample opportunities for additional biomass production in the future.\n\nSuper Earth High Command commends the Helldivers for their boundless enthusiasm to destroy the enemies of Freedom.",
@@ -18456,7 +18590,7 @@
     },
     {
       "id": 2851,
-      "published": "2024-04-20T18:36:04.8024368Z",
+      "published": "2024-04-20T18:36:08.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER WON</i>\n\nValiant work, Helldivers. Thanks to your noble efforts, millions of tons of Terminid biomass has been rendered safe for collection, and is being processed into Element 710 as we speak. This surplus of fuel will enable the transport of weapons, equipment, and personnel to the frontlines of the Automaton fight. \n\nWe now have the logistical means to enable and sustain an effective counter-offensive against the Automatons. Soon, we will take back lands they stole.",
@@ -18472,7 +18606,7 @@
     },
     {
       "id": 2850,
-      "published": "2024-04-19T18:45:14.8024368Z",
+      "published": "2024-04-19T18:45:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nThanks to the valiant and unceasing defense of the Helldivers, a robust defensive line has been established. This is likely only a temporary respite, while the bots refit in preparation to break through our defenses once more. \n\nWe now have the opportunity to refuel our war effort. The defense effort depleted our E-710 reserves. In order to allow for a counter-offensive, the Helldivers are ordered to manually produce Terminid corpses for conversion into E-710.",
@@ -18488,7 +18622,7 @@
     },
     {
       "id": 2849,
-      "published": "2024-04-19T16:05:01.8024368Z",
+      "published": "2024-04-19T16:05:05.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=1> MAJOR ORDER WON</i>\n\n<i=3>The Automaton Invasion Fleet has been repelled.</i>\n\nThe bots committed much of their reserves to this attack. Even the large-scale deployment of the <i=1>Factory Strider</i> could not break the resolve of the Helldivers.\n\nThe situation remains dire. The Automatons still illegally occupy vast swaths of our territory. But with this victory, the Helldivers have won the opportunity to turn back the tide.",
@@ -18504,7 +18638,7 @@
     },
     {
       "id": 2848,
-      "published": "2024-04-18T00:26:50.8024368Z",
+      "published": "2024-04-18T00:26:54.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>INTELLIGENCE BRIEF</i>\n\nThe Automatons have deployed a new heavy unit: the <i=1>Factory Strider.</i> Previously deployed in very limited quantities, likely prototypes, this massive abomination is a walking Automaton fabricator. It is heavily armed and armored, and should be engaged with coordinated firepower and unhesitating aggression.",
@@ -18520,7 +18654,7 @@
     },
     {
       "id": 2847,
-      "published": "2024-04-17T23:34:33.8024368Z",
+      "published": "2024-04-17T23:34:37.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nWith the <i=1>Menkent Line</i> established, the <i=1>Automaton Fleet</i> has been forced to divert their plans. Now, they are attempting a concerted effort to punch through at a single planet.\n\nThe <i=1>Automatons</i> are likely to muster the entirety of their strength for this endeavor. You must outlast the enemy. \n\nHold the planet, no matter the cost.",
@@ -18536,7 +18670,7 @@
     },
     {
       "id": 2846,
-      "published": "2024-04-17T20:26:31.8024368Z",
+      "published": "2024-04-17T20:26:35.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER WON</i>\n\nThe defense held. The Menkent Line has been established. The Automaton advance has been arrested.\n\nRudimentary orbital defenses have been established along the line, and are being augmented by hardworking SEAF and civilian laborers. Meanwhile, the SEAF Forward Command Base on Vernen Wells is up and running, providing fresh recruits and supplies to the front.",
@@ -18552,7 +18686,7 @@
     },
     {
       "id": 2845,
-      "published": "2024-04-13T20:25:56.8024368Z",
+      "published": "2024-04-13T20:26:00.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nWe must halt the Automaton advance. \n\nHelldivers are ordered to establish and hold the <i=1>Menkent Line</i>, consisting of the planets <i=1>Menkent</i> and <i=1>Lesath.</i> Establishing this defensive line will allow SEAF Engineers to begin construction of orbital defenses on those planets, deterring the advance of the Automaton Fleet and allowing counteroffensive preparations to begin.",
@@ -18568,7 +18702,7 @@
     },
     {
       "id": 2844,
-      "published": "2024-04-13T20:24:43.8024368Z",
+      "published": "2024-04-13T20:24:47.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER LOST</i>\n\nThe Automatons have seized control of many innocent and once-beautiful worlds. The valiant and tireless defense raised by the Helldivers was commendable, but it was not enough to stop such a large and cowardly assault. Any colonists not driven from their homes were likely slaughtered, their votes forever lost.",
@@ -18584,7 +18718,7 @@
     },
     {
       "id": 2843,
-      "published": "2024-04-13T20:01:14.8024368Z",
+      "published": "2024-04-13T20:01:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>SUPER DESTROYER FLEET UPGRADE</i>\nIn response to increased enemy threat, Helldivers are now authorized to requisition Level 4 Modules for all Super Destroyer systems.\nLike previous upgrades, the Level 4 Suite significantly upgrades the Super Destroyer with cutting-edge technology, provided by defense contractors who are galactic leaders in quality and safety.\nThese critical upgrades will be installed without delay upon submission of the requisite number of samples, proof of commitment to furthering the cause of Liberty.",
@@ -18600,7 +18734,7 @@
     },
     {
       "id": 2842,
-      "published": "2024-04-10T20:38:34.8024368Z",
+      "published": "2024-04-10T20:38:38.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>HIGH PRIORITY BROADCAST. ALL UNITS TO LIBCON 1.\n\nFEDERATION UNDER ATTACK. MULTIPLE PLANETS HAVE FALLEN.</i>\n\nA massive Automaton Invasion Fleet, comprising tens of thousands of warships, arrived from FTL jump to the <i=1>Valdis Sector</i> and overran nearly every planet in just hours. Attacks on communications networks delayed warning until now. SEAF reserves are scrambling. All Helldivers are called to deploy immediately to the defense.\n\nThis Fleet dwarfs the Automaton armies destroyed in <i=1>Operation Swift Disassembly.</i> As we predicted from the start, they were merely a vanguard. This is the Automatons' true force. Where the Automatons hid this fleet, and what their true intentions are—those questions must be answered later.\n\nThe Reclamation has begun.",
@@ -18616,7 +18750,7 @@
     },
     {
       "id": 2841,
-      "published": "2024-04-10T20:38:24.8024368Z",
+      "published": "2024-04-10T20:38:28.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MAJOR ORDER WON</i>\n\nWith the planet cleared, laborers have broken ground on the first of many Terminid Enrichment & Extraction Centers. New security measures, E-710 extraction procedures, and accelerated growth additives will be tested and perfected, laying the groundwork for development across the rest of the Terminid Quarantine Zone. \n\nThanks to the Helldivers, the future of humanity is bright. Procreation applications will now be considered for approval, following the typical 180-day review process.",
@@ -18632,7 +18766,7 @@
     },
     {
       "id": 2840,
-      "published": "2024-04-10T20:38:13.8024368Z",
+      "published": "2024-04-10T20:38:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "void msg",
@@ -18648,7 +18782,7 @@
     },
     {
       "id": 2839,
-      "published": "2024-04-10T20:23:44.8024368Z",
+      "published": "2024-04-10T20:23:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>HIGH PRIORITY BROADCAST. ALL UNITS TO LIBCON 1.\n\nFEDERATION UNDER ATTACK. MULTIPLE PLANETS HAVE FALLEN.</i>\n\nA massive Automaton Invasion Fleet, comprising tens of thousands of warships, arrived from FTL jump to the <i=1>Valdis Sector</i> and overran nearly every planet in just hours. Attacks on communications networks delayed warning until now. SEAF reserves are scrambling. All Helldivers are called to deploy immediately to the defense.\n\nThis Fleet dwarfs the Automaton armies destroyed in <i=1>Operation Swift Disassembly.</i> As we predicted from the start, they were merely a vanguard. This is the Automatons' true force. Where the Automatons hid this fleet, and what their true intentions are—those questions must be answered later.\n\nThe Reclamation has begun.",
@@ -18664,7 +18798,7 @@
     },
     {
       "id": 2838,
-      "published": "2024-04-09T04:48:24.8024368Z",
+      "published": "2024-04-09T04:48:28.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nWith the Automatons eradicated and Terminids contained, the time has come to work towards a more prosperous future for all citizens.\n\nTo that end, construction of new, safer, and more efficient E-710 farms will soon commence. On these farms, Terminids will be raised in spacious enclosures and enriched with state-of-the-art nutritional supplements, all under careful supervision. \n\nClear the way for the safe construction of the E-710 farms.",
@@ -18680,7 +18814,7 @@
     },
     {
       "id": 2837,
-      "published": "2024-04-09T04:12:20.8024368Z",
+      "published": "2024-04-09T04:12:24.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>OPERATION SWIFT DISASSEMBLY—SUCCESSFUL</i>\n\nThe Automaton threat has been fully eradicated from our galaxy. Our citizens are safe, our heroic fallen avenged. With the bots eradicated and bugs contained, the galaxy is free once more.\n\nThe supposed threat posed by the so-called \"Reclamation\" can be considered fully ended. Out of an abundance of caution, SEAF teams will continue to search what remains of the Automaton facilities and servers for any additional intelligence.",
@@ -18696,7 +18830,7 @@
     },
     {
       "id": 2836,
-      "published": "2024-04-09T02:05:47.8024368Z",
+      "published": "2024-04-09T02:05:51.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>TIBIT LIBERATED</i>\n\nThe factories on <i=1>Tibit</i> have been destroyed. Now, the enemy will be forced to distribute their existing forces more thinly, lowering their planetary resistance. The Automatons are beginning to crumble. Keep up the attack.",
@@ -18712,7 +18846,7 @@
     },
     {
       "id": 2835,
-      "published": "2024-04-07T19:09:14.8024368Z",
+      "published": "2024-04-07T19:09:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MOTIVATIONAL REINFORCEMENT</i>\n\nThe Automatons are lifeless, emotionless, hateful socialists. They murdered innocent families. They ravaged Malevelon Creek. Worst of all, they threatened our way of life. All without any provocation or cause save a hard-coded hatred of Freedom. \n\nSave our citizens. Save Managed Democracy. Annihilate the Automaton threat, once and for all.",
@@ -18728,7 +18862,7 @@
     },
     {
       "id": 2834,
-      "published": "2024-04-05T18:18:13.8024368Z",
+      "published": "2024-04-05T18:18:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nOP SWIFT DISASSEMBLY, PHASE IV (FINAL): ANNIHILATION. All Helldivers are ordered to make an all-out push to completely destroy the Automaton Legion. Despite the enemy's losses, Automaton messages still include references to \"The Reclamation.\" They must be annihilated before this plan can be carried out.\n\nCountless Helldivers gave their lives to acquire this opportunity. Do not let their sacrifices be in vain. Protect our way of life. Destroy the Automatons at any cost.",
@@ -18744,7 +18878,7 @@
     },
     {
       "id": 2833,
-      "published": "2024-04-05T18:05:56.8024368Z",
+      "published": "2024-04-05T18:06:00.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>OP SWIFT DISASSEMBLY, PHASE III—COMPLETED</i>\n\nThe Automaton counterattack has been repelled. They no longer have the resources to sustain an offensive on such a scale. While the timeline of their phaseout has been extended, it remains within reach. ",
@@ -18760,7 +18894,7 @@
     },
     {
       "id": 2832,
-      "published": "2024-04-04T18:39:09.8024368Z",
+      "published": "2024-04-04T18:39:13.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>PRESIDENTIAL DECREE</i>\n\nThe President of Super Earth has officially recognized this day as Malevelon Creek Memorial Day. Every year on this day, Super Earth citizens will unite for a full 3 minutes of their lunch break in solemn remembrance of those who gave their lives to free Malevelon Creek. \n\nIn addition, all Helldivers have been issued a special commemorative cape, so they may carry the memory of their fallen companions into battle.",
@@ -18776,7 +18910,7 @@
     },
     {
       "id": 2831,
-      "published": "2024-04-03T02:44:08.8024368Z",
+      "published": "2024-04-03T02:44:12.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\n<i=3>OP SWIFT DISASSEMBLY, PHASE III: Hold Ground.</i> The Automatons, clearly having calculated their impending shutdown, have put their remaining resources into a large-scale counterattack. Desperate as it is, should this re-invasion succeed, it may jeopardize our ability to destroy the bots in time to prevent their incoming invasion. Hold your ground.",
@@ -18792,7 +18926,7 @@
     },
     {
       "id": 2830,
-      "published": "2024-04-03T02:29:42.8024368Z",
+      "published": "2024-04-03T02:29:46.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>MALEVELON CREEK LIBERATED</i>\n\nAt long last, Malevelon Creek is free. The heroes who died in its defense can finally rest in peace, knowing justice has been served, and the planet's rhodium deposits will be mined by the citizens who rightfully own them.\n\nColonists are returning to the ruins of their settlements, pickaxes in hand, hopeful for a prosperous future. For at last, dawn breaks upon a free Creek.",
@@ -18808,7 +18942,7 @@
     },
     {
       "id": 2829,
-      "published": "2024-04-02T22:02:13.8024368Z",
+      "published": "2024-04-02T22:02:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nSeveral weeks ago, our citizens watched in horror as Malevelon Creek fell to the Automatons. Millions of valiant heroes perished attempting to defend it. For too long, the bots have maintained their illegal occupation, desecrating the memory of the fallen by rapidly depleting the planet's exceptionally rich rhodium deposits. This travesty will be allowed to continue no longer.\n\nTake vengeance for the fallen. Honor our heroes. End the theft of valuable minerals. Liberate Malevelon Creek.",
@@ -18824,7 +18958,7 @@
     },
     {
       "id": 2828,
-      "published": "2024-04-02T21:55:14.8024368Z",
+      "published": "2024-04-02T21:55:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>OP SWIFT DISASSEMBLY, PHASE II—FAILED</i>\n\nThe Automatons have retained Tibit, and its manufacturing facilities. Reports indicate they have already begun increasing production elsewhere. We have failed.\n\nIntercepted bot chatter includes expressions of great sorrow for the \"murder\" of in-development bots—a transparent attempt at disinformation, as bots can neither feel nor be considered alive. However, the simulated oaths of vengeance may indicate actual strategic intent. A counteroffensive is likely.",
@@ -18840,7 +18974,7 @@
     },
     {
       "id": 2827,
-      "published": "2024-03-31T04:04:14.8024368Z",
+      "published": "2024-03-31T04:04:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "AUTOMATON COUNTERATTACK\nIntercepted messages indicate bot plans for a significant push. Increased resistance on Automaton planets is anticipated.",
@@ -18856,7 +18990,7 @@
     },
     {
       "id": 2826,
-      "published": "2024-03-30T21:56:23.8024368Z",
+      "published": "2024-03-30T21:56:27.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\n<i=3>OP SWIFT DISASSEMBLY, PHASE II: Reduce Non-Sentient Combatant Production.</i> Intel analysis have identified the planet <i=3>Tibit</i> as the most significant producer of illegal Automaton combatants. Liberating this planet would significantly impact the enemy's capacity to replenish decommissioned socialists. \n\nIt would also limit further theft of the planet's natural resources from future generations of inarguably sentient humans.",
@@ -18872,7 +19006,7 @@
     },
     {
       "id": 2825,
-      "published": "2024-03-30T21:50:18.8024368Z",
+      "published": "2024-03-30T21:50:22.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>OP SWIFT DISASSEMBLY, PHASE I—COMPLETED</i>\n\nThe Automaton Comms Array on Troost has been decommissioned. Strangely, it appears to have been broadcasting outside the Galactic Frontier. Analysts are working to determine more, but much data was already deleted.\n\nHowever, we did discover a transmission containing blueprints for a new Automaton type: aerial gunships. With this advance warning, our hardworking factory laborers have been instructed to accelerate production of our most effective anti-air weaponry.",
@@ -18888,7 +19022,7 @@
     },
     {
       "id": 2824,
-      "published": "2024-03-29T21:38:39.8024368Z",
+      "published": "2024-03-29T21:38:43.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>ARSENAL EXPANSION NOTICE</i>\n\nIn order to support the destruction of the Automatons, the Ministry of Defense has fast-tracked new support weapons for immediate distribution.\n\nThe <i=3>LAS-99 Quasar Cannon</i> and <i=3>MG-101 Heavy Machine Gun</i> are now available for requisition.",
@@ -18904,7 +19038,7 @@
     },
     {
       "id": 2823,
-      "published": "2024-03-27T23:56:58.8024368Z",
+      "published": "2024-03-27T23:57:02.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>OPERATION SWIFT DISASSEMBLY</i>\n\n<i=3>PHASE I: Disrupt Communications.</i> We have identified a long-range communications array deep in Automaton space. Its capture may reveal critical intelligence about the enemy's plans.",
@@ -18920,7 +19054,7 @@
     },
     {
       "id": 2822,
-      "published": "2024-03-27T23:56:44.8024368Z",
+      "published": "2024-03-27T23:56:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "<i=3>NEW MAJOR ORDER</i>\n\nInterrogators have extracted alarming information from captured bots, through use of Unpleasant Sensory Experience Simulations. The Automatons are planning something called \"The Reclamation,\" which appears to be a massive invasion of unprecedented scale. Further details are scarce.\n\nIn response, High Command has authorized <i=3>OPERATION SWIFT DISASSEMBLY.</i> The objective: eradicate the Automatons entirely. It will consist of several phases, each critical to overall success.",
@@ -18936,7 +19070,7 @@
     },
     {
       "id": 2821,
-      "published": "2024-03-27T22:27:13.8024368Z",
+      "published": "2024-03-27T22:27:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "MAJOR ORDER SUCCEEDED\n\nThe last of the crude solid E-710 has been collected, processed, and shipped off-planet, providing a healthy boost to our colony settlement efforts. The planets can now be left behind to allow the Terminids to repopulate—under careful supervision.",
@@ -18952,7 +19086,7 @@
     },
     {
       "id": 2820,
-      "published": "2024-03-25T07:56:14.8024368Z",
+      "published": "2024-03-25T07:56:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "TERMINID SURGE\nMinistry of Science reports an unanticipated spike in Terminid spore counts. Expect a severe increase in resistance on Terminid planets.",
@@ -18968,7 +19102,7 @@
     },
     {
       "id": 2819,
-      "published": "2024-03-23T22:16:23.8024368Z",
+      "published": "2024-03-23T22:16:27.9337183Z",
       "type": 0,
       "message": {
         "en-US": "NEW MAJOR ORDER\n\nCivilian Biomass Collection Teams (BCTs) are gathering and processing inert Terminids. The Helldivers must maintain our control of the planets until these operations are complete.",
@@ -18984,7 +19118,7 @@
     },
     {
       "id": 2818,
-      "published": "2024-03-23T21:36:44.8024368Z",
+      "published": "2024-03-23T21:36:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "MAJOR ORDER FAILED\n\nThough many Terminids have been mercifully culled, the Helldivers were unable to penetrate as far inside the Quarantine Zone as ordered.\n\nThe expansion of our citizens to new planets will be reduced in line with the reduction of expected Element 710 to be produced. Further procreation applications will be denied until further notice.",
@@ -19000,7 +19134,7 @@
     },
     {
       "id": 2817,
-      "published": "2024-03-22T22:27:13.8024368Z",
+      "published": "2024-03-22T22:27:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "INTELLIGENCE BRIEF\nA new strain of flying Terminids has suddenly appeared across all Terminid planets, with no prior warning or indication of any kind. While the Ministry of Intelligence has always known this was a possibility, the abruptness of the evolution indicates a high possibility of dissident concealment.\n\nThe deployment of Termicide was fortuitously timed—doubtlessly, it averted an even worse evolution. Helldivers are advised to exterminate these mutations whenever encountered.",
@@ -19016,7 +19150,7 @@
     },
     {
       "id": 2816,
-      "published": "2024-03-22T22:26:14.8024368Z",
+      "published": "2024-03-22T22:26:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "CYBERSECURITY UPDATE\nA recent systems security breach has resulted in Galactic War tables displaying inaccurate information. The breach has been addressed, and all systems have been returned to normal operation.  Any discrepancies are to be considered the result of dissident misinformation.\n\nRest assured that the parties responsible have been identified, arrested, tried, and executed. ",
@@ -19032,7 +19166,7 @@
     },
     {
       "id": 2815,
-      "published": "2024-03-22T22:05:14.8024368Z",
+      "published": "2024-03-22T22:05:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "void msg",
@@ -19048,7 +19182,7 @@
     },
     {
       "id": 2814,
-      "published": "2024-03-22T19:34:55.8024368Z",
+      "published": "2024-03-22T19:34:59.9337183Z",
       "type": 0,
       "message": {
         "en-US": "CYBERSECURITY UPDATE\nA recent systems security breach has resulted in Galactic War tables displaying inaccurate information. The breach has been addressed, and all systems have been returned to normal operation.  Any discrepancies are to be considered the result of dissident misinformation.\n\nRest assured that the parties responsible have been identified, arrested, tried, and executed. ",
@@ -19064,7 +19198,7 @@
     },
     {
       "id": 2813,
-      "published": "2024-03-22T19:30:24.8024368Z",
+      "published": "2024-03-22T19:30:28.9337183Z",
       "type": 0,
       "message": {
         "en-US": "INTELLIGENCE BRIEF\nA new strain of flying Terminids has suddenly appeared across all Terminid planets, with no prior warning or indication of any kind. While the Ministry of Intelligence has always known this was a possibility, the abruptness of the evolution indicates a high possibility of dissident concealment.\n\nThe deployment of Termicide was fortuitously timed—doubtlessly, it averted an even worse evolution. Helldivers are advised to exterminate these mutations whenever encountered.",
@@ -19080,7 +19214,7 @@
     },
     {
       "id": 2812,
-      "published": "2024-03-22T18:44:42.8024368Z",
+      "published": "2024-03-22T18:44:46.9337183Z",
       "type": 0,
       "message": {
         "en-US": "CYBERSECURITY UPDATE\nA recent systems security breach has resulted in Galactic War tables displaying inaccurate information. The breach has been addressed, and all systems have been returned to normal operation.  Any discrepancies are to be considered the result of dissident misinformation.\n\nRest assured that the parties responsible have been identified, arrested, tried, and executed. ",
@@ -19096,7 +19230,7 @@
     },
     {
       "id": 2811,
-      "published": "2024-03-21T01:37:13.8024368Z",
+      "published": "2024-03-21T01:37:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "NEW MAJOR ORDER\n\nIn support of civilian population expansion and new energy demands for FTL travel, the Helldivers are ordered to cull the Terminid swarm within the Quarantine Zone through liberation of several planets.",
@@ -19112,7 +19246,7 @@
     },
     {
       "id": 2810,
-      "published": "2024-03-17T17:20:33.8024368Z",
+      "published": "2024-03-17T17:20:37.9337183Z",
       "type": 0,
       "message": {
         "en-US": "The Terminid Control System is fully activated. The Termicide is working as intended, culling millions of Terminids on the Barrier Planets.  Our citizens may finally rest easy, knowing their children are forever safe from being eaten alive by fascist insects. ",
@@ -19128,7 +19262,7 @@
     },
     {
       "id": 2809,
-      "published": "2024-03-17T17:20:14.8024368Z",
+      "published": "2024-03-17T17:20:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "ERATA PRIME SECURED\nThe Terminid Control System is now fully activated on Erata Prime. ",
@@ -19144,7 +19278,7 @@
     },
     {
       "id": 2808,
-      "published": "2024-03-17T04:57:44.8024368Z",
+      "published": "2024-03-17T04:57:48.9337183Z",
       "type": 0,
       "message": {
         "en-US": "MERIDIA SECURED\nThe Terminid Control System is now fully activated on Meridia.",
@@ -19160,7 +19294,7 @@
     },
     {
       "id": 2807,
-      "published": "2024-03-17T04:15:14.8024368Z",
+      "published": "2024-03-17T04:15:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "HEETH DEFENDED\nAfter countless noble and unavoidable sacrifices, Heeth has been defended from the Terminids.",
@@ -19176,7 +19310,7 @@
     },
     {
       "id": 2806,
-      "published": "2024-03-16T05:23:24.8024368Z",
+      "published": "2024-03-16T05:23:28.9337183Z",
       "type": 0,
       "message": {
         "en-US": "The TCS has been fully activated on half of the Barrier Planets.",
@@ -19192,7 +19326,7 @@
     },
     {
       "id": 2805,
-      "published": "2024-03-16T05:22:13.8024368Z",
+      "published": "2024-03-16T05:22:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "TURING SECURED\nThe Terminid Control System is now fully activated on Turing.",
@@ -19208,7 +19342,7 @@
     },
     {
       "id": 2804,
-      "published": "2024-03-15T08:07:47.8024368Z",
+      "published": "2024-03-15T08:07:51.9337183Z",
       "type": 0,
       "message": {
         "en-US": "FENRIR III SECURED\nThe Terminid Control System is now fully activated on Fenrir III.",
@@ -19224,7 +19358,7 @@
     },
     {
       "id": 2803,
-      "published": "2024-03-13T23:28:29.8024368Z",
+      "published": "2024-03-13T23:28:33.9337183Z",
       "type": 0,
       "message": {
         "en-US": "NEW MAJOR ORDER\nActivate Terminid Control System",
@@ -19240,7 +19374,7 @@
     },
     {
       "id": 2802,
-      "published": "2024-03-13T23:28:13.8024368Z",
+      "published": "2024-03-13T23:28:17.9337183Z",
       "type": 0,
       "message": {
         "en-US": "Upon each Barrier Planet now stands a network of massive, Termicide-dispensing towers: the Terminid Control System. Once activated, the TCS will exterminate every Terminid on that planet, and inoculate it against all future infestations. \n\nHowever, surges in Terminid activity have forced the SEAF Engineers to evacuate. Now, only the Helldivers can ensure the safety of our citizens.\n\nThe Terminid Control System must be activated—at any cost.",
@@ -19256,7 +19390,7 @@
     },
     {
       "id": 2801,
-      "published": "2024-03-12T17:45:14.8024368Z",
+      "published": "2024-03-12T17:45:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "Well done, Helldivers. Tien Kwan has been returned to the care of Managed Democracy. The Morgunson Arsenal, and its stockpile of freshly-produced Exosuits, were recovered intact.\n\nThe EXO-45 PATRIOT EXOSUIT is now available for requisition.",
@@ -19272,7 +19406,7 @@
     },
     {
       "id": 2800,
-      "published": "2024-03-11T23:06:14.8024368Z",
+      "published": "2024-03-11T23:06:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "AUTOMATON COUNTERATTACK\nIntercepted messages indicate bot plans for a significant push. Increased resistance on Automaton planets is anticipated.",
@@ -19288,7 +19422,7 @@
     },
     {
       "id": 2799,
-      "published": "2024-03-11T16:26:14.8024368Z",
+      "published": "2024-03-11T16:26:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "NEW MAJOR ORDER\nTien Kwan is home to the sole arsenal of new Exosuit technology. It is only a matter of time before the Automatons discover the arsenal and steal it for themselves. Liberate Tien Kwan, before it's too late.",
@@ -19304,7 +19438,7 @@
     },
     {
       "id": 2798,
-      "published": "2024-03-11T14:11:14.8024368Z",
+      "published": "2024-03-11T14:11:18.9337183Z",
       "type": 0,
       "message": {
         "en-US": "The Advanced Liberation Tools Research Agency (ALTRA) has tested successful prototypes of a new combat asset. Helldivers are advised to review proper mechanical operation procedures in preparation for the incoming asset.",
@@ -19320,7 +19454,7 @@
     },
     {
       "id": 2797,
-      "published": "2024-03-10T14:43:57.8024368Z",
+      "published": "2024-03-10T14:44:01.9337183Z",
       "type": 0,
       "message": {
         "en-US": "Terminid spores have engulfed Heeth and Angel's Venture, spawning hordes of Terminids that overwhelmed our colonial militias. Clearly, the bug hive instinct oriented their mindless expansion towards dishonoring the memory of those who fought to free these planets.\n\nYour fellow Helldivers paid for these lands with their lives. We cannot lose them now. Hold the planets until SEAF reinforcements arrive.",
