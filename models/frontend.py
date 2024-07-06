@@ -75,9 +75,9 @@ class Task(BaseModel):
 class Assignment(BaseModel):
     id: int
     # translated strings should be keyed on language
-    title: Dict[str,str]
-    briefing: Dict[str,str]
-    description: Dict[str,str]
+    title: Dict[str,Optional[str]]
+    briefing: Dict[str,Optional[str]]
+    description: Dict[str,Optional[str]]
     tasks: List[Task]
     progress: List[int]
     expiration: int
