@@ -701,8 +701,13 @@ class Setting(BaseModel):
     """
     reward: Optional[Reward] = None
     """
-    Contains information on the rewards players willr eceive upon completion.
+    Contains information on the rewards players will receive upon completion.
     """
+    rewards: Optional[List[Reward]] = None
+    """
+    Contains information on the rewards players will receive upon completion. (If more than)
+    """
+
     flags: Optional[int] = None
     """
     Flags, suspected to be a binary OR'd value, purpose unknown.
@@ -777,6 +782,10 @@ class Assignment2(BaseModel):
     reward: Optional[Reward2] = None
     """
     The reward for completing the assignment.
+    """
+    rewards: Optional[List[Reward2]] = None
+    """
+    The rewards for completing the assignment, if more than one.
     """
     progress: List[int]
     expiration: datetime
