@@ -157,6 +157,8 @@ function getColor(owner) {
         return '#EF2020';
       case 'Humans':
         return '#79E0FF';
+      case 'Illuminate':
+        return '#9634FF';
   }
 }
 function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
@@ -186,14 +188,14 @@ function factionLegend(factions, {r = 5, strokeWidth = 2.5, width=640} = {}) {
         frameAnchor: frameAnchor,
         r: r*1.5,
         dx: -6*16 - r,
-        dy: 9*r-2,
+        dy: 3*(factions.length)*r-2,
         src: legendArrowURL,
     }), Plot.text(['Attack'],{
       frameAnchor,
       text: ['Attack'],
       textAnchor: 'middle',
       dx: -4*16,
-      dy: 9*r-6
+      dy: 3*(factions.length)*r-6
     })];
 
   return Plot.marks(factionMarks.concat(arrowMarks));
@@ -302,7 +304,7 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
             y: p => p.position.y,
             title: p => [`${p.name[lang]}\n`, `Liberation: ${getLiberation(p.index, status, defenses).toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
           ),
-          factionLegend(['Humans', 'Terminids', 'Automaton'], {r:width/150, strokeWidth:width/220, width}),
+          factionLegend(['Humans', 'Terminids', 'Automaton', 'Illuminate'], {r:width/150, strokeWidth:width/220, width}),
         ],
         tip: true,
       }))
