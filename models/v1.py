@@ -789,6 +789,7 @@ class Assignment2(BaseModel):
     """
     progress: List[int]
     expiration: datetime
+    flags: Optional[int] = None
 
 class Event(BaseModel):
     """	
@@ -993,6 +994,10 @@ class Campaign2(BaseModel):
     attacking: Optional[List[int]] = None
     """
     List of planet indices this planet is attacking
+    """
+    faction: Optional[str] = None
+    """
+    The faction that is currently fighting this campaign.
     """
 
 class FullStatus(BaseModel):

@@ -53,7 +53,7 @@ def fetch_all_records_v0():
             res = json.loads(git_show(ref, 'helldivers.json', repo))
             if 'error' in res.keys() or 'errors' in res.keys():
                 continue
-            print(f"Bad committed data {exc.errors()[0]}")
+            print(f"Bad committed v0 data {exc.errors()[0]}")
         timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc)
         record.snapshot_at = timestamp
         record.version = CACHE_VERSION
@@ -99,7 +99,7 @@ def fetch_all_records_v1():
             res = json.loads(git_show(ref, '801_full_v1.json', repo))
             if 'error' in res.keys() or 'errors' in res.keys():
                 continue
-            print(f"Bad committed data {exc.errors()[0]}")
+            print(f"Bad committed v1 data for commit {ref} {exc.errors()[0]}")
         timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc)
         record.snapshot_at = timestamp
         record.version = CACHE_VERSION
