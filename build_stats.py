@@ -100,6 +100,7 @@ def fetch_all_records_v1():
             if 'error' in res.keys() or 'errors' in res.keys():
                 continue
             print(f"Bad committed v1 data for commit {ref} {exc.errors()[0]}")
+            continue
         timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc)
         record.snapshot_at = timestamp
         record.version = CACHE_VERSION
@@ -192,7 +193,7 @@ def v1_to_frontend(v1_rec: v1.FullStatus) -> frontend.CurrentStatus:
             'briefing': wrap_if_str(assignment.briefing),
             'description': wrap_if_str(assignment.description),
             'tasks': [task.model_dump() for task in assignment.tasks],
-            'reward': assignment.reward.model_dump(),
+            'reward': None if assignment.reward is None else assignment.reward.model_dump(),
             'progress': assignment.progress,
             'expiration': int(assignment.expiration.timestamp()*1000),
         }))

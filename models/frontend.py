@@ -81,7 +81,7 @@ class Assignment(BaseModel):
     tasks: List[Task]
     progress: List[int]
     expiration: int
-    reward: Reward
+    reward: Optional[Reward]
 
 class WarDetails(BaseModel):
     start_time: int

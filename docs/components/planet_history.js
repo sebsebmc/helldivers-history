@@ -7,6 +7,7 @@ const MSEC_PER_HOUR = SEC_PER_HOUR * 1000;
 
 const MajorOrderTypes = {
     3: "Eradicate",
+    7: "Hold",
     11: "Liberation",
     12: "Defense",
     13: "Control",
@@ -17,7 +18,8 @@ export function getMajorOrderDetails(majorOrder, planets, lang){
     for(let index = 0; index < majorOrder.tasks.length; index++){
         const task = majorOrder.tasks[index];
         switch (task.type) {
-            case 3: {
+            case 3:
+            case 7: {
                 const progress = majorOrder.progress[index];
                 const target = task.values[2];
 
