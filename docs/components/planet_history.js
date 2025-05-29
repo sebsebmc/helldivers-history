@@ -247,6 +247,9 @@ export function getLiberation(index, currentStatus, defenses) {
 }
 
 export function renderAHTags(string){
+    if(string === null) {
+        return "";
+    }
     let re = /<i=([13])>([^<]+)<\/i>/g;
     let match;
     let out = [];
