@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 from datetime import datetime
+from enum import Enum
 from typing import Dict, List, Optional, Union
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -612,6 +613,7 @@ class WarStatus(BaseModel):
     """
     A list of ongoing PlanetEvents.
     """
+    planet_regions: Optional[List[PlanetRegionStatus]] = Field(None, alias="planetRegions")
 
 
 class PlanetInfo(BaseModel):
@@ -910,6 +912,66 @@ class Planet(BaseModel):
     attacking: Optional[List[int]] = None
     biome: Optional[Biome] = None
     hazards: Optional[List[Hazard]] = None
+    regions: Optional[List[Region]] = None
+
+class Region(BaseModel):
+    """
+    Represents a region on a planet
+    """
+    
+    model_config = ConfigDict(extra='forbid', populate_by_name=True)
+
+    """
+    Name: The name of the region.
+    """
+    name: str
+    """
+    Description: A long-form description of the region.
+    """
+    description: str
+    """
+    MaxHealth: The maximum health of this region.
+    """
+    max_health: int = Field(None, alias="maxHealth")
+    """
+    Size: The size of this region.
+    """
+    size: RegionSize
+    """
+    RegenPerSecond: The amount of health this region generates when left alone.
+    """
+    regen_per_second: Optional[float] = Field(None, alias="regenPerSecond")
+    """
+    AvailabilityFactor: Unknown purpose.
+    """
+    availability_factor: Optional[float] = Field(None, alias="availabilityFactor")
+    """
+    IsAvailable: Whether the region is currently playable(?).
+    """
+    is_available: bool = Field(None, alias="isAvailable")
+    """
+    Players: The amount of helldivers currently active in this region.
+    """
+    players: int
+
+
+class RegionSize(Enum):
+    """
+    The region is a settlement.
+    """
+    Settlement = 0
+    """
+     The region is a town.
+    """
+    Town = 1
+    """
+     The region is a city.
+    """
+    City = 2
+    """
+    The region is a megacity
+    """
+    MegaCity = 3
 
 
 class WarInfo(BaseModel):
@@ -943,6 +1005,33 @@ class WarInfo(BaseModel):
     """
     A list of homeworlds for the races (factions) involved in this war.
     """
+
+    """
+    The regions that can be found on this planet
+    """
+    planet_regions: Optional[List[PlanetRegion]] = Field(None, alias="planetRegions")
+
+class PlanetRegion(BaseModel):
+    model_config = ConfigDict(extra='forbid', populate_by_name=True)
+
+    planet_index: int = Field(None, alias="planetIndex")
+    region_index: int = Field(None, alias="regionIndex")
+    settings_hash: int = Field(None, alias="settingsHash")
+    max_health: int = Field(None, alias="maxHealth")
+    region_size: int = Field(None, alias="regionSize")
+    
+class PlanetRegionStatus(BaseModel):
+    model_config = ConfigDict(extra='forbid', populate_by_name=True)
+
+    planet_index: int = Field(None, alias="planetIndex")
+    region_index: int = Field(None, alias="regionIndex")
+    owner: int
+    health: int
+    regen_per_second: float = Field(None, alias="regenPerSecond")
+    availability_factor: float = Field(None, alias="availabilityFactor")
+    is_available: bool = Field(None, alias="isAvailable")
+    players: int
+
 
 
 class Assignment(BaseModel):
