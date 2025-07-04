@@ -919,8 +919,16 @@ class Region(BaseModel):
     Represents a region on a planet
     """
     
-    model_config = ConfigDict(extra='forbid', populate_by_name=True)
+    model_config = ConfigDict(extra='forbid', populate_by_name=True, use_enum_values=True)
 
+    """
+    ID
+    """
+    id: Optional[int] = None
+    """
+    Hash
+    """
+    hash: Optional[int] = None
     """
     Name: The name of the region.
     """
@@ -928,7 +936,11 @@ class Region(BaseModel):
     """
     Description: A long-form description of the region.
     """
-    description: str
+    description: Optional[str] = None
+    """
+    Heath
+    """
+    health: Optional[int] = 0
     """
     MaxHealth: The maximum health of this region.
     """
@@ -955,23 +967,23 @@ class Region(BaseModel):
     players: int
 
 
-class RegionSize(Enum):
+class RegionSize(str, Enum):
     """
     The region is a settlement.
     """
-    Settlement = 0
+    Settlement = "Settlement"
     """
      The region is a town.
     """
-    Town = 1
+    Town = "Town"
     """
      The region is a city.
     """
-    City = 2
+    City = "City"
     """
     The region is a megacity
     """
-    MegaCity = 3
+    MegaCity = "MegaCity"
 
 
 class WarInfo(BaseModel):
