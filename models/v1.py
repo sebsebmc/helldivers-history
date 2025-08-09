@@ -932,7 +932,7 @@ class Region(BaseModel):
     """
     Name: The name of the region.
     """
-    name: str
+    name: Optional[str] = None
     """
     Description: A long-form description of the region.
     """
