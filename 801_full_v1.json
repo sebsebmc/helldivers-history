@@ -2,7 +2,7 @@
   "war": {
     "started": "2024-01-23T20:05:13Z",
     "ended": "2028-02-08T20:04:55Z",
-    "now": "1971-07-18T01:54:10Z",
+    "now": "1971-07-18T02:13:50Z",
     "clientVersion": "0.3.0",
     "factions": [
       "Humans",
@@ -10,23 +10,23 @@
       "Automaton",
       "Illuminate"
     ],
-    "impactMultiplier": 0.005712077,
+    "impactMultiplier": 0.0056425626,
     "statistics": {
-      "missionsWon": 623449404,
-      "missionsLost": 58346308,
-      "missionTime": 1956707045753,
-      "terminidKills": 140458151227,
-      "automatonKills": 58729521956,
-      "illuminateKills": 42762994577,
-      "bulletsFired": 1073102631536,
-      "bulletsHit": 1209530034547,
-      "timePlayed": 1956707045753,
-      "deaths": 5501105895,
+      "missionsWon": 623500735,
+      "missionsLost": 58351552,
+      "missionTime": 1956865412369,
+      "terminidKills": 140473293243,
+      "automatonKills": 58731888860,
+      "illuminateKills": 42763748237,
+      "bulletsFired": 1073188060927,
+      "bulletsHit": 1209627164113,
+      "timePlayed": 1956865412369,
+      "deaths": 5501478730,
       "revives": 2,
-      "friendlies": 644216559,
+      "friendlies": 644269210,
       "missionSuccessRate": 91,
       "accuracy": 100,
-      "playerCount": 225303
+      "playerCount": 229173
     }
   },
   "planets": [
@@ -74,21 +74,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 16520871,
-        "missionsLost": 2347728,
-        "missionTime": 51827867648,
+        "missionsWon": 16520883,
+        "missionsLost": 2347730,
+        "missionTime": 51827881120,
         "terminidKills": 11242,
         "automatonKills": 1217,
-        "illuminateKills": 7996582934,
-        "bulletsFired": 38807539666,
-        "bulletsHit": 41153636666,
-        "timePlayed": 51827867648,
-        "deaths": 120512941,
+        "illuminateKills": 7996584692,
+        "bulletsFired": 38807549087,
+        "bulletsHit": 41153646612,
+        "timePlayed": 51827881120,
+        "deaths": 120512997,
         "revives": 0,
-        "friendlies": 17275704,
+        "friendlies": 17275710,
         "missionSuccessRate": 87,
         "accuracy": 100,
-        "playerCount": 875
+        "playerCount": 919
       },
       "attacking": [],
       "regions": [
@@ -369,7 +369,7 @@
         "friendlies": 2776697,
         "missionSuccessRate": 87,
         "accuracy": 100,
-        "playerCount": 7
+        "playerCount": 3
       },
       "attacking": [],
       "regions": []
@@ -432,7 +432,7 @@
         "friendlies": 3191649,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 9
+        "playerCount": 11
       },
       "attacking": [],
       "regions": []
@@ -495,7 +495,7 @@
         "friendlies": 3362066,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -623,7 +623,7 @@
         "friendlies": 464848,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 3
       },
       "attacking": [],
       "regions": []
@@ -1180,7 +1180,7 @@
         "id": 5332,
         "eventType": 1,
         "faction": "Terminids",
-        "health": 791093,
+        "health": 778979,
         "maxHealth": 1600000,
         "startTime": "2025-08-30T00:26:53Z",
         "endTime": "2025-09-01T00:26:53Z",
@@ -1190,21 +1190,21 @@
         ]
       },
       "statistics": {
-        "missionsWon": 1212802,
-        "missionsLost": 111257,
-        "missionTime": 4254380432,
-        "terminidKills": 619783145,
+        "missionsWon": 1231598,
+        "missionsLost": 112387,
+        "missionTime": 4314734290,
+        "terminidKills": 627727281,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 2447785174,
-        "bulletsHit": 2935558196,
-        "timePlayed": 4254380432,
-        "deaths": 10019318,
+        "bulletsFired": 2482726350,
+        "bulletsHit": 2976981454,
+        "timePlayed": 4314734290,
+        "deaths": 10147186,
         "revives": 0,
-        "friendlies": 1598511,
+        "friendlies": 1619610,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 83316
+        "playerCount": 84058
       },
       "attacking": [
         77
@@ -1221,7 +1221,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.50349075,
           "isAvailable": false,
-          "players": 56
+          "players": 33
         },
         {
           "id": 1,
@@ -1234,7 +1234,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 0.3806472,
           "isAvailable": false,
-          "players": 4
+          "players": 9
         },
         {
           "id": 2,
@@ -1247,20 +1247,20 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": false,
-          "players": 1744
+          "players": 1795
         },
         {
           "id": 3,
           "hash": 1239520232,
           "name": "GREATFORT",
           "description": null,
-          "health": 514106,
+          "health": 506563,
           "maxHealth": 600000,
           "size": "MegaCity",
           "regenPerSecond": -0.8333333,
           "availabilityFactor": 0.8210435,
           "isAvailable": true,
-          "players": 31797
+          "players": 32009
         }
       ]
     },
@@ -1816,7 +1816,7 @@
         "id": 5331,
         "eventType": 1,
         "faction": "Terminids",
-        "health": 249954,
+        "health": 242963,
         "maxHealth": 550000,
         "startTime": "2025-08-30T00:25:03Z",
         "endTime": "2025-08-31T00:25:03Z",
@@ -1826,21 +1826,21 @@
         ]
       },
       "statistics": {
-        "missionsWon": 825649,
-        "missionsLost": 102956,
-        "missionTime": 3004993030,
-        "terminidKills": 419170381,
+        "missionsWon": 837043,
+        "missionsLost": 104611,
+        "missionTime": 3039951809,
+        "terminidKills": 423390250,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 1738929449,
-        "bulletsHit": 2064709076,
-        "timePlayed": 3004993030,
-        "deaths": 8004025,
+        "bulletsFired": 1759156338,
+        "bulletsHit": 2088250242,
+        "timePlayed": 3039951809,
+        "deaths": 8095342,
         "revives": 0,
-        "friendlies": 1246601,
+        "friendlies": 1260375,
         "missionSuccessRate": 88,
         "accuracy": 100,
-        "playerCount": 47807
+        "playerCount": 49147
       },
       "attacking": [
         49
@@ -1895,21 +1895,21 @@
       "regenPerSecond": 0.00027777778,
       "event": null,
       "statistics": {
-        "missionsWon": 3598235,
+        "missionsWon": 3598238,
         "missionsLost": 400212,
-        "missionTime": 10760264566,
-        "terminidKills": 1378486480,
+        "missionTime": 10760276841,
+        "terminidKills": 1378487864,
         "automatonKills": 0,
         "illuminateKills": 62333840,
-        "bulletsFired": 6263334821,
-        "bulletsHit": 7330917398,
-        "timePlayed": 10760264566,
-        "deaths": 29925161,
+        "bulletsFired": 6263342327,
+        "bulletsHit": 7330927306,
+        "timePlayed": 10760276841,
+        "deaths": 29925186,
         "revives": 0,
-        "friendlies": 4411742,
+        "friendlies": 4411745,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 21
+        "playerCount": 19
       },
       "attacking": [],
       "regions": []
@@ -1974,7 +1974,7 @@
         "friendlies": 2755509,
         "missionSuccessRate": 95,
         "accuracy": 100,
-        "playerCount": 5
+        "playerCount": 8
       },
       "attacking": [],
       "regions": []
@@ -2040,7 +2040,7 @@
         "friendlies": 1519344,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 9
       },
       "attacking": [],
       "regions": [
@@ -2145,7 +2145,7 @@
         "friendlies": 649188,
         "missionSuccessRate": 96,
         "accuracy": 100,
-        "playerCount": 5
+        "playerCount": 1
       },
       "attacking": [],
       "regions": [
@@ -2457,21 +2457,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 1931721,
-        "missionsLost": 214415,
-        "missionTime": 6196787866,
+        "missionsWon": 1933146,
+        "missionsLost": 214778,
+        "missionTime": 6201559549,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 807667584,
-        "bulletsFired": 4964605371,
-        "bulletsHit": 4963424440,
-        "timePlayed": 6196787866,
-        "deaths": 15338986,
+        "illuminateKills": 808268962,
+        "bulletsFired": 4968052719,
+        "bulletsHit": 4966857680,
+        "timePlayed": 6201559549,
+        "deaths": 15354087,
         "revives": 0,
-        "friendlies": 1868934,
+        "friendlies": 1870632,
         "missionSuccessRate": 90,
         "accuracy": 99,
-        "playerCount": 6823
+        "playerCount": 7232
       },
       "attacking": [],
       "regions": [
@@ -2480,13 +2480,13 @@
           "hash": 3205582835,
           "name": null,
           "description": null,
-          "health": 171910,
+          "health": 171711,
           "maxHealth": 200000,
           "size": "Town",
           "regenPerSecond": 0.1388889,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 2089
+          "players": 2202
         },
         {
           "id": 1,
@@ -2499,7 +2499,7 @@
           "regenPerSecond": 0.1388889,
           "availabilityFactor": 0.15425617,
           "isAvailable": false,
-          "players": 16
+          "players": 15
         },
         {
           "id": 2,
@@ -2512,7 +2512,7 @@
           "regenPerSecond": 0.1388889,
           "availabilityFactor": 0.5032696,
           "isAvailable": false,
-          "players": 18
+          "players": 35
         },
         {
           "id": 3,
@@ -2525,7 +2525,7 @@
           "regenPerSecond": 3.2516668,
           "availabilityFactor": 0.64460164,
           "isAvailable": true,
-          "players": 1523
+          "players": 1535
         }
       ]
     },
@@ -2578,21 +2578,21 @@
       "regenPerSecond": 13.888889,
       "event": null,
       "statistics": {
-        "missionsWon": 20958983,
+        "missionsWon": 20958985,
         "missionsLost": 2506853,
-        "missionTime": 46888535617,
-        "terminidKills": 5342093109,
+        "missionTime": 46888538857,
+        "terminidKills": 5342093515,
         "automatonKills": 500,
         "illuminateKills": 0,
-        "bulletsFired": 28742995868,
-        "bulletsHit": 34453715616,
-        "timePlayed": 46888535617,
-        "deaths": 132426610,
+        "bulletsFired": 28742997862,
+        "bulletsHit": 34453717304,
+        "timePlayed": 46888538857,
+        "deaths": 132426611,
         "revives": 0,
         "friendlies": 18758457,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 11
+        "playerCount": 18
       },
       "attacking": [],
       "regions": []
@@ -2645,20 +2645,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 246925,
-        "missionsLost": 57985,
-        "missionTime": 923175801,
+        "missionsLost": 57998,
+        "missionTime": 923177608,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 132791564,
-        "bulletsFired": 731059383,
-        "bulletsHit": 776802506,
-        "timePlayed": 923175801,
-        "deaths": 2683035,
+        "illuminateKills": 132791832,
+        "bulletsFired": 731060652,
+        "bulletsHit": 776803988,
+        "timePlayed": 923177608,
+        "deaths": 2683056,
         "revives": 0,
-        "friendlies": 273608,
+        "friendlies": 273609,
         "missionSuccessRate": 80,
         "accuracy": 100,
-        "playerCount": 22
+        "playerCount": 19
       },
       "attacking": [],
       "regions": []
@@ -3090,7 +3090,7 @@
         "id": 5330,
         "eventType": 1,
         "faction": "Automaton",
-        "health": 522401,
+        "health": 517597,
         "maxHealth": 1250000,
         "startTime": "2025-08-29T08:12:23Z",
         "endTime": "2025-08-31T08:12:23Z",
@@ -3100,21 +3100,21 @@
         ]
       },
       "statistics": {
-        "missionsWon": 1864241,
-        "missionsLost": 136439,
-        "missionTime": 6175699842,
+        "missionsWon": 1871886,
+        "missionsLost": 137425,
+        "missionTime": 6199642124,
         "terminidKills": 0,
-        "automatonKills": 455758487,
+        "automatonKills": 457552264,
         "illuminateKills": 0,
-        "bulletsFired": 2795014723,
-        "bulletsHit": 2787571998,
-        "timePlayed": 6175699842,
-        "deaths": 14282964,
+        "bulletsFired": 2805394468,
+        "bulletsHit": 2798080512,
+        "timePlayed": 6199642124,
+        "deaths": 14346348,
         "revives": 0,
-        "friendlies": 1467558,
+        "friendlies": 1473057,
         "missionSuccessRate": 93,
         "accuracy": 99,
-        "playerCount": 33390
+        "playerCount": 34204
       },
       "attacking": [
         43,
@@ -3126,13 +3126,13 @@
           "hash": 1193052974,
           "name": null,
           "description": null,
-          "health": 27470,
+          "health": 23248,
           "maxHealth": 600000,
           "size": "MegaCity",
           "regenPerSecond": -0.8333333,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 14812
+          "players": 15346
         }
       ]
     },
@@ -3182,21 +3182,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 701179,
-        "missionsLost": 42136,
-        "missionTime": 2170262319,
+        "missionsWon": 701417,
+        "missionsLost": 42154,
+        "missionTime": 2170892034,
         "terminidKills": 0,
-        "automatonKills": 139347896,
+        "automatonKills": 139396999,
         "illuminateKills": 0,
-        "bulletsFired": 1111863528,
-        "bulletsHit": 1164967726,
-        "timePlayed": 2170262319,
-        "deaths": 4736545,
+        "bulletsFired": 1112162750,
+        "bulletsHit": 1165263668,
+        "timePlayed": 2170892034,
+        "deaths": 4737884,
         "revives": 0,
-        "friendlies": 621975,
+        "friendlies": 622128,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 995
+        "playerCount": 999
       },
       "attacking": [],
       "regions": []
@@ -3248,21 +3248,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 913948,
-        "missionsLost": 37638,
-        "missionTime": 2740844637,
+        "missionsWon": 914843,
+        "missionsLost": 37693,
+        "missionTime": 2743350214,
         "terminidKills": 0,
-        "automatonKills": 220510145,
+        "automatonKills": 220713391,
         "illuminateKills": 0,
-        "bulletsFired": 1229995509,
-        "bulletsHit": 1286162668,
-        "timePlayed": 2740844637,
-        "deaths": 5542527,
+        "bulletsFired": 1231031132,
+        "bulletsHit": 1287211016,
+        "timePlayed": 2743350214,
+        "deaths": 5547326,
         "revives": 0,
-        "friendlies": 622063,
+        "friendlies": 622640,
         "missionSuccessRate": 96,
         "accuracy": 100,
-        "playerCount": 3674
+        "playerCount": 3726
       },
       "attacking": [],
       "regions": [
@@ -3277,7 +3277,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.78229,
           "isAvailable": false,
-          "players": 1
+          "players": 4
         },
         {
           "id": 1,
@@ -3290,7 +3290,7 @@
           "regenPerSecond": 1.6666666,
           "availabilityFactor": 0.23376,
           "isAvailable": false,
-          "players": 11
+          "players": 8
         },
         {
           "id": 2,
@@ -3303,7 +3303,7 @@
           "regenPerSecond": 1.6666666,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 480
+          "players": 503
         }
       ]
     },
@@ -3356,19 +3356,19 @@
       "statistics": {
         "missionsWon": 4821937,
         "missionsLost": 281891,
-        "missionTime": 17882491276,
+        "missionTime": 17882492663,
         "terminidKills": 50,
-        "automatonKills": 1496786817,
-        "illuminateKills": 259759086,
-        "bulletsFired": 7694138638,
-        "bulletsHit": 8253598044,
-        "timePlayed": 17882491276,
-        "deaths": 35244284,
+        "automatonKills": 1496786832,
+        "illuminateKills": 259759176,
+        "bulletsFired": 7694139344,
+        "bulletsHit": 8253598642,
+        "timePlayed": 17882492663,
+        "deaths": 35244298,
         "revives": 0,
-        "friendlies": 4274587,
+        "friendlies": 4274588,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 5
+        "playerCount": 7
       },
       "attacking": [
         44,
@@ -3607,28 +3607,28 @@
         76
       ],
       "maxHealth": 1000000,
-      "health": 905036,
+      "health": 904396,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Terminids",
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 3001788,
-        "missionsLost": 312190,
-        "missionTime": 9916659811,
-        "terminidKills": 1425159046,
+        "missionsWon": 3005381,
+        "missionsLost": 312500,
+        "missionTime": 9927507468,
+        "terminidKills": 1426399769,
         "automatonKills": 241,
         "illuminateKills": 0,
-        "bulletsFired": 5624900619,
-        "bulletsHit": 6604415474,
-        "timePlayed": 9916659811,
-        "deaths": 25765243,
+        "bulletsFired": 5630722506,
+        "bulletsHit": 6611008344,
+        "timePlayed": 9927507468,
+        "deaths": 25789282,
         "revives": 0,
-        "friendlies": 3944400,
+        "friendlies": 3947852,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 15545
+        "playerCount": 15851
       },
       "attacking": [
         25
@@ -3758,7 +3758,7 @@
         "friendlies": 0,
         "missionSuccessRate": 100,
         "accuracy": 0,
-        "playerCount": 183
+        "playerCount": 206
       },
       "attacking": [],
       "regions": []
@@ -3811,21 +3811,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 2252880,
+        "missionsWon": 2252886,
         "missionsLost": 164071,
-        "missionTime": 7416957309,
-        "terminidKills": 1147603133,
+        "missionTime": 7416958228,
+        "terminidKills": 1147603292,
         "automatonKills": 424,
         "illuminateKills": 0,
-        "bulletsFired": 3776807369,
-        "bulletsHit": 4558964138,
-        "timePlayed": 7416957309,
-        "deaths": 16343038,
+        "bulletsFired": 3776808503,
+        "bulletsHit": 4558965616,
+        "timePlayed": 7416958228,
+        "deaths": 16343039,
         "revives": 0,
         "friendlies": 2653409,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 6
+        "playerCount": 10
       },
       "attacking": [],
       "regions": []
@@ -3875,15 +3875,15 @@
       "event": null,
       "statistics": {
         "missionsWon": 968662,
-        "missionsLost": 33963,
-        "missionTime": 3155771136,
-        "terminidKills": 526599890,
+        "missionsLost": 33964,
+        "missionTime": 3155771539,
+        "terminidKills": 526599953,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 1678761273,
-        "bulletsHit": 2127599272,
-        "timePlayed": 3155771136,
-        "deaths": 5306918,
+        "bulletsFired": 1678761801,
+        "bulletsHit": 2127599862,
+        "timePlayed": 3155771539,
+        "deaths": 5306921,
         "revives": 0,
         "friendlies": 1022314,
         "missionSuccessRate": 96,
@@ -4111,21 +4111,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 426001,
-        "missionsLost": 62860,
-        "missionTime": 1695580583,
+        "missionsWon": 426085,
+        "missionsLost": 62880,
+        "missionTime": 1695768706,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 264863433,
-        "bulletsFired": 1229444655,
-        "bulletsHit": 1193827718,
-        "timePlayed": 1695580583,
-        "deaths": 3457857,
+        "illuminateKills": 264885683,
+        "bulletsFired": 1229551904,
+        "bulletsHit": 1193928620,
+        "timePlayed": 1695768706,
+        "deaths": 3458606,
         "revives": 0,
-        "friendlies": 567736,
+        "friendlies": 567792,
         "missionSuccessRate": 87,
         "accuracy": 97,
-        "playerCount": 277
+        "playerCount": 289
       },
       "attacking": [],
       "regions": [
@@ -4166,7 +4166,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 117
+          "players": 76
         }
       ]
     },
@@ -4218,21 +4218,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 433279,
+        "missionsWon": 433280,
         "missionsLost": 62508,
-        "missionTime": 1700640660,
+        "missionTime": 1700644389,
         "terminidKills": 1125,
         "automatonKills": 5,
-        "illuminateKills": 275111385,
-        "bulletsFired": 1310910409,
-        "bulletsHit": 1302130406,
-        "timePlayed": 1700640660,
-        "deaths": 3415366,
+        "illuminateKills": 275111908,
+        "bulletsFired": 1310911624,
+        "bulletsHit": 1302132296,
+        "timePlayed": 1700644389,
+        "deaths": 3415378,
         "revives": 0,
-        "friendlies": 560124,
+        "friendlies": 560125,
         "missionSuccessRate": 87,
         "accuracy": 99,
-        "playerCount": 7
+        "playerCount": 6
       },
       "attacking": [],
       "regions": [
@@ -4325,21 +4325,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 499330,
+        "missionsWon": 499332,
         "missionsLost": 64418,
-        "missionTime": 2002145981,
+        "missionTime": 2002150686,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 325458179,
-        "bulletsFired": 1478447362,
-        "bulletsHit": 1439314906,
-        "timePlayed": 2002145981,
-        "deaths": 3769775,
+        "illuminateKills": 325459030,
+        "bulletsFired": 1478450369,
+        "bulletsHit": 1439318088,
+        "timePlayed": 2002150686,
+        "deaths": 3769783,
         "revives": 0,
-        "friendlies": 643332,
+        "friendlies": 643334,
         "missionSuccessRate": 88,
         "accuracy": 97,
-        "playerCount": 10
+        "playerCount": 5
       },
       "attacking": [],
       "regions": [
@@ -4429,7 +4429,7 @@
         "friendlies": 64881,
         "missionSuccessRate": 88,
         "accuracy": 95,
-        "playerCount": 2
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -4492,7 +4492,7 @@
         "friendlies": 804524,
         "missionSuccessRate": 89,
         "accuracy": 96,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -4698,7 +4698,7 @@
         "friendlies": 536489,
         "missionSuccessRate": 90,
         "accuracy": 97,
-        "playerCount": 2
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -4875,21 +4875,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 1154804,
-        "missionsLost": 100162,
-        "missionTime": 4202870238,
+        "missionsWon": 1155370,
+        "missionsLost": 100219,
+        "missionTime": 4204653085,
         "terminidKills": 0,
-        "automatonKills": 363460231,
+        "automatonKills": 363605133,
         "illuminateKills": 0,
-        "bulletsFired": 1741561905,
-        "bulletsHit": 1964845824,
-        "timePlayed": 4202870238,
-        "deaths": 9354787,
+        "bulletsFired": 1742318075,
+        "bulletsHit": 1965647402,
+        "timePlayed": 4204653085,
+        "deaths": 9358501,
         "revives": 0,
-        "friendlies": 1049545,
+        "friendlies": 1050022,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 2408
+        "playerCount": 2492
       },
       "attacking": [
         42
@@ -4943,21 +4943,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 4454035,
-        "missionsLost": 344416,
-        "missionTime": 16574347403,
+        "missionsWon": 4454041,
+        "missionsLost": 344418,
+        "missionTime": 16574369026,
         "terminidKills": 0,
-        "automatonKills": 1554709876,
+        "automatonKills": 1554712109,
         "illuminateKills": 39,
-        "bulletsFired": 6728606570,
-        "bulletsHit": 7630958130,
-        "timePlayed": 16574347403,
-        "deaths": 33599315,
+        "bulletsFired": 6728620295,
+        "bulletsHit": 7630974200,
+        "timePlayed": 16574369026,
+        "deaths": 33599367,
         "revives": 0,
-        "friendlies": 4044748,
+        "friendlies": 4044749,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 55
+        "playerCount": 65
       },
       "attacking": [],
       "regions": []
@@ -5009,21 +5009,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 5387924,
-        "missionsLost": 343113,
-        "missionTime": 19079029878,
+        "missionsWon": 5388171,
+        "missionsLost": 343159,
+        "missionTime": 19079684044,
         "terminidKills": 590,
-        "automatonKills": 1612922705,
+        "automatonKills": 1612967336,
         "illuminateKills": 222,
-        "bulletsFired": 7999107159,
-        "bulletsHit": 8722677742,
-        "timePlayed": 19079029878,
-        "deaths": 39182339,
+        "bulletsFired": 7999388429,
+        "bulletsHit": 8722935894,
+        "timePlayed": 19079684044,
+        "deaths": 39184593,
         "revives": 0,
-        "friendlies": 4933143,
+        "friendlies": 4933357,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 958
+        "playerCount": 1014
       },
       "attacking": [],
       "regions": [
@@ -5038,7 +5038,7 @@
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 0.42548,
           "isAvailable": false,
-          "players": 3
+          "players": 1
         },
         {
           "id": 1,
@@ -5051,20 +5051,20 @@
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 0.54218,
           "isAvailable": false,
-          "players": 3
+          "players": 4
         },
         {
           "id": 2,
           "hash": 281317935,
           "name": null,
           "description": null,
-          "health": 100000,
+          "health": 99999,
           "maxHealth": 100000,
           "size": "Settlement",
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 326
+          "players": 377
         }
       ]
     },
@@ -5128,7 +5128,7 @@
         "friendlies": 2122043,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -5191,7 +5191,7 @@
         "friendlies": 2033859,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 3
       },
       "attacking": [],
       "regions": []
@@ -5257,7 +5257,7 @@
         "friendlies": 528551,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -5372,21 +5372,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 3335821,
+        "missionsWon": 3335822,
         "missionsLost": 221228,
-        "missionTime": 12359857298,
+        "missionTime": 12359858233,
         "terminidKills": 0,
-        "automatonKills": 1038727716,
+        "automatonKills": 1038727820,
         "illuminateKills": 277279974,
-        "bulletsFired": 5093393806,
-        "bulletsHit": 5635675268,
-        "timePlayed": 12359857298,
-        "deaths": 25498692,
+        "bulletsFired": 5093394409,
+        "bulletsHit": 5635675900,
+        "timePlayed": 12359858233,
+        "deaths": 25498697,
         "revives": 0,
         "friendlies": 2794021,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 24
+        "playerCount": 20
       },
       "attacking": [
         110,
@@ -5582,21 +5582,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 4808378,
+        "missionsWon": 4808379,
         "missionsLost": 461139,
-        "missionTime": 17282254154,
-        "terminidKills": 2480354200,
+        "missionTime": 17282258599,
+        "terminidKills": 2480354986,
         "automatonKills": 339,
         "illuminateKills": 555,
-        "bulletsFired": 9620417989,
-        "bulletsHit": 11716907912,
-        "timePlayed": 17282254154,
-        "deaths": 41365778,
+        "bulletsFired": 9620423567,
+        "bulletsHit": 11716914962,
+        "timePlayed": 17282258599,
+        "deaths": 41365786,
         "revives": 0,
         "friendlies": 6835245,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 10
+        "playerCount": 8
       },
       "attacking": [],
       "regions": []
@@ -5641,28 +5641,28 @@
         124
       ],
       "maxHealth": 1000000,
-      "health": 445917,
+      "health": 447451,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Terminids",
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 7136487,
-        "missionsLost": 497633,
-        "missionTime": 25084878596,
-        "terminidKills": 3840498253,
+        "missionsWon": 7136599,
+        "missionsLost": 497672,
+        "missionTime": 25085210647,
+        "terminidKills": 3840542728,
         "automatonKills": 0,
         "illuminateKills": 161,
-        "bulletsFired": 13694978675,
-        "bulletsHit": 16374077874,
-        "timePlayed": 25084878596,
-        "deaths": 52046229,
+        "bulletsFired": 13695194680,
+        "bulletsHit": 16374332074,
+        "timePlayed": 25085210647,
+        "deaths": 52047226,
         "revives": 0,
-        "friendlies": 8974778,
+        "friendlies": 8974852,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 1076
+        "playerCount": 1028
       },
       "attacking": [],
       "regions": []
@@ -5713,21 +5713,21 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 2603610,
-        "missionsLost": 218651,
-        "missionTime": 8973069489,
-        "terminidKills": 1267997702,
+        "missionsWon": 2605269,
+        "missionsLost": 218848,
+        "missionTime": 8977707963,
+        "terminidKills": 1268483593,
         "automatonKills": 2,
         "illuminateKills": 0,
-        "bulletsFired": 4935014423,
-        "bulletsHit": 5906683622,
-        "timePlayed": 8973069489,
-        "deaths": 20399794,
+        "bulletsFired": 4937458175,
+        "bulletsHit": 5909495338,
+        "timePlayed": 8977707963,
+        "deaths": 20411694,
         "revives": 0,
-        "friendlies": 3347566,
+        "friendlies": 3349271,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 6575
+        "playerCount": 6700
       },
       "attacking": [
         16
@@ -5782,21 +5782,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 23855772,
+        "missionsWon": 23855778,
         "missionsLost": 1899222,
-        "missionTime": 60328440643,
-        "terminidKills": 8293412912,
+        "missionTime": 60328453991,
+        "terminidKills": 8293414996,
         "automatonKills": 916,
         "illuminateKills": 0,
-        "bulletsFired": 38906359474,
-        "bulletsHit": 47196612080,
-        "timePlayed": 60328440643,
-        "deaths": 134384333,
+        "bulletsFired": 38906369407,
+        "bulletsHit": 47196624542,
+        "timePlayed": 60328453991,
+        "deaths": 134384356,
         "revives": 0,
-        "friendlies": 22901410,
+        "friendlies": 22901413,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 33
+        "playerCount": 22
       },
       "attacking": [
         169,
@@ -5880,20 +5880,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 5929008,
-        "missionsLost": 533319,
-        "missionTime": 18180014612,
-        "terminidKills": 2652787645,
+        "missionsLost": 533320,
+        "missionTime": 18180014825,
+        "terminidKills": 2652787730,
         "automatonKills": 23,
         "illuminateKills": 0,
-        "bulletsFired": 10097641076,
-        "bulletsHit": 12307525676,
-        "timePlayed": 18180014612,
-        "deaths": 38219030,
+        "bulletsFired": 10097641483,
+        "bulletsHit": 12307526196,
+        "timePlayed": 18180014825,
+        "deaths": 38219036,
         "revives": 2,
         "friendlies": 7130177,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 2
       },
       "attacking": [
         168,
@@ -5947,21 +5947,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 6407141,
-        "missionsLost": 551426,
-        "missionTime": 20408110561,
-        "terminidKills": 2858232268,
+        "missionsWon": 6407151,
+        "missionsLost": 551431,
+        "missionTime": 20408136237,
+        "terminidKills": 2858237308,
         "automatonKills": 270,
         "illuminateKills": 257,
-        "bulletsFired": 12219858484,
-        "bulletsHit": 14795908673,
-        "timePlayed": 20408110561,
-        "deaths": 50662151,
+        "bulletsFired": 12219873007,
+        "bulletsHit": 14795925877,
+        "timePlayed": 20408136237,
+        "deaths": 50662245,
         "revives": 0,
-        "friendlies": 7488335,
+        "friendlies": 7488343,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 122
+        "playerCount": 112
       },
       "attacking": [
         126
@@ -6057,7 +6057,7 @@
         "friendlies": 3099347,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 8
+        "playerCount": 10
       },
       "attacking": [],
       "regions": [
@@ -6136,21 +6136,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 931744,
-        "missionsLost": 61754,
-        "missionTime": 3265844747,
-        "terminidKills": 489373787,
+        "missionsWon": 931987,
+        "missionsLost": 61765,
+        "missionTime": 3266482011,
+        "terminidKills": 489468981,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 1792503874,
-        "bulletsHit": 2222075494,
-        "timePlayed": 3265844747,
-        "deaths": 6782920,
+        "bulletsFired": 1792838528,
+        "bulletsHit": 2222474060,
+        "timePlayed": 3266482011,
+        "deaths": 6784234,
         "revives": 0,
-        "friendlies": 1126817,
+        "friendlies": 1127001,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 900
+        "playerCount": 824
       },
       "attacking": [],
       "regions": [
@@ -6165,7 +6165,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 184
+          "players": 176
         },
         {
           "id": 1,
@@ -6178,7 +6178,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 0.79122,
           "isAvailable": false,
-          "players": 9
+          "players": 0
         }
       ]
     },
@@ -6228,18 +6228,18 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 1758849,
+        "missionsWon": 1758853,
         "missionsLost": 128575,
-        "missionTime": 6653869365,
-        "terminidKills": 1052866717,
+        "missionTime": 6653877119,
+        "terminidKills": 1052867998,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 3576178858,
-        "bulletsHit": 4498251936,
-        "timePlayed": 6653869365,
-        "deaths": 15176956,
+        "bulletsFired": 3576185483,
+        "bulletsHit": 4498260646,
+        "timePlayed": 6653877119,
+        "deaths": 15176971,
         "revives": 0,
-        "friendlies": 2228904,
+        "friendlies": 2228906,
         "missionSuccessRate": 93,
         "accuracy": 100,
         "playerCount": 23
@@ -6307,7 +6307,7 @@
         "friendlies": 433628,
         "missionSuccessRate": 90,
         "accuracy": 97,
-        "playerCount": 0
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -6370,7 +6370,7 @@
         "friendlies": 446338,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 50
+        "playerCount": 44
       },
       "attacking": [],
       "regions": []
@@ -6484,13 +6484,13 @@
       "statistics": {
         "missionsWon": 460224,
         "missionsLost": 52730,
-        "missionTime": 1856220228,
+        "missionTime": 1856220337,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 295189054,
-        "bulletsFired": 1347864116,
-        "bulletsHit": 1277679460,
-        "timePlayed": 1856220228,
+        "illuminateKills": 295189068,
+        "bulletsFired": 1347864164,
+        "bulletsHit": 1277679488,
+        "timePlayed": 1856220337,
         "deaths": 3249449,
         "revives": 0,
         "friendlies": 667199,
@@ -6547,21 +6547,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 447929,
-        "missionsLost": 71569,
-        "missionTime": 1737523958,
+        "missionsWon": 448030,
+        "missionsLost": 71600,
+        "missionTime": 1737840991,
         "terminidKills": 194,
         "automatonKills": 0,
-        "illuminateKills": 251279836,
-        "bulletsFired": 1281489475,
-        "bulletsHit": 1232074836,
-        "timePlayed": 1737523958,
-        "deaths": 3824940,
+        "illuminateKills": 251320397,
+        "bulletsFired": 1281714443,
+        "bulletsHit": 1232308622,
+        "timePlayed": 1737840991,
+        "deaths": 3826064,
         "revives": 0,
-        "friendlies": 597453,
+        "friendlies": 597562,
         "missionSuccessRate": 86,
         "accuracy": 96,
-        "playerCount": 434
+        "playerCount": 407
       },
       "attacking": [],
       "regions": [
@@ -6576,7 +6576,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.46047676,
           "isAvailable": false,
-          "players": 11
+          "players": 5
         },
         {
           "id": 1,
@@ -6589,7 +6589,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.75862515,
           "isAvailable": false,
-          "players": 7
+          "players": 24
         },
         {
           "id": 2,
@@ -6602,7 +6602,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 112
+          "players": 92
         }
       ]
     },
@@ -6652,21 +6652,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 1816206,
-        "missionsLost": 199204,
-        "missionTime": 8240289343,
+        "missionsWon": 1816208,
+        "missionsLost": 199205,
+        "missionTime": 8240293660,
         "terminidKills": 531,
         "automatonKills": 0,
-        "illuminateKills": 1373386622,
-        "bulletsFired": 5401785327,
-        "bulletsHit": 5818438528,
-        "timePlayed": 8240289343,
-        "deaths": 17990725,
+        "illuminateKills": 1373387309,
+        "bulletsFired": 5401788760,
+        "bulletsHit": 5818441128,
+        "timePlayed": 8240293660,
+        "deaths": 17990739,
         "revives": 0,
         "friendlies": 2948600,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 22
+        "playerCount": 27
       },
       "attacking": [],
       "regions": []
@@ -6717,21 +6717,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 820195,
-        "missionsLost": 130790,
-        "missionTime": 3285572201,
+        "missionsWon": 820248,
+        "missionsLost": 130798,
+        "missionTime": 3285721652,
         "terminidKills": 881,
         "automatonKills": 0,
-        "illuminateKills": 523028924,
-        "bulletsFired": 2491965627,
-        "bulletsHit": 2494674584,
-        "timePlayed": 3285572201,
-        "deaths": 6836381,
+        "illuminateKills": 523048029,
+        "bulletsFired": 2492075527,
+        "bulletsHit": 2494787080,
+        "timePlayed": 3285721652,
+        "deaths": 6836905,
         "revives": 0,
-        "friendlies": 1042930,
+        "friendlies": 1042977,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 212
+        "playerCount": 231
       },
       "attacking": [],
       "regions": [
@@ -6746,7 +6746,7 @@
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 54
+          "players": 73
         },
         {
           "id": 1,
@@ -6772,7 +6772,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 0.38332,
           "isAvailable": false,
-          "players": 2
+          "players": 0
         }
       ]
     },
@@ -6837,7 +6837,7 @@
         "friendlies": 973103,
         "missionSuccessRate": 91,
         "accuracy": 95,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [
         90,
@@ -6891,21 +6891,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 334696,
-        "missionsLost": 41633,
-        "missionTime": 1312452934,
+        "missionsWon": 334818,
+        "missionsLost": 41658,
+        "missionTime": 1312815635,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 213730661,
-        "bulletsFired": 928924705,
-        "bulletsHit": 966725276,
-        "timePlayed": 1312452934,
-        "deaths": 2801232,
+        "illuminateKills": 213775903,
+        "bulletsFired": 929134735,
+        "bulletsHit": 966933960,
+        "timePlayed": 1312815635,
+        "deaths": 2802520,
         "revives": 0,
-        "friendlies": 425178,
+        "friendlies": 425311,
         "missionSuccessRate": 88,
         "accuracy": 100,
-        "playerCount": 494
+        "playerCount": 523
       },
       "attacking": [],
       "regions": [
@@ -6920,7 +6920,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 0.71562,
           "isAvailable": false,
-          "players": 1
+          "players": 2
         },
         {
           "id": 1,
@@ -6933,7 +6933,7 @@
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 0.42218,
           "isAvailable": false,
-          "players": 1
+          "players": 0
         },
         {
           "id": 2,
@@ -6946,7 +6946,7 @@
           "regenPerSecond": 1.6666666,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 139
+          "players": 189
         }
       ]
     },
@@ -7008,7 +7008,7 @@
         "friendlies": 1178054,
         "missionSuccessRate": 88,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 5
       },
       "attacking": [
         137,
@@ -7080,7 +7080,7 @@
         "friendlies": 1143835,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 6
+        "playerCount": 10
       },
       "attacking": [],
       "regions": [
@@ -7146,21 +7146,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 993866,
-        "missionsLost": 193102,
-        "missionTime": 3832047772,
+        "missionsWon": 993867,
+        "missionsLost": 193103,
+        "missionTime": 3832048758,
         "terminidKills": 1912,
         "automatonKills": 438,
-        "illuminateKills": 602787050,
-        "bulletsFired": 2785570249,
-        "bulletsHit": 2775822428,
-        "timePlayed": 3832047772,
-        "deaths": 8851955,
+        "illuminateKills": 602787282,
+        "bulletsFired": 2785571716,
+        "bulletsHit": 2775824380,
+        "timePlayed": 3832048758,
+        "deaths": 8851963,
         "revives": 0,
         "friendlies": 1332583,
         "missionSuccessRate": 83,
         "accuracy": 99,
-        "playerCount": 14
+        "playerCount": 8
       },
       "attacking": [],
       "regions": [
@@ -7301,19 +7301,19 @@
       "statistics": {
         "missionsWon": 4571419,
         "missionsLost": 914945,
-        "missionTime": 18914625075,
+        "missionTime": 18914625594,
         "terminidKills": 2343871,
         "automatonKills": 0,
-        "illuminateKills": 3125247588,
-        "bulletsFired": 14920461427,
-        "bulletsHit": 14670612372,
-        "timePlayed": 18914625075,
-        "deaths": 38783895,
+        "illuminateKills": 3125247680,
+        "bulletsFired": 14920461864,
+        "bulletsHit": 14670612802,
+        "timePlayed": 18914625594,
+        "deaths": 38783900,
         "revives": 0,
         "friendlies": 6558101,
         "missionSuccessRate": 83,
         "accuracy": 98,
-        "playerCount": 20
+        "playerCount": 13
       },
       "attacking": [],
       "regions": []
@@ -7376,7 +7376,7 @@
         "friendlies": 760704,
         "missionSuccessRate": 87,
         "accuracy": 96,
-        "playerCount": 1
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -7505,7 +7505,7 @@
         "friendlies": 5359825,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 6
+        "playerCount": 10
       },
       "attacking": [],
       "regions": [
@@ -7671,7 +7671,7 @@
         "friendlies": 583572,
         "missionSuccessRate": 90,
         "accuracy": 96,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -7939,21 +7939,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 1749016,
-        "missionsLost": 88734,
-        "missionTime": 6479091605,
+        "missionsWon": 1749017,
+        "missionsLost": 88735,
+        "missionTime": 6479096241,
         "terminidKills": 0,
-        "automatonKills": 701394745,
+        "automatonKills": 701395201,
         "illuminateKills": 442,
-        "bulletsFired": 2438013899,
-        "bulletsHit": 2815646072,
-        "timePlayed": 6479091605,
-        "deaths": 12529175,
+        "bulletsFired": 2438016022,
+        "bulletsHit": 2815648102,
+        "timePlayed": 6479096241,
+        "deaths": 12529194,
         "revives": 0,
-        "friendlies": 1802439,
+        "friendlies": 1802441,
         "missionSuccessRate": 95,
         "accuracy": 100,
-        "playerCount": 11
+        "playerCount": 10
       },
       "attacking": [
         111
@@ -8021,7 +8021,7 @@
         "friendlies": 1148326,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -8111,7 +8111,7 @@
         "friendlies": 289791,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 3
       },
       "attacking": [
         65
@@ -8178,7 +8178,7 @@
         "friendlies": 526785,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -8229,18 +8229,18 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 3203644,
-        "missionsLost": 217610,
-        "missionTime": 11724178850,
+        "missionsWon": 3203699,
+        "missionsLost": 217616,
+        "missionTime": 11724295608,
         "terminidKills": 0,
-        "automatonKills": 1159501105,
+        "automatonKills": 1159509894,
         "illuminateKills": 0,
-        "bulletsFired": 4740840927,
-        "bulletsHit": 5363444942,
-        "timePlayed": 11724178850,
-        "deaths": 24532307,
+        "bulletsFired": 4740886524,
+        "bulletsHit": 5363488680,
+        "timePlayed": 11724295608,
+        "deaths": 24532595,
         "revives": 0,
-        "friendlies": 2777547,
+        "friendlies": 2777570,
         "missionSuccessRate": 93,
         "accuracy": 100,
         "playerCount": 194
@@ -8258,7 +8258,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.6977,
           "isAvailable": false,
-          "players": 0
+          "players": 1
         },
         {
           "id": 1,
@@ -8271,7 +8271,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 32
+          "players": 37
         }
       ]
     },
@@ -8322,21 +8322,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 1552913,
-        "missionsLost": 97902,
-        "missionTime": 5173077571,
+        "missionsWon": 1553100,
+        "missionsLost": 97912,
+        "missionTime": 5173556767,
         "terminidKills": 0,
-        "automatonKills": 493217238,
+        "automatonKills": 493249795,
         "illuminateKills": 0,
-        "bulletsFired": 2041015807,
-        "bulletsHit": 2282468964,
-        "timePlayed": 5173077571,
-        "deaths": 10570549,
+        "bulletsFired": 2041172579,
+        "bulletsHit": 2282624004,
+        "timePlayed": 5173556767,
+        "deaths": 10571369,
         "revives": 0,
-        "friendlies": 1160681,
+        "friendlies": 1160768,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 791
+        "playerCount": 784
       },
       "attacking": [],
       "regions": []
@@ -8389,21 +8389,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 14965901,
+        "missionsWon": 14965906,
         "missionsLost": 1672196,
-        "missionTime": 55631533698,
+        "missionTime": 55631541861,
         "terminidKills": 742,
-        "automatonKills": 4614616202,
+        "automatonKills": 4614616907,
         "illuminateKills": 0,
-        "bulletsFired": 24358871647,
-        "bulletsHit": 26124583624,
-        "timePlayed": 55631533698,
-        "deaths": 124044320,
+        "bulletsFired": 24358873536,
+        "bulletsHit": 26124585394,
+        "timePlayed": 55631541861,
+        "deaths": 124044333,
         "revives": 0,
-        "friendlies": 13640823,
+        "friendlies": 13640824,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 34
+        "playerCount": 32
       },
       "attacking": [],
       "regions": [
@@ -8493,20 +8493,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 6563872,
-        "missionsLost": 550105,
-        "missionTime": 21805758184,
+        "missionsLost": 550106,
+        "missionTime": 21805758953,
         "terminidKills": 503,
-        "automatonKills": 1701897612,
+        "automatonKills": 1701897662,
         "illuminateKills": 0,
-        "bulletsFired": 8942889315,
-        "bulletsHit": 9429997086,
-        "timePlayed": 21805758184,
-        "deaths": 50674864,
+        "bulletsFired": 8942889702,
+        "bulletsHit": 9429997572,
+        "timePlayed": 21805758953,
+        "deaths": 50674871,
         "revives": 0,
         "friendlies": 5670967,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 15
+        "playerCount": 14
       },
       "attacking": [],
       "regions": []
@@ -8664,7 +8664,7 @@
         "friendlies": 3499138,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -8715,21 +8715,21 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 9255410,
+        "missionsWon": 9255412,
         "missionsLost": 752444,
-        "missionTime": 32713237344,
+        "missionTime": 32713239232,
         "terminidKills": 592,
-        "automatonKills": 3069460051,
+        "automatonKills": 3069460387,
         "illuminateKills": 85,
-        "bulletsFired": 12662584716,
-        "bulletsHit": 13806243858,
-        "timePlayed": 32713237344,
-        "deaths": 79241295,
+        "bulletsFired": 12662586029,
+        "bulletsHit": 13806245164,
+        "timePlayed": 32713239232,
+        "deaths": 79241299,
         "revives": 0,
         "friendlies": 8698981,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 31
+        "playerCount": 30
       },
       "attacking": [
         194
@@ -8810,21 +8810,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 7579741,
-        "missionsLost": 387765,
-        "missionTime": 26425379114,
+        "missionsWon": 7579800,
+        "missionsLost": 387768,
+        "missionTime": 26425548547,
         "terminidKills": 716,
-        "automatonKills": 2453916648,
+        "automatonKills": 2453929959,
         "illuminateKills": 205,
-        "bulletsFired": 10371667546,
-        "bulletsHit": 11811277772,
-        "timePlayed": 26425379114,
-        "deaths": 50894302,
+        "bulletsFired": 10371733740,
+        "bulletsHit": 11811346640,
+        "timePlayed": 26425548547,
+        "deaths": 50894678,
         "revives": 0,
-        "friendlies": 6069933,
+        "friendlies": 6069985,
         "missionSuccessRate": 95,
         "accuracy": 100,
-        "playerCount": 213
+        "playerCount": 238
       },
       "attacking": [],
       "regions": [
@@ -8839,7 +8839,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 43
+          "players": 42
         }
       ]
     },
@@ -9155,7 +9155,7 @@
         "friendlies": 2225114,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -9220,7 +9220,7 @@
         "friendlies": 2341936,
         "missionSuccessRate": 87,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -9262,28 +9262,28 @@
       },
       "waypoints": [],
       "maxHealth": 1000000,
-      "health": 603852,
+      "health": 606094,
       "disabled": false,
       "initialOwner": "Humans",
       "currentOwner": "Terminids",
       "regenPerSecond": 1.9444444,
       "event": null,
       "statistics": {
-        "missionsWon": 7633865,
-        "missionsLost": 639119,
-        "missionTime": 26869785664,
-        "terminidKills": 4080478520,
+        "missionsWon": 7633872,
+        "missionsLost": 639121,
+        "missionTime": 26869801176,
+        "terminidKills": 4080480469,
         "automatonKills": 82,
         "illuminateKills": 0,
-        "bulletsFired": 15251202784,
-        "bulletsHit": 18179965930,
-        "timePlayed": 26869785664,
-        "deaths": 60983821,
+        "bulletsFired": 15251212981,
+        "bulletsHit": 18179977368,
+        "timePlayed": 26869801176,
+        "deaths": 60983863,
         "revives": 0,
-        "friendlies": 10090199,
+        "friendlies": 10090200,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 117
+        "playerCount": 92
       },
       "attacking": [],
       "regions": []
@@ -9332,21 +9332,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 17750573,
+        "missionsWon": 17750577,
         "missionsLost": 1373877,
-        "missionTime": 48994680212,
-        "terminidKills": 6728199183,
+        "missionTime": 48994684835,
+        "terminidKills": 6728199881,
         "automatonKills": 93142,
         "illuminateKills": 270936065,
-        "bulletsFired": 30103711713,
-        "bulletsHit": 33349928159,
-        "timePlayed": 48994680212,
-        "deaths": 110600194,
+        "bulletsFired": 30103713966,
+        "bulletsHit": 33349930937,
+        "timePlayed": 48994684835,
+        "deaths": 110600208,
         "revives": 0,
         "friendlies": 18418192,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 34
+        "playerCount": 23
       },
       "attacking": [
         34,
@@ -9440,21 +9440,21 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 19923274,
-        "missionsLost": 1349510,
-        "missionTime": 40719439503,
-        "terminidKills": 5279661155,
+        "missionsWon": 19923701,
+        "missionsLost": 1349530,
+        "missionTime": 40720595456,
+        "terminidKills": 5279834664,
         "automatonKills": 52821,
         "illuminateKills": 177347327,
-        "bulletsFired": 25566887766,
-        "bulletsHit": 26817344832,
-        "timePlayed": 40719439503,
-        "deaths": 101610516,
+        "bulletsFired": 25567490738,
+        "bulletsHit": 26818059748,
+        "timePlayed": 40720595456,
+        "deaths": 101612838,
         "revives": 0,
-        "friendlies": 16524613,
+        "friendlies": 16525013,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 1627
+        "playerCount": 1680
       },
       "attacking": [],
       "regions": [
@@ -9469,7 +9469,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 0.43852,
           "isAvailable": false,
-          "players": 0
+          "players": 1
         },
         {
           "id": 1,
@@ -9482,7 +9482,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 414
+          "players": 404
         },
         {
           "id": 2,
@@ -9495,7 +9495,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 0.64472,
           "isAvailable": false,
-          "players": 4
+          "players": 0
         }
       ]
     },
@@ -9557,7 +9557,7 @@
         "friendlies": 4949398,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 48
+        "playerCount": 37
       },
       "attacking": [],
       "regions": []
@@ -9608,21 +9608,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 3853079,
-        "missionsLost": 364542,
-        "missionTime": 13257593646,
-        "terminidKills": 1926290930,
+        "missionsWon": 3853267,
+        "missionsLost": 364552,
+        "missionTime": 13258082375,
+        "terminidKills": 1926351350,
         "automatonKills": 41,
         "illuminateKills": 8,
-        "bulletsFired": 7234150760,
-        "bulletsHit": 8639162912,
-        "timePlayed": 13257593646,
-        "deaths": 31108373,
+        "bulletsFired": 7234360289,
+        "bulletsHit": 8639401492,
+        "timePlayed": 13258082375,
+        "deaths": 31109348,
         "revives": 0,
-        "friendlies": 4981341,
+        "friendlies": 4981462,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 646
+        "playerCount": 658
       },
       "attacking": [],
       "regions": [
@@ -9637,7 +9637,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 106
+          "players": 101
         }
       ]
     },
@@ -9690,20 +9690,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 8984821,
-        "missionsLost": 638457,
-        "missionTime": 33181933465,
-        "terminidKills": 4883410916,
+        "missionsLost": 638458,
+        "missionTime": 33181934657,
+        "terminidKills": 4883411057,
         "automatonKills": 72,
         "illuminateKills": 0,
-        "bulletsFired": 18648104462,
-        "bulletsHit": 22719241188,
-        "timePlayed": 33181933465,
-        "deaths": 70775859,
+        "bulletsFired": 18648105359,
+        "bulletsHit": 22719242294,
+        "timePlayed": 33181934657,
+        "deaths": 70775867,
         "revives": 0,
         "friendlies": 12577999,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 12
+        "playerCount": 28
       },
       "attacking": [
         128,
@@ -9785,21 +9785,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 3144335,
-        "missionsLost": 232781,
-        "missionTime": 11888315737,
-        "terminidKills": 1616452298,
+        "missionsWon": 3144336,
+        "missionsLost": 232782,
+        "missionTime": 11888319437,
+        "terminidKills": 1616452793,
         "automatonKills": 200,
         "illuminateKills": 344884828,
-        "bulletsFired": 6935780186,
-        "bulletsHit": 7969351942,
-        "timePlayed": 11888315737,
-        "deaths": 23634681,
+        "bulletsFired": 6935781224,
+        "bulletsHit": 7969353266,
+        "timePlayed": 11888319437,
+        "deaths": 23634693,
         "revives": 0,
-        "friendlies": 4386241,
+        "friendlies": 4386243,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 18
+        "playerCount": 21
       },
       "attacking": [],
       "regions": [
@@ -9891,21 +9891,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 8616625,
-        "missionsLost": 465018,
-        "missionTime": 29237774288,
-        "terminidKills": 4773701354,
+        "missionsWon": 8616635,
+        "missionsLost": 465019,
+        "missionTime": 29237794180,
+        "terminidKills": 4773705026,
         "automatonKills": 112,
         "illuminateKills": 0,
-        "bulletsFired": 15408319567,
-        "bulletsHit": 18464745076,
-        "timePlayed": 29237774288,
-        "deaths": 58931317,
+        "bulletsFired": 15408334340,
+        "bulletsHit": 18464763964,
+        "timePlayed": 29237794180,
+        "deaths": 58931373,
         "revives": 0,
-        "friendlies": 9614919,
+        "friendlies": 9614924,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 41
+        "playerCount": 52
       },
       "attacking": [],
       "regions": [
@@ -10134,7 +10134,7 @@
         "friendlies": 612883,
         "missionSuccessRate": 89,
         "accuracy": 98,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -10187,20 +10187,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 20938,
-        "missionsLost": 4178,
-        "missionTime": 63725209,
+        "missionsLost": 4179,
+        "missionTime": 63726717,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 8098373,
-        "bulletsFired": 41579716,
-        "bulletsHit": 42001068,
-        "timePlayed": 63725209,
-        "deaths": 173550,
+        "illuminateKills": 8098488,
+        "bulletsFired": 41580198,
+        "bulletsHit": 42001512,
+        "timePlayed": 63726717,
+        "deaths": 173556,
         "revives": 0,
         "friendlies": 16458,
         "missionSuccessRate": 83,
         "accuracy": 100,
-        "playerCount": 4
+        "playerCount": 1
       },
       "attacking": [],
       "regions": [
@@ -10294,7 +10294,7 @@
         "friendlies": 1138161,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 7
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -10346,21 +10346,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 233903,
-        "missionsLost": 36557,
-        "missionTime": 823842028,
+        "missionsWon": 233907,
+        "missionsLost": 36558,
+        "missionTime": 823848937,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 137276315,
-        "bulletsFired": 556456490,
-        "bulletsHit": 611448272,
-        "timePlayed": 823842028,
-        "deaths": 2044825,
+        "illuminateKills": 137277086,
+        "bulletsFired": 556458758,
+        "bulletsHit": 611450766,
+        "timePlayed": 823848937,
+        "deaths": 2044848,
         "revives": 0,
         "friendlies": 301234,
         "missionSuccessRate": 86,
         "accuracy": 100,
-        "playerCount": 26
+        "playerCount": 37
       },
       "attacking": [],
       "regions": []
@@ -10413,21 +10413,21 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 1719308,
-        "missionsLost": 246695,
-        "missionTime": 6306182878,
+        "missionsWon": 1719342,
+        "missionsLost": 246706,
+        "missionTime": 6306274445,
         "terminidKills": 1140,
         "automatonKills": 139,
-        "illuminateKills": 1007411047,
-        "bulletsFired": 4396246223,
-        "bulletsHit": 4699865802,
-        "timePlayed": 6306182878,
-        "deaths": 16520377,
+        "illuminateKills": 1007421936,
+        "bulletsFired": 4396304219,
+        "bulletsHit": 4699919778,
+        "timePlayed": 6306274445,
+        "deaths": 16520724,
         "revives": 0,
-        "friendlies": 2164059,
+        "friendlies": 2164079,
         "missionSuccessRate": 87,
         "accuracy": 100,
-        "playerCount": 136
+        "playerCount": 125
       },
       "attacking": [],
       "regions": [
@@ -10442,7 +10442,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 31
+          "players": 42
         },
         {
           "id": 1,
@@ -10481,7 +10481,7 @@
           "regenPerSecond": 1.6666666,
           "availabilityFactor": 0.25306,
           "isAvailable": false,
-          "players": 3
+          "players": 1
         }
       ]
     },
@@ -10531,18 +10531,18 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 2354155,
-        "missionsLost": 317331,
-        "missionTime": 9234939315,
+        "missionsWon": 2354169,
+        "missionsLost": 317337,
+        "missionTime": 9234972343,
         "terminidKills": 42,
         "automatonKills": 89,
-        "illuminateKills": 1498708649,
-        "bulletsFired": 6357135879,
-        "bulletsHit": 6711769574,
-        "timePlayed": 9234939315,
-        "deaths": 21818632,
+        "illuminateKills": 1498711684,
+        "bulletsFired": 6357156781,
+        "bulletsHit": 6711788796,
+        "timePlayed": 9234972343,
+        "deaths": 21818767,
         "revives": 0,
-        "friendlies": 3237903,
+        "friendlies": 3237913,
         "missionSuccessRate": 88,
         "accuracy": 100,
         "playerCount": 52
@@ -10573,7 +10573,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 17
+          "players": 20
         },
         {
           "id": 2,
@@ -10663,7 +10663,7 @@
         "friendlies": 148751,
         "missionSuccessRate": 81,
         "accuracy": 98,
-        "playerCount": 3
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -10726,7 +10726,7 @@
         "friendlies": 685303,
         "missionSuccessRate": 92,
         "accuracy": 98,
-        "playerCount": 1
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -10789,7 +10789,7 @@
         "friendlies": 736049,
         "missionSuccessRate": 90,
         "accuracy": 99,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": [
@@ -10866,7 +10866,7 @@
         "friendlies": 584152,
         "missionSuccessRate": 86,
         "accuracy": 94,
-        "playerCount": 0
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -10929,7 +10929,7 @@
         "friendlies": 1543888,
         "missionSuccessRate": 88,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -11055,7 +11055,7 @@
         "friendlies": 708182,
         "missionSuccessRate": 90,
         "accuracy": 97,
-        "playerCount": 3
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -11118,7 +11118,7 @@
         "friendlies": 450153,
         "missionSuccessRate": 89,
         "accuracy": 97,
-        "playerCount": 4
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -11181,7 +11181,7 @@
         "friendlies": 189720,
         "missionSuccessRate": 87,
         "accuracy": 96,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -11477,7 +11477,7 @@
         "friendlies": 3648710,
         "missionSuccessRate": 91,
         "accuracy": 95,
-        "playerCount": 4
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -11529,20 +11529,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 5298824,
-        "missionsLost": 661337,
-        "missionTime": 4427164401,
+        "missionsLost": 661339,
+        "missionTime": 4427166113,
         "terminidKills": 519,
-        "automatonKills": 345047306,
+        "automatonKills": 345047526,
         "illuminateKills": 0,
-        "bulletsFired": 2499514931,
-        "bulletsHit": 2459595746,
-        "timePlayed": 4427164401,
-        "deaths": 21585061,
+        "bulletsFired": 2499516212,
+        "bulletsHit": 2459597068,
+        "timePlayed": 4427166113,
+        "deaths": 21585068,
         "revives": 0,
         "friendlies": 2110246,
         "missionSuccessRate": 88,
         "accuracy": 98,
-        "playerCount": 9
+        "playerCount": 2
       },
       "attacking": [],
       "regions": [
@@ -11635,7 +11635,7 @@
         "friendlies": 1782465,
         "missionSuccessRate": 95,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 4
       },
       "attacking": [],
       "regions": [
@@ -11714,7 +11714,7 @@
         "friendlies": 1089879,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -11807,21 +11807,21 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 2051804,
+        "missionsWon": 2051806,
         "missionsLost": 184668,
-        "missionTime": 6751190782,
+        "missionTime": 6751192483,
         "terminidKills": 0,
-        "automatonKills": 585121999,
+        "automatonKills": 585122314,
         "illuminateKills": 0,
-        "bulletsFired": 2689008037,
-        "bulletsHit": 2888225902,
-        "timePlayed": 6751190782,
-        "deaths": 16212875,
+        "bulletsFired": 2689008622,
+        "bulletsHit": 2888226672,
+        "timePlayed": 6751192483,
+        "deaths": 16212885,
         "revives": 0,
         "friendlies": 1626751,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 10
+        "playerCount": 12
       },
       "attacking": [
         158,
@@ -11878,21 +11878,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 3073886,
-        "missionsLost": 217734,
-        "missionTime": 10448982528,
+        "missionsWon": 3074032,
+        "missionsLost": 217745,
+        "missionTime": 10449357775,
         "terminidKills": 0,
-        "automatonKills": 989001624,
+        "automatonKills": 989027871,
         "illuminateKills": 0,
-        "bulletsFired": 4372814082,
-        "bulletsHit": 4850636406,
-        "timePlayed": 10448982528,
-        "deaths": 20914703,
+        "bulletsFired": 4372952487,
+        "bulletsHit": 4850770346,
+        "timePlayed": 10449357775,
+        "deaths": 20915444,
         "revives": 0,
-        "friendlies": 2327033,
+        "friendlies": 2327118,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 543
+        "playerCount": 521
       },
       "attacking": [],
       "regions": []
@@ -11944,21 +11944,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 3368192,
-        "missionsLost": 267104,
-        "missionTime": 11228104240,
+        "missionsWon": 3368264,
+        "missionsLost": 267110,
+        "missionTime": 11228276733,
         "terminidKills": 0,
-        "automatonKills": 922644126,
+        "automatonKills": 922657375,
         "illuminateKills": 0,
-        "bulletsFired": 4718074209,
-        "bulletsHit": 4972597626,
-        "timePlayed": 11228104240,
-        "deaths": 24515121,
+        "bulletsFired": 4718146875,
+        "bulletsHit": 4972670944,
+        "timePlayed": 11228276733,
+        "deaths": 24515467,
         "revives": 0,
-        "friendlies": 2466294,
+        "friendlies": 2466346,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 256
+        "playerCount": 260
       },
       "attacking": [],
       "regions": [
@@ -11986,7 +11986,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 47
+          "players": 43
         },
         {
           "id": 2,
@@ -12050,21 +12050,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 2458749,
+        "missionsWon": 2458750,
         "missionsLost": 220566,
-        "missionTime": 8604594682,
+        "missionTime": 8604597060,
         "terminidKills": 0,
-        "automatonKills": 706778485,
+        "automatonKills": 706778688,
         "illuminateKills": 0,
-        "bulletsFired": 3350897615,
-        "bulletsHit": 3590832286,
-        "timePlayed": 8604594682,
-        "deaths": 19003745,
+        "bulletsFired": 3350898097,
+        "bulletsHit": 3590832732,
+        "timePlayed": 8604597060,
+        "deaths": 19003748,
         "revives": 0,
         "friendlies": 2096227,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -12127,7 +12127,7 @@
         "friendlies": 3101750,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 6
+        "playerCount": 4
       },
       "attacking": [],
       "regions": []
@@ -12179,21 +12179,21 @@
       "regenPerSecond": 1.3888888,
       "event": null,
       "statistics": {
-        "missionsWon": 7697574,
+        "missionsWon": 7697580,
         "missionsLost": 524280,
-        "missionTime": 28991952004,
+        "missionTime": 28991958844,
         "terminidKills": 269,
-        "automatonKills": 2704827729,
+        "automatonKills": 2704828481,
         "illuminateKills": 45152009,
-        "bulletsFired": 11920666143,
-        "bulletsHit": 13487353300,
-        "timePlayed": 28991952004,
-        "deaths": 60520852,
+        "bulletsFired": 11920668270,
+        "bulletsHit": 13487355762,
+        "timePlayed": 28991958844,
+        "deaths": 60520872,
         "revives": 0,
         "friendlies": 6076582,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 81
+        "playerCount": 80
       },
       "attacking": [
         117,
@@ -12287,21 +12287,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 1559672,
-        "missionsLost": 171635,
-        "missionTime": 5188051451,
+        "missionsWon": 1559695,
+        "missionsLost": 171637,
+        "missionTime": 5188116027,
         "terminidKills": 524,
-        "automatonKills": 396841201,
+        "automatonKills": 396846500,
         "illuminateKills": 0,
-        "bulletsFired": 2249769757,
-        "bulletsHit": 2340590242,
-        "timePlayed": 5188051451,
-        "deaths": 12621170,
+        "bulletsFired": 2249800839,
+        "bulletsHit": 2340623596,
+        "timePlayed": 5188116027,
+        "deaths": 12621331,
         "revives": 0,
-        "friendlies": 1299222,
+        "friendlies": 1299240,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 105
+        "playerCount": 96
       },
       "attacking": [],
       "regions": [
@@ -12316,7 +12316,7 @@
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 21
+          "players": 26
         },
         {
           "id": 1,
@@ -12404,7 +12404,7 @@
         "friendlies": 567223,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -12713,21 +12713,21 @@
       "regenPerSecond": 6.9444447,
       "event": null,
       "statistics": {
-        "missionsWon": 20805550,
-        "missionsLost": 1767767,
-        "missionTime": 60565185142,
-        "terminidKills": 8660614841,
+        "missionsWon": 20806507,
+        "missionsLost": 1767830,
+        "missionTime": 60567794527,
+        "terminidKills": 8660939485,
         "automatonKills": 0,
         "illuminateKills": 77856828,
-        "bulletsFired": 35857056503,
-        "bulletsHit": 43216540361,
-        "timePlayed": 60565185142,
-        "deaths": 150077763,
+        "bulletsFired": 35858201774,
+        "bulletsHit": 43217820191,
+        "timePlayed": 60567794527,
+        "deaths": 150082951,
         "revives": 0,
-        "friendlies": 23689404,
+        "friendlies": 23690240,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 4764
+        "playerCount": 4746
       },
       "attacking": [],
       "regions": [
@@ -12742,7 +12742,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.61592,
           "isAvailable": false,
-          "players": 4
+          "players": 1
         },
         {
           "id": 1,
@@ -12755,7 +12755,7 @@
           "regenPerSecond": 0.2777778,
           "availabilityFactor": 0.30272,
           "isAvailable": false,
-          "players": 1
+          "players": 2
         },
         {
           "id": 2,
@@ -12768,7 +12768,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 564
+          "players": 568
         }
       ]
     },
@@ -12818,21 +12818,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 29543842,
-        "missionsLost": 2949387,
-        "missionTime": 76742233936,
-        "terminidKills": 10603311811,
+        "missionsWon": 29544299,
+        "missionsLost": 2949403,
+        "missionTime": 76743484645,
+        "terminidKills": 10603498987,
         "automatonKills": 809,
         "illuminateKills": 0,
-        "bulletsFired": 48482938746,
-        "bulletsHit": 58438530234,
-        "timePlayed": 76742233936,
-        "deaths": 171436926,
+        "bulletsFired": 48483474775,
+        "bulletsHit": 58439153738,
+        "timePlayed": 76743484645,
+        "deaths": 171438900,
         "revives": 0,
-        "friendlies": 31245702,
+        "friendlies": 31246109,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 1983
+        "playerCount": 1937
       },
       "attacking": [],
       "regions": []
@@ -12885,20 +12885,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 22396430,
-        "missionsLost": 2226561,
-        "missionTime": 67955902093,
-        "terminidKills": 9805973907,
+        "missionsLost": 2226563,
+        "missionTime": 67955906554,
+        "terminidKills": 9805974722,
         "automatonKills": 292,
         "illuminateKills": 171,
-        "bulletsFired": 44246732589,
-        "bulletsHit": 53027150842,
-        "timePlayed": 67955902093,
-        "deaths": 156708992,
+        "bulletsFired": 44246736330,
+        "bulletsHit": 53027155692,
+        "timePlayed": 67955906554,
+        "deaths": 156709009,
         "revives": 0,
-        "friendlies": 25481679,
+        "friendlies": 25481680,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 18
+        "playerCount": 15
       },
       "attacking": [],
       "regions": []
@@ -12949,21 +12949,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 9278199,
-        "missionsLost": 749900,
-        "missionTime": 33480515963,
-        "terminidKills": 4657279791,
+        "missionsWon": 9278203,
+        "missionsLost": 749901,
+        "missionTime": 33480523301,
+        "terminidKills": 4657280926,
         "automatonKills": 8,
         "illuminateKills": 0,
-        "bulletsFired": 19632594322,
-        "bulletsHit": 23531848248,
-        "timePlayed": 33480515963,
-        "deaths": 76745581,
+        "bulletsFired": 19632598509,
+        "bulletsHit": 23531852862,
+        "timePlayed": 33480523301,
+        "deaths": 76745604,
         "revives": 0,
         "friendlies": 12694622,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 24
+        "playerCount": 18
       },
       "attacking": [
         170,
@@ -13019,21 +13019,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 4158155,
+        "missionsWon": 4158156,
         "missionsLost": 341809,
-        "missionTime": 13930973829,
-        "terminidKills": 2053663011,
+        "missionTime": 13930976439,
+        "terminidKills": 2053663357,
         "automatonKills": 19,
         "illuminateKills": 383,
-        "bulletsFired": 7334651105,
-        "bulletsHit": 8663860868,
-        "timePlayed": 13930973829,
-        "deaths": 31978347,
+        "bulletsFired": 7334651929,
+        "bulletsHit": 8663862110,
+        "timePlayed": 13930976439,
+        "deaths": 31978355,
         "revives": 0,
-        "friendlies": 5592425,
+        "friendlies": 5592427,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 21
+        "playerCount": 16
       },
       "attacking": [],
       "regions": []
@@ -13085,21 +13085,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 10085528,
-        "missionsLost": 595748,
-        "missionTime": 35496435679,
-        "terminidKills": 5461223931,
+        "missionsWon": 10085543,
+        "missionsLost": 595753,
+        "missionTime": 35496471613,
+        "terminidKills": 5461230060,
         "automatonKills": 96,
         "illuminateKills": 0,
-        "bulletsFired": 19890649709,
-        "bulletsHit": 24079522734,
-        "timePlayed": 35496435679,
-        "deaths": 67405416,
+        "bulletsFired": 19890669512,
+        "bulletsHit": 24079547016,
+        "timePlayed": 35496471613,
+        "deaths": 67405482,
         "revives": 0,
-        "friendlies": 11939938,
+        "friendlies": 11939949,
         "missionSuccessRate": 94,
         "accuracy": 100,
-        "playerCount": 115
+        "playerCount": 112
       },
       "attacking": [],
       "regions": [
@@ -13189,7 +13189,7 @@
         "friendlies": 1208236,
         "missionSuccessRate": 89,
         "accuracy": 97,
-        "playerCount": 1
+        "playerCount": 4
       },
       "attacking": [],
       "regions": []
@@ -13241,21 +13241,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 2118195,
-        "missionsLost": 174017,
-        "missionTime": 7074236769,
-        "terminidKills": 933900935,
+        "missionsWon": 2118579,
+        "missionsLost": 174029,
+        "missionTime": 7075394472,
+        "terminidKills": 933990175,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 3144638243,
-        "bulletsHit": 3723740900,
-        "timePlayed": 7074236769,
-        "deaths": 14681828,
+        "bulletsFired": 3144929330,
+        "bulletsHit": 3724050580,
+        "timePlayed": 7075394472,
+        "deaths": 14683485,
         "revives": 0,
-        "friendlies": 2394980,
+        "friendlies": 2395309,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 1970
+        "playerCount": 1874
       },
       "attacking": [],
       "regions": []
@@ -13318,7 +13318,7 @@
         "friendlies": 1014331,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 4
       },
       "attacking": [],
       "regions": []
@@ -13446,7 +13446,7 @@
         "friendlies": 1182848,
         "missionSuccessRate": 87,
         "accuracy": 98,
-        "playerCount": 5
+        "playerCount": 6
       },
       "attacking": [],
       "regions": []
@@ -13561,21 +13561,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 100745,
-        "missionsLost": 18496,
-        "missionTime": 336578317,
+        "missionsWon": 100768,
+        "missionsLost": 18504,
+        "missionTime": 336630029,
         "terminidKills": 0,
         "automatonKills": 0,
-        "illuminateKills": 49400636,
-        "bulletsFired": 213503744,
-        "bulletsHit": 212132994,
-        "timePlayed": 336578317,
-        "deaths": 837927,
+        "illuminateKills": 49406169,
+        "bulletsFired": 213534447,
+        "bulletsHit": 212164324,
+        "timePlayed": 336630029,
+        "deaths": 838108,
         "revives": 0,
-        "friendlies": 100917,
+        "friendlies": 100931,
         "missionSuccessRate": 84,
         "accuracy": 99,
-        "playerCount": 93
+        "playerCount": 95
       },
       "attacking": [],
       "regions": []
@@ -13638,7 +13638,7 @@
         "friendlies": 1203005,
         "missionSuccessRate": 91,
         "accuracy": 98,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -13703,7 +13703,7 @@
         "friendlies": 533435,
         "missionSuccessRate": 88,
         "accuracy": 97,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -13766,7 +13766,7 @@
         "friendlies": 1082470,
         "missionSuccessRate": 90,
         "accuracy": 97,
-        "playerCount": 4
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -13833,7 +13833,7 @@
         "friendlies": 1066494,
         "missionSuccessRate": 85,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 7
       },
       "attacking": [],
       "regions": []
@@ -13961,7 +13961,7 @@
         "friendlies": 1464372,
         "missionSuccessRate": 91,
         "accuracy": 97,
-        "playerCount": 4
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -14024,7 +14024,7 @@
         "friendlies": 287498,
         "missionSuccessRate": 89,
         "accuracy": 94,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -14213,7 +14213,7 @@
         "friendlies": 700094,
         "missionSuccessRate": 90,
         "accuracy": 96,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -14458,21 +14458,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 13334801,
-        "missionsLost": 1176798,
-        "missionTime": 49516795809,
+        "missionsWon": 13334874,
+        "missionsLost": 1176804,
+        "missionTime": 49516963068,
         "terminidKills": 212,
-        "automatonKills": 4009938597,
+        "automatonKills": 4009951787,
         "illuminateKills": 0,
-        "bulletsFired": 20607059588,
-        "bulletsHit": 21967776786,
-        "timePlayed": 49516795809,
-        "deaths": 107972904,
+        "bulletsFired": 20607117597,
+        "bulletsHit": 21967835188,
+        "timePlayed": 49516963068,
+        "deaths": 107973154,
         "revives": 0,
-        "friendlies": 11242271,
+        "friendlies": 11242300,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 330
+        "playerCount": 327
       },
       "attacking": [],
       "regions": [
@@ -14487,7 +14487,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 0.74242,
           "isAvailable": false,
-          "players": 0
+          "players": 1
         },
         {
           "id": 1,
@@ -14526,7 +14526,7 @@
           "regenPerSecond": 1.6666666,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 33
+          "players": 37
         }
       ]
     },
@@ -14591,7 +14591,7 @@
         "friendlies": 2620125,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -14819,20 +14819,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 8697374,
-        "missionsLost": 780880,
-        "missionTime": 31880381640,
+        "missionsLost": 780881,
+        "missionTime": 31880382419,
         "terminidKills": 615,
-        "automatonKills": 2383669292,
+        "automatonKills": 2383669306,
         "illuminateKills": 0,
-        "bulletsFired": 13170727225,
-        "bulletsHit": 14027216516,
-        "timePlayed": 31880381640,
-        "deaths": 72479119,
+        "bulletsFired": 13170727411,
+        "bulletsHit": 14027216766,
+        "timePlayed": 31880382419,
+        "deaths": 72479125,
         "revives": 0,
         "friendlies": 7721298,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 3
       },
       "attacking": [],
       "regions": []
@@ -14989,7 +14989,7 @@
         "friendlies": 5071277,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -15082,7 +15082,7 @@
         "friendlies": 2672122,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -15200,21 +15200,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 10668001,
+        "missionsWon": 10668002,
         "missionsLost": 1499834,
-        "missionTime": 36651829730,
+        "missionTime": 36651830897,
         "terminidKills": 1315,
-        "automatonKills": 2486591468,
+        "automatonKills": 2486591511,
         "illuminateKills": 0,
-        "bulletsFired": 15778406649,
-        "bulletsHit": 16214087548,
-        "timePlayed": 36651829730,
-        "deaths": 101403842,
+        "bulletsFired": 15778406777,
+        "bulletsHit": 16214087692,
+        "timePlayed": 36651830897,
+        "deaths": 101403845,
         "revives": 0,
         "friendlies": 9360429,
         "missionSuccessRate": 87,
         "accuracy": 100,
-        "playerCount": 11
+        "playerCount": 9
       },
       "attacking": [],
       "regions": []
@@ -15457,20 +15457,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 917900,
-        "missionsLost": 59782,
-        "missionTime": 3506745721,
+        "missionsLost": 59783,
+        "missionTime": 3506746062,
         "terminidKills": 0,
-        "automatonKills": 353372006,
+        "automatonKills": 353372033,
         "illuminateKills": 0,
-        "bulletsFired": 1407908664,
-        "bulletsHit": 1581199632,
-        "timePlayed": 3506745721,
-        "deaths": 6899876,
+        "bulletsFired": 1407908713,
+        "bulletsHit": 1581199696,
+        "timePlayed": 3506746062,
+        "deaths": 6899882,
         "revives": 0,
         "friendlies": 828934,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 2
       },
       "attacking": [],
       "regions": [
@@ -15817,7 +15817,7 @@
         "friendlies": 14962354,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 10
+        "playerCount": 6
       },
       "attacking": [],
       "regions": []
@@ -15931,21 +15931,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 15571017,
-        "missionsLost": 1144404,
-        "missionTime": 53286207080,
-        "terminidKills": 7374463748,
+        "missionsWon": 15571018,
+        "missionsLost": 1144406,
+        "missionTime": 53286209760,
+        "terminidKills": 7374464156,
         "automatonKills": 442,
         "illuminateKills": 0,
-        "bulletsFired": 28585438464,
-        "bulletsHit": 34559055182,
-        "timePlayed": 53286207080,
-        "deaths": 120989049,
+        "bulletsFired": 28585439746,
+        "bulletsHit": 34559057000,
+        "timePlayed": 53286209760,
+        "deaths": 120989063,
         "revives": 0,
         "friendlies": 20847421,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 37
+        "playerCount": 51
       },
       "attacking": [
         217
@@ -16014,7 +16014,7 @@
         "friendlies": 2286111,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -16079,7 +16079,7 @@
         "friendlies": 1074073,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": [
@@ -16158,21 +16158,21 @@
       "regenPerSecond": 5.5555553,
       "event": null,
       "statistics": {
-        "missionsWon": 11592139,
-        "missionsLost": 905282,
-        "missionTime": 41775611558,
-        "terminidKills": 5829965722,
+        "missionsWon": 11592893,
+        "missionsLost": 905317,
+        "missionTime": 41777813564,
+        "terminidKills": 5830183062,
         "automatonKills": 801,
         "illuminateKills": 275,
-        "bulletsFired": 21719899634,
-        "bulletsHit": 26306978964,
-        "timePlayed": 41775611558,
-        "deaths": 90168974,
+        "bulletsFired": 21720670883,
+        "bulletsHit": 26307851564,
+        "timePlayed": 41777813564,
+        "deaths": 90172593,
         "revives": 0,
-        "friendlies": 15338255,
+        "friendlies": 15338969,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 3484
+        "playerCount": 3556
       },
       "attacking": [],
       "regions": [
@@ -16187,7 +16187,7 @@
           "regenPerSecond": 0.5555556,
           "availabilityFactor": 1,
           "isAvailable": false,
-          "players": 4
+          "players": 2
         },
         {
           "id": 1,
@@ -16213,7 +16213,7 @@
           "regenPerSecond": 1.6666666,
           "availabilityFactor": 0.80049,
           "isAvailable": true,
-          "players": 306
+          "players": 273
         }
       ]
     },
@@ -16263,21 +16263,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 1663680,
-        "missionsLost": 179480,
-        "missionTime": 5233419964,
-        "terminidKills": 769520306,
+        "missionsWon": 1663778,
+        "missionsLost": 179489,
+        "missionTime": 5233658620,
+        "terminidKills": 769552629,
         "automatonKills": 0,
         "illuminateKills": 0,
-        "bulletsFired": 2953177569,
-        "bulletsHit": 3486133628,
-        "timePlayed": 5233419964,
-        "deaths": 12153547,
+        "bulletsFired": 2953307050,
+        "bulletsHit": 3486278016,
+        "timePlayed": 5233658620,
+        "deaths": 12154092,
         "revives": 0,
-        "friendlies": 1823227,
+        "friendlies": 1823300,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 412
+        "playerCount": 434
       },
       "attacking": [],
       "regions": []
@@ -16342,7 +16342,7 @@
         "friendlies": 709091,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 1
       },
       "attacking": [
         218,
@@ -16603,7 +16603,7 @@
         "friendlies": 321812,
         "missionSuccessRate": 89,
         "accuracy": 98,
-        "playerCount": 2
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -16729,7 +16729,7 @@
         "friendlies": 808915,
         "missionSuccessRate": 91,
         "accuracy": 98,
-        "playerCount": 0
+        "playerCount": 3
       },
       "attacking": [],
       "regions": []
@@ -16855,7 +16855,7 @@
         "friendlies": 663025,
         "missionSuccessRate": 90,
         "accuracy": 97,
-        "playerCount": 0
+        "playerCount": 4
       },
       "attacking": [],
       "regions": []
@@ -16918,7 +16918,7 @@
         "friendlies": 1005214,
         "missionSuccessRate": 90,
         "accuracy": 95,
-        "playerCount": 5
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -17035,21 +17035,21 @@
       "regenPerSecond": 2.7777777,
       "event": null,
       "statistics": {
-        "missionsWon": 212918,
+        "missionsWon": 212919,
         "missionsLost": 28170,
-        "missionTime": 881021445,
+        "missionTime": 881023851,
         "terminidKills": 175,
         "automatonKills": 0,
-        "illuminateKills": 142907005,
-        "bulletsFired": 623592161,
-        "bulletsHit": 624393044,
-        "timePlayed": 881021445,
-        "deaths": 1736153,
+        "illuminateKills": 142907271,
+        "bulletsFired": 623594220,
+        "bulletsHit": 624394840,
+        "timePlayed": 881023851,
+        "deaths": 1736168,
         "revives": 0,
-        "friendlies": 313362,
+        "friendlies": 313364,
         "missionSuccessRate": 88,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -17175,7 +17175,7 @@
         "friendlies": 241831,
         "missionSuccessRate": 88,
         "accuracy": 96,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": []
@@ -17364,7 +17364,7 @@
         "friendlies": 412868,
         "missionSuccessRate": 90,
         "accuracy": 97,
-        "playerCount": 0
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -17490,7 +17490,7 @@
         "friendlies": 363620,
         "missionSuccessRate": 90,
         "accuracy": 96,
-        "playerCount": 1
+        "playerCount": 5
       },
       "attacking": [],
       "regions": []
@@ -17553,7 +17553,7 @@
         "friendlies": 196043,
         "missionSuccessRate": 88,
         "accuracy": 95,
-        "playerCount": 0
+        "playerCount": 4
       },
       "attacking": [],
       "regions": []
@@ -17618,7 +17618,7 @@
         "friendlies": 4070590,
         "missionSuccessRate": 92,
         "accuracy": 95,
-        "playerCount": 3
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -17683,7 +17683,7 @@
         "friendlies": 1267,
         "missionSuccessRate": 71,
         "accuracy": 98,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": [
@@ -17762,20 +17762,20 @@
       "event": null,
       "statistics": {
         "missionsWon": 6424369,
-        "missionsLost": 748451,
-        "missionTime": 7668045395,
+        "missionsLost": 748452,
+        "missionTime": 7668045739,
         "terminidKills": 5354,
-        "automatonKills": 613092767,
+        "automatonKills": 613092768,
         "illuminateKills": 0,
-        "bulletsFired": 3590988024,
-        "bulletsHit": 3234044353,
-        "timePlayed": 7668045395,
-        "deaths": 24939977,
+        "bulletsFired": 3590988048,
+        "bulletsHit": 3234044379,
+        "timePlayed": 7668045739,
+        "deaths": 24939984,
         "revives": 0,
         "friendlies": 2881874,
         "missionSuccessRate": 89,
         "accuracy": 90,
-        "playerCount": 1
+        "playerCount": 2
       },
       "attacking": [],
       "regions": []
@@ -17841,7 +17841,7 @@
         "friendlies": 3165077,
         "missionSuccessRate": 88,
         "accuracy": 92,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -17934,7 +17934,7 @@
         "friendlies": 2635498,
         "missionSuccessRate": 89,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 8
       },
       "attacking": [
         158,
@@ -18003,7 +18003,7 @@
         "friendlies": 3534068,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 1
+        "playerCount": 0
       },
       "attacking": [],
       "regions": []
@@ -18055,21 +18055,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 4069012,
-        "missionsLost": 330790,
-        "missionTime": 16348377163,
+        "missionsWon": 4069095,
+        "missionsLost": 330799,
+        "missionTime": 16348583908,
         "terminidKills": 78,
-        "automatonKills": 1291157487,
+        "automatonKills": 1291170322,
         "illuminateKills": 0,
-        "bulletsFired": 6485726518,
-        "bulletsHit": 6818178498,
-        "timePlayed": 16348377163,
-        "deaths": 35379680,
+        "bulletsFired": 6485797144,
+        "bulletsHit": 6818242222,
+        "timePlayed": 16348583908,
+        "deaths": 35380095,
         "revives": 0,
-        "friendlies": 3715518,
+        "friendlies": 3715593,
         "missionSuccessRate": 92,
         "accuracy": 100,
-        "playerCount": 357
+        "playerCount": 378
       },
       "attacking": [],
       "regions": [
@@ -18084,7 +18084,7 @@
           "regenPerSecond": 1.1111112,
           "availabilityFactor": 1,
           "isAvailable": true,
-          "players": 43
+          "players": 40
         }
       ]
     },
@@ -18146,7 +18146,7 @@
         "friendlies": 1178695,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 0
+        "playerCount": 1
       },
       "attacking": [],
       "regions": [
@@ -18240,7 +18240,7 @@
         "friendlies": 1665140,
         "missionSuccessRate": 93,
         "accuracy": 100,
-        "playerCount": 3
+        "playerCount": 0
       },
       "attacking": [],
       "regions": [
@@ -18670,7 +18670,7 @@
         "friendlies": 651752,
         "missionSuccessRate": 90,
         "accuracy": 100,
-        "playerCount": 2
+        "playerCount": 6
       },
       "attacking": [],
       "regions": []
@@ -18721,21 +18721,21 @@
       "regenPerSecond": 4.1666665,
       "event": null,
       "statistics": {
-        "missionsWon": 1531727,
+        "missionsWon": 1531728,
         "missionsLost": 134861,
-        "missionTime": 5773044015,
+        "missionTime": 5773046470,
         "terminidKills": 0,
-        "automatonKills": 548983886,
+        "automatonKills": 548984180,
         "illuminateKills": 0,
-        "bulletsFired": 2081983443,
-        "bulletsHit": 2362595564,
-        "timePlayed": 5773044015,
-        "deaths": 12240166,
+        "bulletsFired": 2081984439,
+        "bulletsHit": 2362596732,
+        "timePlayed": 5773046470,
+        "deaths": 12240170,
         "revives": 0,
         "friendlies": 1490235,
         "missionSuccessRate": 91,
         "accuracy": 100,
-        "playerCount": 6
+        "playerCount": 5
       },
       "attacking": [],
       "regions": []
@@ -19197,7 +19197,7 @@
     {
       "id": 1938125856,
       "progress": [
-        4469108860
+        4484942444
       ],
       "title": {
         "en-US": "MAJOR ORDER",
@@ -19271,7 +19271,7 @@
           "amount": 55
         }
       ],
-      "expiration": "2025-09-01T14:10:05.6352485Z",
+      "expiration": "2025-09-01T14:09:55.0886545Z",
       "flags": 0
     }
   ],
@@ -19324,21 +19324,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 1663680,
-          "missionsLost": 179480,
-          "missionTime": 5233419964,
-          "terminidKills": 769520306,
+          "missionsWon": 1663778,
+          "missionsLost": 179489,
+          "missionTime": 5233658620,
+          "terminidKills": 769552629,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 2953177569,
-          "bulletsHit": 3486133628,
-          "timePlayed": 5233419964,
-          "deaths": 12153547,
+          "bulletsFired": 2953307050,
+          "bulletsHit": 3486278016,
+          "timePlayed": 5233658620,
+          "deaths": 12154092,
           "revives": 0,
-          "friendlies": 1823227,
+          "friendlies": 1823300,
           "missionSuccessRate": 90,
           "accuracy": 100,
-          "playerCount": 412
+          "playerCount": 434
         },
         "attacking": [],
         "regions": []
@@ -19396,21 +19396,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 2118195,
-          "missionsLost": 174017,
-          "missionTime": 7074236769,
-          "terminidKills": 933900935,
+          "missionsWon": 2118579,
+          "missionsLost": 174029,
+          "missionTime": 7075394472,
+          "terminidKills": 933990175,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 3144638243,
-          "bulletsHit": 3723740900,
-          "timePlayed": 7074236769,
-          "deaths": 14681828,
+          "bulletsFired": 3144929330,
+          "bulletsHit": 3724050580,
+          "timePlayed": 7075394472,
+          "deaths": 14683485,
           "revives": 0,
-          "friendlies": 2394980,
+          "friendlies": 2395309,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 1970
+          "playerCount": 1874
         },
         "attacking": [],
         "regions": []
@@ -19467,21 +19467,21 @@
         "regenPerSecond": 4.1666665,
         "event": null,
         "statistics": {
-          "missionsWon": 3853079,
-          "missionsLost": 364542,
-          "missionTime": 13257593646,
-          "terminidKills": 1926290930,
+          "missionsWon": 3853267,
+          "missionsLost": 364552,
+          "missionTime": 13258082375,
+          "terminidKills": 1926351350,
           "automatonKills": 41,
           "illuminateKills": 8,
-          "bulletsFired": 7234150760,
-          "bulletsHit": 8639162912,
-          "timePlayed": 13257593646,
-          "deaths": 31108373,
+          "bulletsFired": 7234360289,
+          "bulletsHit": 8639401492,
+          "timePlayed": 13258082375,
+          "deaths": 31109348,
           "revives": 0,
-          "friendlies": 4981341,
+          "friendlies": 4981462,
           "missionSuccessRate": 91,
           "accuracy": 100,
-          "playerCount": 646
+          "playerCount": 658
         },
         "attacking": [],
         "regions": [
@@ -19496,7 +19496,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 106
+            "players": 101
           }
         ]
       },
@@ -19553,21 +19553,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 233903,
-          "missionsLost": 36557,
-          "missionTime": 823842028,
+          "missionsWon": 233907,
+          "missionsLost": 36558,
+          "missionTime": 823848937,
           "terminidKills": 0,
           "automatonKills": 0,
-          "illuminateKills": 137276315,
-          "bulletsFired": 556456490,
-          "bulletsHit": 611448272,
-          "timePlayed": 823842028,
-          "deaths": 2044825,
+          "illuminateKills": 137277086,
+          "bulletsFired": 556458758,
+          "bulletsHit": 611450766,
+          "timePlayed": 823848937,
+          "deaths": 2044848,
           "revives": 0,
           "friendlies": 301234,
           "missionSuccessRate": 86,
           "accuracy": 100,
-          "playerCount": 26
+          "playerCount": 37
         },
         "attacking": [],
         "regions": []
@@ -19625,21 +19625,21 @@
         "regenPerSecond": 5.5555553,
         "event": null,
         "statistics": {
-          "missionsWon": 11592139,
-          "missionsLost": 905282,
-          "missionTime": 41775611558,
-          "terminidKills": 5829965722,
+          "missionsWon": 11592893,
+          "missionsLost": 905317,
+          "missionTime": 41777813564,
+          "terminidKills": 5830183062,
           "automatonKills": 801,
           "illuminateKills": 275,
-          "bulletsFired": 21719899634,
-          "bulletsHit": 26306978964,
-          "timePlayed": 41775611558,
-          "deaths": 90168974,
+          "bulletsFired": 21720670883,
+          "bulletsHit": 26307851564,
+          "timePlayed": 41777813564,
+          "deaths": 90172593,
           "revives": 0,
-          "friendlies": 15338255,
+          "friendlies": 15338969,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 3484
+          "playerCount": 3556
         },
         "attacking": [],
         "regions": [
@@ -19654,7 +19654,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": false,
-            "players": 4
+            "players": 2
           },
           {
             "id": 1,
@@ -19680,7 +19680,7 @@
             "regenPerSecond": 1.6666666,
             "availabilityFactor": 0.80049,
             "isAvailable": true,
-            "players": 306
+            "players": 273
           }
         ]
       },
@@ -19738,21 +19738,21 @@
         "regenPerSecond": 1.3888888,
         "event": null,
         "statistics": {
-          "missionsWon": 1719308,
-          "missionsLost": 246695,
-          "missionTime": 6306182878,
+          "missionsWon": 1719342,
+          "missionsLost": 246706,
+          "missionTime": 6306274445,
           "terminidKills": 1140,
           "automatonKills": 139,
-          "illuminateKills": 1007411047,
-          "bulletsFired": 4396246223,
-          "bulletsHit": 4699865802,
-          "timePlayed": 6306182878,
-          "deaths": 16520377,
+          "illuminateKills": 1007421936,
+          "bulletsFired": 4396304219,
+          "bulletsHit": 4699919778,
+          "timePlayed": 6306274445,
+          "deaths": 16520724,
           "revives": 0,
-          "friendlies": 2164059,
+          "friendlies": 2164079,
           "missionSuccessRate": 87,
           "accuracy": 100,
-          "playerCount": 136
+          "playerCount": 125
         },
         "attacking": [],
         "regions": [
@@ -19767,7 +19767,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 31
+            "players": 42
           },
           {
             "id": 1,
@@ -19806,7 +19806,7 @@
             "regenPerSecond": 1.6666666,
             "availabilityFactor": 0.25306,
             "isAvailable": false,
-            "players": 3
+            "players": 1
           }
         ]
       },
@@ -19863,21 +19863,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 100745,
-          "missionsLost": 18496,
-          "missionTime": 336578317,
+          "missionsWon": 100768,
+          "missionsLost": 18504,
+          "missionTime": 336630029,
           "terminidKills": 0,
           "automatonKills": 0,
-          "illuminateKills": 49400636,
-          "bulletsFired": 213503744,
-          "bulletsHit": 212132994,
-          "timePlayed": 336578317,
-          "deaths": 837927,
+          "illuminateKills": 49406169,
+          "bulletsFired": 213534447,
+          "bulletsHit": 212164324,
+          "timePlayed": 336630029,
+          "deaths": 838108,
           "revives": 0,
-          "friendlies": 100917,
+          "friendlies": 100931,
           "missionSuccessRate": 84,
           "accuracy": 99,
-          "playerCount": 93
+          "playerCount": 95
         },
         "attacking": [],
         "regions": []
@@ -19935,21 +19935,21 @@
         "regenPerSecond": 4.1666665,
         "event": null,
         "statistics": {
-          "missionsWon": 4069012,
-          "missionsLost": 330790,
-          "missionTime": 16348377163,
+          "missionsWon": 4069095,
+          "missionsLost": 330799,
+          "missionTime": 16348583908,
           "terminidKills": 78,
-          "automatonKills": 1291157487,
+          "automatonKills": 1291170322,
           "illuminateKills": 0,
-          "bulletsFired": 6485726518,
-          "bulletsHit": 6818178498,
-          "timePlayed": 16348377163,
-          "deaths": 35379680,
+          "bulletsFired": 6485797144,
+          "bulletsHit": 6818242222,
+          "timePlayed": 16348583908,
+          "deaths": 35380095,
           "revives": 0,
-          "friendlies": 3715518,
+          "friendlies": 3715593,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 357
+          "playerCount": 378
         },
         "attacking": [],
         "regions": [
@@ -19964,7 +19964,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 43
+            "players": 40
           }
         ]
       },
@@ -20022,21 +20022,21 @@
         "regenPerSecond": 4.1666665,
         "event": null,
         "statistics": {
-          "missionsWon": 13334801,
-          "missionsLost": 1176798,
-          "missionTime": 49516795809,
+          "missionsWon": 13334874,
+          "missionsLost": 1176804,
+          "missionTime": 49516963068,
           "terminidKills": 212,
-          "automatonKills": 4009938597,
+          "automatonKills": 4009951787,
           "illuminateKills": 0,
-          "bulletsFired": 20607059588,
-          "bulletsHit": 21967776786,
-          "timePlayed": 49516795809,
-          "deaths": 107972904,
+          "bulletsFired": 20607117597,
+          "bulletsHit": 21967835188,
+          "timePlayed": 49516963068,
+          "deaths": 107973154,
           "revives": 0,
-          "friendlies": 11242271,
+          "friendlies": 11242300,
           "missionSuccessRate": 91,
           "accuracy": 100,
-          "playerCount": 330
+          "playerCount": 327
         },
         "attacking": [],
         "regions": [
@@ -20051,7 +20051,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.74242,
             "isAvailable": false,
-            "players": 0
+            "players": 1
           },
           {
             "id": 1,
@@ -20090,7 +20090,7 @@
             "regenPerSecond": 1.6666666,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 33
+            "players": 37
           }
         ]
       },
@@ -20146,18 +20146,18 @@
         "regenPerSecond": 1.3888888,
         "event": null,
         "statistics": {
-          "missionsWon": 2354155,
-          "missionsLost": 317331,
-          "missionTime": 9234939315,
+          "missionsWon": 2354169,
+          "missionsLost": 317337,
+          "missionTime": 9234972343,
           "terminidKills": 42,
           "automatonKills": 89,
-          "illuminateKills": 1498708649,
-          "bulletsFired": 6357135879,
-          "bulletsHit": 6711769574,
-          "timePlayed": 9234939315,
-          "deaths": 21818632,
+          "illuminateKills": 1498711684,
+          "bulletsFired": 6357156781,
+          "bulletsHit": 6711788796,
+          "timePlayed": 9234972343,
+          "deaths": 21818767,
           "revives": 0,
-          "friendlies": 3237903,
+          "friendlies": 3237913,
           "missionSuccessRate": 88,
           "accuracy": 100,
           "playerCount": 52
@@ -20188,7 +20188,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 17
+            "players": 20
           },
           {
             "id": 2,
@@ -20270,21 +20270,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 820195,
-          "missionsLost": 130790,
-          "missionTime": 3285572201,
+          "missionsWon": 820248,
+          "missionsLost": 130798,
+          "missionTime": 3285721652,
           "terminidKills": 881,
           "automatonKills": 0,
-          "illuminateKills": 523028924,
-          "bulletsFired": 2491965627,
-          "bulletsHit": 2494674584,
-          "timePlayed": 3285572201,
-          "deaths": 6836381,
+          "illuminateKills": 523048029,
+          "bulletsFired": 2492075527,
+          "bulletsHit": 2494787080,
+          "timePlayed": 3285721652,
+          "deaths": 6836905,
           "revives": 0,
-          "friendlies": 1042930,
+          "friendlies": 1042977,
           "missionSuccessRate": 86,
           "accuracy": 100,
-          "playerCount": 212
+          "playerCount": 231
         },
         "attacking": [],
         "regions": [
@@ -20299,7 +20299,7 @@
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 54
+            "players": 73
           },
           {
             "id": 1,
@@ -20325,7 +20325,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 0.38332,
             "isAvailable": false,
-            "players": 2
+            "players": 0
           }
         ]
       },
@@ -20382,21 +20382,21 @@
         "regenPerSecond": 5.5555553,
         "event": null,
         "statistics": {
-          "missionsWon": 7579741,
-          "missionsLost": 387765,
-          "missionTime": 26425379114,
+          "missionsWon": 7579800,
+          "missionsLost": 387768,
+          "missionTime": 26425548547,
           "terminidKills": 716,
-          "automatonKills": 2453916648,
+          "automatonKills": 2453929959,
           "illuminateKills": 205,
-          "bulletsFired": 10371667546,
-          "bulletsHit": 11811277772,
-          "timePlayed": 26425379114,
-          "deaths": 50894302,
+          "bulletsFired": 10371733740,
+          "bulletsHit": 11811346640,
+          "timePlayed": 26425548547,
+          "deaths": 50894678,
           "revives": 0,
-          "friendlies": 6069933,
+          "friendlies": 6069985,
           "missionSuccessRate": 95,
           "accuracy": 100,
-          "playerCount": 213
+          "playerCount": 238
         },
         "attacking": [],
         "regions": [
@@ -20411,7 +20411,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 43
+            "players": 42
           }
         ]
       },
@@ -20467,21 +20467,21 @@
         "regenPerSecond": 4.1666665,
         "event": null,
         "statistics": {
-          "missionsWon": 1559672,
-          "missionsLost": 171635,
-          "missionTime": 5188051451,
+          "missionsWon": 1559695,
+          "missionsLost": 171637,
+          "missionTime": 5188116027,
           "terminidKills": 524,
-          "automatonKills": 396841201,
+          "automatonKills": 396846500,
           "illuminateKills": 0,
-          "bulletsFired": 2249769757,
-          "bulletsHit": 2340590242,
-          "timePlayed": 5188051451,
-          "deaths": 12621170,
+          "bulletsFired": 2249800839,
+          "bulletsHit": 2340623596,
+          "timePlayed": 5188116027,
+          "deaths": 12621331,
           "revives": 0,
-          "friendlies": 1299222,
+          "friendlies": 1299240,
           "missionSuccessRate": 90,
           "accuracy": 100,
-          "playerCount": 105
+          "playerCount": 96
         },
         "attacking": [],
         "regions": [
@@ -20496,7 +20496,7 @@
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 21
+            "players": 26
           },
           {
             "id": 1,
@@ -20579,21 +20579,21 @@
         "regenPerSecond": 4.1666665,
         "event": null,
         "statistics": {
-          "missionsWon": 3368192,
-          "missionsLost": 267104,
-          "missionTime": 11228104240,
+          "missionsWon": 3368264,
+          "missionsLost": 267110,
+          "missionTime": 11228276733,
           "terminidKills": 0,
-          "automatonKills": 922644126,
+          "automatonKills": 922657375,
           "illuminateKills": 0,
-          "bulletsFired": 4718074209,
-          "bulletsHit": 4972597626,
-          "timePlayed": 11228104240,
-          "deaths": 24515121,
+          "bulletsFired": 4718146875,
+          "bulletsHit": 4972670944,
+          "timePlayed": 11228276733,
+          "deaths": 24515467,
           "revives": 0,
-          "friendlies": 2466294,
+          "friendlies": 2466346,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 256
+          "playerCount": 260
         },
         "attacking": [],
         "regions": [
@@ -20621,7 +20621,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 47
+            "players": 43
           },
           {
             "id": 2,
@@ -20690,21 +20690,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 29543842,
-          "missionsLost": 2949387,
-          "missionTime": 76742233936,
-          "terminidKills": 10603311811,
+          "missionsWon": 29544299,
+          "missionsLost": 2949403,
+          "missionTime": 76743484645,
+          "terminidKills": 10603498987,
           "automatonKills": 809,
           "illuminateKills": 0,
-          "bulletsFired": 48482938746,
-          "bulletsHit": 58438530234,
-          "timePlayed": 76742233936,
-          "deaths": 171436926,
+          "bulletsFired": 48483474775,
+          "bulletsHit": 58439153738,
+          "timePlayed": 76743484645,
+          "deaths": 171438900,
           "revives": 0,
-          "friendlies": 31245702,
+          "friendlies": 31246109,
           "missionSuccessRate": 90,
           "accuracy": 100,
-          "playerCount": 1983
+          "playerCount": 1937
         },
         "attacking": [],
         "regions": []
@@ -20762,21 +20762,21 @@
         "regenPerSecond": 6.9444447,
         "event": null,
         "statistics": {
-          "missionsWon": 20805550,
-          "missionsLost": 1767767,
-          "missionTime": 60565185142,
-          "terminidKills": 8660614841,
+          "missionsWon": 20806507,
+          "missionsLost": 1767830,
+          "missionTime": 60567794527,
+          "terminidKills": 8660939485,
           "automatonKills": 0,
           "illuminateKills": 77856828,
-          "bulletsFired": 35857056503,
-          "bulletsHit": 43216540361,
-          "timePlayed": 60565185142,
-          "deaths": 150077763,
+          "bulletsFired": 35858201774,
+          "bulletsHit": 43217820191,
+          "timePlayed": 60567794527,
+          "deaths": 150082951,
           "revives": 0,
-          "friendlies": 23689404,
+          "friendlies": 23690240,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 4764
+          "playerCount": 4746
         },
         "attacking": [],
         "regions": [
@@ -20791,7 +20791,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.61592,
             "isAvailable": false,
-            "players": 4
+            "players": 1
           },
           {
             "id": 1,
@@ -20804,7 +20804,7 @@
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 0.30272,
             "isAvailable": false,
-            "players": 1
+            "players": 2
           },
           {
             "id": 2,
@@ -20817,7 +20817,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 564
+            "players": 568
           }
         ]
       },
@@ -20873,21 +20873,21 @@
         "regenPerSecond": 1.3888888,
         "event": null,
         "statistics": {
-          "missionsWon": 19923274,
-          "missionsLost": 1349510,
-          "missionTime": 40719439503,
-          "terminidKills": 5279661155,
+          "missionsWon": 19923701,
+          "missionsLost": 1349530,
+          "missionTime": 40720595456,
+          "terminidKills": 5279834664,
           "automatonKills": 52821,
           "illuminateKills": 177347327,
-          "bulletsFired": 25566887766,
-          "bulletsHit": 26817344832,
-          "timePlayed": 40719439503,
-          "deaths": 101610516,
+          "bulletsFired": 25567490738,
+          "bulletsHit": 26818059748,
+          "timePlayed": 40720595456,
+          "deaths": 101612838,
           "revives": 0,
-          "friendlies": 16524613,
+          "friendlies": 16525013,
           "missionSuccessRate": 93,
           "accuracy": 100,
-          "playerCount": 1627
+          "playerCount": 1680
         },
         "attacking": [],
         "regions": [
@@ -20902,7 +20902,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 0.43852,
             "isAvailable": false,
-            "players": 0
+            "players": 1
           },
           {
             "id": 1,
@@ -20915,7 +20915,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 414
+            "players": 404
           },
           {
             "id": 2,
@@ -20928,7 +20928,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 0.64472,
             "isAvailable": false,
-            "players": 4
+            "players": 0
           }
         ]
       },
@@ -20987,21 +20987,21 @@
         "regenPerSecond": 5.5555553,
         "event": null,
         "statistics": {
-          "missionsWon": 3073886,
-          "missionsLost": 217734,
-          "missionTime": 10448982528,
+          "missionsWon": 3074032,
+          "missionsLost": 217745,
+          "missionTime": 10449357775,
           "terminidKills": 0,
-          "automatonKills": 989001624,
+          "automatonKills": 989027871,
           "illuminateKills": 0,
-          "bulletsFired": 4372814082,
-          "bulletsHit": 4850636406,
-          "timePlayed": 10448982528,
-          "deaths": 20914703,
+          "bulletsFired": 4372952487,
+          "bulletsHit": 4850770346,
+          "timePlayed": 10449357775,
+          "deaths": 20915444,
           "revives": 0,
-          "friendlies": 2327033,
+          "friendlies": 2327118,
           "missionSuccessRate": 93,
           "accuracy": 100,
-          "playerCount": 543
+          "playerCount": 521
         },
         "attacking": [],
         "regions": []
@@ -21058,21 +21058,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 334696,
-          "missionsLost": 41633,
-          "missionTime": 1312452934,
+          "missionsWon": 334818,
+          "missionsLost": 41658,
+          "missionTime": 1312815635,
           "terminidKills": 0,
           "automatonKills": 0,
-          "illuminateKills": 213730661,
-          "bulletsFired": 928924705,
-          "bulletsHit": 966725276,
-          "timePlayed": 1312452934,
-          "deaths": 2801232,
+          "illuminateKills": 213775903,
+          "bulletsFired": 929134735,
+          "bulletsHit": 966933960,
+          "timePlayed": 1312815635,
+          "deaths": 2802520,
           "revives": 0,
-          "friendlies": 425178,
+          "friendlies": 425311,
           "missionSuccessRate": 88,
           "accuracy": 100,
-          "playerCount": 494
+          "playerCount": 523
         },
         "attacking": [],
         "regions": [
@@ -21087,7 +21087,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 0.71562,
             "isAvailable": false,
-            "players": 1
+            "players": 2
           },
           {
             "id": 1,
@@ -21100,7 +21100,7 @@
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 0.42218,
             "isAvailable": false,
-            "players": 1
+            "players": 0
           },
           {
             "id": 2,
@@ -21113,7 +21113,7 @@
             "regenPerSecond": 1.6666666,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 139
+            "players": 189
           }
         ]
       },
@@ -21170,21 +21170,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 931744,
-          "missionsLost": 61754,
-          "missionTime": 3265844747,
-          "terminidKills": 489373787,
+          "missionsWon": 931987,
+          "missionsLost": 61765,
+          "missionTime": 3266482011,
+          "terminidKills": 489468981,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 1792503874,
-          "bulletsHit": 2222075494,
-          "timePlayed": 3265844747,
-          "deaths": 6782920,
+          "bulletsFired": 1792838528,
+          "bulletsHit": 2222474060,
+          "timePlayed": 3266482011,
+          "deaths": 6784234,
           "revives": 0,
-          "friendlies": 1126817,
+          "friendlies": 1127001,
           "missionSuccessRate": 93,
           "accuracy": 100,
-          "playerCount": 900
+          "playerCount": 824
         },
         "attacking": [],
         "regions": [
@@ -21199,7 +21199,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 184
+            "players": 176
           },
           {
             "id": 1,
@@ -21212,7 +21212,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 0.79122,
             "isAvailable": false,
-            "players": 9
+            "players": 0
           }
         ]
       },
@@ -21269,21 +21269,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 913948,
-          "missionsLost": 37638,
-          "missionTime": 2740844637,
+          "missionsWon": 914843,
+          "missionsLost": 37693,
+          "missionTime": 2743350214,
           "terminidKills": 0,
-          "automatonKills": 220510145,
+          "automatonKills": 220713391,
           "illuminateKills": 0,
-          "bulletsFired": 1229995509,
-          "bulletsHit": 1286162668,
-          "timePlayed": 2740844637,
-          "deaths": 5542527,
+          "bulletsFired": 1231031132,
+          "bulletsHit": 1287211016,
+          "timePlayed": 2743350214,
+          "deaths": 5547326,
           "revives": 0,
-          "friendlies": 622063,
+          "friendlies": 622640,
           "missionSuccessRate": 96,
           "accuracy": 100,
-          "playerCount": 3674
+          "playerCount": 3726
         },
         "attacking": [],
         "regions": [
@@ -21298,7 +21298,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.78229,
             "isAvailable": false,
-            "players": 1
+            "players": 4
           },
           {
             "id": 1,
@@ -21311,7 +21311,7 @@
             "regenPerSecond": 1.6666666,
             "availabilityFactor": 0.23376,
             "isAvailable": false,
-            "players": 11
+            "players": 8
           },
           {
             "id": 2,
@@ -21324,7 +21324,7 @@
             "regenPerSecond": 1.6666666,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 480
+            "players": 503
           }
         ]
       },
@@ -21381,21 +21381,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 426001,
-          "missionsLost": 62860,
-          "missionTime": 1695580583,
+          "missionsWon": 426085,
+          "missionsLost": 62880,
+          "missionTime": 1695768706,
           "terminidKills": 0,
           "automatonKills": 0,
-          "illuminateKills": 264863433,
-          "bulletsFired": 1229444655,
-          "bulletsHit": 1193827718,
-          "timePlayed": 1695580583,
-          "deaths": 3457857,
+          "illuminateKills": 264885683,
+          "bulletsFired": 1229551904,
+          "bulletsHit": 1193928620,
+          "timePlayed": 1695768706,
+          "deaths": 3458606,
           "revives": 0,
-          "friendlies": 567736,
+          "friendlies": 567792,
           "missionSuccessRate": 87,
           "accuracy": 97,
-          "playerCount": 277
+          "playerCount": 289
         },
         "attacking": [],
         "regions": [
@@ -21436,7 +21436,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 117
+            "players": 76
           }
         ]
       },
@@ -21493,21 +21493,21 @@
         "regenPerSecond": 4.1666665,
         "event": null,
         "statistics": {
-          "missionsWon": 5387924,
-          "missionsLost": 343113,
-          "missionTime": 19079029878,
+          "missionsWon": 5388171,
+          "missionsLost": 343159,
+          "missionTime": 19079684044,
           "terminidKills": 590,
-          "automatonKills": 1612922705,
+          "automatonKills": 1612967336,
           "illuminateKills": 222,
-          "bulletsFired": 7999107159,
-          "bulletsHit": 8722677742,
-          "timePlayed": 19079029878,
-          "deaths": 39182339,
+          "bulletsFired": 7999388429,
+          "bulletsHit": 8722935894,
+          "timePlayed": 19079684044,
+          "deaths": 39184593,
           "revives": 0,
-          "friendlies": 4933143,
+          "friendlies": 4933357,
           "missionSuccessRate": 94,
           "accuracy": 100,
-          "playerCount": 958
+          "playerCount": 1014
         },
         "attacking": [],
         "regions": [
@@ -21522,7 +21522,7 @@
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 0.42548,
             "isAvailable": false,
-            "players": 3
+            "players": 1
           },
           {
             "id": 1,
@@ -21535,20 +21535,20 @@
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 0.54218,
             "isAvailable": false,
-            "players": 3
+            "players": 4
           },
           {
             "id": 2,
             "hash": 281317935,
             "name": null,
             "description": null,
-            "health": 100000,
+            "health": 99999,
             "maxHealth": 100000,
             "size": "Settlement",
             "regenPerSecond": 0.2777778,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 326
+            "players": 377
           }
         ]
       },
@@ -21604,18 +21604,18 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 3203644,
-          "missionsLost": 217610,
-          "missionTime": 11724178850,
+          "missionsWon": 3203699,
+          "missionsLost": 217616,
+          "missionTime": 11724295608,
           "terminidKills": 0,
-          "automatonKills": 1159501105,
+          "automatonKills": 1159509894,
           "illuminateKills": 0,
-          "bulletsFired": 4740840927,
-          "bulletsHit": 5363444942,
-          "timePlayed": 11724178850,
-          "deaths": 24532307,
+          "bulletsFired": 4740886524,
+          "bulletsHit": 5363488680,
+          "timePlayed": 11724295608,
+          "deaths": 24532595,
           "revives": 0,
-          "friendlies": 2777547,
+          "friendlies": 2777570,
           "missionSuccessRate": 93,
           "accuracy": 100,
           "playerCount": 194
@@ -21633,7 +21633,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.6977,
             "isAvailable": false,
-            "players": 0
+            "players": 1
           },
           {
             "id": 1,
@@ -21646,7 +21646,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 32
+            "players": 37
           }
         ]
       },
@@ -21702,21 +21702,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 701179,
-          "missionsLost": 42136,
-          "missionTime": 2170262319,
+          "missionsWon": 701417,
+          "missionsLost": 42154,
+          "missionTime": 2170892034,
           "terminidKills": 0,
-          "automatonKills": 139347896,
+          "automatonKills": 139396999,
           "illuminateKills": 0,
-          "bulletsFired": 1111863528,
-          "bulletsHit": 1164967726,
-          "timePlayed": 2170262319,
-          "deaths": 4736545,
+          "bulletsFired": 1112162750,
+          "bulletsHit": 1165263668,
+          "timePlayed": 2170892034,
+          "deaths": 4737884,
           "revives": 0,
-          "friendlies": 621975,
+          "friendlies": 622128,
           "missionSuccessRate": 94,
           "accuracy": 100,
-          "playerCount": 995
+          "playerCount": 999
         },
         "attacking": [],
         "regions": []
@@ -21774,21 +21774,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 1552913,
-          "missionsLost": 97902,
-          "missionTime": 5173077571,
+          "missionsWon": 1553100,
+          "missionsLost": 97912,
+          "missionTime": 5173556767,
           "terminidKills": 0,
-          "automatonKills": 493217238,
+          "automatonKills": 493249795,
           "illuminateKills": 0,
-          "bulletsFired": 2041015807,
-          "bulletsHit": 2282468964,
-          "timePlayed": 5173077571,
-          "deaths": 10570549,
+          "bulletsFired": 2041172579,
+          "bulletsHit": 2282624004,
+          "timePlayed": 5173556767,
+          "deaths": 10571369,
           "revives": 0,
-          "friendlies": 1160681,
+          "friendlies": 1160768,
           "missionSuccessRate": 94,
           "accuracy": 100,
-          "playerCount": 791
+          "playerCount": 784
         },
         "attacking": [],
         "regions": []
@@ -21845,21 +21845,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 1154804,
-          "missionsLost": 100162,
-          "missionTime": 4202870238,
+          "missionsWon": 1155370,
+          "missionsLost": 100219,
+          "missionTime": 4204653085,
           "terminidKills": 0,
-          "automatonKills": 363460231,
+          "automatonKills": 363605133,
           "illuminateKills": 0,
-          "bulletsFired": 1741561905,
-          "bulletsHit": 1964845824,
-          "timePlayed": 4202870238,
-          "deaths": 9354787,
+          "bulletsFired": 1742318075,
+          "bulletsHit": 1965647402,
+          "timePlayed": 4204653085,
+          "deaths": 9358501,
           "revives": 0,
-          "friendlies": 1049545,
+          "friendlies": 1050022,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 2408
+          "playerCount": 2492
         },
         "attacking": [
           42
@@ -21919,21 +21919,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 1931721,
-          "missionsLost": 214415,
-          "missionTime": 6196787866,
+          "missionsWon": 1933146,
+          "missionsLost": 214778,
+          "missionTime": 6201559549,
           "terminidKills": 0,
           "automatonKills": 0,
-          "illuminateKills": 807667584,
-          "bulletsFired": 4964605371,
-          "bulletsHit": 4963424440,
-          "timePlayed": 6196787866,
-          "deaths": 15338986,
+          "illuminateKills": 808268962,
+          "bulletsFired": 4968052719,
+          "bulletsHit": 4966857680,
+          "timePlayed": 6201559549,
+          "deaths": 15354087,
           "revives": 0,
-          "friendlies": 1868934,
+          "friendlies": 1870632,
           "missionSuccessRate": 90,
           "accuracy": 99,
-          "playerCount": 6823
+          "playerCount": 7232
         },
         "attacking": [],
         "regions": [
@@ -21942,13 +21942,13 @@
             "hash": 3205582835,
             "name": null,
             "description": null,
-            "health": 171910,
+            "health": 171711,
             "maxHealth": 200000,
             "size": "Town",
             "regenPerSecond": 0.1388889,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 2089
+            "players": 2202
           },
           {
             "id": 1,
@@ -21961,7 +21961,7 @@
             "regenPerSecond": 0.1388889,
             "availabilityFactor": 0.15425617,
             "isAvailable": false,
-            "players": 16
+            "players": 15
           },
           {
             "id": 2,
@@ -21974,7 +21974,7 @@
             "regenPerSecond": 0.1388889,
             "availabilityFactor": 0.5032696,
             "isAvailable": false,
-            "players": 18
+            "players": 35
           },
           {
             "id": 3,
@@ -21987,7 +21987,7 @@
             "regenPerSecond": 3.2516668,
             "availabilityFactor": 0.64460164,
             "isAvailable": true,
-            "players": 1523
+            "players": 1535
           }
         ]
       },
@@ -22046,7 +22046,7 @@
           "id": 5330,
           "eventType": 1,
           "faction": "Automaton",
-          "health": 522401,
+          "health": 517597,
           "maxHealth": 1250000,
           "startTime": "2025-08-29T08:12:23Z",
           "endTime": "2025-08-31T08:12:23Z",
@@ -22056,21 +22056,21 @@
           ]
         },
         "statistics": {
-          "missionsWon": 1864241,
-          "missionsLost": 136439,
-          "missionTime": 6175699842,
+          "missionsWon": 1871886,
+          "missionsLost": 137425,
+          "missionTime": 6199642124,
           "terminidKills": 0,
-          "automatonKills": 455758487,
+          "automatonKills": 457552264,
           "illuminateKills": 0,
-          "bulletsFired": 2795014723,
-          "bulletsHit": 2787571998,
-          "timePlayed": 6175699842,
-          "deaths": 14282964,
+          "bulletsFired": 2805394468,
+          "bulletsHit": 2798080512,
+          "timePlayed": 6199642124,
+          "deaths": 14346348,
           "revives": 0,
-          "friendlies": 1467558,
+          "friendlies": 1473057,
           "missionSuccessRate": 93,
           "accuracy": 99,
-          "playerCount": 33390
+          "playerCount": 34204
         },
         "attacking": [
           43,
@@ -22082,13 +22082,13 @@
             "hash": 1193052974,
             "name": null,
             "description": null,
-            "health": 27470,
+            "health": 23248,
             "maxHealth": 600000,
             "size": "MegaCity",
             "regenPerSecond": -0.8333333,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 14812
+            "players": 15346
           }
         ]
       },
@@ -22144,21 +22144,21 @@
         "regenPerSecond": 2.7777777,
         "event": null,
         "statistics": {
-          "missionsWon": 447929,
-          "missionsLost": 71569,
-          "missionTime": 1737523958,
+          "missionsWon": 448030,
+          "missionsLost": 71600,
+          "missionTime": 1737840991,
           "terminidKills": 194,
           "automatonKills": 0,
-          "illuminateKills": 251279836,
-          "bulletsFired": 1281489475,
-          "bulletsHit": 1232074836,
-          "timePlayed": 1737523958,
-          "deaths": 3824940,
+          "illuminateKills": 251320397,
+          "bulletsFired": 1281714443,
+          "bulletsHit": 1232308622,
+          "timePlayed": 1737840991,
+          "deaths": 3826064,
           "revives": 0,
-          "friendlies": 597453,
+          "friendlies": 597562,
           "missionSuccessRate": 86,
           "accuracy": 96,
-          "playerCount": 434
+          "playerCount": 407
         },
         "attacking": [],
         "regions": [
@@ -22173,7 +22173,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.46047676,
             "isAvailable": false,
-            "players": 11
+            "players": 5
           },
           {
             "id": 1,
@@ -22186,7 +22186,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.75862515,
             "isAvailable": false,
-            "players": 7
+            "players": 24
           },
           {
             "id": 2,
@@ -22199,7 +22199,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 1,
             "isAvailable": true,
-            "players": 112
+            "players": 92
           }
         ]
       },
@@ -22255,21 +22255,21 @@
         "regenPerSecond": 1.3888888,
         "event": null,
         "statistics": {
-          "missionsWon": 2603610,
-          "missionsLost": 218651,
-          "missionTime": 8973069489,
-          "terminidKills": 1267997702,
+          "missionsWon": 2605269,
+          "missionsLost": 218848,
+          "missionTime": 8977707963,
+          "terminidKills": 1268483593,
           "automatonKills": 2,
           "illuminateKills": 0,
-          "bulletsFired": 4935014423,
-          "bulletsHit": 5906683622,
-          "timePlayed": 8973069489,
-          "deaths": 20399794,
+          "bulletsFired": 4937458175,
+          "bulletsHit": 5909495338,
+          "timePlayed": 8977707963,
+          "deaths": 20411694,
           "revives": 0,
-          "friendlies": 3347566,
+          "friendlies": 3349271,
           "missionSuccessRate": 92,
           "accuracy": 100,
-          "playerCount": 6575
+          "playerCount": 6700
         },
         "attacking": [
           16
@@ -22321,28 +22321,28 @@
           76
         ],
         "maxHealth": 1000000,
-        "health": 905036,
+        "health": 904396,
         "disabled": false,
         "initialOwner": "Humans",
         "currentOwner": "Terminids",
         "regenPerSecond": 1.3888888,
         "event": null,
         "statistics": {
-          "missionsWon": 3001788,
-          "missionsLost": 312190,
-          "missionTime": 9916659811,
-          "terminidKills": 1425159046,
+          "missionsWon": 3005381,
+          "missionsLost": 312500,
+          "missionTime": 9927507468,
+          "terminidKills": 1426399769,
           "automatonKills": 241,
           "illuminateKills": 0,
-          "bulletsFired": 5624900619,
-          "bulletsHit": 6604415474,
-          "timePlayed": 9916659811,
-          "deaths": 25765243,
+          "bulletsFired": 5630722506,
+          "bulletsHit": 6611008344,
+          "timePlayed": 9927507468,
+          "deaths": 25789282,
           "revives": 0,
-          "friendlies": 3944400,
+          "friendlies": 3947852,
           "missionSuccessRate": 90,
           "accuracy": 100,
-          "playerCount": 15545
+          "playerCount": 15851
         },
         "attacking": [
           25
@@ -22403,7 +22403,7 @@
           "id": 5331,
           "eventType": 1,
           "faction": "Terminids",
-          "health": 249954,
+          "health": 242963,
           "maxHealth": 550000,
           "startTime": "2025-08-30T00:25:03Z",
           "endTime": "2025-08-31T00:25:03Z",
@@ -22413,21 +22413,21 @@
           ]
         },
         "statistics": {
-          "missionsWon": 825649,
-          "missionsLost": 102956,
-          "missionTime": 3004993030,
-          "terminidKills": 419170381,
+          "missionsWon": 837043,
+          "missionsLost": 104611,
+          "missionTime": 3039951809,
+          "terminidKills": 423390250,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 1738929449,
-          "bulletsHit": 2064709076,
-          "timePlayed": 3004993030,
-          "deaths": 8004025,
+          "bulletsFired": 1759156338,
+          "bulletsHit": 2088250242,
+          "timePlayed": 3039951809,
+          "deaths": 8095342,
           "revives": 0,
-          "friendlies": 1246601,
+          "friendlies": 1260375,
           "missionSuccessRate": 88,
           "accuracy": 100,
-          "playerCount": 47807
+          "playerCount": 49147
         },
         "attacking": [
           49
@@ -22488,7 +22488,7 @@
           "id": 5332,
           "eventType": 1,
           "faction": "Terminids",
-          "health": 791093,
+          "health": 778979,
           "maxHealth": 1600000,
           "startTime": "2025-08-30T00:26:53Z",
           "endTime": "2025-09-01T00:26:53Z",
@@ -22498,21 +22498,21 @@
           ]
         },
         "statistics": {
-          "missionsWon": 1212802,
-          "missionsLost": 111257,
-          "missionTime": 4254380432,
-          "terminidKills": 619783145,
+          "missionsWon": 1231598,
+          "missionsLost": 112387,
+          "missionTime": 4314734290,
+          "terminidKills": 627727281,
           "automatonKills": 0,
           "illuminateKills": 0,
-          "bulletsFired": 2447785174,
-          "bulletsHit": 2935558196,
-          "timePlayed": 4254380432,
-          "deaths": 10019318,
+          "bulletsFired": 2482726350,
+          "bulletsHit": 2976981454,
+          "timePlayed": 4314734290,
+          "deaths": 10147186,
           "revives": 0,
-          "friendlies": 1598511,
+          "friendlies": 1619610,
           "missionSuccessRate": 91,
           "accuracy": 100,
-          "playerCount": 83316
+          "playerCount": 84058
         },
         "attacking": [
           77
@@ -22529,7 +22529,7 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 0.50349075,
             "isAvailable": false,
-            "players": 56
+            "players": 33
           },
           {
             "id": 1,
@@ -22542,7 +22542,7 @@
             "regenPerSecond": 1.1111112,
             "availabilityFactor": 0.3806472,
             "isAvailable": false,
-            "players": 4
+            "players": 9
           },
           {
             "id": 2,
@@ -22555,20 +22555,20 @@
             "regenPerSecond": 0.5555556,
             "availabilityFactor": 1,
             "isAvailable": false,
-            "players": 1744
+            "players": 1795
           },
           {
             "id": 3,
             "hash": 1239520232,
             "name": "GREATFORT",
             "description": null,
-            "health": 514106,
+            "health": 506563,
             "maxHealth": 600000,
             "size": "MegaCity",
             "regenPerSecond": -0.8333333,
             "availabilityFactor": 0.8210435,
             "isAvailable": true,
-            "players": 31797
+            "players": 32009
           }
         ]
       },
