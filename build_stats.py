@@ -134,7 +134,7 @@ def create_agg_stats():
     recent_start = len(records) - (RECENCY)
     for (step, record) in enumerate(records):
         active_step = {}
-        for status in record.planets:
+        for status in record.planets.values():
             players[step] += status.statistics.player_count
             if status.index in active:
                 active_step[status.index] = {'players': status.statistics.player_count, 'liberation': status.liberation}
@@ -236,10 +236,11 @@ def v1_to_frontend(v1_rec: v1.FullStatus) -> frontend.CurrentStatus:
 
 def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
     events = []
-    planets: List[frontend.Planet] = []
+    planets: Dict[int,frontend.Planet] = {}
+
     total_players = 0
     for planet_status in v0_rec.planet_status:
-        planets.append(frontend.Planet.model_validate({
+        planets[planet_status.planet.index] = (frontend.Planet.model_validate({
             'position': planet_status.planet.position,
             'index': planet_status.planet.index,
             'name': {'en-US': planet_status.planet.name},
@@ -267,7 +268,7 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
                 'health':event.health,
                 'max_health':event.max_health,
                 'joint_operation_ids':[j['id'] for j in event.joint_operations],
-                'planet': next(filter(lambda p: p.index == event.planet.index, planets)),
+                'planet': planets[event.planet.index],
             }))
 
     war_details = frontend.WarDetails.model_validate({
@@ -284,13 +285,13 @@ def v0_to_frontend(v0_rec: v0.FullStatus) -> frontend.CurrentStatus:
         campaigns.append(frontend.Campaign.model_validate({
             'count':campaign.count,
             'id':campaign.id,
-            'planet':next(filter(lambda p: p.index == campaign.planet.index, planets)),
+            'planet':planets[event.planet.index],
             'type':campaign.type,
         }))
 
     return frontend.CurrentStatus.model_validate({
         'events': events,
-        'planets': planets,
+        'planets': list(planets.values()),
         'assignments': [],
         'war': war_details,
         'active': campaigns,

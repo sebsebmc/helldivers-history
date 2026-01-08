@@ -1,6 +1,6 @@
 from datetime import datetime
-from pydantic import BaseModel, ConfigDict, Field, computed_field
-from typing import Dict, List, Optional, Union
+from pydantic import BaseModel, BeforeValidator, ConfigDict, Field, computed_field
+from typing import Annotated, Dict, List, Optional, Union
 
 class Statistics(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
@@ -104,10 +104,14 @@ class Dispatch(BaseModel):
     title:  Dict[str, str]
     faction: Optional[str] = None
 
+def convertListToDict(planets: List[Planet]) -> dict[int,Planet]:
+    return {p.index:p for p in planets}
+
+
 class CurrentStatus(BaseModel):
     # union type for now in case we get more types later
     events: List[Union[Defense]]
-    planets: List[Planet]
+    planets: Annotated[Dict[int,Planet], BeforeValidator(convertListToDict)]
     # There aren't always M.O.s  and we dont have them in the old data
     assignments: List[Assignment]
     war: WarDetails

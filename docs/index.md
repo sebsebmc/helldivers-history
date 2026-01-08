@@ -240,8 +240,9 @@ active.push(0);
 
 ```js
 const showWaypoints = view(Inputs.toggle({label:"Show routes", value:false}))
-const waypoints = status.planets.flatMap(x => x.waypoints.map(y => ({from:x.position, to:status.planets[y].position})));
-const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.position, to:status.planets[y].position})));
+const planetsList = Object.entries(status.planets).flatMap(x => x[1]);
+const waypoints = Object.entries(status.planets).flatMap(x => x[1].waypoints.map(y => ({from:x[1].position, to:status.planets[y].position})));
+const attacks = Object.entries(status.planets).flatMap(x => x[1].attacking.map(y => ({from:x[1].position, to:status.planets[y].position})));
 ```
 
 <div class="grid grid-cols-4" style="grid-auto-rows: auto;">
@@ -257,7 +258,7 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
         height: width,
         projection: {type: "reflect-y", domain: {type: "MultiPoint", coordinates: [[100,-100],[100,100],[-100,100],[-100,-100]]}},
         marks: [
-          Plot.dot(status.planets, {
+          Plot.dot(planetsList, {
             x: p => p.position.x,
             y: p => p.position.y, 
             r: width/150, 
@@ -299,7 +300,7 @@ const attacks = status.planets.flatMap(x => x.attacking.map(y => ({from:x.positi
             stroke: "black",
             fill: p => getColor('Humans')
           }),
-          Plot.tip(status.planets, Plot.pointer({
+          Plot.tip(planetsList, Plot.pointer({
             x: p => p.position.x, 
             y: p => p.position.y,
             title: p => [`${p.name[lang]}\n`, `Liberation: ${getLiberation(p.index, status, defenses).toFixed(2)}%`, `Players: ${p.statistics.player_count}`].join("\n"), fontSize: 20})
