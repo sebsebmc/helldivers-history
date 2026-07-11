@@ -23,12 +23,12 @@ jobs:
     - name: Setup node
       uses: actions/setup-node@v4
       with:
-        node-version: 20
+        node-version: 24
         cache: "npm"
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: "3.10"
+        python-version: "3.11"
         cache: "pip"
     - name: Install node dependencies
       run: npm ci
