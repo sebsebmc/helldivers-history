@@ -16,17 +16,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Check out this repo
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
       with:
         fetch-depth: 1440
 
     - name: Setup node
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
         node-version: 24
         cache: "npm"
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v6
       with:
         python-version: "3.11"
         cache: "pip"
