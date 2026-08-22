@@ -129,7 +129,7 @@ def fetch_all_records_v1() -> Generator[v1.FullStatus, Any, None]:
 RECENCY = 6 * 24 
 
 def create_agg_stats():
-    records = [v1_to_frontend(rec) for rec in fetch_all_records_v1()]
+    records = sorted([v1_to_frontend(rec) for rec in fetch_all_records_v1()], key=lambda rec: rec.snapshot_at)
     players = [0]*len(records)
     timestamps = []
     time_correction = []

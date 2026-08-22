@@ -1,6 +1,6 @@
 import * as Plot from "npm:@observablehq/plot";
-import {scaleLinear, extent, max} from "npm:d3";
-import {html} from "npm:htl";
+import { max, scaleLinear } from "npm:d3";
+import { html } from "npm:htl";
 
 const SEC_PER_HOUR = 60 * 60;
 const MSEC_PER_HOUR = SEC_PER_HOUR * 1000;
@@ -166,6 +166,9 @@ export function planetTableRows(agg, recentAttacks, status, lang) {
         const planetStatus = status.planets[planetIdx];
         let regen = getRegen(planetStatus);
         let current = calculateTrend(agg, planetIdx, planetStatus).toFixed(2);
+        if(current < 0.0005) {
+            continue;
+        }
         let result = getResult(current, planetStatus);
         let event = isDefense(status, planetIdx);
         if(event){
