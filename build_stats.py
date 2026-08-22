@@ -1,22 +1,25 @@
 #!/usr/bin/env python3
 
 import dataclasses
-from typing import Dict, List, Optional, Union
+from typing import Any, Dict, Generator, List, Optional, Union
 import git
 import json
 import collections
 import datetime
 import subprocess
 import os
+import tracemalloc
 
 from pydantic import RootModel, TypeAdapter, ValidationError
 from models import frontend, v0, v1
 
+tracemalloc.start()
+
 PLANET_INDEXES = range(261)
 
-CACHE_DIR = '_cache'
+# CACHE_DIR = '_cache'
 # Bump this with any changes to `fetch_all_records`
-CACHE_VERSION = 2
+# CACHE_VERSION = 2
 
 
 def git_commits_for(path):
@@ -71,26 +74,31 @@ def fetch_all_records_v0():
     out.sort(key=lambda row: row.snapshot_at)
     return out
 
-def fetch_all_records_v1():
+def fetch_all_records_v1() -> Generator[v1.FullStatus, Any, None]:
     commits = git_commits_for("801_full_v1.json")[:1440]
 
     repo = git.Repo('.', odbt=git.db.GitCmdObjectDB)
 
-    out: List[v1.FullStatus] = []
+    # out: List[v1.FullStatus] = []
+    count = 0
 
     for ref in commits:
-        cache_path = os.path.join(CACHE_DIR, "v1", ref[:2], ref[2:] + ".json")
+        if count % 10 == 0: 
+            current, peak = tracemalloc.get_traced_memory()
+            print(f"Record: {count:4} Current: {current / (1024 ** 2):.2f}MB Peak: {peak/ (1024 ** 2):.2f}MB")
 
-        if os.path.exists(cache_path):
-            with open(cache_path) as fh:
-                try:
-                    record = v1.FullStatus.model_validate_json(fh.read())
-                except ValidationError as exc:
-                    print(f"Bad cached data {exc}")
-                    continue
-                if record.version == CACHE_VERSION:
-                    out.append(record)
-                    continue
+        # cache_path = os.path.join(CACHE_DIR, "v1", ref[:2], ref[2:] + ".json")
+
+        # if os.path.exists(cache_path):
+        #     with open(cache_path) as fh:
+        #         try:
+        #             record = v1.FullStatus.model_validate_json(fh.read())
+        #         except ValidationError as exc:
+        #             print(f"Bad cached data {exc}")
+        #             continue
+        #         if record.version == CACHE_VERSION:
+        #             yield record
+        #             continue
         try:
             record = v1.FullStatus.model_validate_json(git_show(ref, '801_full_v1.json', repo))
         except ValidationError as exc:
@@ -103,20 +111,20 @@ def fetch_all_records_v1():
             continue
         timestamp = repo.commit(ref).committed_datetime.astimezone(datetime.timezone.utc)
         record.snapshot_at = timestamp
-        record.version = CACHE_VERSION
+        # record.version = CACHE_VERSION
         
-        out.append(record)
+        yield record
             
-        try:
-            os.makedirs(os.path.dirname(cache_path))
-        except FileExistsError:
-            pass
-        with open(cache_path, 'w') as fh:
-            fh.write(record.model_dump_json())
+        # try:
+        #     os.makedirs(os.path.dirname(cache_path))
+        # except FileExistsError:
+        #     pass
+        # with open(cache_path, 'w') as fh:
+        #     fh.write(record.model_dump_json())
+        count += 1
 
-
-    out.sort(key=lambda row: row.snapshot_at)
-    return out
+    # out.sort(key=lambda row: row.snapshot_at)
+    return
 
 RECENCY = 6 * 24 
 
@@ -133,6 +141,9 @@ def create_agg_stats():
 
     recent_start = len(records) - (RECENCY)
     for (step, record) in enumerate(records):
+        if step % 10 == 0:
+            current, peak = tracemalloc.get_traced_memory()
+            print(f"Step: {step:3} -- Current: {current/ (1024 ** 2):.2f}MB Peak: {peak/ (1024 ** 2):.2f}MB")
         active_step = {}
         for status in record.planets.values():
             players[step] += status.statistics.player_count
