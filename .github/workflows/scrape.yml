@@ -68,6 +68,7 @@ jobs:
       uses: actions/upload-artifact@v7
       with:
         path: ./dist
+        name: github-pages
 
   deploy:
     needs: scheduled
