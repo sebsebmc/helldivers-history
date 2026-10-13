@@ -71,10 +71,10 @@ export function getMajorOrderDetails(majorOrder, planets, lang){
 export function twoDayPlanetAttack(width, agg, planetIdx, currentStatus, lang){
     const v1 = x => x.attacks[planetIdx].players;
     const v2 = x => x.attacks[planetIdx].liberation;
-    const y2 = scaleLinear([0, 100], [0, max(agg, v1)]);
     const start = new Date(Date.now() - (MSEC_PER_HOUR*24*2));
     const first = agg.findIndex(x => (new Date(x.timestamp) > start));
-    agg = agg.slice(first);
+    agg = first === -1 ? agg.slice(-2) : agg.slice(first);
+    const y2 = scaleLinear([0, 100], [0, max(agg, v1)]);
     return Plot.plot({
         title: currentStatus.name[lang],
         subtitle: getSubtitle(agg, planetIdx, currentStatus),
@@ -149,14 +149,14 @@ function getSubtitle(agg, planetIdx, planetStatus) {
     if(planetStatus.result_str) {
         result = planetStatus.result_str;
     }else {
-        result = `${getResult(current, planetStatus)}%/hr`;
+        result = getResult(current, planetStatus);
     }
     if(planetStatus.regen_per_hour){
         regen = planetStatus.regen_per_hour;
     }else {
-        getRegen(planetStatus);
+        regen = getRegen(planetStatus);
     }
-    return `Current regen: ${regen}%/hr | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
+    return `Current regen: ${regen === "N/A" ? regen : `${regen}%/hr`} | Recent net trend: ${current.toFixed(2)}%/hr | Estimated result: ${result}`;
 }
 
 export function planetTableRows(agg, recentAttacks, status, lang) {
@@ -166,7 +166,7 @@ export function planetTableRows(agg, recentAttacks, status, lang) {
         const planetStatus = status.planets[planetIdx];
         let regen = getRegen(planetStatus);
         let current = calculateTrend(agg, planetIdx, planetStatus).toFixed(2);
-        if(current < 0.0005) {
+        if(Math.abs(current) < 0.0005) {
             continue;
         }
         let result = getResult(current, planetStatus);

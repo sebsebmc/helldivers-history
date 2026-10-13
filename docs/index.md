@@ -116,7 +116,7 @@ const eff_now = (async function*(){
 ```
 
 ```js
-const lang = view(Inputs.select(["en-US", "de-DE", "es-ES", "ru-RU", "fr-FR", "it-IT", "pl-PL", "zh-Hans", "zh-Hant"], {value: "en", label: "Language", width: '7em'}));
+const lang = view(Inputs.select(["en-US", "de-DE", "es-ES", "ru-RU", "fr-FR", "it-IT", "pl-PL", "zh-Hant"], {value: "en-US", label: "Language", width: '7em'}));
 const status = FileAttachment('./data/current_status.json').json().catch(() => window.location.reload());
 const agg = FileAttachment('./data/aggregates.json').json();
 const focus = FileAttachment('./data/recent_attacks.json').json();
@@ -143,7 +143,7 @@ const timeSinceGameEpoch = timeSinceLastEntry.getTime() + lastEntryWarTime.getTi
 
 
 <div class="warning" label="Watch out, Helldiver">
-This page will automatically refresh every 10 minutes, the data is collected approximately every 10 minutes. This helps keep the servers stable and makes this website 100% ad and tracker free.
+This page will automatically refresh every 10 minutes, the data is collected every few hours. This helps keep the servers stable and makes this website 100% ad and tracker free.
 <br>
 This page was last refreshed ${Math.floor((eff_now - loadedAt)/(60*1000)).toFixed()}m ${((eff_now - loadedAt)/1000).toFixed()%60}s ago.
 </div>
