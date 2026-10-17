@@ -25,18 +25,16 @@ jobs:
       with:
         node-version: 24
         cache: "npm"
-    - name: Setup Python
-      uses: actions/setup-python@v6
+    - name: Setup Go
+      uses: actions/setup-go@v6
       with:
-        python-version: "3.11"
-        cache: "pip"
+        go-version-file: buildstats/go.mod
+        cache: false
     - name: Install node dependencies
       run: npm ci
 
-    - name: Install Python requirements
-      run: |-
-        python -m pip install -U pip
-        pip install -r requirements.txt
+    - name: Build stats generator
+      run: go -C buildstats build -o "$RUNNER_TEMP/buildstats" .
 
     - name: Fetch latest data
       run: |-
@@ -59,7 +57,7 @@ jobs:
     - name: Generate aggregate stats
       run: |-
         if ! jq -e 'has("errors")' helldivers.json > /dev/null && ! jq -e 'has("error")' helldivers.json > /dev/null ; then cp helldivers.json ./docs/data/helldivers.json ; fi
-        python3 build_stats.py
+        "$RUNNER_TEMP/buildstats"
 
     - name: Build
       run: npm run build
