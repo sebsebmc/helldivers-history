@@ -126,7 +126,9 @@ def fetch_all_records_v1() -> Generator[v1.FullStatus, Any, None]:
     # out.sort(key=lambda row: row.snapshot_at)
     return
 
-RECENCY = 6 * 24 
+# Window used to rank the most active planets. Time-based because GitHub's
+# scheduler fires far less often than the configured 10 minute cron.
+RECENCY = datetime.timedelta(hours=24)
 
 def create_agg_stats():
     records = sorted([v1_to_frontend(rec) for rec in fetch_all_records_v1()], key=lambda rec: rec.snapshot_at)
@@ -139,7 +141,7 @@ def create_agg_stats():
     active_planet_hist = []
 
 
-    recent_start = len(records) - (RECENCY)
+    recent_start = records[-1].snapshot_at - int(RECENCY.total_seconds() * 1000)
     for (step, record) in enumerate(records):
         if step % 10 == 0:
             current, peak = tracemalloc.get_traced_memory()
@@ -149,7 +151,7 @@ def create_agg_stats():
             players[step] += status.statistics.player_count
             if status.index in active:
                 active_step[status.index] = {'players': status.statistics.player_count, 'liberation': status.liberation}
-                if step > recent_start:
+                if record.snapshot_at >= recent_start:
                     active_sum[status.index] += status.statistics.player_count
         for event in record.events:
             planet = record.planets[event.planet.index]
